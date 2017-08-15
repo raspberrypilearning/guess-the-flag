@@ -1,14 +1,12 @@
 ## Check the answer
 
-We have asked the player to click on the flag they think is correct. Now we need to check whether they were correct or not.
+We have asked the player to click on the flag they think is correct. Now we need to check whether the flag they clicked was the right answer.
 
-+ Go back to the scripts for the Flag sprite
-
-+ Add a block to start a new section of code which will happen **when this sprite is clicked**.
++ Go back to the scripts for the Flag sprite and add a block to start a new section of code which will happen **when this sprite is clicked**.
 
 We need to check whether the costume of the sprite they clicked on has the same name as the correct answer.
 
-+ Add code to say "Correct" if the costume name (text) of this sprite is the same as the "Correct answer" variable, or "Sorry, that was wrong" if it is not.
++ Add code to say "Correct" if the costume name of this sprite is the same as the "Correct answer" variable, or "Sorry, that was wrong" if it is not.
 
 You can use this useful block here as well. This time, combine it with a **costume #** block to get the name of the current costume.
 
@@ -45,5 +43,5 @@ This is what your code should look like:
 --- challenge ---
 ### Challenge
 + Play different sounds if the player was right and if the player was wrong
-
++ Use broadcasts to make the bear sprite (not the flag sprite) report whether the player was right or wrong
 --- /challenge ---
