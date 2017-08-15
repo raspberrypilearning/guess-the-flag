@@ -12,6 +12,8 @@ We will clone the Flag sprite 6 times, once for each flag that was selected. We 
 
 + Add a **show** block to make the sprite visible and a **go to** block to your custom block to tell the flag sprite to begin at these coordinates.
 
+[[[generic-scratch-set-coordinates]]]
+
 + Now add a loop that repeats 6 times to display the flags.
 
 + Add code inside the loop to switch the costume to the last flag in the 'Chosen flags' list and clone the sprite. Then, delete the last flag from the list and add 110 to the x coordinate to move along ready to place the next flag.
@@ -75,7 +77,12 @@ It looks like the last flag is displaying twice. In actual fact what is happenin
 
 + Add a **hide** block at the end of your custom block code to hide the original sprite.
 
++ Add your new **clone flags** block to the end of the code that happens when the green flag is clicked.
+
 --- challenge ---
 ### Challenge
-Can you make the flag sprites make a sound when they appear one by one?
+Can you make the flag sprites appear one by one?
+Can you make each flag make a sound (such as a pop) when it appears?
+
+[[[generic-scratch-sound-from-library]]]
 --- /challenge ---
