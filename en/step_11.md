@@ -10,7 +10,7 @@ At the moment we only have one round to play, so the game doesn't last long. Let
 
 ![Change to broadcast](images/change-to-broadcast.png)
 
-+ After the code where you check the answer, add another copy of the broadcast block to start a new round
++ After the code where you check the answer, add another copy of the broadcast block to start a new round after an answer has been given
 
 + Press the green flag to test your code. Click on a flag to play a round. You will notice that the next round does not get set up properly.
 
@@ -22,7 +22,7 @@ This is because we need to clear up the cloned flags we created before beginning
 
 + Set the flag sprite to **Delete this clone** when it receives the "Clean up" broadcast
 
-+ Place the block that broadcasts "Clean up" just before you begin a new round
++ Place the block that broadcasts "Clean up" just before you begin a new round after an answer has been given
 
 ![Add cleanup](images/add-cleanup.png)
 
