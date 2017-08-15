@@ -1,17 +1,24 @@
-title: guess-the-flag
+title: Guess the flag
 hero_image: images/banner.png
-description: guess-the-flag description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: How good is your flag knowledge? Create a flag quiz game - click the right flag to score points
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 # possible values: 1, 2 or 3
 listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "games, jokes/pranks, music/sound, photography, physical computing, robots, space"
-technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
+interests: "games"
+technologies: "scratch"
 site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Step title
+  - title: Draw the flags
+  - title: Creating a list of flags
+  - title: Choose random flags
+  - title: Show the flags
+  - title: Ask the question
+  - title: Check the answer
+  - title: Add a score
+  - title: Start a new round
+  - title: "Challenge: Something"
