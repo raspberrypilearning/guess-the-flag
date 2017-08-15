@@ -7,7 +7,7 @@ Create a flag quiz to test your friends. Six flags are displayed, can you click 
 Here is a preview of the game you will make:
 
 <div class="scratch-preview">
-    <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/171259402/?autostart=false" frameborder="0" allowfullscreen></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/171259402/?autostart=false" frameborder="0"></iframe>
 </div>
 
 Click on the flag which matches the country you are being asked for.
