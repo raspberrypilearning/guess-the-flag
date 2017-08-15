@@ -14,14 +14,14 @@
 
 If you press the green flag more than once, you will see that the countries are added to the list again, so you end up with a list of 20 countries and not 10.
 
-+ Add a block before adding the countries to **delete all** of the countries in the list
++ Add a block before adding the countries to **delete all** of the countries in the list. This will stop the countries from being added to the list more than once.
 
 + Let's make a custom block. This is a special block with a name, and we can use it to create the list of flags easily whenever we like using 1 block, rather than having to add lots of blocks.
 
-Call your block **Create flags list** and drag all of the code from earlier to become part of this new block
+Call your block **Create flags list** and drag all of the code (except the **When flag clicked** block) to become part of this new block.
 
 [[[generic-scratch-make-block]]]
 
-Your code for when the green flag is clicked should now look like this:
+Your code for when the green flag is clicked should now look similar to this:
 
 ![Create flags list](images/create-flags-list.png)
