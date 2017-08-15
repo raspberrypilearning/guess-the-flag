@@ -16,6 +16,7 @@ steps:
   - title: Draw the flags
   - title: Create a list of flags
   - title: Choose random flags
+  - title: Choose a correct answer
   - title: Show the flags
   - title: Ask the question
   - title: Check the answer

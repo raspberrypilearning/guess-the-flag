@@ -90,7 +90,6 @@ This is what your code should look like:
 
 + Test your code by clicking the green flag and checking that the 'Chosen flags' list is filled with 6 countries each time.
 
-
 You might notice that sometimes the same country gets chosen more than once in the list.
 
 ![Duplicate countries](images/duplicate-countries.png)
