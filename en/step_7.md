@@ -14,9 +14,7 @@ We will clone the Flag sprite 6 times, once for each flag that was selected. We 
 
 + Now add a loop that repeats 6 times to display the flags.
 
-+ Add code inside the loop to switch the costume to the last flag in the 'Chosen flags' list and clone the sprite.
-
-Then, delete the last flag from the list and add 110 to the x coordinate to move along ready to place the next flag.
++ Add code inside the loop to switch the costume to the last flag in the 'Chosen flags' list and clone the sprite. Then, delete the last flag from the list and add 110 to the x coordinate to move along ready to place the next flag.
 
 --- hints ---
 --- hint ---
