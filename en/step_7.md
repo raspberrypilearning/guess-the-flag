@@ -79,10 +79,10 @@ It looks like the last flag is displaying twice. In actual fact what is happenin
 
 + Add your new **clone flags** block to the end of the code that happens when the green flag is clicked.
 
---- challenge ---
+
 ### Challenge
-Can you make the flag sprites appear one by one?
-Can you make each flag make a sound (such as a pop) when it appears?
---- /challenge ---
++ Can you make the flag sprites appear one by one?
++ Can you make each flag make a sound (such as a pop) when it appears?
+
 
 [[[generic-scratch-sound-from-library]]]
