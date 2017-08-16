@@ -83,6 +83,6 @@ It looks like the last flag is displaying twice. In actual fact what is happenin
 ### Challenge
 Can you make the flag sprites appear one by one?
 Can you make each flag make a sound (such as a pop) when it appears?
+--- /challenge ---
 
 [[[generic-scratch-sound-from-library]]]
---- /challenge ---
