@@ -8,7 +8,6 @@ title: I'm using Scratch online
 ---
 
 + Open the 'Guess the flag' Scratch starter project at [jumpto.cc/flags-go](http://jumpto.cc/flags-go){:target="_blank"}.
-Real link - https://scratch.mit.edu/projects/171260950/
 
 + If you have a Scratch account, you can click on **Remix** on the top right to save a copy of the project to your account
 
