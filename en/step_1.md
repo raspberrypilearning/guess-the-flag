@@ -1,6 +1,6 @@
 ## Introduction
 
-Create a flag quiz to test your friends. Six flags are displayed, can you click on the correct one to match the country?
+In this resource, you will create a flag quiz to test yourself and your friends. Six flags are displayed, and you have to click on the correct one to match the country.
 
 ### What you will make
 
@@ -10,7 +10,7 @@ Here is a preview of the game you will make:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/171279525/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click on the flag which matches the country you are being asked for.
+Click on the flag belonging to the country for which you are being asked.
 
 ### What you will learn
 
