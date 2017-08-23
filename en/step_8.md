@@ -1,6 +1,6 @@
 ## Ask the question
 
-+ In the **Flag sprite**, broadcast the message "Announce country" immediately after the block which clones the flags
++ In the `Flag sprite`, broadcast the message "Announce country" immediately after the block which clones the flags.
 
 [[[generic-scratch-broadcast-message]]]
 
@@ -10,12 +10,11 @@
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Inside the bear sprite, add some code to tell the player to click on the country name from the variable "Correct answer" when the sprite receives the broadcast "Announce country".
++ Add some code to the bear sprite so that, when it receives the broadcast "Announce country", the bear will tell the player to click on the country name from the variable `Correct answer`.
 
 --- hints ---
 --- hint ---
-**When I receive** the broadcast
-**Say** Click on **the correct answer**
+`When I receive` the broadcast, `say` 'Click on `the correct answer`'.
 --- /hint ---
 
 --- hint ---
