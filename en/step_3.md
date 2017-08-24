@@ -23,7 +23,7 @@ Download the [flags.sb2](resources/flags.sb2){:target="_blank"} Scratch starter 
 
 --- /collapse ---
 
-+ Click on the flag sprite and then click on the **Costumes** tab. You will see a blank flag template. Create nine duplicate costumes of the blank flag template, so you have ten flags in total.
++ Click on the flag sprite and then click on the Costumes tab. You will see a blank flag template. Create nine duplicate costumes of the blank flag template, so you have ten flags in total.
 
 [[[generic-scratch-duplicate-costumes]]]
 
