@@ -1,6 +1,6 @@
 ## Introduction
 
-In this resource, you will create a flag quiz to test yourself and your friends. Six flags are displayed, and you have to click on the correct one to match the country.
+In this resource, you will create a flag quiz to test yourself and your friends. Six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
 ### What you will make
 
