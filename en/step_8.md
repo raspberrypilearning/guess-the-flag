@@ -4,7 +4,7 @@
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Add a new sprite of your choice to be your question master. We chose the bear for our example.
++ Add a new sprite of your choice to be your quiz master. We chose the bear for our example.
 
 ![Bear sprite](images/bear-sprite.png)
 
