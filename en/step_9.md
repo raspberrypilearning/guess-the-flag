@@ -14,9 +14,7 @@ You can use this useful block here as well. This time, combine it with a `costum
 
 --- hints ---
 --- hint ---
-`When this sprite is clicked`
-`Create the flags list`
-`If` the `item in the Flags list` with this `costume #` equals the `correct answer`, `say` 'Correct', or `else` `say` 'Sorry, that was wrong'.
+`When this sprite is clicked`, `create the flags list`. `If` the `item in the Flags list` with this `costume #` equals the `correct answer`, `say` 'Correct', or `else` `say` 'Sorry, that was wrong'.
 --- /hint ---
 
 --- hint ---
