@@ -16,9 +16,9 @@ If you press the green flag more than once, you will see that the countries are 
 
 + Add a block to, before adding the countries, `delete all` of the countries in the list. This will stop the countries from being added to the list more than once.
 
-+ Let's make a custom block. This is a special block with a name, and we can use it to easily create a list of flags whenever we like using only one block, instead of having to add lots of blocks.
+Let's make a custom block. This is a special block with a name, and we will be able to create a list of flags using only this one block, instead of having to use lots of blocks.
 
-Call your block `Create flags list`, and drag all of the code (except the `When flag clicked` block) to become part of this new block.
++ Call your costum block `Create flags list`, and drag all of the code (except the `When flag clicked` block) to become part of this new block.
 
 [[[generic-scratch-make-block]]]
 
