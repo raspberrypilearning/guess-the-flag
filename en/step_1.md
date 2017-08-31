@@ -4,13 +4,11 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ### What you will make
 
-Here is a preview of the game you will make:
+Click on the flag belonging to the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/171279525/?autostart=false" frameborder="0"></iframe>
 </div>
-
-Click on the flag belonging to the country for which you are being asked.
 
 ### What you will learn
 
