@@ -27,9 +27,13 @@ Download the [flags.sb2](resources/flags.sb2){:target="_blank"} Scratch starter 
 
 [[[generic-scratch-duplicate-costumes]]]
 
-+ Now we will draw the flags. Click on the first costume and add the name of a country as the costume's name.
+Now we will draw the flags. 
 
-+ Use the **vector drawing tools** to draw that country's flag. Make sure your drawing is exactly the same size as the flag template.
++ Pick a countries flag from [flags of the world](https://www.countries-ofthe-world.com/flags-of-the-world.html)
+
++ Click on the first costume and add the name of a country as the costume's name.
+
++ Use the **vector drawing tools** by clicking **Convert to vector** to draw that country's flag. Make sure your drawing is exactly the same size as the flag template.
 
 [[[generic-scratch-vector-mode]]]
 
