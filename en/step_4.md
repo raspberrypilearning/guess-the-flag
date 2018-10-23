@@ -2,34 +2,54 @@
 
 We need to select six random flags from the flags list to be the possible choices in the game.
 
-+ Create another list called `Chosen flags`. This list will store the six chosen flags.
+--- task ---
+Create another list called `chosen flags`{:class="blockdata"}. This list will store the six chosen flags.
+--- /task ---
 
-+ Now create a variable called `Flag number`.
+--- task ---
+Create a variable called `flag number`{:class="blockdata"}.
+--- /task ---
 
-[[[generic-scratch-add-variable]]]
+--- task ---
+Create a custom block and call it `choose random flag`{:class="blockmoreblocks"}.
+--- /task ---
 
-+ Add a custom block, just like you did for the `Create flags list` custom block. Call this new custom block `Choose random flag`.
+--- task ---
+Add code to the custom block to set the `flag number`{:class="blockdata"} variable to a random number between 1 and the number of items in the `flags`{:class="blockdata"} list.
 
-+ Add code to this block to set the `Flag number` variable to a random number between 1 and the number of items in the `Flags` list. You will find that there is a special block in the Data tab for finding the number of items in a list.
+There is a special block in the Data tab for finding the number of items in a list.
 
 --- hints ---
 --- hint ---
-Set the `Flag number` variable to a random number between 1 and the `length of the 'Flags' list`.
+Set the `flag number`{:class="blockdata"} variable to a random number between 1 and the `length of the 'flags' list`{:class="blockdata"}.
 --- /hint ---
 
 --- hint ---
 Here are the code blocks you'll need:
 
-![Set random hint](images/set-random-hint.png)
+```blocks
+(length of [flags v])
+
+(pick random (1) to (10))
+
+define choose random flag
+
+set [flag number v] to []
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![Set random solution](images/set-random-solution.png)
+```blocks
+define choose random flag
+set [flag number v] to [(pick random (1) to (length of [flags v]))]
+```
 --- /hint ---
 
 --- /hints ---
+--- /task ---
+
 
 This block selects an item from a list, by number:
 
