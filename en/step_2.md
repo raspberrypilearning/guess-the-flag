@@ -15,6 +15,8 @@ Scroll to the bottom of the list of costumes and you will see two blank costumes
 
 --- task ---
 Click on the 'Your flag 1' costume and add the name of a country as the costume's name.
+
+![Rename costume](images/rename-costume.png)
 --- /task ---
 
 --- task ---
