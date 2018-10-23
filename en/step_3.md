@@ -48,23 +48,23 @@ add [Italy] to [Flags v]
 Let's make a custom block. This is a special block with a name, and we will be able to create a list of flags using only this one block, instead of having to use lots of blocks.
 
 --- task ---
-Click on 'More Blocks' and then 'Make a Block'. Call your custom block `create flags list`{:class="blockmoreblocks"}
+Click on 'More Blocks' and then 'Make a Block'. Call your custom block `create flag list`{:class="blockmoreblocks"}
 
 ![Add a block](images/add-block.png)
 --- /task ---
 
 --- task ---
-Drag all of the code so that it is underneath the new block instead of the  `when flag clicked`{:class="blockcontrol"} block.
+Drag all of the code so that it is underneath the new `create flag list`{:class="blockmoreblocks"} block instead of the `when flag clicked`{:class="blockevents"} block.
 --- /task ---
 
 --- task ---
-Underneath the `when flag clicked`{:class="blockcontrol"} block, add the new block.
+Underneath the `when flag clicked`{:class="blockevents"} block, add the new block.
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
 when flag clicked
-create flag list
+create flag list :: custom
 ...
 ```
 
