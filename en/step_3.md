@@ -1,27 +1,71 @@
 ## Create a list of flags
 
-+ Click on the Scripts tab, and then on the flag sprite.
+--- task ---
+Click on the Scripts tab. Create a list called `Flags`{:class="blockdata"}. This will be where we store the names of all of the countries whose flags we have included in the game.
 
-+ Create a list called `Flags`. This will be where we store the names of all of the countries whose flags we have included in the game.
+![Flag sprite](images/flag-sprite.png)
 
 [[[generic-scratch-make-list]]]
+--- /task ---
 
-+ Drag some blocks into the scripts area to add all of the countries to the `Flags` list. You can start off like this:
+--- task ---
+Add some code to add Japan to the `Flags`{:class="blockdata"} list.
 
-![Add flags to list](images/add-to-list.png)
+![Flag sprite](images/flag-sprite.png)
 
-+ Check that, when you press the green flag, the countries appear in the list.
+```blocks
+when flag clicked
+add [Japan] to [Flags v]
+```
+--- /task ---
+
+--- task ---
+Add one block for each of the other countries, so you end up with a total of ten blocks adding all ten countries to your `Flags`{:class="blockdata"} list
+--- /task ---
+
+--- task ---
+Click the green flag and check that the countries appear in the list.
+--- / task ---
 
 If you press the green flag more than once, you will see that the countries are added to the list again, so you end up with a list of 20 countries and not 10.
 
-+ Add a block to, before adding the countries, `delete all` of the countries in the list. This will stop the countries from being added to the list more than once.
+--- task ---
+Add a block to the start of the code which will `delete all`{:class="blockdata"} of the countries in the list before adding them. This will stop the countries from being added to the list more than once.
+
+![Flag sprite](images/flag-sprite.png)
+
+```blocks
+when flag clicked
++ delete (all v) of [Flags v]
+add [Japan] to [Flags v]
+add [Belgium] to [Flags v]
+add [Italy] to [Flags v]
+...
+```
+
+--- /task ---
 
 Let's make a custom block. This is a special block with a name, and we will be able to create a list of flags using only this one block, instead of having to use lots of blocks.
 
-+ Call your custom block `Create flags list`, and drag all of the code (except the `When flag clicked` block) to become part of this new block.
+--- task ---
+Click on 'More Blocks' and then 'Make a Block'. Call your custom block `create flags list`{:class="blockmoreblocks"}
 
-[[[generic-scratch-make-block]]]
+![Add a block](images/add-block.png)
+--- /task ---
 
-Your code for when the green flag is clicked should now look similar to this:
+--- task ---
+Drag all of the code so that it is underneath the new block instead of the  `when flag clicked`{:class="blockcontrol"} block.
+--- /task ---
 
-![Create flags list](images/create-flags-list.png)
+--- task ---
+Underneath the `when flag clicked`{:class="blockcontrol"} block, add the new block.
+
+![Flag sprite](images/flag-sprite.png)
+
+```blocks
+when flag clicked
+create flag list
+...
+```
+
+--- /task ---  
