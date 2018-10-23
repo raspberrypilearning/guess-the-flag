@@ -37,7 +37,7 @@ title: What you will need
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Offline starter project](resources/guess-the-flag-resources.sb){:target="_blank"}
++ [Offline starter project](resources/guess-the-flag-resources.sb2){:target="_blank"}
 
 
 --- /collapse ---
