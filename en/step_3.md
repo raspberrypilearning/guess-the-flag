@@ -25,7 +25,7 @@ Add one block for each of the other countries, so you end up with a total of ten
 
 --- task ---
 Click the green flag and check that the countries appear in the list.
---- / task ---
+--- /task ---
 
 If you press the green flag more than once, you will see that the countries are added to the list again, so you end up with a list of 20 countries and not 10.
 
