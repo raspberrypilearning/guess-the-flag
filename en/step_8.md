@@ -1,32 +1,42 @@
-## Ask the question
+## Check the answer
 
-+ In the `Flag sprite`, broadcast the message "Announce country" immediately after the block which clones the flags.
+We have asked the player to click on the flag they think is correct. Now we need to check whether the flag they clicked was the right answer.
 
-[[[generic-scratch-broadcast-message]]]
++ Go back to the flag sprite code, and add a block to start a new section of code which will happen `when this sprite is clicked`.
 
-+ Add a new sprite of your choice to be your quiz master. We chose the bear for our example.
+We need to check whether the costume of the sprite that has been clicked has the same name as the correct answer.
 
-![Bear sprite](images/bear-sprite.png)
++ Add code to say 'Correct' if the costume name of this sprite is the same as the `Correct answer` variable, or to say 'Sorry, that was wrong' if it is not.
 
-[[[generic-scratch-sprite-from-library]]]
+You can use this useful block here as well. This time, combine it with a `costume #` block to get the name of the current costume.
 
-+ Add some code to the bear sprite so that, when it receives the broadcast "Announce country", the bear will tell the player to click on the country name from the variable `Correct answer`.
+![Item from list](images/item-from-list.png)
 
 --- hints ---
 --- hint ---
-`When I receive` the broadcast, `say` 'Click on `the correct answer`'.
+`When this sprite is clicked`, `create the flags list`. `If` the `item in the Flags list` with this `costume #` equals the `correct answer`, `say` 'Correct', or `else` `say` 'Sorry, that was wrong'.
 --- /hint ---
 
 --- hint ---
 Here are the code blocks you'll need:
 
-![Broadcast response hint](images/broadcast-hint.png)
+![Check answer hint](images/check-answer-hint.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![Broadcast response solution](images/broadcast-solution.png)
+![Check answer solution](images/check-answer-solution.png)
 --- /hint ---
 
 --- /hints ---
+
++ Press the green flag and test your code by getting the answer deliberately right and wrong. Check that the right message appears depending on whether you were right or wrong.
+
+![Click on the flag](images/click-on-flag.png)
+
+--- challenge ---
+### Challenge
++ Play different sounds if the player was right and if the player was wrong.
++ Use broadcasts to make the bear sprite (not the flag sprite) report whether the player was right or wrong.
+--- /challenge ---

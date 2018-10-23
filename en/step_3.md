@@ -1,50 +1,27 @@
-## Draw the flags
+## Create a list of flags
 
-+ Open the starter project.
++ Click on the Scripts tab, and then on the flag sprite.
 
---- collapse ---
----
-title: I'm using Scratch online
----
++ Create a list called `Flags`. This will be where we store the names of all of the countries whose flags we have included in the game.
 
-+ Open the 'Guess the flag' Scratch starter project at [jumpto.cc/flags-go](http://jumpto.cc/flags-go){:target="_blank"}.
+[[[generic-scratch-make-list]]]
 
-+ If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account
++ Drag some blocks into the scripts area to add all of the countries to the `Flags` list. You can start off like this:
 
+![Add flags to list](images/add-to-list.png)
 
---- /collapse ---
++ Check that, when you press the green flag, the countries appear in the list.
 
---- collapse ---
----
-title: I'm using Scratch offline
----
+If you press the green flag more than once, you will see that the countries are added to the list again, so you end up with a list of 20 countries and not 10.
 
-Download the [flags.sb2](resources/flags.sb2){:target="_blank"} Scratch starter project and open it using the offline editor.
++ Add a block to, before adding the countries, `delete all` of the countries in the list. This will stop the countries from being added to the list more than once.
 
---- /collapse ---
+Let's make a custom block. This is a special block with a name, and we will be able to create a list of flags using only this one block, instead of having to use lots of blocks.
 
-+ Click on the flag sprite and then click on the Costumes tab. You will see a blank flag template. Create nine duplicate costumes of the blank flag template, so you have ten flags in total.
++ Call your custom block `Create flags list`, and drag all of the code (except the `When flag clicked` block) to become part of this new block.
 
-[[[generic-scratch-duplicate-costumes]]]
+[[[generic-scratch-make-block]]]
 
-Now we will draw the flags. 
+Your code for when the green flag is clicked should now look similar to this:
 
-+ Pick a countries flag from [flags of the world](https://www.countries-ofthe-world.com/flags-of-the-world.html)
-
-+ Click on the first costume and add the name of a country as the costume's name.
-
-+ Use the **vector drawing tools** by clicking **Convert to vector** to draw that country's flag. Make sure your drawing is exactly the same size as the flag template.
-
-[[[generic-scratch-vector-mode]]]
-
-For example, you can draw the flag for Italy by drawing three equally sized rectangles using the rectangle tool. Position them using the selection tool.
-
-![Vector drawing](images/vector-drawing.png)
-
-You could easily create a similar flag by duplicating this costume and then changing the colours. For example, to draw the flag for Belgium, duplicate the costume designed to look like the the Italian flag, and use the fill bucket tool to fill each rectangle with a different colour.
-
-+ Draw another nine flags so that you have exactly ten different flag costumes in total. Make sure that the name of each costume is the name of the flag's country.
-
-Here are the costumes we chose, but you can choose any flags you like for your game.
-
-![All flag costumes](images/all-costumes.png)
+![Create flags list](images/create-flags-list.png)

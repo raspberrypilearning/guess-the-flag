@@ -4,14 +4,55 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ### What you will make
 
+--- no-print ---
 Click on the flag belonging to the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/171279525/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /no-print ---
 
-### What you will learn
+--- print-only ---
+![Finished game](images/finished-game.png)
+--- /print-only ---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+--- collapse ---
+---
+title: What you will learn
+---
++ Learning
++ Objectives
 
-+ [Apply basic programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/)
+--- /collapse ---
+
+--- collapse ---
+---
+title: What you will need
+---
+---
+### Hardware
++ Computer capable of running Scratch 2.0
+
+### Software
++ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
++ [Offline starter project](resources/guess-the-flag-resources.sb){:target="_blank"}
+
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Additional notes for educators
+---
+--- no-print ---
+If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/cats/print).
+--- /no-print ---
+
+[Here is a link to the resources for this project](http://rpf.io/p/guess-the-flag-go){:target="_blank"}.
+
+[Here is a link to the solution for this project](http://rpf.io/p/guess-the-flag-get){:target="_blank"}.
+
+--- /collapse ---
