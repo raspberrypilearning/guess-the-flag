@@ -21,7 +21,7 @@ There is a special block in the Data tab for finding the number of items in a li
 
 --- hints ---
 --- hint ---
-Set the `flag number`{:class="blockdata"} variable to a random number between 1 and the `length of the 'flags' list`{:class="blockdata"}.
+Set the `flag number`{:class="blockdata"} variable to a `random number``{:class="blockoperators"} between 1 and the `length of the 'flags' list`{:class="blockdata"}.
 --- /hint ---
 
 --- hint ---
@@ -43,7 +43,7 @@ This is what your code should look like:
 
 ```blocks
 define choose random flag
-set [flag number v] to [(pick random (1) to (length of [flags v]))]
+set [flag number v] to (pick random (1) to (length of [flags v]))
 ```
 --- /hint ---
 
@@ -53,36 +53,33 @@ set [flag number v] to [(pick random (1) to (length of [flags v]))]
 
 This block selects an item from a list, by number:
 
-![Item from list](images/item-from-list.png)
+```blocks
+(item (10 v) of [flags v])
+```
+--- task ---
+Combine this block with the `flag number`{:class="blockdata"} variable to get the text of the randomly chosen item in the `flags`{:class="blockdata"} list. Insert the item text into the `chosen flags`{:class="blockdata"} list. Add this code to your custom block.
 
-+ Combine this block with the `Flag number` variable to get the text of the randomly chosen item in the `Flags` list. Insert the item text into the `Chosen flags` list. Add this code to your custom block.
+```blocks
+define choose random flag
+set [flag number v] to (pick random (1) to (length of [flags v]))
++ insert (item (flag number) of [flags v]) at (last v) of [chosen flags v] 
+```
 
---- hints ---
---- hint ---
-`Insert` the text from the item at the `Flag number` position on the `Flags` list into the `Chosen flags` list.
---- /hint ---
+--- /task ---
 
---- hint ---
-Here are the code blocks you'll need:
+--- task ---
+Add your custom block to the code that will be run when the green flag is clicked.
+--- /task ---
 
-![Insert random item hint](images/insert-random-item-hint.png)
---- /hint ---
-
---- hint ---
-This is what your code should look like:
-
-![Insert random item solution](images/insert-random-item-solution.png)
---- /hint ---
-
---- /hints ---
-
-+ Add your custom block to the code that will be run when the green flag is clicked.
-
-+ Test that your code works by clicking the green flag several times and checking that different countries are added to the `Chosen flags` list. (If you have hidden the list, tick the box next to it to make it visible.)
+--- task ---
+Test that your code works by clicking the green flag several times and checking that different countries are added to the `Chosen flags` list. (If you have hidden the list, tick the box next to it to make it visible.)
+--- /task ---
 
 You will notice that, if you press the green flag lots of times, your `Chosen flags` list quickly fills up with more than six choices.
 
-+ Add blocks to delete all of the countries from the `Chosen flags` list before choosing six flags for the game.
+--- task ---
+Add blocks to delete all of the countries from the `Chosen flags` list before choosing six flags for the game.
+--- /task ---
 
 --- hints ---
 --- hint ---
@@ -103,7 +100,9 @@ This is what your code should look like:
 
 --- /hints ---
 
-+ Test your code by clicking the green flag and checking that the `Chosen flags` list is filled with six countries each time.
+--- task ---
+Test your code by clicking the green flag and checking that the `Chosen flags` list is filled with six countries each time.
+--- /task ---
 
 You might notice that sometimes the same country gets chosen more than once in the list.
 
