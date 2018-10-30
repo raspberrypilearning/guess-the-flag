@@ -21,7 +21,7 @@ There is a special block in the Data tab for finding the number of items in a li
 
 --- hints ---
 --- hint ---
-Set the `flag number`{:class="blockdata"} variable to a `random number``{:class="blockoperators"} between 1 and the `length of the 'flags' list`{:class="blockdata"}.
+Set the `flag number`{:class="blockdata"} variable to a `random number`{:class="blockoperators"} between 1 and the `length of the 'flags' list`{:class="blockdata"}.
 --- /hint ---
 
 --- hint ---
@@ -62,52 +62,56 @@ Combine this block with the `flag number`{:class="blockdata"} variable to get th
 ```blocks
 define choose random flag
 set [flag number v] to (pick random (1) to (length of [flags v]))
-+ insert (item (flag number) of [flags v]) at (last v) of [chosen flags v] 
++ insert (item (flag number) of [flags v]) at (last v) of [chosen flags v]
 ```
 
 --- /task ---
 
 --- task ---
 Add your custom block to the code that will be run when the green flag is clicked.
+
+```blocks
+when flag clicked
+create flag list
++ choose random flag
+```
 --- /task ---
 
 --- task ---
-Test that your code works by clicking the green flag several times and checking that different countries are added to the `Chosen flags` list. (If you have hidden the list, tick the box next to it to make it visible.)
+Test that your code works by clicking the green flag several times and checking that different countries are added to the `chosen flags`{:class="blockdata"} list. (If you have hidden the list, tick the box next to it to make it visible.)
 --- /task ---
 
-You will notice that, if you press the green flag lots of times, your `Chosen flags` list quickly fills up with more than six choices.
+You will notice that, if you press the green flag lots of times, your `chosen flags`{:class="blockdata"} list quickly fills up with more than six choices.
 
 --- task ---
-Add blocks to delete all of the countries from the `Chosen flags` list before choosing six flags for the game.
+Add blocks to delete all of the countries from the `chosen flags`{:class="blockdata"} list before choosing six flags for the game.
+
+```blocks
+when flag clicked
+create flag list
++ delete (all v) of [chosen flags v]
++ repeat (6)
+    choose random flag
+end
+```
 --- /task ---
 
---- hints ---
---- hint ---
-`Delete all` of the chosen flags. `Repeat` choosing a `random flag` six times.
---- /hint ---
-
---- hint ---
-Here are the code blocks you'll need:
-
-![Choose 6 flags hint](images/choose-six-flags-hint.png)
---- /hint ---
-
---- hint ---
-This is what your code should look like:
-
-![Choose 6 flags solution](images/choose-six-flags-solution.png)
---- /hint ---
-
---- /hints ---
 
 --- task ---
-Test your code by clicking the green flag and checking that the `Chosen flags` list is filled with six countries each time.
+Test your code by clicking the green flag and checking that the `chosen flags` list is filled with six countries each time.
 --- /task ---
 
 You might notice that sometimes the same country gets chosen more than once in the list.
 
 ![Duplicate countries](images/duplicate-countries.png)
 
-+ Add a block to the end of your custom block code to delete the randomly chosen `Flag number` from the `Flags` list after it has been added to the `Chosen flags` list. This will stop it from being chosen more than once.
+--- task ---
+Add a block to the end of your custom block code to delete the randomly chosen `Flag number` from the `Flags` list after it has been added to the `Chosen flags` list. This will stop it from being chosen more than once.
 
-![Delete flag number](images/delete-flag-number.png)
+```blocks
+define choose random flag
+set [flag number v] to (pick random (1) to (length of [flags v]))
+insert (item (flag number) of [flags v]) at (last v) of [chosen flags v]
++ delete (flag number) of [flags v]
+```
+--- /task ---
