@@ -106,7 +106,7 @@ You might notice that sometimes the same country gets chosen more than once in t
 ![Duplicate countries](images/duplicate-countries.png)
 
 --- task ---
-Add a block to the end of your custom block code to delete the randomly chosen `Flag number` from the `Flags` list after it has been added to the `Chosen flags` list. This will stop it from being chosen more than once.
+Add a block to the end of your custom block code to delete the randomly chosen `flag number`{:class="blockdata"} from the `flags`{:class="blockdata"} list after it has been added to the `chosen flags`{:class="blockdata"} list. This will stop it from being chosen more than once.
 
 ```blocks
 define choose random flag
