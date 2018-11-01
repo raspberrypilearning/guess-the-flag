@@ -1,20 +1,25 @@
 ## Show the flags
 
-The player needs to be able to see the six possible flags to make their choice in the game, so we need to display the pictures of the flags that were selected to be in the `Chosen flags` list.
+The player needs to be able to see the pictures of the flags in the `chosen flags`{:class="blockdata"} list to be able to play.
 
-+ Create another custom block, this time called `Clone flags`.
+--- task ---
+Create another custom block, this time called `clone flags`.
+--- /task ---
 
 We will clone the Flag sprite six times, once for each flag that will be displayed. We would like the first flag to be displayed in the top left-hand corner of the page.
 
-+ Move your mouse to a point near the top left-hand corner of the stage. This will be where the centre of your first flag sprite appears, so don't go too close to the edge. Note down the coordinates of the point you chose.
+--- task ---
+Move your mouse to a point near the top left-hand corner of the stage. This will be where the centre of your first flag sprite appears, so don't go too close to the edge. Note down the coordinates of the point you chose.
 
 [[[generic-scratch-coordinates]]]
+--- /task ---
 
-+ Add a `show` block to make the sprite visible, and a `go to` block to your custom block to tell the flag sprite to begin at these coordinates.
+--- task ---
+As part of the instructions for your `clone flags` block, make the sprite visible, and add a `go to` block to tell the flag sprite to display at these coordinates.
+--- /task ---
 
-[[[generic-scratch-set-coordinates]]]
-
-+ Now add a loop that repeats six times to display the flags.
+--- task ---
+Now add a loop that repeats six times to display the flags.
 
 + Add code inside the loop to switch the costume to the last flag in the `Chosen flags` list and to clone the sprite. Then, delete the last flag from the list and add `110` to the `x` coordinate to move along ready to place the next flag.
 
@@ -40,14 +45,19 @@ This is what your code should look like:
 --- /hint ---
 
 --- /hints ---
+--- /task ---
 
-+ Run your code by pressing the green flag. You will notice that the different flags do appear, but they go off the end of the stage.
+--- task ---
+Run your code by pressing the green flag. You will notice that the different flags do appear, but they go off the end of the stage.
 
 ![Flags go off the screen](images/flags-off-the-screen.png)
 
+--- /task ---
+
 Let's make two rows of three flags.
 
-+ Add some code inside the loop to move down a row if there are three flags left in the `Chosen flags` list.
+--- task ---
+Add some code inside the loop to move down a row if there are three flags left in the `Chosen flags` list.
 
 You can move down a row by using another `go to` block and keeping the `x` coordinate the same as the starting point, but decreasing the `y` coordinate to move downwards.
 
@@ -69,6 +79,7 @@ This is what your code should look like:
 --- /hint ---
 
 --- /hints ---
+--- /task ---
 
 + Press the green flag and check that you now have flags in two rows.
 
