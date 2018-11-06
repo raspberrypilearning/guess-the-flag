@@ -19,7 +19,7 @@ title: I'm using Scratch online
 title: I'm using Scratch offline
 ---
 
-Download the [flags.sb2](resources/flags.sb2){:target="_blank"} Scratch starter project and open it using the offline editor.
+Download the Scratch starter project at [rpf.io/flag-off](http://rpf.io/flag-off){:target="_blank"} and open it using the offline editor.
 
 --- /collapse ---
 
