@@ -25,7 +25,7 @@ go to x: (-170) y: (120)
 --- /task ---
 
 --- task ---
-Now add a loop that repeats six times.
+Underneath that code, add a loop that repeats six times.
 
 Inside the loop, add code to switch the costume to the last flag in the `chosen flags`{:class="blockdata"} list and to clone the sprite. Then, delete the last flag from the list and add `110`{:class="blockmotion"} to the `x`{:class="blockmotion"} coordinate to move along ready to place the next flag.
 
@@ -77,6 +77,10 @@ end
 --- /task ---
 
 --- task ---
+Add your `clone flags`{:class="blockmoreblocks"} block to the end of the code that happens when the green flag is clicked.
+--- /task ---
+
+--- task ---
 Run your code by pressing the green flag. You will notice that the different flags do appear, but they go off the end of the stage.
 
 ![Flags go off the screen](images/flags-off-the-screen.png)
@@ -86,42 +90,34 @@ Run your code by pressing the green flag. You will notice that the different fla
 Let's make two rows of three flags.
 
 --- task ---
-Add some code inside the loop to move down a row if there are three flags left in the `Chosen flags` list.
+Add some code inside the loop to move down a row if there are three flags left in the `chosen flags`{:class="blockdata"} list.
 
-You can move down a row by using another `go to` block and keeping the `x` coordinate the same as the starting point, but decreasing the `y` coordinate to move downwards.
+You can move down a row by using another `go to`{:class="blockmotion"} block and keeping the `x`{:class="blockmotion"} coordinate the same as the starting point, but decreasing the `y`{:class="blockmotion"} coordinate to move downwards.
 
---- hints ---
---- hint ---
-`If` the `length of chosen flags` is 3, `go to` the same `x` coordinate but a smaller `y` coordinate.
---- /hint ---
-
---- hint ---
-Here are the code blocks you'll need:
-
-![Display flags hint](images/display-flags-hint.png)
---- /hint ---
-
---- hint ---
-This is what your code should look like:
-
-![Display flags solution](images/display-flags-solution.png)
---- /hint ---
-
---- /hints ---
+```blocks
+define [clone flags]
+show
+go to x: (-170) y: (120)
+repeat (6)
+    switch costume to [(item (last v) of [chosen flags v])]
+    create clone of [myself v]
+    delete (last v) of [chosen flags v]
+    change x by (110)
+    + if <(length of [chosen flags v]) = [3]> then
+        + go to x: (-170) y: (50)
+    + end
+end
+```
 --- /task ---
 
-+ Press the green flag and check that you now have flags in two rows.
+--- task ---
+Press the green flag and check that the flags display in two rows.
+--- /task ---
 
 It looks like the last flag is displaying twice. In actual fact what is happening is that the original flag sprite is still visible at the end.
 
-+ Add a `hide` block at the end of your custom block's code to hide the original sprite.
+--- task ---
+Add a `hide`{:class="blocklooks"}  block at the end of your custom block's code to hide the original sprite.
+--- task ---
 
-+ Add your new `clone flags` block to the end of the code that runs when the green flag is clicked.
-
-
-### Challenge
-+ Can you make the flag sprites appear one by one?
-+ Can you make each flag make a sound (a pop, for example) when it appears?
-
-
-[[[generic-scratch-sound-from-library]]]
+If you want to, you could try making the flag sprites appear one by one or making each flag make a sound (a pop, for example) when it appears?
