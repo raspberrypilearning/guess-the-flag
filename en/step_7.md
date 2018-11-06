@@ -29,7 +29,7 @@ Add a new sprite of your choice to be your quiz master. We chose the bear for ou
 --- /task ---
 
 --- task ---
-Add some code to the bear sprite so that, when it receives the broadcast "Announce country", the bear will tell the player to click on the country name from the variable `Correct answer`{:class="blockdata"}.
+Add some code to the bear sprite so that, when it receives the broadcast "Announce country", the bear will tell the player to click on the country name from the variable `correct answer`{:class="blockdata"}.
 
 --- hints ---
 --- hint ---
