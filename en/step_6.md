@@ -65,7 +65,7 @@ define [clone flags]
 show
 go to x: (-170) y: (120)
 + repeat (6)
-    + switch costume to [(item (last v) of [chosen flags v])]
+    + switch costume to (item (last v) of [chosen flags v])
     + create clone of [myself v]
     + delete (last v) of [chosen flags v]
     + change x by (110)
@@ -118,6 +118,6 @@ It looks like the last flag is displaying twice. In actual fact what is happenin
 
 --- task ---
 Add a `hide`{:class="blocklooks"}  block at the end of your custom block's code to hide the original sprite.
---- task ---
+--- /task ---
 
 If you want to, you could try making the flag sprites appear one by one or making each flag make a sound (a pop, for example) when it appears?
