@@ -3,7 +3,7 @@
 The player needs to be able to see the pictures of the flags in the `chosen flags`{:class="blockdata"} list to be able to play.
 
 --- task ---
-Create another custom block, this time called `clone flags`.
+Create another custom block, this time called `clone flags`{:class="blockmoreblocks"}.
 --- /task ---
 
 We will clone the Flag sprite six times, once for each flag that will be displayed. We would like the first flag to be displayed in the top left-hand corner of the page.
@@ -15,33 +15,62 @@ Move your mouse to a point near the top left-hand corner of the stage. This will
 --- /task ---
 
 --- task ---
-As part of the instructions for your `clone flags` block, make the sprite visible, and add a `go to` block to tell the flag sprite to display at these coordinates.
+As part of the instructions for your `clone flags`{:class="blockmoreblocks"} block, make the sprite visible, and add a `go to`{:class="blockmotion"} block to tell the flag sprite to display at the coordinates you noted down.
+
+```blocks
+define [clone flags]
+show
+go to x: (-170) y: (120)
+```
 --- /task ---
 
 --- task ---
-Now add a loop that repeats six times to display the flags.
+Now add a loop that repeats six times.
 
-+ Add code inside the loop to switch the costume to the last flag in the `Chosen flags` list and to clone the sprite. Then, delete the last flag from the list and add `110` to the `x` coordinate to move along ready to place the next flag.
+Inside the loop, add code to switch the costume to the last flag in the `chosen flags`{:class="blockdata"} list and to clone the sprite. Then, delete the last flag from the list and add `110`{:class="blockmotion"} to the `x`{:class="blockmotion"} coordinate to move along ready to place the next flag.
 
 --- hints ---
 --- hint ---
-`Repeat` six times:
-`Switch costume` to the `last item in chosen flags`.
-`Clone the sprite`.
-`Delete` the last item in chosen flags.
-`Move right 110`.
+`Repeat`{:class="blockcontrol"} six times:
+`Switch costume`{:class="blocklooks"} to the `last item in chosen flags`{:class="blockdata"}.
+`Clone the sprite`{:class="blockcontrol"}.
+`Delete`{:class="blockdata"} the last item in chosen flags.
+`Move right 110`{:class="blockmotion"}.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you'll need to add:
 
-![Display flags interim hint](images/display-flags-interim-hint.png)
+```blocks
+(item (last v) of [chosen flags v])
+
+change x by (110)
+
+create clone of [myself v]
+
+switch costume to [ v]
+
+delete (last v) of [chosen flags v]
+
+repeat (6)
+end
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![Display flags interim solution](images/display-flags-interim-solution.png)
+```blocks
+define [clone flags]
+show
+go to x: (-170) y: (120)
++ repeat (6)
+    + switch costume to [(item (last v) of [chosen flags v])]
+    + create clone of [myself v]
+    + delete (last v) of [chosen flags v]
+    + change x by (110)
+end
+```
 --- /hint ---
 
 --- /hints ---
