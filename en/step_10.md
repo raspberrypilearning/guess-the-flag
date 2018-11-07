@@ -109,3 +109,7 @@ broadcast [start the round v]
 --- task ---
 Test your code again and check that you can play multiple rounds successfully, and that your score continues to increase as you get answers correct.
 --- /task ---
+
+--- task ---
+Make sure you right click and hide the `correct answer`{:class="blockdata"} variable so the player can't see it!
+--- /task ---
