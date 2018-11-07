@@ -15,11 +15,12 @@ Add code to say 'Correct' if the costume name of this sprite is the same as the 
 
 You can use this useful block here as well. This time, combine it with a `costume #`{:class="blocklooks"} block to get the name of the current costume.
 
-![Flag sprite](images/flag-sprite.png)
-
 ```blocks
 (item (10 v) of [flags v])
 ```
+
+![Flag sprite](images/flag-sprite.png)
+
 
 --- hints ---
 --- hint ---
