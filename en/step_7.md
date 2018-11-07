@@ -5,6 +5,8 @@ Let's ask the player to name the flag for a particular country.
 --- task ---
 In the flag sprite, `broadcast the message`{:class="blockevents"} "announce country" immediately after the block which clones the flags.
 
+![Flag sprite](images/flag-sprite.png)
+
 ```blocks
 when flag clicked
 create flag list
@@ -29,7 +31,9 @@ Add a new sprite of your choice to be your quiz master. We chose the bear for ou
 --- /task ---
 
 --- task ---
-Add some code to the bear sprite so that, when it receives the broadcast "Announce country", the bear will tell the player to click on the country name from the variable `correct answer`{:class="blockdata"}.
+Add some code to the character sprite so that, when it receives the broadcast "Announce country", the character will tell the player to click on the country name from the variable `correct answer`{:class="blockdata"}.
+
+![Character sprite](images/char-sprite.png)
 
 --- hints ---
 --- hint ---

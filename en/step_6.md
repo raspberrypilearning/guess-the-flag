@@ -4,6 +4,9 @@ The player needs to be able to see the pictures of the flags in the `chosen flag
 
 --- task ---
 Create another custom block, this time called `clone flags`{:class="blockmoreblocks"}.
+
+![Flag sprite](images/flag-sprite.png)
+
 --- /task ---
 
 We will clone the Flag sprite six times, once for each flag that will be displayed. We would like the first flag to be displayed in the top left-hand corner of the page.
@@ -17,6 +20,8 @@ Move your mouse to a point near the top left-hand corner of the stage. This will
 --- task ---
 As part of the instructions for your `clone flags`{:class="blockmoreblocks"} block, make the sprite visible, and add a `go to`{:class="blockmotion"} block to tell the flag sprite to display at the coordinates you noted down.
 
+![Flag sprite](images/flag-sprite.png)
+
 ```blocks
 define [clone flags]
 show
@@ -26,6 +31,8 @@ go to x: (-170) y: (120)
 
 --- task ---
 Underneath that code, add a loop that repeats six times.
+
+![Flag sprite](images/flag-sprite.png)
 
 Inside the loop, add code to switch the costume to the last flag in the `chosen flags`{:class="blockdata"} list and to clone the sprite. Then, delete the last flag from the list and add `110`{:class="blockmotion"} to the `x`{:class="blockmotion"} coordinate to move along ready to place the next flag.
 
@@ -78,6 +85,9 @@ end
 
 --- task ---
 Add your `clone flags`{:class="blockmoreblocks"} block to the end of the code that happens when the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
+
 --- /task ---
 
 --- task ---
@@ -91,6 +101,8 @@ Let's make two rows of three flags.
 
 --- task ---
 Add some code inside the loop to move down a row if there are three flags left in the `chosen flags`{:class="blockdata"} list.
+
+![Flag sprite](images/flag-sprite.png)
 
 You can move down a row by using another `go to`{:class="blockmotion"} block and keeping the `x`{:class="blockmotion"} coordinate the same as the starting point, but decreasing the `y`{:class="blockmotion"} coordinate to move downwards.
 
@@ -118,6 +130,9 @@ It looks like the last flag is displaying twice. In actual fact what is happenin
 
 --- task ---
 Add a `hide`{:class="blocklooks"}  block at the end of your custom block's code to hide the original sprite.
+
+![Flag sprite](images/flag-sprite.png)
+
 --- /task ---
 
 If you want to, you could try making the flag sprites appear one by one or making each flag make a sound (a pop, for example) when it appears?

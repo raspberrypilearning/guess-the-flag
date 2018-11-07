@@ -1,6 +1,6 @@
 # Guess the flag
 
-![Guess the flag](banner.png)
+![Guess the flag](en/images/banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/guess-the-flag](https://projects.raspberrypi.org/en/projects/guess-the-flag)
 

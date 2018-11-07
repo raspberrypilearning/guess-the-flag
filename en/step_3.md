@@ -20,7 +20,9 @@ add [Japan] to [Flags v]
 --- /task ---
 
 --- task ---
-Add one block for each of the other countries, so you end up with a total of ten blocks adding all ten countries to your `Flags`{:class="blockdata"} list
+Add one block for each of the other countries, so you end up with a total of ten blocks adding all ten countries to your `Flags`{:class="blockdata"} list.
+![Flag sprite](images/flag-sprite.png)
+
 --- /task ---
 
 --- task ---
@@ -49,6 +51,8 @@ Let's make a custom block. This is a special block with a name, and we will be a
 
 --- task ---
 Click on 'More Blocks' and then 'Make a Block'. Call your custom block `create flag list`{:class="blockmoreblocks"}
+
+![Flag sprite](images/flag-sprite.png)
 
 ![Add a block](images/add-block.png)
 --- /task ---

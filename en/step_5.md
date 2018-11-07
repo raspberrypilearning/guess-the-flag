@@ -9,6 +9,8 @@ Create a new variable called `correct answer`{:class="blockdata"}.
 --- task ---
 After you have chosen the six flags, set the `correct answer`{:class="blockdata"} variable to be a random item from the `chosen flags`{:class="blockdata"} list.
 
+![Flag sprite](images/flag-sprite.png)
+
 ```blocks
 when flag clicked
 create flag list

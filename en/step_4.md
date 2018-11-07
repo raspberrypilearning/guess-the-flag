@@ -12,10 +12,15 @@ Create a variable called `flag number`{:class="blockdata"}.
 
 --- task ---
 Create a custom block and call it `choose random flag`{:class="blockmoreblocks"}.
+
+![Flag sprite](images/flag-sprite.png)
+
 --- /task ---
 
 --- task ---
 Add code to the custom block to set the `flag number`{:class="blockdata"} variable to a random number between 1 and the number of items in the `flags`{:class="blockdata"} list.
+
+![Flag sprite](images/flag-sprite.png)
 
 There is a special block in the Data tab for finding the number of items in a list.
 
@@ -59,6 +64,8 @@ This block selects an item from a list, by number:
 --- task ---
 Combine this block with the `flag number`{:class="blockdata"} variable to get the text of the randomly chosen item in the `flags`{:class="blockdata"} list. Insert the item text into the `chosen flags`{:class="blockdata"} list. Add this code to your custom block.
 
+![Flag sprite](images/flag-sprite.png)
+
 ```blocks
 define choose random flag
 set [flag number v] to (pick random (1) to (length of [flags v]))
@@ -69,6 +76,8 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 
 --- task ---
 Add your custom block to the code that will be run when the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks
 when flag clicked
@@ -85,6 +94,8 @@ You will notice that, if you press the green flag lots of times, your `chosen fl
 
 --- task ---
 Add blocks to delete all of the countries from the `chosen flags`{:class="blockdata"} list before choosing six flags for the game.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks
 when flag clicked
@@ -107,6 +118,8 @@ You might notice that sometimes the same country gets chosen more than once in t
 
 --- task ---
 Add a block to the end of your custom block code to delete the randomly chosen `flag number`{:class="blockdata"} from the `flags`{:class="blockdata"} list after it has been added to the `chosen flags`{:class="blockdata"} list. This will stop it from being chosen more than once.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks
 define choose random flag
