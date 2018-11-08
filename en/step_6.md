@@ -7,6 +7,10 @@ Create another custom block, this time called `clone flags`{:class="blockmoreblo
 
 ![Flag sprite](images/flag-sprite.png)
 
+```blocks
+define [clone flags]
+```
+
 --- /task ---
 
 We will clone the Flag sprite six times, once for each flag that will be displayed. We would like the first flag to be displayed in the top left-hand corner of the page.
@@ -87,6 +91,16 @@ end
 Add your `clone flags`{:class="blockmoreblocks"} block to the end of the code that happens when the green flag is clicked.
 
 ![Flag sprite](images/flag-sprite.png)
+
+```blocks
+when green flag clicked
+create flag list :: custom
+delete (all v) of [chose flags v]
+repeat (6) 
+  choose random flag :: custom
+end
++ clone flags :: custom
+```
 
 --- /task ---
 

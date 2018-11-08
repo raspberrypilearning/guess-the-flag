@@ -37,11 +37,10 @@ title: What you will need
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Offline starter project](resources/guess-the-flag-resources.sb2){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
 
 
 --- /collapse ---
-
 
 --- collapse ---
 ---
@@ -51,7 +50,7 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/cats/print).
 --- /no-print ---
 
-[Here is a link to the resources for this project](http://rpf.io/p/guess-the-flag-go){:target="_blank"}.
+[Here is a link to the resources for this project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
 [Here is a link to the solution for this project](http://rpf.io/p/guess-the-flag-get){:target="_blank"}.
 

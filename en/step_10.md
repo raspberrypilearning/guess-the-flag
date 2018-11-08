@@ -22,19 +22,19 @@ Move all of the code which previously ran after the green flag was clicked, so t
 ```blocks
 + when I receive [start the round v]
 set [score v] to [0]
-create flag list
+create flag list  :: custom
 ...
 ```
 
 --- /task ---
 
 --- task ---
-Remove the `set score to 0`{:class="blockdata"} block and place it back with the `when flag clicked`{:class="blockcontrol"} block, followed by the new broadcast block you just created.
+Remove the `set score to 0`{:class="blockdata"} block and place it back with the `when green flag clicked`{:class="blockcontrol"} block, followed by the new broadcast block you just created.
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
+when green flag clicked
 set [score v] to [0]
 broadcast [start the round v]
 ...
@@ -48,7 +48,7 @@ After the code where you check the answer, add another copy of the broadcast blo
 
 ```blocks
 when this sprite clicked
-create flags list
+create flags list :: custom
 if <(item (costume #) of [flags v]) = (correct answer)> then
     say [Correct] for (2) secs
     change [score v] by [1]
@@ -94,7 +94,7 @@ Place the block that `broadcasts`{:class="blockevents"} 'clean up' just before y
 
 ```blocks
 when this sprite clicked
-create flags list
+create flags list  :: custom
 if <(item (costume #) of [flags v]) = (correct answer)> then
     say [Correct] for (2) secs
     change [score v] by [1]

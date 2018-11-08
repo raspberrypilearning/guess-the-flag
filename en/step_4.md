@@ -15,6 +15,10 @@ Create a custom block and call it `choose random flag`{:class="blockmoreblocks"}
 
 ![Flag sprite](images/flag-sprite.png)
 
+```blocks
+define choose random flag
+```
+
 --- /task ---
 
 --- task ---
@@ -80,9 +84,9 @@ Add your custom block to the code that will be run when the green flag is clicke
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
-create flag list
-+ choose random flag
+when green flag clicked
+create flag list :: custom
++ choose random flag :: custom
 ```
 --- /task ---
 

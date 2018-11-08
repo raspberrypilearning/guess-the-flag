@@ -8,7 +8,7 @@ In the flag sprite, `broadcast the message`{:class="blockevents"} "announce coun
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
+when green flag clicked
 create flag list
 delete (all v) of [chosen flags v]
 repeat (6)

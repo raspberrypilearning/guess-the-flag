@@ -9,18 +9,18 @@ Click on the Scripts tab. Create a list called `Flags`{:class="blockdata"}. This
 --- /task ---
 
 --- task ---
-Add some code to add Japan to the `Flags`{:class="blockdata"} list.
+Add some code to add Japan to the `flags`{:class="blockdata"} list.
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
 when flag clicked
-add [Japan] to [Flags v]
+add [Japan] to [flags v]
 ```
 --- /task ---
 
 --- task ---
-Add one block for each of the other countries, so you end up with a total of ten blocks adding all ten countries to your `Flags`{:class="blockdata"} list.
+Add one block for each of the other countries, so you end up with a total of ten blocks adding all ten countries to your `flags`{:class="blockdata"} list.
 ![Flag sprite](images/flag-sprite.png)
 
 --- /task ---
@@ -38,10 +38,10 @@ Add a block to the start of the code which will `delete all`{:class="blockdata"}
 
 ```blocks
 when flag clicked
-+ delete (all v) of [Flags v]
-add [Japan] to [Flags v]
-add [Belgium] to [Flags v]
-add [Italy] to [Flags v]
++ delete (all v) of [flags v]
+add [Japan] to [flags v]
+add [Belgium] to [flags v]
+add [Italy] to [flags v]
 ...
 ```
 
@@ -59,6 +59,22 @@ Click on 'More Blocks' and then 'Make a Block'. Call your custom block `create f
 
 --- task ---
 Drag all of the code so that it is underneath the new `create flag list`{:class="blockmoreblocks"} block instead of the `when flag clicked`{:class="blockevents"} block.
+
+```blocks
+define create flag list
+delete (all v) of [flags v]
+add [Japan] to [flags v]
+add [Belgium] to [flags v]
+add [Italy] to [flags v]
+add [Turkey] to [flags v]
+add [Denmark] to [flags v]
+add [Chili] to [flags v]
+add [Botswana] to [flags v]
+add [Bangladesh] to [flags v]
+add [mart o land] to [flags v]
+add [green] to [flags v]
+```
+
 --- /task ---
 
 --- task ---

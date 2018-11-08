@@ -6,7 +6,7 @@ Create a new variable called `score`{:class="blockdata"} and set the score to `0
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
+when green flag clicked
 set [score v] to [0]
 ```
 --- /task ---
@@ -18,7 +18,7 @@ Add `1`{:class="blockdata"} to the score every time the player gets a correct an
 
 ```blocks
 when this sprite clicked
-create flags list
+create flag list :: custom
 if <(item (costume #) of [flags v]) = (correct answer)> then
     say [Correct] for (2) secs
     + change [score v] by [1]
