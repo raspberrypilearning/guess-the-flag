@@ -52,6 +52,6 @@ If you need to print this project, please use the [printer friendly version](htt
 
 [Here is a link to the resources for this project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
-[Here is a link to the solution for this project](http://rpf.io/p/guess-the-flag-get){:target="_blank"}.
+[Here is a link to the solution for this project](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
 --- /collapse ---

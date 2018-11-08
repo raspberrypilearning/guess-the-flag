@@ -9,13 +9,13 @@ In the flag sprite, `broadcast the message`{:class="blockevents"} "announce coun
 
 ```blocks
 when green flag clicked
-create flag list
+create flag list :: custom
 delete (all v) of [chosen flags v]
 repeat (6)
-    choose random flag
+    choose random flag :: custom
 end
 set [correct answer v] to (item (random v) of [chosen flags v])
-clone flags
+clone flags :: custom
 + broadcast [announce country v]
 
 ```

@@ -1,7 +1,7 @@
 ## Create a list of flags
 
 --- task ---
-Click on the Scripts tab. Create a list called `Flags`{:class="blockdata"}. This will be where we store the names of all of the countries whose flags we have included in the game.
+Click on the Scripts tab. Create a list called `flags`{:class="blockdata"}. This will be where we store the names of all of the countries whose flags we have included in the game.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -14,7 +14,7 @@ Add some code to add Japan to the `flags`{:class="blockdata"} list.
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
+when green flag clicked
 add [Japan] to [flags v]
 ```
 --- /task ---
@@ -37,7 +37,7 @@ Add a block to the start of the code which will `delete all`{:class="blockdata"}
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
+when green flag clicked
 + delete (all v) of [flags v]
 add [Japan] to [flags v]
 add [Belgium] to [flags v]
@@ -83,7 +83,7 @@ Underneath the `when flag clicked`{:class="blockevents"} block, add the new bloc
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
+when green flag clicked
 create flag list :: custom
 ...
 ```

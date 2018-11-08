@@ -102,8 +102,8 @@ Add blocks to delete all of the countries from the `chosen flags`{:class="blockd
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when flag clicked
-create flag list
+when green flag clicked
+create flag list :: custom
 + delete (all v) of [chosen flags v]
 + repeat (6)
     choose random flag

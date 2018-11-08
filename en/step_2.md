@@ -5,7 +5,7 @@ Open the 'Guess the flag' starter project.
 
 **Online:** Open the 'Guess the flag' Scratch starter project at [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. You can click on 'Remix' in the top right-hand corner to save a copy of the project if you have a Scratch account.
 
-**Offline:** Open the [starter project](rpf.io/p/en/guess-the-flag-go) in the offline editor. If you need to download the Scratch offline editor you will find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** Open the [starter project](http://rpf.io/p/en/guess-the-flag-go) in the offline editor. If you need to download the Scratch offline editor you will find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
