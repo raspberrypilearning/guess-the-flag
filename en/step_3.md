@@ -1,28 +1,17 @@
 ## Create a list of flags
 
 --- task ---
-Click on the Scripts tab. Create a list called `flags`{:class="blockdata"}. This will be where we store the names of all of the countries whose flags we have included in the game.
-
-![Flag sprite](images/flag-sprite.png)
-
-[[[generic-scratch-make-list]]]
+Click on the Scripts tab. You will see that a list called `flags`{:class="blockdata"} has been created for you. This will be where we store the names of all of the countries whose flags we have included in the game.
 --- /task ---
 
 --- task ---
-Add some code to add Japan to the `flags`{:class="blockdata"} list.
+Add two more blocks, one each for the other two flags you created, so you end up with a total of ten blocks adding all ten countries to your `flags`{:class="blockdata"} list.
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks
-when green flag clicked
-add [Japan] to [flags v]
+add [Country] to [flags v]
 ```
---- /task ---
-
---- task ---
-Add one block for each of the other countries, so you end up with a total of ten blocks adding all ten countries to your `flags`{:class="blockdata"} list.
-![Flag sprite](images/flag-sprite.png)
-
 --- /task ---
 
 --- task ---
