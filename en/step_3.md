@@ -57,11 +57,11 @@ add [Belgium] to [flags v]
 add [Italy] to [flags v]
 add [Turkey] to [flags v]
 add [Denmark] to [flags v]
-add [Chili] to [flags v]
+add [Chile] to [flags v]
 add [Botswana] to [flags v]
 add [Bangladesh] to [flags v]
-add [mart o land] to [flags v]
-add [green] to [flags v]
+add [Ghana] to [flags v]
+add [Luxembourg] to [flags v]
 ```
 
 --- /task ---

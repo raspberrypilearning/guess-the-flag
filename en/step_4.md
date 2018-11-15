@@ -133,4 +133,4 @@ insert (item (flag number) of [flags v]) at (last v) of [chosen flags v]
 ```
 --- /task ---
 
-You might want to right click and hide the two lists at this point so that they do not take up too much of the stage. You can see them again by ticking the box next to the list you want to see in the data tab.
+You might want to right click and hide the lists and variables at this point so that they do not take up too much of the stage. You can see them again by ticking the box next to the list you want to see in the data tab.

@@ -16,13 +16,7 @@ define [clone flags]
 We will clone the Flag sprite six times, once for each flag that will be displayed. We would like the first flag to be displayed in the top left-hand corner of the page.
 
 --- task ---
-Move your mouse to a point near the top left-hand corner of the stage. This will be where the centre of your first flag sprite appears, so don't go too close to the edge. Note down the coordinates of the point you chose.
-
-[[[generic-scratch-coordinates]]]
---- /task ---
-
---- task ---
-As part of the instructions for your `clone flags`{:class="blockmoreblocks"} block, make the sprite visible, and add a `go to`{:class="blockmotion"} block to tell the flag sprite to display at the coordinates you noted down.
+As part of the instructions for your `clone flags`{:class="blockmoreblocks"} block, make the sprite visible, and add a `go to`{:class="blockmotion"} block to tell the flag sprite to display at `-170`{:class="blockmotion"}, `120`{:class="blockmotion"} which is on the top left of the stage.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -96,7 +90,7 @@ Add your `clone flags`{:class="blockmoreblocks"} block to the end of the code th
 when green flag clicked
 create flag list :: custom
 delete (all v) of [chose flags v]
-repeat (6) 
+repeat (6)
   choose random flag :: custom
 end
 + clone flags :: custom
