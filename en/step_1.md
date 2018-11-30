@@ -1,11 +1,11 @@
 ## Introduction
 
-In this resource, you will create a flag quiz to test yourself and your friends. Six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
+In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
 ### What you will make
 
 --- no-print ---
-Click on the flag belonging to the country for which you are being asked.
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/255467433/?autostart=false" frameborder="0"></iframe>
@@ -31,7 +31,7 @@ title: What you will need
 ---
 ---
 ### Hardware
-+ Computer capable of running Scratch 2.0
++ A computer capable of running Scratch 2.0
 
 ### Software
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
@@ -47,11 +47,11 @@ title: What you will need
 title: Additional notes for educators
 ---
 --- no-print ---
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/cats/print).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print).
 --- /no-print ---
 
-[Here is a link to the resources for this project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
+You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
-[Here is a link to the solution for this project](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
+You can [download the solution for this project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
 --- /collapse ---
