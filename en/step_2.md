@@ -32,6 +32,6 @@ If you are stuck for ideas, you can find some flags on [this 'Flags of the world
 Repeat this process for the second blank flag costume so that there are ten flag costumes in total.
 --- /task ---
 
-Here are the flags that act as examples in this project, but you can choose any flags you like for your game.
+Here are the flags that act as examples in the 'Guess the flag' project, but you can choose any flags you like for your game.
 
 ![All flag costumes](images/all-costumes.png)
