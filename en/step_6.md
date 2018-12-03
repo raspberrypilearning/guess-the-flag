@@ -1,9 +1,9 @@
 ## Show the flags
 
-The player needs to be able to see the pictures of the flags in the `chosen flags`{:class="blockdata"} list to be able to play.
+The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="blockdata"} list.
 
 --- task ---
-Create another custom block, this time called `clone flags`{:class="blockmoreblocks"}.
+Create another custom block, and call this one `clone flags`{:class="blockmoreblocks"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -13,10 +13,12 @@ define [clone flags]
 
 --- /task ---
 
-We will clone the Flag sprite six times, once for each flag that will be displayed. We would like the first flag to be displayed in the top left-hand corner of the page.
+This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
+
+The first flag should be displayed in the top left-hand corner of the Stage.
 
 --- task ---
-As part of the instructions for your `clone flags`{:class="blockmoreblocks"} block, make the sprite visible, and add a `go to`{:class="blockmotion"} block to tell the flag sprite to display at `-170`{:class="blockmotion"}, `120`{:class="blockmotion"} which is on the top left of the stage.
+As part of the instructions for your `clone flags`{:class="blockmoreblocks"} block, make the Flag sprite visible, and add a `go to`{:class="blockmotion"} block to tell the sprite to show at the coordinates `-170`{:class="blockmotion"}, `120`{:class="blockmotion"} in the top left-hand corner of the Stage.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -28,23 +30,23 @@ go to x: (-170) y: (120)
 --- /task ---
 
 --- task ---
-Underneath that code, add a loop that repeats six times.
+Below that code, add a loop that repeats six times.
 
 ![Flag sprite](images/flag-sprite.png)
 
-Inside the loop, add code to switch the costume to the last flag in the `chosen flags`{:class="blockdata"} list and to clone the sprite. Then, delete the last flag from the list and add `110`{:class="blockmotion"} to the `x`{:class="blockmotion"} coordinate to move along ready to place the next flag.
+Inside the loop, add code blocks to switch the sprite's costume to the last flag in the `chosen flags`{:class="blockdata"} list, and to clone the sprite. Then, add code blocks to delete the last flag from the list, and to add `110`{:class="blockmotion"} to the `x`{:class="blockmotion"} coordinate to move the sprite to the position of the second flag.
 
 --- hints ---
 --- hint ---
 `Repeat`{:class="blockcontrol"} six times:
 `Switch costume`{:class="blocklooks"} to the `last item in chosen flags`{:class="blockdata"}.
 `Clone the sprite`{:class="blockcontrol"}.
-`Delete`{:class="blockdata"} the last item in chosen flags.
+`Delete`{:class="blockdata"} the `last item in chosen flags`{:class="blockdata"}.
 `Move right 110`{:class="blockmotion"}.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need to add:
+Here are the code blocks you need to add:
 
 ```blocks
 (item (last v) of [chosen flags v])
@@ -82,7 +84,7 @@ end
 --- /task ---
 
 --- task ---
-Add your `clone flags`{:class="blockmoreblocks"} block to the end of the code that happens when the green flag is clicked.
+Add your `clone flags`{:class="blockmoreblocks"} block to the end of the code that runs when the green flag is clicked.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -99,20 +101,20 @@ end
 --- /task ---
 
 --- task ---
-Run your code by pressing the green flag. You will notice that the different flags do appear, but they go off the end of the stage.
+Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
 
 ![Flags go off the screen](images/flags-off-the-screen.png)
 
 --- /task ---
 
-Let's make two rows of three flags.
+Instead of putting all six flags in one row, make two rows of three flags.
 
 --- task ---
-Add some code inside the loop to move down a row if there are three flags left in the `chosen flags`{:class="blockdata"} list.
+Add some code inside the `repeat`{:class="blockcontrol"} loop of the `clone flags`{:class="blockmoreblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="blockdata"} list.
 
 ![Flag sprite](images/flag-sprite.png)
 
-You can move down a row by using another `go to`{:class="blockmotion"} block and keeping the `x`{:class="blockmotion"} coordinate the same as the starting point, but decreasing the `y`{:class="blockmotion"} coordinate to move downwards.
+You can the sprite move down a row by using another `go to`{:class="blockmotion"} block and keeping the `x`{:class="blockmotion"} coordinate the same as the starting point, but decreasing the `y`{:class="blockmotion"} coordinate to move downwards.
 
 ```blocks
 define [clone flags]
@@ -131,16 +133,16 @@ end
 --- /task ---
 
 --- task ---
-Press the green flag and check that the flags display in two rows.
+Click the green flag and check that the flags display in two rows.
 --- /task ---
 
-It looks like the last flag is displaying twice. In actual fact what is happening is that the original flag sprite is still visible at the end.
+It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
 
 --- task ---
-Add a `hide`{:class="blocklooks"}  block at the end of your custom block's code to hide the original sprite.
+Add a `hide`{:class="blocklooks"} block at the end of the code inside the `clone flags`{:class="blockmoreblocks"} block to hide the original sprite.
 
 ![Flag sprite](images/flag-sprite.png)
 
 --- /task ---
 
-If you want to, you could try making the flag sprites appear one by one or making each flag make a sound (a pop, for example) when it appears?
+If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
