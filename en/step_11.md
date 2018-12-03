@@ -1,8 +1,8 @@
 ## Challenge: improve the game
 
-+ Add a fixed number of rounds and then tell the player their percentage of correct answers.
++ Add a fixed number of rounds and then tell the player the percentage of rounds in which they gave the correct answer.
 
-+ Store the player's high score.
++ Store the high score.
 
 [[[generic-scratch-high-score]]]
 
@@ -10,6 +10,6 @@
 
 + Add more flags to make the game more challenging.
 
-+ If the player clicks on an incorrect flag, remove that flag and allow them another chance to click on a different flag instead of starting a next round.
++ If the player clicks on an incorrect flag, have the game remove that flag and give the player another chance to answer correctly before the next round begins.
 
-+ Make the game into a two-player game where players take turns to guess, and their scores are recorded separately.
++ Make the game into a two-player quiz where players take turns to guess, and their scores are recorded separately.
