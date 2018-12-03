@@ -12,7 +12,7 @@ set [score v] to [0]
 --- /task ---
 
 --- task ---
-Add `1`{:class="blockdata"} to the score every time the player gets a correct answer.
+Add `1`{:class="blockdata"} to the score every time the player gives a correct answer.
 
 ![Flag sprite](images/flag-sprite.png)
 
