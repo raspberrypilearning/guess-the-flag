@@ -72,7 +72,7 @@ end
 --- /task ---
 
 --- task ---
-Press the green flag and test your code twice, once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
 
 ![Click on the flag](images/click-on-flag.png)
 --- /task ---
