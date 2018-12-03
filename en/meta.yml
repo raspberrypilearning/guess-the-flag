@@ -1,6 +1,6 @@
 title: Guess the flag
 hero_image: images/banner.png
-description: How good is your flag knowledge? Create a flag quiz game—click the right flag to score points
+description: Create a flag quiz game to yourself and your friends!
 listed: true
 copyedit: true
 version: 4.1.0
@@ -16,6 +16,6 @@ steps:
 - title: Check the answer
 - title: Add a score
 - title: Start a new round
-- title: "Challenge: Improve the game"
+- title: "Challenge: improve the game"
   challenge: true
 - title: What next?
