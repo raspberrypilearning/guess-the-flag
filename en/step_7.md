@@ -3,7 +3,7 @@
 Let's ask the player to name the flag for a particular country.
 
 --- task ---
-In the flag sprite, `broadcast the message`{:class="blockevents"} "announce country" immediately after the block which clones the flags.
+In the flag sprite, `broadcast the message`{:class="blockevents"} 'announce country' immediately after the block that clones the flags.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -24,24 +24,24 @@ clone flags :: custom
 --- /task ---
 
 --- task ---
-Add a new sprite of your choice to be your quiz master. We chose the bear for our example.
+Add a new sprite of your choice to be your quiz master. The quiz master in the example is a bear!
 
 ![Bear sprite](images/bear-sprite.png)
 
 --- /task ---
 
 --- task ---
-Add some code to the character sprite so that, when it receives the broadcast "Announce country", the character will tell the player to click on the country name from the variable `correct answer`{:class="blockdata"}.
+Add some code to the quiz master sprite so that, when the sprite receives the `announce country`{:class="blockevents"} broadcast, it tells the player to click on the country name that is stored in the variable `correct answer`{:class="blockdata"}.
 
 ![Character sprite](images/char-sprite.png)
 
 --- hints ---
 --- hint ---
-`When I receive`{:class="blockevents"} the broadcast, `say`{:class="blocklooks"} 'Click on the `correct answer`{:class="blockdata"}'.
+`When I receive`{:class="blockevents"} the broadcast, `say`{:class="blocklooks"} 'click on `correct answer`{:class="blockdata"}'.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
 ```blocks
 (join [click on] [])
