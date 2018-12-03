@@ -1,34 +1,35 @@
 ## Check the answer
 
-Your sprite asks the player to click on the flag they think is correct. Now we need to check whether the flag they clicked was the right answer.
+Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
 
 --- task ---
-Go back to the flag sprite code, and add a block to start a new section of code which will happen `when this sprite is clicked`{:class="blockevents"}.
+Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="blockevents"}.
 
 ![Flag sprite](images/flag-sprite.png)
 --- /task ---
 
-We need to check whether the costume of the sprite that has been clicked has the same name as the correct answer.
+Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
 
 --- task ---
-Add code to say 'Correct' if the costume name of this sprite is the same as the `correct answer`{:class="blockdata"} variable, or to say 'Sorry, that was wrong' if it is not.
+Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="blockdata"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
 
-You can use this useful block here as well. This time, combine it with a `costume #`{:class="blocklooks"} block to get the name of the current costume.
+You can use this useful block here as well.
 
 ```blocks
 (item (10 v) of [flags v])
 ```
 
-![Flag sprite](images/flag-sprite.png)
+This time, combine it with a `costume #`{:class="blocklooks"} block to get the name of the current Flag sprite costume.
 
+![Flag sprite](images/flag-sprite.png)
 
 --- hints ---
 --- hint ---
-`When this sprite is clicked`{:class="blockevents"}, `recreate the flags list`{:class="blockmoreblocks"}. `If`{:class="blockcontrol"} the `item in the Flags list`{:class="blockdata"} with this `costume #`{:class="blocklooks"} equals the `correct answer`{:class="blockdata"}, `say`{:class="blocklooks"} 'Correct', or `else`{:class="blockcontrol"} `say`{:class="blocklooks"} 'Sorry, that was wrong'.
+`When this sprite is clicked`{:class="blockevents"}, `create the flags list`{:class="blockmoreblocks"}. `If`{:class="blockcontrol"} the `item in the flags list`{:class="blockdata"} with this `costume #`{:class="blocklooks"} equals the `correct answer`{:class="blockdata"}, `say`{:class="blocklooks"} 'Correct', or `else`{:class="blockcontrol"} `say`{:class="blocklooks"} 'Sorry, that was wrong'.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
 ```blocks
 say [Sorry, that was wrong] for (2) secs
@@ -71,7 +72,7 @@ end
 --- /task ---
 
 --- task ---
-Press the green flag and test your code by getting the answer deliberately right and wrong. Check that the right message appears depending on whether you were right or wrong.
+Press the green flag and test your code twice, once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
 
 ![Click on the flag](images/click-on-flag.png)
 --- /task ---
