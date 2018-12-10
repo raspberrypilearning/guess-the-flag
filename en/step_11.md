@@ -4,7 +4,7 @@
 
 + Store the high score.
 
-[[[generic-scratch-high-score]]]
+[[[generic-scratch3-high-score]]]
 
 + Add a timer for each round to force the player to give their answer quickly.
 

@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
@@ -31,10 +37,10 @@ title: What you will need
 ---
 ---
 ### Hardware
-+ A computer capable of running Scratch 2.0
++ A computer capable of running Scratch 3
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 + [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
