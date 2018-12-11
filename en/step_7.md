@@ -24,9 +24,9 @@ clone flags :: custom
 --- /task ---
 
 --- task ---
-Add a new sprite of your choice to be your quiz master. The quiz master in the example is a bear!
+Add a new sprite of your choice to be your quiz master. The quiz master in the example is the sprite called Abby.
 
-![Bear sprite](images/bear-sprite.png)
+![Abby sprite](images/bear-sprite.png)
 
 --- /task ---
 
