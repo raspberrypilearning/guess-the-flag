@@ -34,14 +34,14 @@ Below that code, add a loop that repeats six times.
 
 ![Flag sprite](images/flag-sprite.png)
 
-Inside the loop, add code blocks to switch the sprite's costume to the last flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the last flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
+Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
 
 --- hints ---
 --- hint ---
 `Repeat`{:class="block3control"} six times:
-`Switch costume`{:class="block3looks"} to the `last item in chosen flags`{:class="block3variables"}.
+`Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}.
 `Clone the sprite`{:class="block3control"}.
-`Delete`{:class="block3variables"} the `last item in chosen flags`{:class="block3variables"}.
+`Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}.
 `Move right 110`{:class="block3motion"}.
 --- /hint ---
 
@@ -49,7 +49,7 @@ Inside the loop, add code blocks to switch the sprite's costume to the last flag
 Here are the code blocks you need to add:
 
 ```blocks3
-(item (last v) of [chosen flags v])
+(item (1) of [chosen flags v])
 
 change x by (110)
 
@@ -57,7 +57,7 @@ create clone of [myself v]
 
 switch costume to [ v]
 
-delete (last v) of [chosen flags v]
+delete (1) of [chosen flags v]
 
 repeat (6)
 end
@@ -72,9 +72,9 @@ define [clone flags]
 show
 go to x: (-170) y: (120)
 + repeat (6)
-    + switch costume to (item (last v) of [chosen flags v])
+    + switch costume to (item (1) of [chosen flags v])
     + create clone of [myself v]
-    + delete (last v) of [chosen flags v]
+    + delete (1) of [chosen flags v]
     + change x by (110)
 end
 ```
@@ -121,13 +121,13 @@ define [clone flags]
 show
 go to x: (-170) y: (120)
 repeat (6)
-    switch costume to [(item (last v) of [chosen flags v])]
+    switch costume to [(1) of [chosen flags v])]
     create clone of [myself v]
-    delete (last v) of [chosen flags v]
+    delete (1) of [chosen flags v]
     change x by (110)
-    + if <(length of [chosen flags v]) = [3]> then
-        + go to x: (-170) y: (50)
-    + end
++ if <(length of [chosen flags v]) = [3]> then
++ go to x: (-170) y: (50)
++ end
 end
 ```
 --- /task ---

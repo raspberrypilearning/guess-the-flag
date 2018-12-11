@@ -1,7 +1,7 @@
 ## Create a list of flags
 
 --- task ---
-Click on the Scripts tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
+Click on the Code tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
 --- /task ---
 
 --- task ---
@@ -39,7 +39,7 @@ add [Italy] to [flags v]
 Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
 
 --- task ---
-Click on **More Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
+Click on **My Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
 
 ![Flag sprite](images/flag-sprite.png)
 

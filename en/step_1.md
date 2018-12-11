@@ -53,7 +53,7 @@ title: What you will need
 title: Additional notes for educators
 ---
 --- no-print ---
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
 --- /no-print ---
 
 You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
