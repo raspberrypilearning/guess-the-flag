@@ -18,6 +18,6 @@ delete (all v) of [chosen flags v]
 repeat (6)
     choose random flag :: custom
 end
-+ set [correct answer v] to (pick random (1) to (length of [chosen flags v]))
++ set [correct answer v] to (item (pick random (1) to (length of [chosen flags v]) ) of [chosen flags v])
 ```
 --- /task ---

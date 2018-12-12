@@ -25,7 +25,7 @@ This time, combine it with a `costume #`{:class="block3looks"} block to get the 
 
 --- hints ---
 --- hint ---
-`When this sprite is clicked`{:class="block3events"}, `create the flags list`{:class="block3myblocks"}. `If`{:class="block3control"} the `item in the flags list`{:class="block3variables"} with this `costume #`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
+`When this sprite is clicked`{:class="block3events"},  `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
 --- /hint ---
 
 --- hint ---
@@ -36,15 +36,11 @@ say [Sorry, that was wrong] for (2) secs
 
 say [Correct] for (2) secs
 
-create flags list
-
 if <> then
 else
 end
 
-(item (10 v) of [flags v])
-
-(costume #)
+(costume [name v])
 
 <[] = []>
 
@@ -59,8 +55,7 @@ This is what your code should look like:
 
 ```blocks3
 when this sprite clicked
-create flags list
-if <(item (costume #) of [flags v]) = (correct answer)> then
+if <(costume [name v]) = (correct answer)> then
     say [Correct] for (2) secs
 else
     say [Sorry, that was wrong] for (2) secs
