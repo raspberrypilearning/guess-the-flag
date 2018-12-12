@@ -42,16 +42,15 @@ broadcast [start the round v]
 --- /task ---
 
 --- task ---
-After the code that checks whether the answer is correct, add another `when I receive 'Start the round'`{:class="block3events"} block so that a new round starts after an answer has been given.
+After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round starts after an answer has been given.
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 when this sprite clicked
-create flags list :: custom
-if <(item (costume #) of [flags v]) = (correct answer)> then
-    say [Correct] for (2) secs
+if <(costume [name v]) = (correct answer)> then
     change [score v] by [1]
+    say [Correct] for (2) secs
 else
     say [Sorry, that was wrong] for (2) secs
 end
@@ -111,5 +110,5 @@ Test your code again and check that you can play multiple rounds, and that your 
 --- /task ---
 
 --- task ---
-Make sure you right-click on and hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
+Make sure you hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
 --- /task ---

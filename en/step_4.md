@@ -65,14 +65,14 @@ This block selects an item from a list by number:
 (item (10 v) of [flags v])
 ```
 --- task ---
-Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then insert the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 define choose random flag
 set [flag number v] to (pick random (1) to (length of [flags v]))
-+ insert (item (flag number) of [flags v]) at ((length of [chosen flags v]) + (1)) of [chosen flags v]
++ add (item (flag number) of [flags v]) to [chosen flags v]
 ```
 
 --- /task ---

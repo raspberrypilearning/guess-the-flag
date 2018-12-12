@@ -7,7 +7,7 @@ Create a new variable called `score`{:class="block3variables"} and set the score
 
 ```blocks3
 when green flag clicked
-set [score v] to [0]
++ set [score v] to [0]
 ```
 --- /task ---
 
@@ -18,10 +18,9 @@ Add `1`{:class="block3variables"} to the score every time the player gives a cor
 
 ```blocks3
 when this sprite clicked
-create flag list :: custom
-if <(item (costume #) of [flags v]) = (correct answer)> then
+if <(costume [name v]) = (correct answer)> then
++ change [score v] by [1]
     say [Correct] for (2) secs
-    + change [score v] by [1]
 else
     say [Sorry, that was wrong] for (2) secs
 end
