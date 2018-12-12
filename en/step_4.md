@@ -131,7 +131,7 @@ Add a block to the end of your custom block code to delete the `flag number`{:cl
 ```blocks3
 define choose random flag
 set [flag number v] to (pick random (1) to (length of [flags v]))
-insert (item (flag number) of [flags v]) at (last v) of [chosen flags v]
+add (item (flag number) of [flags v]) to [chosen flags v]
 + delete (flag number) of [flags v]
 ```
 --- /task ---
