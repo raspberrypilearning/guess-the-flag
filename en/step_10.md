@@ -42,7 +42,7 @@ broadcast [start the round v]
 --- /task ---
 
 --- task ---
-After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round starts after an answer has been given.
+After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round can start once a question is answered.
 
 ![Flag sprite](images/flag-sprite.png)
 
