@@ -107,7 +107,7 @@ when green flag clicked
 create flag list :: custom
 + delete (all v) of [chosen flags v]
 + repeat (6)
-    choose random flag
+    choose random flag :: custom
 end
 ```
 --- /task ---
