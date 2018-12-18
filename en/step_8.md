@@ -55,7 +55,7 @@ This is what your code should look like:
 
 ```blocks3
 when this sprite clicked
-if <(costume [name v]) = (correct answer)> then
+if <(costume [name v]) = (correct answer :: variables)> then
     say [Correct] for (2) secs
 else
     say [Sorry, that was wrong] for (2) secs

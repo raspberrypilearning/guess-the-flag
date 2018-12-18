@@ -60,7 +60,7 @@ This is what your code should look like:
 
 ```blocks3
 when I receive [announce country v]
-say (join [click on] (correct answer)) for (2) secs
+say (join [click on] (correct answer :: variables)) for (2) secs
 ```
 --- /hint ---
 

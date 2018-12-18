@@ -53,9 +53,9 @@ Here are the code blocks you need to add:
 
 change x by (110)
 
-create clone of [myself v]
+create clone of (myself v)
 
-switch costume to [ v]
+switch costume to ( v)
 
 delete (1) of [chosen flags v]
 
@@ -72,10 +72,10 @@ define [clone flags]
 show
 go to x: (-170) y: (120)
 + repeat (6)
-+ switch costume to (item (1) of [chosen flags v])
-+ create clone of [myself v]
-+ delete (1) of [chosen flags v]
-+ change x by (110)
+    switch costume to (item (1) of [chosen flags v])
+    create clone of (myself v)
+    delete (1) of [chosen flags v]
+    change x by (110)
 end
 ```
 --- /hint ---
@@ -121,13 +121,13 @@ define [clone flags]
 show
 go to x: (-170) y: (120)
 repeat (6)
-    switch costume to [(1) of [chosen flags v])]
-    create clone of [myself v]
+    switch costume to (item (1) of [chosen flags v])
+    create clone of (myself v)
     delete (1) of [chosen flags v]
     change x by (110)
-+ if <(length of [chosen flags v]) = [3]> then
-+ go to x: (-170) y: (50)
-+ end
++   if <(length of [chosen flags v]) = [3]> then
+        go to x: (-170) y: (50)
+    end
 end
 ```
 --- /task ---

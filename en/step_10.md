@@ -8,7 +8,7 @@ Create a new `broadcast`{:class="block3events"} that sends the message 'Start th
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-broadcast [start the round v]
+broadcast (start the round v)
 ```
 
 --- /task ---
@@ -36,7 +36,7 @@ Remove the `set score to 0`{:class="block3variables"} block and place it back be
 ```blocks3
 when green flag clicked
 set [score v] to [0]
-broadcast [start the round v]
+broadcast (start the round v)
 ...
 ```
 --- /task ---
@@ -48,13 +48,13 @@ After the code that checks whether the answer is correct, add another `broadcast
 
 ```blocks3
 when this sprite clicked
-if <(costume [name v]) = (correct answer)> then
+if <(costume [name v]) = (correct answer :: variables)> then
     change [score v] by [1]
     say [Correct] for (2) secs
 else
     say [Sorry, that was wrong] for (2) secs
 end
-+ broadcast [start the round v]
++ broadcast (start the round v)
 ```
 
 --- /task ---
@@ -73,7 +73,7 @@ Create another new `broadcast`{:class="block3events"} called 'clean up'.
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-broadcast [clean up v]
+broadcast (clean up v)
 ```
 --- /task ---
 
@@ -94,14 +94,14 @@ Place the `clean up`{:class="block3events"} broadcast block just above where the
 ```blocks3
 when this sprite clicked
 create flags list  :: custom
-if <(item (costume #) of [flags v]) = (correct answer)> then
+if <(item (costume #) of [flags v]) = (correct answer :: variables)> then
     say [Correct] for (2) secs
     change [score v] by [1]
 else
     say [Sorry, that was wrong] for (2) secs
 end
-+ broadcast [clean up v]
-broadcast [start the round v]
++ broadcast (clean up v)
+broadcast (start the round v)
 ```
 --- /task ---
 

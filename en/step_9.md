@@ -18,7 +18,7 @@ Add `1`{:class="block3variables"} to the score every time the player gives a cor
 
 ```blocks3
 when this sprite clicked
-if <(costume [name v]) = (correct answer)> then
+if <(costume [name v]) = (correct answer :: variables)> then
 + change [score v] by [1]
     say [Correct] for (2) secs
 else
