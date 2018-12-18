@@ -107,7 +107,7 @@ when green flag clicked
 create flag list :: custom
 + delete (all v) of [chosen flags v]
 + repeat (6)
-    choose random flag
+    choose random flag :: custom
 end
 ```
 --- /task ---
@@ -136,4 +136,4 @@ add (item (flag number) of [flags v]) to [chosen flags v]
 ```
 --- /task ---
 
-If you want to, you can now untick the lists and variables to hide them, so that they don't take up space on the Stage. If you want to show them again, go to the Data section and select the boxes next to the list names or variable names.
+If you want to hide the lists and variables so that they don't take up space on the Stage, go to the Data section and unselect the boxes next to the list names or variable names. If you want to show the lists and variables again, just select the boxes.
