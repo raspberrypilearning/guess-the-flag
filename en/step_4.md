@@ -64,6 +64,7 @@ This block selects an item from a list by number:
 ```blocks3
 (item (10 v) of [flags v])
 ```
+
 --- task ---
 Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
 
