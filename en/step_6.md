@@ -8,7 +8,7 @@ Create another custom block, and call this one `clone flags`{:class="block3myblo
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-define [clone flags]
+define clone flags
 ```
 
 --- /task ---
@@ -23,7 +23,7 @@ As part of the instructions for your `clone flags`{:class="block3myblocks"} bloc
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-define [clone flags]
+define clone flags
 show
 go to x: (-170) y: (120)
 ```
@@ -68,7 +68,7 @@ end
 This is what your code should look like:
 
 ```blocks3
-define [clone flags]
+define clone flags
 show
 go to x: (-170) y: (120)
 + repeat (6)
@@ -117,7 +117,7 @@ Add some code inside the `repeat`{:class="block3control"} loop of the `clone fla
 You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
 
 ```blocks3
-define [clone flags]
+define clone flags
 show
 go to x: (-170) y: (120)
 repeat (6)
