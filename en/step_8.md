@@ -17,7 +17,7 @@ You can use this useful block here as well.
 
 ![blocks_1545309610_2910678](images/blocks_1545309610_2910678.png)
 
-This time, combine it with a `costume #`{:class="block3looks"} block to get the name of the current Flag sprite costume.
+This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
 
 ![Flag sprite](images/flag-sprite.png)
 
