@@ -5,10 +5,7 @@ Create a new variable called `score`{:class="block3variables"} and set the score
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks3
-when green flag clicked
-+ set [score v] to [0]
-```
+![blocks_1545309613_737295](images/blocks_1545309613_737295.png)
 --- /task ---
 
 --- task ---
@@ -16,14 +13,6 @@ Add `1`{:class="block3variables"} to the score every time the player gives a cor
 
 ![Flag sprite](images/flag-sprite.png)
 
-```blocks3
-when this sprite clicked
-if <(costume [name v]) = (correct answer :: variables)> then
-+ change [score v] by [1]
-    say [Correct] for (2) seconds
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
-```
+![blocks_1545309614_8033738](images/blocks_1545309614_8033738.png)
 
 --- /task ---
