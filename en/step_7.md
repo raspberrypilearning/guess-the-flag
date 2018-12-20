@@ -48,7 +48,7 @@ Here are the code blocks you need:
 
 (correct answer)
 
-say [] for (2) secs
+say [] for (2) seconds
 
 when I receive [announce country v]
 ```
@@ -60,7 +60,7 @@ This is what your code should look like:
 
 ```blocks3
 when I receive [announce country v]
-say (join [click on] (correct answer :: variables)) for (2) secs
+say (join [click on] (correct answer :: variables)) for (2) seconds
 ```
 --- /hint ---
 

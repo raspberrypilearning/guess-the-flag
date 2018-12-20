@@ -32,9 +32,9 @@ This time, combine it with a `costume #`{:class="block3looks"} block to get the 
 Here are the code blocks you need:
 
 ```blocks3
-say [Sorry, that was wrong] for (2) secs
+say [Sorry, that was wrong] for (2) seconds
 
-say [Correct] for (2) secs
+say [Correct] for (2) seconds
 
 if <> then
 else
@@ -56,9 +56,9 @@ This is what your code should look like:
 ```blocks3
 when this sprite clicked
 if <(costume [name v]) = (correct answer :: variables)> then
-    say [Correct] for (2) secs
+    say [Correct] for (2) seconds
 else
-    say [Sorry, that was wrong] for (2) secs
+    say [Sorry, that was wrong] for (2) seconds
 end
 ```
 --- /hint ---

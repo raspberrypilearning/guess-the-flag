@@ -50,9 +50,9 @@ After the code that checks whether the answer is correct, add another `broadcast
 when this sprite clicked
 if <(costume [name v]) = (correct answer :: variables)> then
     change [score v] by [1]
-    say [Correct] for (2) secs
+    say [Correct] for (2) seconds
 else
-    say [Sorry, that was wrong] for (2) secs
+    say [Sorry, that was wrong] for (2) seconds
 end
 + broadcast (start the round v)
 ```
@@ -95,10 +95,10 @@ Place the `clean up`{:class="block3events"} broadcast block just above where the
 when this sprite clicked
 create flags list  :: custom
 if <(item (costume #) of [flags v]) = (correct answer :: variables)> then
-    say [Correct] for (2) secs
+    say [Correct] for (2) seconds
     change [score v] by [1]
 else
-    say [Sorry, that was wrong] for (2) secs
+    say [Sorry, that was wrong] for (2) seconds
 end
 + broadcast (clean up v)
 broadcast (start the round v)
