@@ -14,7 +14,7 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/255467433/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/255467433/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 --- /no-print ---
 
