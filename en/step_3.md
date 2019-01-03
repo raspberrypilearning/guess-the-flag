@@ -9,7 +9,7 @@ Add two more code blocks, one each for the other two flags you created, so there
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309585_5156457](images/blocks_1545309585_5156457.png)
+![blocks_1546524073_3298354](images/blocks_1546524073_3298354.png)
 --- /task ---
 
 --- task ---
@@ -23,7 +23,7 @@ At the start of the code, add a block to `delete all`{:class="block3variables"} 
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309586_628184](images/blocks_1545309586_628184.png)
+![blocks_1546524074_9996305](images/blocks_1546524074_9996305.png)
 
 --- /task ---
 
@@ -40,7 +40,7 @@ Click on **My Blocks** and then on **Make a Block**. Call your custom block `cre
 --- task ---
 Drag all the code away from below the `when flag clicked`{:class="block3events"} block to below the new `create flag list`{:class="block3myblocks"} block.
 
-![blocks_1545309587_737248](images/blocks_1545309587_737248.png)
+![blocks_1546524076_6437836](images/blocks_1546524076_6437836.png)
 
 --- /task ---
 
@@ -49,6 +49,6 @@ Below the `when flag clicked`{:class="block3events"} block, add the new `create 
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309588_903488](images/blocks_1545309588_903488.png)
+![blocks_1546524078_3069649](images/blocks_1546524078_3069649.png)
 
 --- /task ---  
