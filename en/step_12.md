@@ -1,15 +1,3 @@
-## Challenge: improve the game
+# What next?
 
-+ Add a fixed number of rounds and then tell the player their percentage of correct answers.
-
-+ Store the player's high score.
-
-[[[generic-scratch-high-score]]]
-
-+ Add a timer for each round to force the player to give their answer quickly.
-
-+ Add more flags to make the game more challenging.
-
-+ If the player clicks on an incorrect flag, remove that flag and allow them another chance to click on a different flag instead of starting a next round.
-
-+ Make the game into a two-player game where players take turns to guess, and their scores are recorded separately.
+Try the [Line-up](https://projects.raspberrypi.org/en/projects/lineup) project, where you will make a game of hide-and-seek and learn how to stamp sprites and use coordinates to position them in rows.

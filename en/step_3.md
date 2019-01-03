@@ -1,50 +1,54 @@
-## Draw the flags
+## Create a list of flags
 
-+ Open the starter project.
+--- task ---
+Click on the Code tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
+--- /task ---
 
---- collapse ---
----
-title: I'm using Scratch online
----
+--- task ---
+Add two more code blocks, one each for the other two flags you created, so there is a total of ten blocks that add all ten countries to the `flags`{:class="block3variables"} list.
 
-+ Open the 'Guess the flag' Scratch starter project at [jumpto.cc/flags-go](http://jumpto.cc/flags-go){:target="_blank"}.
+![Flag sprite](images/flag-sprite.png)
 
-+ If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account
+![blocks_1545309585_5156457](images/blocks_1545309585_5156457.png)
+--- /task ---
 
+--- task ---
+Click the green flag and check that the countries appear in the list.
+--- /task ---
 
---- /collapse ---
+If you press the green flag more than once, the countries get added to the list again, and the result is a list of 20 countries instead of 10.
 
---- collapse ---
----
-title: I'm using Scratch offline
----
+--- task ---
+At the start of the code, add a block to `delete all`{:class="block3variables"} of the countries in the list before adding them. This will stop the countries from being added to the list more than once.
 
-Download the Scratch starter project at [rpf.io/flag-off](http://rpf.io/flag-off){:target="_blank"} and open it using the offline editor.
+![Flag sprite](images/flag-sprite.png)
 
---- /collapse ---
+![blocks_1545309586_628184](images/blocks_1545309586_628184.png)
 
-+ Click on the flag sprite and then click on the Costumes tab. You will see a blank flag template. Create nine duplicate costumes of the blank flag template, so you have ten flags in total.
+--- /task ---
 
-[[[generic-scratch-duplicate-costumes]]]
+Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
 
-Now we will draw the flags. 
+--- task ---
+Click on **My Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
 
-+ Pick a countries flag from [flags of the world](https://www.countries-ofthe-world.com/flags-of-the-world.html)
+![Flag sprite](images/flag-sprite.png)
 
-+ Click on the first costume and add the name of a country as the costume's name.
+![Add a block](images/add-block.png)
+--- /task ---
 
-+ Use the **vector drawing tools** by clicking **Convert to vector** to draw that country's flag. Make sure your drawing is exactly the same size as the flag template.
+--- task ---
+Drag all the code away from below the `when flag clicked`{:class="block3events"} block to below the new `create flag list`{:class="block3myblocks"} block.
 
-[[[generic-scratch-vector-mode]]]
+![blocks_1545309587_737248](images/blocks_1545309587_737248.png)
 
-For example, you can draw the flag for Italy by drawing three equally sized rectangles using the rectangle tool. Position them using the selection tool.
+--- /task ---
 
-![Vector drawing](images/vector-drawing.png)
+--- task ---
+Below the `when flag clicked`{:class="block3events"} block, add the new `create flag list`{:class="block3myblocks"} block.
 
-You could easily create a similar flag by duplicating this costume and then changing the colours. For example, to draw the flag for Belgium, duplicate the costume designed to look like the the Italian flag, and use the fill bucket tool to fill each rectangle with a different colour.
+![Flag sprite](images/flag-sprite.png)
 
-+ Draw another nine flags so that you have exactly ten different flag costumes in total. Make sure that the name of each costume is the name of the flag's country.
+![blocks_1545309588_903488](images/blocks_1545309588_903488.png)
 
-Here are the costumes we chose, but you can choose any flags you like for your game.
-
-![All flag costumes](images/all-costumes.png)
+--- /task ---  

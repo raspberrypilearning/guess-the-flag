@@ -1,29 +1,15 @@
-## Start a new round
+## Challenge: improve the game
 
-At the moment we only have one round to play, so the game doesn't last long. Let's set up multiple rounds.
++ Add a fixed number of rounds and then tell the player the percentage of rounds in which they gave the correct answer.
 
-+ Create a new broadcast called 'Start the round'.
++ Store the high score.
 
-+ Move all of the code which previously ran after the green flag was clicked, so that it runs `when I receive 'Start the round'`.
+[[[generic-scratch3-high-score]]]
 
-+ Remove the `Set score to 0` block and place it back with the `When green flag clicked` block, followed by the new broadcast block you just created.
++ Add a timer for each round to force the player to give their answer quickly.
 
-![Change to broadcast](images/change-to-broadcast.png)
++ Add more flags to make the game more challenging.
 
-+ After the code where you check the answer, add another copy of the broadcast block to start a new round after an answer has been given.
++ If the player clicks on an incorrect flag, have the game remove that flag and give the player another chance to answer correctly before the next round begins.
 
-+ Press the green flag to test your code. Click on a flag to play a round. You will notice that the next round does not get set up properly.
-
-![Next round does not work](images/next-round-does-not-work.png)
-
-This is because we need to clear up the cloned flags we created before beginning another round.
-
-+ Create another new broadcast called 'Clean up'.
-
-+ Set the flag sprite to `Delete this clone` when it receives the 'Clean up' broadcast.
-
-+ Place the block that broadcasts 'Clean up' just before you begin a new round after an answer has been given.
-
-![Add cleanup](images/add-cleanup.png)
-
-+ Test your code again and check that you can play multiple rounds successfully, and that your score continues to increase as you get answers correct.
++ Make the game into a two-player quiz where players take turns to guess, and their scores are recorded separately.

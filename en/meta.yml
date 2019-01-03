@@ -1,22 +1,12 @@
 title: Guess the flag
 hero_image: images/banner.png
-description: How good is your flag knowledge? Create a flag quiz game—click the right flag to score points
-theme: navy # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 2
+description: Create a flag quiz game to yourself and your friends!
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4.0.1
-last_tested: 2018-02-01
-steps: 
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
 - title: Introduction
-- title: What you will need
 - title: Draw the flags
 - title: Create a list of flags
 - title: Choose random flags
@@ -26,4 +16,6 @@ steps:
 - title: Check the answer
 - title: Add a score
 - title: Start a new round
-- title: "Challenge: Improve the game"
+- title: "Challenge: improve the game"
+  challenge: true
+- title: What next?

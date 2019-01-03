@@ -1,32 +1,48 @@
-## Ask the question
+## Check the answer
 
-+ In the `Flag sprite`, broadcast the message "Announce country" immediately after the block which clones the flags.
+Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
 
-[[[generic-scratch-broadcast-message]]]
+--- task ---
+Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="block3events"}.
 
-+ Add a new sprite of your choice to be your quiz master. We chose the bear for our example.
+![Flag sprite](images/flag-sprite.png)
+--- /task ---
 
-![Bear sprite](images/bear-sprite.png)
+Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
 
-[[[generic-scratch-sprite-from-library]]]
+--- task ---
+Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="block3variables"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
 
-+ Add some code to the bear sprite so that, when it receives the broadcast "Announce country", the bear will tell the player to click on the country name from the variable `Correct answer`.
+You can use this useful block here as well.
+
+![blocks_1545309610_2910678](images/blocks_1545309610_2910678.png)
+
+This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
+
+![Flag sprite](images/flag-sprite.png)
 
 --- hints ---
 --- hint ---
-`When I receive` the broadcast, `say` 'Click on `the correct answer`'.
+`When this sprite is clicked`{:class="block3events"},  `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
-![Broadcast response hint](images/broadcast-hint.png)
+![blocks_1545309611_3981442](images/blocks_1545309611_3981442.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![Broadcast response solution](images/broadcast-solution.png)
+![blocks_1545309612_591378](images/blocks_1545309612_591378.png)
 --- /hint ---
 
 --- /hints ---
+--- /task ---
+
+--- task ---
+Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+
+![Click on the flag](images/click-on-flag.png)
+--- /task ---

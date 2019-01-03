@@ -1,17 +1,98 @@
-## Choose a correct answer
+## Show the flags
 
-Now that we have a list containing six chosen flags, let's choose which of them will be the correct answer this time.
+The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
 
-+ Create a new variable called `Correct answer`.
+--- task ---
+Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
 
-+ After you have chosen the six flags, set the `Correct answer` variable to be a random item from the `Chosen flags` list.
+![Flag sprite](images/flag-sprite.png)
 
-Add your code like this:
+![blocks_1545309600_2068892](images/blocks_1545309600_2068892.png)
 
-![Add correct answer code](images/add-correct-answer.png)
+--- /task ---
 
-You can use the same block we used before:
+This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
 
-![Pick item from list](images/item-from-list.png)
+The first flag should be displayed in the top left-hand corner of the Stage.
 
-However, you will need to change the drop-down menu to choose a random item instead of a specific item number.
+--- task ---
+As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+
+![Flag sprite](images/flag-sprite.png)
+
+![blocks_1545309601_3324852](images/blocks_1545309601_3324852.png)
+--- /task ---
+
+--- task ---
+Below that code, add a loop that repeats six times.
+
+![Flag sprite](images/flag-sprite.png)
+
+Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
+
+--- hints ---
+--- hint ---
+`Repeat`{:class="block3control"} six times:
+`Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}.
+`Clone the sprite`{:class="block3control"}.
+`Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}.
+`Move right 110`{:class="block3motion"}.
+--- /hint ---
+
+--- hint ---
+Here are the code blocks you need to add:
+
+![blocks_1545309602_4240088](images/blocks_1545309602_4240088.png)
+--- /hint ---
+
+--- hint ---
+This is what your code should look like:
+
+![blocks_1545309603_5543106](images/blocks_1545309603_5543106.png)
+--- /hint ---
+
+--- /hints ---
+--- /task ---
+
+--- task ---
+Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
+
+![blocks_1545309604_6753275](images/blocks_1545309604_6753275.png)
+
+--- /task ---
+
+--- task ---
+Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+
+![Flags go off the screen](images/flags-off-the-screen.png)
+
+--- /task ---
+
+Instead of putting all six flags in one row, make two rows of three flags.
+
+--- task ---
+Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
+
+![Flag sprite](images/flag-sprite.png)
+
+You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
+
+![blocks_1545309605_7922578](images/blocks_1545309605_7922578.png)
+--- /task ---
+
+--- task ---
+Click the green flag and check that the flags display in two rows.
+--- /task ---
+
+It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+
+--- task ---
+Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+
+![Flag sprite](images/flag-sprite.png)
+
+--- /task ---
+
+If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
