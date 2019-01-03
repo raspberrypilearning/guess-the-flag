@@ -24,7 +24,7 @@ Add code to the custom block to set the `flag number`{:class="block3variables"} 
 
 ![Flag sprite](images/flag-sprite.png)
 
-There is a special block in the Data tab for finding the number of items in a list.
+There is a special block in the Variables tab for finding the number of items in a list.
 
 --- hints ---
 --- hint ---
