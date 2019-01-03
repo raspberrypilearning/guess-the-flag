@@ -7,7 +7,7 @@ In the flag sprite, `broadcast the message`{:class="block3events"} 'announce cou
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309606_9731438](images/blocks_1545309606_9731438.png)
+![blocks_1546524104_7202997](images/blocks_1546524104_7202997.png)
 
 [[[generic-scratch3-broadcast-message]]]
 --- /task ---
@@ -32,14 +32,14 @@ Add some code to the quiz master sprite so that, when the sprite receives the `a
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1545309608_0999072](images/blocks_1545309608_0999072.png)
+![blocks_1546524106_515229](images/blocks_1546524106_515229.png)
 
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545309609_201245](images/blocks_1545309609_201245.png)
+![blocks_1546524108_179448](images/blocks_1546524108_179448.png)
 --- /hint ---
 
 --- /hints ---

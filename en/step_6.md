@@ -7,7 +7,7 @@ Create another custom block, and call this one `clone flags`{:class="block3myblo
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309600_2068892](images/blocks_1545309600_2068892.png)
+![blocks_1546524094_7362244](images/blocks_1546524094_7362244.png)
 
 --- /task ---
 
@@ -20,7 +20,7 @@ As part of the instructions for your `clone flags`{:class="block3myblocks"} bloc
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309601_3324852](images/blocks_1545309601_3324852.png)
+![blocks_1546524096_3817308](images/blocks_1546524096_3817308.png)
 --- /task ---
 
 --- task ---
@@ -42,13 +42,13 @@ Inside the loop, add code blocks to switch the sprite's costume to the first fla
 --- hint ---
 Here are the code blocks you need to add:
 
-![blocks_1545309602_4240088](images/blocks_1545309602_4240088.png)
+![blocks_1546524098_009578](images/blocks_1546524098_009578.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545309603_5543106](images/blocks_1545309603_5543106.png)
+![blocks_1546524099_6584723](images/blocks_1546524099_6584723.png)
 --- /hint ---
 
 --- /hints ---
@@ -59,7 +59,7 @@ Add your `clone flags`{:class="block3myblocks"} block to the end of the code tha
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309604_6753275](images/blocks_1545309604_6753275.png)
+![blocks_1546524101_3510625](images/blocks_1546524101_3510625.png)
 
 --- /task ---
 
@@ -79,7 +79,7 @@ Add some code inside the `repeat`{:class="block3control"} loop of the `clone fla
 
 You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
 
-![blocks_1545309605_7922578](images/blocks_1545309605_7922578.png)
+![blocks_1546524102_989493](images/blocks_1546524102_989493.png)
 --- /task ---
 
 --- task ---

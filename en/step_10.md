@@ -7,7 +7,7 @@ Create a new `broadcast`{:class="block3events"} that sends the message 'Start th
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309576_647001](images/blocks_1545309576_647001.png)
+![blocks_1546524061_0283618](images/blocks_1546524061_0283618.png)
 
 --- /task ---
 
@@ -17,7 +17,7 @@ Add a `when I receive 'Start the round'`{:class="block3events"} block, and then 
 ![Flag sprite](images/flag-sprite.png)
 
 
-![blocks_1545309578_7069197](images/blocks_1545309578_7069197.png)
+![blocks_1546524063_4551575](images/blocks_1546524063_4551575.png)
 
 --- /task ---
 
@@ -26,7 +26,7 @@ Remove the `set score to 0`{:class="block3variables"} block and place it back be
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309579_8125746](images/blocks_1545309579_8125746.png)
+![blocks_1546524065_1662304](images/blocks_1546524065_1662304.png)
 --- /task ---
 
 --- task ---
@@ -34,7 +34,7 @@ After the code that checks whether the answer is correct, add another `broadcast
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309580_9705806](images/blocks_1545309580_9705806.png)
+![blocks_1546524066_7904296](images/blocks_1546524066_7904296.png)
 
 --- /task ---
 
@@ -51,7 +51,7 @@ Create another new `broadcast`{:class="block3events"} called 'clean up'.
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309582_1282685](images/blocks_1545309582_1282685.png)
+![blocks_1546524068_4504082](images/blocks_1546524068_4504082.png)
 --- /task ---
 
 --- task ---
@@ -59,13 +59,13 @@ Set the Flag sprite to `delete this clone`{:class="block3control"} when it recei
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1545309583_2602882](images/blocks_1545309583_2602882.png)
+![blocks_1546524070_0570204](images/blocks_1546524070_0570204.png)
 --- /task ---
 
 --- task ---
 Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
 
-![blocks_1545309584_33774](images/blocks_1545309584_33774.png)
+![blocks_1546524071_6497169](images/blocks_1546524071_6497169.png)
 --- /task ---
 
 --- task ---
