@@ -7,7 +7,9 @@ Create a new `broadcast`{:class="block3events"} that sends the message 'Start th
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524061_0283618](images/blocks_1546524061_0283618.png)
+```blocks3
+broadcast (start the round v)
+```
 
 --- /task ---
 
@@ -17,7 +19,18 @@ Add a `when I receive 'Start the round'`{:class="block3events"} block, and then 
 ![Flag sprite](images/flag-sprite.png)
 
 
-![blocks_1546524063_4551575](images/blocks_1546524063_4551575.png)
+```blocks3
++ when I receive [start the round v]
+set [score v] to [0]
+create flag list :: custom
+delete (all v) of [chosen flags v]
+repeat (6)
+    choose random flag :: custom
+end
+set [correct answer v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
+clone flags :: custom
++ broadcast (announce country v)
+```
 
 --- /task ---
 
@@ -26,7 +39,11 @@ Remove the `set score to 0`{:class="block3variables"} block and place it back be
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524065_1662304](images/blocks_1546524065_1662304.png)
+```blocks3
+when green flag clicked
+set [score v] to [0]
+broadcast (start the round v)
+```
 --- /task ---
 
 --- task ---
@@ -34,7 +51,16 @@ After the code that checks whether the answer is correct, add another `broadcast
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524066_7904296](images/blocks_1546524066_7904296.png)
+```blocks3
+when this sprite clicked
+if <(costume [name v]) = (correct answer :: variables)> then
+    change [score v] by [1]
+    say [Correct] for (2) seconds
+else
+    say [Sorry, that was wrong] for (2) seconds
+end
++ broadcast (start the round v)
+```
 
 --- /task ---
 
@@ -51,7 +77,9 @@ Create another new `broadcast`{:class="block3events"} called 'clean up'.
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524068_4504082](images/blocks_1546524068_4504082.png)
+```blocks3
+broadcast (clean up v)
+```
 --- /task ---
 
 --- task ---
@@ -59,13 +87,27 @@ Set the Flag sprite to `delete this clone`{:class="block3control"} when it recei
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524070_0570204](images/blocks_1546524070_0570204.png)
+```blocks3
+when I receive [clean up v]
+delete this clone
+```
 --- /task ---
 
 --- task ---
 Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
 
-![blocks_1546524071_6497169](images/blocks_1546524071_6497169.png)
+```blocks3
+when this sprite clicked
+create flags list  :: custom
+if <(item (costume [number v]) of [flags v]) = (correct answer :: variables)> then
+    say [Correct] for (2) seconds
+    change [score v] by [1]
+else
+    say [Sorry, that was wrong] for (2) seconds
+end
++ broadcast (clean up v)
+broadcast (start the round v)
+```
 --- /task ---
 
 --- task ---
