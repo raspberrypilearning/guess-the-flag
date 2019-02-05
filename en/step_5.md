@@ -11,5 +11,13 @@ After the six flags are chosen, set the `correct answer`{:class="block3variables
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524093_0414267](images/blocks_1546524093_0414267.png)
+```blocks3
+when green flag clicked
+create flag list :: custom
+delete (all v) of [chosen flags v]
+repeat (6)
+    choose random flag :: custom
+end
++ set [correct answer v] to (item (pick random (1) to (length of [chosen flags v]) ) of [chosen flags v])
+```
 --- /task ---

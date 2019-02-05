@@ -7,7 +7,18 @@ In the flag sprite, `broadcast the message`{:class="block3events"} 'announce cou
 
 ![Flag sprite](images/flag-sprite.png)
 
-![blocks_1546524104_7202997](images/blocks_1546524104_7202997.png)
+```blocks3
+when green flag clicked
+create flag list :: custom
+delete (all v) of [chosen flags v]
+repeat (6)
+    choose random flag :: custom
+end
+set [correct answer v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
+clone flags :: custom
++ broadcast (announce country v)
+
+```
 
 [[[generic-scratch3-broadcast-message]]]
 --- /task ---
@@ -32,14 +43,25 @@ Add some code to the quiz master sprite so that, when the sprite receives the `a
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1546524106_515229](images/blocks_1546524106_515229.png)
+```blocks3
+(join [click on] [])
+
+(correct answer)
+
+say [] for (2) seconds
+
+when I receive [announce country v]
+```
 
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1546524108_179448](images/blocks_1546524108_179448.png)
+```blocks3
+when I receive [announce country v]
+say (join [click on] (correct answer :: variables)) for (2) seconds
+```
 --- /hint ---
 
 --- /hints ---

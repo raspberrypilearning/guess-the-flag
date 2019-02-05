@@ -15,7 +15,9 @@ Add code to say 'Correct' if the costume name of the Flag sprite is the same as 
 
 You can use this useful block here as well.
 
-![blocks_1546524109_8015227](images/blocks_1546524109_8015227.png)
+```blocks3
+(item (10 v) of [flags v])
+```
 
 This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
 
@@ -29,13 +31,36 @@ This time, combine it with a `costume name`{:class="block3looks"} block to get t
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1546524111_3834147](images/blocks_1546524111_3834147.png)
+```blocks3
+say [Sorry, that was wrong] for (2) seconds
+
+say [Correct] for (2) seconds
+
+if <> then
+else
+end
+
+(costume [name v])
+
+<[] = []>
+
+(correct answer)
+
+when this sprite clicked
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1546524113_047151](images/blocks_1546524113_047151.png)
+```blocks3
+when this sprite clicked
+if <(costume [name v]) = (correct answer :: variables)> then
+    say [Correct] for (2) seconds
+else
+    say [Sorry, that was wrong] for (2) seconds
+end
+```
 --- /hint ---
 
 --- /hints ---
