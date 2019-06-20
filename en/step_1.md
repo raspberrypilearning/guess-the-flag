@@ -58,6 +58,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
-You can [download the solution for this project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
 --- /collapse ---
