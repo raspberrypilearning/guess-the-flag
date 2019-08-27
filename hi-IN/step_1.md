@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
+यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2) भी है।
 
 \--- /no-print \---
 
-## Introduction
+## परिचय
 
-In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
+इस संसाधन में, आप अपने और अपने दोस्तों के परीक्षण के लिए एक झंडा प्रश्नोत्तरी बनाएँगे। प्रश्नोत्तरी में, छह झंडे और एक देश का नाम प्रदर्शित किया जाता है, और आपको देश से मेल खाने वाले सही झंडे पर क्लिक करना होता है।
 
-### What you will make
+### आप क्या बनाएँगे
 
-\--- no-print \--- Click on the flag of the country for which you are being asked.
+\--- no-print \--- उस देश के झंडे पर क्लिक करें जिसके लिए आपसे पूछा जा रहा है।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,28 +22,28 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: आप क्या सीखेंगे
 
-+ How to broadcast a message and have other sprites respond
-+ How to select random items from a list
++ किसी संदेश को कैसे प्रसारित किया जाए कि दूसरे स्प्राइट जवाब दे सकें
++ किसी सूची से यादृच्छिक आइटमों का चयन कैसे करें
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: आपको किन चीज़ों की आवश्यकता होगी
 
 * * *
 
-### Hardware
+### हार्डवेयर
 
-+ A computer capable of running Scratch 3
++ Scratch 3 चलाने में सक्षम कंप्यूटर
 
-### Software
+### सॉफ्टवेयर
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
 + [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
 
@@ -51,12 +51,12 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print). \--- /no-print \---
+\--- no-print \--- यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/guess-the-flag/print) का उपयोग करें। \--- /no-print \---
 
-You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
+आप [इस प्रोजेक्ट के लिए संसाधन यहाँ डाउनलोड कर सकते हैं](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}।
 
-You can [download the solution for this project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
 \--- /collapse \---
