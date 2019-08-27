@@ -57,6 +57,6 @@
 
 Μπορείτε να κατεβάσετε [πόρους για αυτό το έργο εδώ](http://rpf.io/p/en/guess-the-flag-go){: target = "_ blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
 \--- /collapse \---
