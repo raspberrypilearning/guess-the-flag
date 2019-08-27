@@ -1,10 +1,10 @@
-## Ask the question
+## प्रश्न पूछें
 
-Let's ask the player to name the flag for a particular country.
+आइए हम खिलाड़ी से किसी देश विशेष के झंडे का नाम बताने के लिए कहें।
 
-\--- task \--- In the flag sprite, `broadcast the message`{:class="block3events"} 'announce country' immediately after the block that clones the flags.
+\--- task \--- झंडा स्प्राइट में, `broadcast the message`{:class="block3events"} झंडे को क्लोन करने वाले ब्लॉक के तुरंत बाद 'देश की घोषणा करें'।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -21,19 +21,19 @@ clone flags :: custom
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-\--- task \--- Add a new sprite of your choice to be your quiz master. The quiz master in the example is the sprite called Abby.
+\--- task \--- अपना प्रश्नोत्तरी मास्टर स्वयं बनने के लिए अपनी पसंद का एक नया स्प्राइट जोड़ें। इस उदाहरण में प्रश्नोत्तरी मास्टर एब्बी नामक स्प्राइट है।
 
-![Abby sprite](images/bear-sprite.png)
+![एब्बी स्प्राइट](images/bear-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Add some code to the quiz master sprite so that, when the sprite receives the `announce country`{:class="block3events"} broadcast, it tells the player to click on the country name that is stored in the variable `correct answer`{:class="block3variables"}.
+\--- task \--- प्रश्नोत्तरी मास्टर स्प्राइट के लिए कोई कोड जोड़ें ताकि, जब स्प्राइट को `announce country`{:class="block3events" प्रसारण प्राप्त होता है, तो यह खिलाड़ी को बताता है कि उस देश के नाम पर क्लिक करें जो वेरिएबल `correct answer`{:class="block3variables"} में संगृहीत है।
 
-![Character sprite](images/char-sprite.png)
+![पात्र स्प्राइट](images/char-sprite.png)
 
 \--- hints \--- \--- hint \--- `When I receive`{:class="block3events"} the broadcast, `say`{:class="block3looks"} 'click on `correct answer`{:class="block3variables"}'. \--- /hint \---
 
-\--- hint \--- Here are the code blocks you need:
+\--- hint \--- ये वे ब्लॉक हैं जिनकी आपको आवश्यकता है:
 
 ```blocks3
 (join [click on] [])
@@ -47,7 +47,7 @@ when I receive [announce country v]
 
 \--- /hint \---
 
-\--- hint \--- This is what your code should look like:
+\--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
 
 ```blocks3
 when I receive [announce country v]
