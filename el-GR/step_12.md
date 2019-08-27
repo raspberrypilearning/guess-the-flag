@@ -1,6 +1,6 @@
 ## Και τώρα;
 
-Try the [Line-up](https://projects.raspberrypi.org/en/projects/lineup?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will make a game of hide-and-seek and learn how to stamp sprites and use coordinates to position them in rows.
+Δοκίμασε το έργο [Παράταξη](https://projects.raspberrypi.org/en/projects/lineup?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), όπου θα δημιουργήσεις ένα παιχνίδι τύπου "ψάξε και βρες" και θα μάθεις πώς να σφραγίζεις χαρακτήρες και να χρησιμοποιείς συντεταγμένες για να τους τοποθετείς σε παράταξη.
 
 \--- no-print \--- Click on the green flag and, once the curtain is up, try and find the sprite before your time runs out.
 
@@ -12,4 +12,4 @@ Try the [Line-up](https://projects.raspberrypi.org/en/projects/lineup?utm_source
 
 \--- print-only \--- You have to find the right sprite amongst all these characters before your time runs out.
 
-![showcase](images/lineup-showcase.png) \--- /print-only \---
+![βιτρίνα](images/lineup-showcase.png) \--- /print-only \---
