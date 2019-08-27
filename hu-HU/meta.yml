@@ -1,0 +1,34 @@
+---
+title: Guess the flag
+hero_image: images / banner.png
+description: Create a flag quiz game to yourself and your friends!
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - 
+    title: Bevezetés
+  - 
+    title: Draw the flags
+  - 
+    title: Create a list of flags
+  - 
+    title: Choose random flags
+  - 
+    title: Choose a correct answer
+  - 
+    title: Show the flags
+  - 
+    title: Ask the question
+  - 
+    title: Check the answer
+  - 
+    title: Add a score
+  - 
+    title: Start a new round
+  - 
+    title: "Challenge: improve the game"
+    challenge: true
+  - 
+    title: What next?
