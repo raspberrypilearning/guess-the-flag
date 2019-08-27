@@ -1,28 +1,28 @@
-## Check the answer
+## उत्तर की जाँच करें
 
-Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
+आपका स्प्राइट अब खिलाड़ी को सही झंडे पर क्लिक करने के लिए कहता है। फिर गेम को यह जाँचने की ज़रूरत होती है कि जिस झंडे को क्लिक किया गया वह सही उत्तर है या नहीं।
 
-\--- task \--- Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="block3events"}.
+\--- task \--- झंडा स्प्राइट कोड पर वापस जाएँ, और कोड का एक नया खंड शुरू करने के लिए एक ब्लॉक जोड़ें जो `when this sprite is clicked`{:class="block3events"} होने पर चलेगा।
 
-![Flag sprite](images/flag-sprite.png) \--- /task \---
+![झंडा स्प्राइट](images/flag-sprite.png) \--- /task \---
 
-Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
+फिर आपकी प्रश्नोत्तरी को यह जाँच करने की ज़रूरत है कि जिस झंडा स्प्राइट को क्लिक किया गया उसके परिधान का नाम सही उत्तर के समान है या नहीं।
 
-\--- task \--- Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="block3variables"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
+\--- task \--- यदि झंडा स्प्राइट के परिधान का नाम `correct answer`{:class="block3variables"} वेरिएबल के समान है तो 'सही' कहने के लिए, या यदि नाम और वेरिएबल समान नहीं हैं तो 'क्षमा करें, यह गलत था' कहने के लिए कोड जोड़ें।
 
-You can use this useful block here as well.
+आप इस उपयोगी ब्लॉक का उपयोग यहाँ भी कर सकते हैं।
 
 ```blocks3
 (item (10 v) of [flags v])
 ```
 
-This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
+इस बार, वर्तमान झंडा स्प्राइट परिधान का नाम प्राप्त करने के लिए इसे `costume name`{:class="block3looks"} ब्लॉक के साथ जोड़ें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
-\--- hints \--- \--- hint \--- `When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'. \--- /hint \---
+\--- hints \--- \--- hint \--- `When this sprite is clicked`{:class="block3events"} का उपयोग करने पर, `if`{:class="block3control"} यदि यह `costume name`{:class="block3looks"} (परिधान नाम) `correct answer`{:class="block3variables"} (सही उत्तर) के समान हो, तो `say`{:class="block3looks"} 'Correct' (सही) कहना चाहिए, या `else`{:class="block3control"} (अन्यथा) `say`{:class="block3looks"} 'Sorry, that was wrong' (क्षमा करें, यह गलत था) कहना चाहिए। \--- /hint \---
 
-\--- hint \--- Here are the code blocks you need:
+\--- hint \--- ये वे ब्लॉक हैं जिनकी आपको आवश्यकता है:
 
 ```blocks3
 say [Sorry, that was wrong] for (2) seconds
@@ -44,7 +44,7 @@ when this sprite clicked
 
 \--- /hint \---
 
-\--- hint \--- This is what your code should look like:
+\--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
 
 ```blocks3
 when this sprite clicked
@@ -59,6 +59,6 @@ end
 
 \--- /hints \--- \--- /task \---
 
-\--- task \--- Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+\--- task \--- हरे झंडे को दबाएँ और अपने कोड का दो बार परीक्षण करें: एक बार सही झंडा चुनकर, और एक बार गलत झंडा चुनकर। यह जाँच करें कि इस आधार पर सही संदेश दिखाई देता है कि आप सही उत्तर देते हैं या गलत।
 
-![Click on the flag](images/click-on-flag.png) \--- /task \---
+![झंडे पर क्लिक करें](images/click-on-flag.png) \--- /task \---
