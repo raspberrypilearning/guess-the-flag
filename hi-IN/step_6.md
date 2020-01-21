@@ -2,9 +2,11 @@
 
 प्रश्नोत्तरी में भाग लेने वाले व्यक्ति को `chosen flags`{:class="block3variables"} सूची में झंडों के चित्रों को देखने की जरूरत होती है।
 
-\--- task \--- एक और कस्टम ब्लॉक बनाएँ, और उसका नाम `clone flags`{:class="block3myblocks"} रखें।
+\--- task \---
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 define clone flags
@@ -12,13 +14,15 @@ define clone flags
 
 \--- /task \---
 
-यह कस्टम ब्लॉक झंडा स्प्राइट को छह बार क्लोन करेगा, प्रदर्शित किए जाने वाले हर झंडे के लिए एक बार।
+This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
 
-पहला झंडा स्टेज के ऊपरी बाएँ कोने में प्रदर्शित होना चाहिए।
+The first flag should be displayed in the top left-hand corner of the Stage.
 
-\--- task \--- आपके `clone flags`{:class="block3myblocks"} ब्लॉक के लिए निर्देशों के एक हिस्से के रूप में, झंडा स्प्राइट को दृश्यमान बनाएँ और स्प्राइट को यह बताने के लिए `go to`{:class="block3motion"} ब्लॉक जोड़ें कि स्टेज के ऊपरी बाएँ कोने में निर्देशांक `-170`{:class="block3motion"}, `120`{:class="block3motion"} पर दिखाएँ।
+\--- task \---
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 define clone flags
@@ -28,15 +32,23 @@ go to x: (-170) y: (120)
 
 \--- /task \---
 
-\--- task \--- उस कोड के नीचे, एक लूप जोड़ें जो छह बार दोहराता है।
+\--- task \---
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+Below that code, add a loop that repeats six times.
 
-लूप के अंदर, स्प्राइट के परिधान को `chosen flags`{:class="block3variables"} सूची में पहले झंडे में बदलने के लिए, और स्प्राइट को क्लोन करने के लिए कोड ब्लॉक जोड़ें। फिर, सूची में से पहले झंडे को हटाने के लिए, और स्प्राइट को दूसरे झंडे की स्थिति में ले जाने के लिए `x`{:class="block3motion"} निर्देशांक में `110`{:class="block3motion"} जोड़ने के लिए कोड ब्लॉक जोड़ें।
+![Flag sprite](images/flag-sprite.png)
 
-\--- hints \--- \--- hint \--- `Repeat`{:class="block3control"} का छह बार उपयोग करें: `Switch costume`{:class="block3looks"} का `first item in chosen flags`{:class="block3variables"} में। `Clone the sprite`{:class="block3control"}। `first item in chosen flags`{:class="block3variables"} के लिए `Delete`{:class="block3variables"} का उपयोग करें। `Move right 110`{:class="block3motion"}. \--- /hint \---
+Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
 
-\--- hint \--- ये वे ब्लॉक हैं जिनकी आपको आवश्यकता है:
+\--- hints \--- \--- hint \---
+
+`Repeat`{:class="block3control"} six times: `Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}. `Clone the sprite`{:class="block3control"}. `Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}. `Move right 110`{:class="block3motion"}.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the code blocks you need to add:
 
 ```blocks3
 (item (1) of [chosen flags v])
@@ -55,7 +67,9 @@ end
 
 \--- /hint \---
 
-\--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
+\--- hint \---
+
+This is what your code should look like:
 
 ```blocks3
 define clone flags
@@ -73,9 +87,11 @@ end
 
 \--- /hints \--- \--- /task \---
 
-\--- task \--- अपने `clone flags`{:class="block3myblocks"} ब्लॉक को उस कोड के अंत में जोड़ें जो हरे झंडे को क्लिक करने के बाद चलता है।
+\--- task \---
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -89,19 +105,23 @@ end
 
 \--- /task \---
 
-\--- task \--- अपना कोड चलाएँ। ध्यान दें कि अलग-अलग झंडे दिखाई देते हैं, लेकिन कुछ स्टेज के किनारे से कटे हुए हैं।
+\--- task \---
 
-![झंडे स्क्रीन से बाहर चले जाते हैं](images/flags-off-the-screen.png)
+Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+
+![Flags go off the screen](images/flags-off-the-screen.png)
 
 \--- /task \---
 
-पूरे छह झंडे एक पंक्ति में लगाने के बजाय, तीन-तीन झंडों की दो पंक्तियाँ बनाएँ।
+Instead of putting all six flags in one row, make two rows of three flags.
 
-\--- task \--- यदि `chosen flags`{:class="block3variables"} सूची में तीन झंडे बच जाते है तो झंडा स्प्राइट को एक पंक्ति नीचे ले जाने के लिए `clone flags`{:class="block3myblocks"} ब्लॉक के `repeat`{:class="block3control"} लूप के भीतर कोई कोड जोड़ें।
+\--- task \---
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
 
-आप एक अन्य `go to`{:class="block3motion"} ब्लॉक का उपयोग करके और `x`{:class="block3motion"} निर्देशांक को स्टार्टिंग प्वाइंट के समान रखकर स्प्राइट को एक पंक्ति नीचे ले जा सकते हैं, लेकिन इसे नीचे की ओर ले जाने के लिए `y`{:class="block3motion"} निर्देशांक को कम करना होगा।
+![Flag sprite](images/flag-sprite.png)
+
+You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
 
 ```blocks3
 define clone flags
@@ -120,14 +140,20 @@ end
 
 \--- /task \---
 
-\--- task \--- हरे झंडे पर क्लिक करें और जाँच करें कि झंडे दो पंक्तियों में दिखाई देते हैं। \--- /task \---
+\--- task \---
 
-ऐसा लगता है कि अंतिम झंडा दो बार प्रदर्शित किया गया है। ऐसा इसलिए है क्योंकि मूल झंडा स्प्राइट अभी भी अंत में दिखाई दे रहा है।
-
-\--- task \--- मूल स्प्राइट को छिपाने के लिए `clone flags`{:class="block3myblocks"} ब्लॉक के भीतर कोड के अंत में एक `hide`{:class="block3looks"} ब्लॉक जोड़ें।
-
-![झंडा स्प्राइट](images/flag-sprite.png)
+Click the green flag and check that the flags display in two rows.
 
 \--- /task \---
 
-यदि आप चाहते हैं, तो आप कोशिश कर सकते हैं कि झंडा स्प्राइट एक-एक करके दिखाई दे या हर बार जब झंडा दिखाई दे तो कोई ध्वनि (उदाहरण के लिए, पॉप) बजाई जाए।
+It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+
+\--- task \---
+
+Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+
+![Flag sprite](images/flag-sprite.png)
+
+\--- /task \---
+
+If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
