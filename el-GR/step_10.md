@@ -2,9 +2,11 @@
 
 Προς το παρόν υπάρχει μόνο ένας γύρος στο κουίζ, έτσι το κουίζ δεν διαρκεί πολύ. Πρόκειται να δημιουργήσεις πολλαπλούς γύρους.
 
-\--- task \--- Δημιουργία νέας `εκπομπής`{:class="block3events"} που στέλνει το μήνυμα 'Έναρξη γύρου'.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Create a new `broadcast`{:class="block3events"} that sends the message 'Start the round'.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 μετάδωσε (έναρξη γύρου v)
@@ -12,9 +14,11 @@
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε ένα μπλοκ `όταν λαμβάνω "Έναρξη γύρου"`{:class="block3events"} και στη συνέχεια μετακίνησε όλο τον κώδικα από κάτω από το μπλοκ `όταν γίνει κλικ στην πράσινη σημαία`{:class="block3events"} κάτω από αυτό το νέο μπλοκ.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Add a `when I receive 'Start the round'`{:class="block3events"} block, and then move all of the code from below the `when green flag clicked`{:class="block3events"} block to below this new block.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 + όταν λάβω [έναρξη γύρου v]
@@ -31,7 +35,9 @@ clone flags :: custom
 
 \--- /task \---
 
-\--- task \--- Αφαίρεσε το μπλοκ `όρισε τη βαθμολογία σε 0`{:class="block3variables"} και τοποθέτησέ την πίσω κάτω από το μπλοκ `όταν γίνει κλικ στην πράσινη σημαία`{:class="block3control"}. Στη συνέχεια, πρόσθεσε το νέο μπλοκ `εκπομπής`{:class="block3events"} κάτω και από τα δύο.
+\--- task \---
+
+Remove the `set score to 0`{:class="block3variables"} block and place it back below the `when green flag clicked`{:class="block3control"} block. Then add the new `broadcast`{:class="block3events"} block below both of them.
 
 ![Αντικείμενο σημαίας](images/flag-sprite.png)
 
@@ -43,9 +49,11 @@ clone flags :: custom
 
 \--- /task \---
 
-\--- task \--- Μετά τον κώδικα που ελέγχει αν η απάντηση είναι σωστή, πρόσθεσε άλλο ένα μπλοκ `εκπομπής`{:class="block3events"}, έτσι ώστε ένας νέος γύρος να ξεκινήσει μόλις απαντηθεί η ερώτηση.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round can start once a question is answered.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -60,15 +68,21 @@ end
 
 \--- /task \---
 
-\--- task \--- Κάνε κλικ στην πράσινη σημαία για να ελέγξεις τον κώδικα σου. Κάνε κλικ σε μία από τις σημαίες για να παίξεις ένα γύρο. Παρατηρείς ότι ο επόμενος γύρος δεν έχει ρυθμιστεί σωστά;
+\--- task \---
 
-![Ο επόμενος γύρος δεν λειτουργεί](images/next-round-does-not-work.png) \--- /task \---
+Click the green flag to test your code. Click on one of the flags to play a round. Do you notice that the next round does not get set up properly?
 
-Αυτό συμβαίνει επειδή πριν ξεκινήσει ένας νέος γύρος, το παιχνίδι πρέπει πρώτα να καθαρίσει τις κλωνοποιημένες σημαίες.
+![Next round does not work](images/next-round-does-not-work.png)
 
-\--- task \--- Δημιούργησε μια νέα `εκπομπή`{:class="block3events"} με το όνομα 'καθάρισμα'.
+\--- /task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+This is because before the game starts another round, the game needs to first clear up the cloned flags.
+
+\--- task \---
+
+Create another new `broadcast`{:class="block3events"} called 'clean up'.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 μετάδωσε (εκκαθάριση v)
@@ -76,9 +90,11 @@ end
 
 \--- /task \---
 
-\--- task \--- Όρισε το αντικείμενο σημαίας να `διαγράψει αυτό το κλώνο`{: class = "block3control"} όταν λαμβάνει την εκπομπή `καθάρισμα`{:class="block3events"}.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Set the Flag sprite to `delete this clone`{:class="block3control"} when it receives the `clean up`{:class="block3events"} broadcast.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 όταν λάβω [εκκαθάριση v]
@@ -87,7 +103,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Τοποθέτησε το μπλοκ εκπομπής `καθάρισμα`{:class="block3events"} ακριβώς πάνω από το σημείο που το παιχνίδι ξεκινά ένα νέο γύρο αφού έχει δοθεί μια απάντηση.
+\--- task \---
+
+Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -104,6 +122,14 @@ end
 
 \--- /task \---
 
-\--- task \--- Δοκίμασε ξανά τον κώδικά σου και έλεγξε ότι μπορείς να παίξεις πολλούς γύρους και ότι η βαθμολογία σου αυξάνεται καθώς δίνεις σωστές απαντήσεις. \--- /task \---
+\--- task \---
 
-\--- task \--- Βεβαιώσου ότι έχεις κρύψει τη μεταβλητή `σωστή απάντηση`{:class="block3variables"} έτσι ώστε ο παίκτης να μην μπορεί να τη δει! \--- /task \---
+Test your code again and check that you can play multiple rounds, and that your score increases as you get answers correct.
+
+\--- /task \---
+
+\--- task \---
+
+Make sure you hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
+
+\--- /task \---
