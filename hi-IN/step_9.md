@@ -1,8 +1,10 @@
 ## स्कोर जोड़ें
 
-\--- task \--- `score`{:class="block3variables"} नामक एक नया वेरिएबल बनाएँ और जब हरे झंडे को क्लिक किया जाए तो स्कोर को `0`{:class="block3variables"} पर सेट करें।
+\--- task \---
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+Create a new variable called `score`{:class="block3variables"} and set the score to `0`{:class="block3variables"} when the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -11,9 +13,11 @@ when green flag clicked
 
 \--- /task \---
 
-\--- task \--- हर बार जब खिलाड़ी सही उत्तर देता है तो स्कोर में `1`{:class="block3variables"} जोड़ें।
+\--- task \---
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+Add `1`{:class="block3variables"} to the score every time the player gives a correct answer.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 when this sprite clicked
