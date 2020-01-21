@@ -10,7 +10,9 @@
 
 ### Τι θα φτιάξεις
 
-\--- no-print \--- Κάνε κλικ στη σημαία της χώρας η οποία σου ζητείται.
+\--- no-print \---
+
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,7 +20,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![Finished game](images/finished-game.png) \--- /print-only \---
+\--- print-only \---
+
+![Finished game](images/finished-game.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -53,10 +59,14 @@
 
 ## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
-\--- no-print \--- Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/guess-the-flag/print). \--- /no-print \---
+\--- no-print \---
 
-Μπορείτε να κατεβάσετε [πόρους για αυτό το έργο εδώ](http://rpf.io/p/en/guess-the-flag-go){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
+\--- /no-print \---
+
+You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
+
+You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
 \--- /collapse \---
