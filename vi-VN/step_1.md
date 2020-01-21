@@ -10,15 +10,21 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ### Những gì bạn sẽ làm
 
-\--- no-print \--- Click on the flag of the country for which you are being asked.
+\--- no-print \---
+
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / không in \---
+\--- /no-print \---
 
-\--- chỉ in \--- ![Finished game](images/finished-game.png) \--- / chỉ in \---
+\--- print-only \---
+
+![Finished game](images/finished-game.png)
+
+\--- /print-only \---
 
 ## \--- sụp đổ \---
 
@@ -53,7 +59,11 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print). \--- / không in \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
+
+\--- /no-print \---
 
 You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
