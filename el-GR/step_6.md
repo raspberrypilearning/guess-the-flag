@@ -2,9 +2,11 @@
 
 Το άτομο που παίζει το κουίζ πρέπει να δει τις εικόνες των σημαιών στη λίστα `επιλεγμένων σημαιών`{:class="block3variables"}.
 
-\--- task \--- Δημιούργησε ένα προσαρμοσμένο μπλοκ και ονόμασέ το `κλωνοποίηση σημαίας`{:class="block3myblocks"}.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 ορισμός clone flags
@@ -12,13 +14,15 @@
 
 \--- /task \---
 
-Αυτό το προσαρμοσμένο μπλοκ θα κλωνοποιήσει έξι φορές το αντικείμενο σημαίας, μία φορά για κάθε σημαία που θα εμφανιστεί.
+This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
 
-Η πρώτη σημαία θα πρέπει να εμφανίζεται στην επάνω αριστερή γωνία του σκηνικού.
+The first flag should be displayed in the top left-hand corner of the Stage.
 
-\--- task \--- Ως μέρος των οδηγιών για το μπλοκ σου `κλωνοποίηση σημαίας`{:class="block3myblocks"}, κάνε το αντικείμενο σημαίας ορατό και πρόσθεσέ ένα μπλοκ `go to`{:class="block3motion"} για να πεις στο αντικείμενο να εμφανιστεί στις συντεταγμένες `-170`{:class="block3motion"}, `120`{:class="block3motion"} στην επάνω αριστερή γωνία του σκηνικού.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 ορισμός clone flags
@@ -28,15 +32,23 @@
 
 \--- /task \---
 
-\--- task \--- Κάτω από αυτόν τον κώδικα, πρόσθεσε ένα βρόχο που επαναλαμβάνεται έξι φορές.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Below that code, add a loop that repeats six times.
 
-Μέσα στο βρόχο, πρόσθεσε μπλοκ κώδικα για εναλλαγή ενδυμασίας του αντικειμένου στην πρώτη σημαία στη λίστα `επιλεγμένων σημαιών`{:class="block3variables"}, και να κλωνοποιήσει το αντικείμενο. Στη συνέχεια, πρόσθεσε μπλοκ κώδικα για να διαγράψεις την πρώτη σημαία από τη λίστα και για να προσθέσεις `110`{:class="block3motion"} στη συντεταγμένη `x`{:class="block3motion"} προκειμένου να μετακινήσεις το αντικείμενο στη θέση της δεύτερης σημαίας.
+![Flag sprite](images/flag-sprite.png)
 
-\--- hints \--- \--- hint \--- `Επανέλαβε`{:class="block3control"} έξι φορές: `Αλλαγή ενδυμασίας`{:class="block3looks"} στο `πρώτο αντικείμενο στις επιλεγμένες σημαίες`{:class="block3variables"}. `Κλωνοποιήσε το αντικείμενο`{:class="block3control"}. `Διάγραψε`{:class="block3variables"} τι `πρώτο στοιχείο στις επιλεγμένες σημαίες`{:class="block3variables"}. `Μετακίνησε δεξιά 110`{:class="block3motion"}. \--- /hint \---
+Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
 
-\--- hint \--- Εδώ είναι τα μπλοκ κωδικα που πρέπει να προσθέσεις:
+\--- hints \--- \--- hint \---
+
+`Repeat`{:class="block3control"} six times: `Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}. `Clone the sprite`{:class="block3control"}. `Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}. `Move right 110`{:class="block3motion"}.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the code blocks you need to add:
 
 ```blocks3
 (στοιχείο (1) λίστας [chosen flags v])
@@ -55,7 +67,9 @@ end
 
 \--- /hint \---
 
-\--- hint \--- Αυτός είναι ο κώδικας με τον οποίον θα πρέπει να μοιάζει ο δικός σου:
+\--- hint \---
+
+This is what your code should look like:
 
 ```blocks3
 ορισμός clone flags
@@ -73,9 +87,11 @@ end
 
 \--- /hints \--- \--- /task \---
 
-\--- task \--- Πρόσθεσε το μπλοκ σου `κλωνοποίηση σημαίας`{:class="block3myblocks"} στο τέλος του κώδικα που εκτελείται όταν γίνει κλικ στην πράσινη σημαία.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -89,19 +105,23 @@ end
 
 \--- /task \---
 
-\--- task \--- Εκτέλεσε τον κώδικά σου. Παρατήρησε ότι εμφανίζονται οι διαφορετικές σημαίες, αλλά μερικές κόβονται στην άκρη του σκηνικού.
+\--- task \---
 
-![Οι σημαίες βγαίνουν εκτός οθόνης](images/flags-off-the-screen.png)
+Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+
+![Flags go off the screen](images/flags-off-the-screen.png)
 
 \--- /task \---
 
-Αντί να τοποθετήσεις και τις έξι σημαίες σε μια σειρά, κάνε δύο σειρές από τρεις σημαίες.
+Instead of putting all six flags in one row, make two rows of three flags.
 
-\--- task \--- Πρόσθεσε κώδικα μέσα στο βρόχο `επανάληψης`{:class="block3control"} των `κλωνοποιημένων σημαιών`{:class="block3myblocks"} ώστε να κινηθεί το αντικείμενο σημαίας μια σειρά κάτω εάν έχουν απομείνει τρεις σημαίες στη λίστα `επιλεγμένες σημαιών`{:class="block3variables"}.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
 
-Μπορείς να μετακινήσεις το αντικείμενο μια σειρά κάτω, χρησιμοποιώντας ένα άλλο μπλοκ `go to`{:class="block3motion"} και διατηρώντας το `x`{:class="block3motion"} ίδιο με της πρώτης σημαίας, αλλά μειώνοντας το `y`{:class="block3motion"} ώστε να μετακινηθεί προς τα κάτω.
+![Flag sprite](images/flag-sprite.png)
+
+You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
 
 ```blocks3
 ορισμός clone flags
@@ -120,14 +140,20 @@ end
 
 \--- /task \---
 
-\--- task \--- Κάνε κλικ στην πράσινη σημαία και έλεγξε ότι οι σημαίες εμφανίζονται σε δύο σειρές. \--- /task \---
+\--- task \---
 
-Φαίνεται ότι η τελευταία σημαία εμφανίζεται δύο φορές. Αυτό οφείλεται στο γεγονός ότι το αρχικό αντικείμενο σημαίας εξακολουθεί να είναι ορατό στο τέλος.
-
-\--- task \--- Πρόσθεσε ένα μπλοκ `απόκρυψης`{:class="block3looks"} στο τέλος του κώδικα στο εσωτερικό του μπλοκ `κλωνοποιημένων σημαιών`{:class="block3myblocks"} για να αποκρύψει το αρχικό αντικείμενο.
-
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Click the green flag and check that the flags display in two rows.
 
 \--- /task \---
 
-Αν θέλεις, μπορείς να δοκιμάσεις να εμφανίζονται τα αντικείμενα σημαιών ένα προς ένα ή να ακούς έναν ήχο (ένα pop, για παράδειγμα) κάθε φορά που εμφανίζεται μια σημαία.
+It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+
+\--- task \---
+
+Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+
+![Flag sprite](images/flag-sprite.png)
+
+\--- /task \---
+
+If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
