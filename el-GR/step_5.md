@@ -2,11 +2,17 @@
 
 Τώρα που έχεις μια λίστα που περιέχει έξι επιλεγμένες σημαίες, επίλεξε ποια από αυτές θα είναι η σωστή απάντηση αυτή τη φορά.
 
-\--- task \--- Δημιούργησε μία νέα μεταβλητή με όνομα `σωστή απάντηση`{:class="block3variables"}. \--- /task \---
+\--- task \---
 
-\--- task \--- Αφού επιλεγούν οι έξι σημαίες, όρισε τη μεταβλητή `σωστή απάντηση`{:class="block3variables"} να είναι ένα τυχαίο στοιχείο από τη λίστα `επιλεγμένων σημαιών`{:class="block3variables"}.
+Create a new variable called `correct answer`{:class="block3variables"}.
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+After the six flags are chosen, set the `correct answer`{:class="block3variables"} variable to be a random item from the `chosen flags`{:class="block3variables"} list.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
