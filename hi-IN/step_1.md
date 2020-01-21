@@ -10,7 +10,9 @@
 
 ### आप क्या बनाएँगे
 
-\--- no-print \--- उस देश के झंडे पर क्लिक करें जिसके लिए आपसे पूछा जा रहा है।
+\--- no-print \---
+
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,7 +20,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![Finished game](images/finished-game.png) \--- /print-only \---
+\--- print-only \---
+
+![Finished game](images/finished-game.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -53,9 +59,13 @@
 
 ## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
-\--- no-print \--- यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/guess-the-flag/print) का उपयोग करें। \--- /no-print \---
+\--- no-print \---
 
-आप [इस प्रोजेक्ट के लिए संसाधन यहाँ डाउनलोड कर सकते हैं](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
+
+\--- /no-print \---
+
+You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
 You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
