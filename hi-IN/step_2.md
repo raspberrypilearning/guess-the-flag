@@ -1,31 +1,43 @@
 ## झंडे बनाएँ
 
-\--- task \--- 'झंडे का अनुमान लगाएँ' Scratch स्टार्टर प्रोजेक्ट खोलें।
+\--- task \---
 
-**ऑनलाइन:** [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें। यदि आपके पास Scratch खाता है, तो आप प्रोजेक्ट की प्रति सहेजने के लिए ऑनलाइन एडिटर के ऊपरी दाएँ कोने पर **Remix** को क्लिक कर सकते हैं।
+Open the 'Guess the flag' Scratch starter project.
 
-**ऑफ़लाइन:** ऑफ़लाइन संपादक में [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/guess-the-flag-go) खोलें।
+**Online:** open the starter project at [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner of the online editor to save a copy of the project.
 
-यदि आपको Scratch ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) पर पा सकते हैं {:target="_blank"}।
+**Offline:** open the [starter project](http://rpf.io/p/en/guess-the-flag-go) in the offline editor.
 
-\--- /task \---
-
-परिधान टैब का चयन करें। वहाँ आपको आठ झंडे दिखाई देने चाहिए।
-
-परिधानों की सूची के नीचे स्क्रॉल करें, जहाँ दो खाली परिधान हैं। ये परिधान वहाँ पर हैं इसलिए आप अपने स्वयं के झंडे जोड़ सकते हैं।
-
-\--- task \--- 'अपना झंडा 1' परिधान पर क्लिक करें, और उसका नाम बदलकर उसे किसी देश का नाम दें।
-
-![परिधान का नाम बदलें](images/rename-costume.png) \--- /task \---
-
-\--- task \--- उस देश का झंडा बनाएँ। सुनिश्चित करें कि आपके चित्र का आकार झंडे के परिधान के आकार जितना ही है।
-
-यदि आपको कोई विचार नहीं सूझ रहे हैं, तो आप [इस 'Flags of the world (दुनिया के झंडे)' वेब पेज](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"} पर कुछ झंडे ढूँढ सकते हैं।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-\--- task \--- इस प्रक्रिया को दूसरे खाली झंडे के परिधान के लिए दोहराएँ ताकि कुल मिलाकर झंडे के दस परिधान हों। \--- /task \---
+Select the Costumes tab. You should see eight flags there.
 
-यहाँ वे झंडे हैं जो 'झंडे का अनुमान लगाओ' प्रोजेक्ट में उदाहरण के रूप में कार्य करते हैं, लेकिन आप अपने गेम के लिए अपनी पसंद के किसी भी झंडे को चुन सकते हैं।
+Scroll to the bottom of the list of costumes, where there are two blank costumes. These costumes are there so you can add your own flags.
 
-![सभी झंडों के परिधान](images/all-costumes.png)
+\--- task \---
+
+Click on the 'Your flag 1' costume, and change its name to the name of a country.
+
+![Rename costume](images/rename-costume.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw that country's flag. Make sure your drawing is exactly the same size as the flag costume.
+
+If you are stuck for ideas, you can find some flags on [this 'Flags of the world' web page](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
+
+\--- /task \---
+
+\--- task \---
+
+Repeat this process for the second blank flag costume so that there are ten flag costumes in total.
+
+\--- /task \---
+
+Here are the flags that act as examples in the 'Guess the flag' project, but you can choose any flags you like for your game.
+
+![All flag costumes](images/all-costumes.png)
