@@ -10,7 +10,9 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ### 学习成果
 
-\--- no-print \--- Click on the flag of the country for which you are being asked.
+\--- no-print \---
+
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,7 +20,11 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 \--- /no-print \---
 
-\--- print-only \--- ![Finished game](images/finished-game.png) \--- /print-only \---
+\--- print-only \---
+
+![Finished game](images/finished-game.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -53,7 +59,11 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ## title: 教师附加说明
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print). \--- /no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
+
+\--- /no-print \---
 
 You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
