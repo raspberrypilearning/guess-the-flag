@@ -75,7 +75,9 @@ This block selects an item from a list by number:
 (item (10 v) of [flags v])
 ```
 
-\--- task \--- Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+\--- task \---
+
+Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -85,7 +87,7 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 + add (item (flag number) of [flags v]) to [chosen flags v]
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -105,7 +107,7 @@ create flag list :: custom
 
 Test that your code works by clicking the green flag several times and checking that different countries are added to the `chosen flags`{:class="block3variables"} list every time. (If you have hidden the list, tick the box next to the list name to make the list visible.)
 
-\--- /görev \---
+\--- /task \---
 
 Can you see that, if you click the green flag lots of times, your `chosen flags`{:class="block3variables"} list quickly fills up with more than six items?
 
