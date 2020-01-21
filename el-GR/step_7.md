@@ -2,9 +2,11 @@
 
 Ας ζητήσουμε από τον παίκτη να επιλέξει τη σημαία μιας συγκεκριμένης χώρας.
 
-\--- task \--- Στο αντικείμενο σημαίας, `μετάδωσε το μήνυμα`{:class="block3events"} 'αναγγελία χώρας' αμέσως μετά το μπλοκ που κλωνοποιεί τις σημαίες.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+In the flag sprite, `broadcast the message`{:class="block3events"} 'announce country' immediately after the block that clones the flags.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -19,21 +21,33 @@ clone flags :: custom
 
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
-
-\--- task \--- Πρόσθεσε ένα νέο χαρακτήρα της επιλογής σου για να είναι αυτός που θα κάνει τις ερωτήσεις. Αυτός ο χαρακτήρας στο παράδειγμα είναι ο χαρακτήρας που ονομάζεται Abby.
-
-![Χαρακτήρας Abby](images/bear-sprite.png)
+[[[generic-scratch3-broadcast-message]]]
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε κώδικα στο χαρακτήρα, έτσι ώστε, όταν ο χαρακτήρας λάβει την εκπομπή `αναγγελία χώρας`{:class="block3events"}, ενημερώνει τον παίκτη να κάνει κλικ στο όνομα της χώρας που είναι αποθηκευμένη στη μεταβλητή `σωστή απάντηση`{:class="block3variables"}.
+\--- task \---
 
-![Χαρακτήρας](images/char-sprite.png)
+Add a new sprite of your choice to be your quiz master. The quiz master in the example is the sprite called Abby.
 
-\--- hints \--- \--- hint \--- `Όταν λάβεις`{:class="block3events"} την εκπομπή, `πες`{:class="block3looks"} 'κανε κλικ στη`σωστή απάντηση`{:class="block3variables"}'. \--- /hint \---
+![Abby sprite](images/bear-sprite.png)
 
-\--- hint \--- Εδώ είναι τα μπλοκ κωδικα που χρειάζεσαι:
+\--- /task \---
+
+\--- task \---
+
+Add some code to the quiz master sprite so that, when the sprite receives the `announce country`{:class="block3events"} broadcast, it tells the player to click on the country name that is stored in the variable `correct answer`{:class="block3variables"}.
+
+![Character sprite](images/char-sprite.png)
+
+\--- hints \--- \--- hint \---
+
+`When I receive`{:class="block3events"} the broadcast, `say`{:class="block3looks"} 'click on `correct answer`{:class="block3variables"}'.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the code blocks you need:
 
 ```blocks3
 (ένωσε [click on] [])
@@ -47,7 +61,9 @@ clone flags :: custom
 
 \--- /hint \---
 
-\--- hint \--- Αυτός είναι ο κώδικας με τον οποίον θα πρέπει να μοιάζει ο δικός σου:
+\--- hint \---
+
+This is what your code should look like:
 
 ```blocks3
 when I receive [announce country v]
