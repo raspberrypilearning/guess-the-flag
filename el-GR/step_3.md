@@ -1,10 +1,16 @@
 ## Δημιούργησε μια λίστα με σημαίες
 
-\--- task \--- Κάνε κλικ στην καρτέλα κώδικα. Υπάρχει μια λίστα που ονομάζεται `σημαίες`{:class="block3variables"}, όπου αποθηκεύεις τα ονόματα των χωρών στις οποίες έχει το παιχνίδι σου ενδυμασίες σημαίας. \--- /task \---
+\--- task \---
 
-\--- task \--- Πρόσθεσε δύο ακόμη μπλοκ κώδικα, κάθε ένα για τις άλλες δύο σημαίες που δημιούργησες, έτσι ώστε τελικά να υπάρχουν δέκα μπλοκ που προσθέτουν και τις δέκα χώρες στη λίστα των `σημαίων`{: class = "block3variables"}.
+Click on the Code tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Add two more code blocks, one each for the other two flags you created, so there is a total of ten blocks that add all ten countries to the `flags`{:class="block3variables"} list.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 πρόσθεσε [Χώρα] στη λίστα [σημαίες v]
@@ -12,13 +18,19 @@
 
 \--- /task \---
 
-\--- task \--- Κάνε κλικ στην πράσινη σημαία και έλεγξε ότι οι χώρες εμφανίζονται στη λίστα. \--- /task \---
+\--- task \---
 
-Εάν πιέσεις την πράσινη σημαία περισσότερες από μία φορές, οι χώρες θα προστεθούν ξανά στη λίστα και το αποτέλεσμα θα είναι μια λίστα με 20 χώρες αντί για 10.
+Click the green flag and check that the countries appear in the list.
 
-\--- έργο \--- Στην αρχή του κώδικα, πρόσθεσε ένα μπλοκ για να `διαγράψεις όλες τις`{: class = «block3variables»} τις χώρες στη λίστα πριν από την προσθήκη τους. Αυτό θα σταματήσει την προσθήκη χωρών στη λίστα περισσότερες από μία φορές.
+\--- /task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+If you press the green flag more than once, the countries get added to the list again, and the result is a list of 20 countries instead of 10.
+
+\--- task \---
+
+At the start of the code, add a block to `delete all`{:class="block3variables"} of the countries in the list before adding them. This will stop the countries from being added to the list more than once.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -37,15 +49,21 @@
 
 \--- /task \---
 
-Στη συνέχεια, δημιούργησε ένα προσαρμοσμένο μπλοκ. Ένα προσαρμοσμένο μπλοκ είναι ένα ειδικό μπλοκ με ένα όνομα. Το προσαρμοσμένο μπλοκ που θα δημιουργήσεις θα σου επιτρέψει να δημιουργήσεις μια λίστα με σημαίες χρησιμοποιώντας μόνο αυτό το μπλοκ αντί για πολλά μπλοκ.
+Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
 
-\--- task \--- Κάνε κλικ στα **Μπλοκ μου** και έπειτα στο **Κάνε ένα μπλοκ**. Ονόμασε το προσαρμοσμένο σου μπλοκ `δημιουργία λίστα σημαίων`{:class="block3myblocks"}.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Click on **My Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
 
-![Πρόσθεσε ένα μπλοκ](images/add-block.png) \--- /task \---
+![Flag sprite](images/flag-sprite.png)
 
-\--- task \--- Σύρε ολόκληρο τον κώδικα από κάτω από το μπλοκ `όταν γίνει κλικ στη σημαία`{: class = "block3events"} κάτω από το νέο μπλοκ `δημιουργία λίστας σημαίων`{: class = "block3myblocks"}.
+![Add a block](images/add-block.png)
+
+\--- /task \---
+
+\--- task \---
+
+Drag all the code away from below the `when flag clicked`{:class="block3events"} block to below the new `create flag list`{:class="block3myblocks"} block.
 
 ```blocks3
 ορισμός create flag list
@@ -64,9 +82,11 @@
 
 \--- /task \---
 
-\--- task \--- Κάτω από το μπλοκ `όταν γίνει κλικ στη σημαία`{: class = "block3events"}, πρόσθεσε το νέο μπλοκ `δημιουργία λίστας σημαίων`{: class = "block3myblocks"}.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Below the `when flag clicked`{:class="block3events"} block, add the new `create flag list`{:class="block3myblocks"} block.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
