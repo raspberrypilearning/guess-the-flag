@@ -75,9 +75,11 @@ This block selects an item from a list by number:
 (στοιχείο (10 v) λίστας [flags v])
 ```
 
-\--- task \--- Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 ορισμός choose random flag
