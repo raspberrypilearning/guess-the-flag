@@ -2,27 +2,39 @@
 
 Ο χαρακτήρας σου ζητά τώρα από τον παίκτη να κάνει κλικ στη σωστή σημαία. Στη συνέχεια, το παιχνίδι πρέπει να ελέγξει αν η σημαία στην οποία έγινε κλικ είναι η σωστή απάντηση.
 
-\--- task \--- Επίστρεψε στον κώδικα του αντικείμενου σημαίας και πρόσθεσε ένα μπλοκ για να ξεκινήσεις μια νέα ενότητα κώδικα που θα τρέξει `όταν πατηθεί αυτό το αντικείμενο`{:class="block3events"}.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png) \--- /task \---
+Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="block3events"}.
 
-Στη συνέχεια, το κουίζ σου πρέπει να ελέγξει εάν το όνομα ενδυμασίας του αντικειμένου σημαίας στο οποίο έγινε κλικ έχει την ίδια τιμή με τη σωστή απάντηση.
+![Flag sprite](images/flag-sprite.png)
 
-\--- task \--- Πρόσθεσε κώδικα για να πει «σωστά» εάν το όνομα ενδυμασίας του αντικειμένου σημαίας είναι το ίδιο με τη μεταβλητή`σωστή απάντηση`{:class="block3variables"}, ή να πει «Συγγνώμη, αυτό ήταν λάθος" εάν το όνομα και η μεταβλητή δεν είναι τα ίδια.
+\--- /task \---
 
-Μπορείς επίσης να χρησιμοποιήσεις αυτό το χρήσιμο μπλοκ.
+Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
+
+\--- task \---
+
+Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="block3variables"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
+
+You can use this useful block here as well.
 
 ```blocks3
 (στοιχείο (10 v) λίστας [flags v])
 ```
 
-Αυτή τη φορά, συνδύασέ την με ένα μπλοκ `όνομα ενδυμασίας`{:class="block3looks"} για να πάρεις το όνομα της τρέχουσας ενδυμασίας του αντικειμένου σημαίας.
+This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+![Flag sprite](images/flag-sprite.png)
 
-\--- hints \--- \--- hint \--- `Όταν γίνει κλικ σε αυτόν τον χαρακτήρα`{:class="block3events"}, `αν`{:class="block3control"} αυτό το `όνομα ενδυμασίας`{:class="block3looks"} ισούται με τη `σωστή απάντηση`{:class="block3variables"}, `πες`{:class="block3looks"} 'Σωστά', `αλλιώς`{:class="block3control"} `πες`{:class="block3looks"} 'Λυπάμαι, αυτό ήταν λάθος'. \--- /hint \---
+\--- hints \--- \--- hint \---
 
-\--- hint \--- Εδώ είναι τα μπλοκ κωδικα που χρειάζεσαι:
+`When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the code blocks you need:
 
 ```blocks3
 πες [Λυπάμαι, αυτό ήταν λάθος] για (2) δευτερόλεπτα
@@ -45,7 +57,9 @@ end
 
 \--- /hint \---
 
-\--- hint \--- Αυτός είναι ο κώδικας με τον οποίον θα πρέπει να μοιάζει ο δικός σου:
+\--- hint \---
+
+This is what your code should look like:
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -60,6 +74,10 @@ end
 
 \--- /hints \--- \--- /task \---
 
-\--- task \--- Πάτησε την πράσινη σημαία και δοκίμασε τον κώδικά σου δύο φορές: μία φορά επιλέγοντας τη σωστή σημαία και μία φορά επιλέγοντας μία λανθασμένη. Έλεγξε ότι εμφανίζεται το σωστό μήνυμα ανάλογα με το αν δίνεις τη σωστή ή τη λανθασμένη απάντηση.
+\--- task \---
 
-![Κάνε κλικ στη σημαία](images/click-on-flag.png) \--- /task \---
+Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+
+![Click on the flag](images/click-on-flag.png)
+
+\--- /task \---
