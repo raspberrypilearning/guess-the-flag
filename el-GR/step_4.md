@@ -2,13 +2,23 @@
 
 Για κάθε γύρο του κουίζ, επίλεξε έξι τυχαίες σημαίες από τη λίστα `σημαίες`{:class="block3variables"} για να είναι οι επιλογές για την απάντηση.
 
-\--- task \--- Δημιουργία άλλης λίστας που ονομάζεται `επιλεγμένες σημαίες`{:class="block3variables"}. Αυτή η λίστα θα αποθηκεύσει τις έξι τυχαίες σημαίες. \--- /task \---
+\--- task \---
 
-\--- task \--- Δημιούργησε μια μεταβλητή που ονομάζεται `αριθμός σημαίας`{:class="block3variables"}. \--- /task \---
+Create another list called `chosen flags`{:class="block3variables"}. This list will store the six random flags.
 
-\--- task \--- Δημιούργησε ένα προσαρμοσμένο μπλοκ και ονόμασέ το `επιλογή τυχαίας σημαίας`{:class="block3myblocks"}.
+\--- /task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+\--- task \---
+
+Create a variable called `flag number`{:class="block3variables"}.
+
+\--- /task \---
+
+\--- task \---
+
+Create a custom block and call it `choose random flag`{:class="block3myblocks"}.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 ορισμός choose random flag
@@ -16,15 +26,23 @@
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε τον κώδικα στο προσαρμοσμένο μπλοκ για να ορίσεις τη μεταβλητή `σημαία`{:class="block3variables"} σε έναν τυχαίο αριθμό μεταξύ `1` και τον αριθμό των αντικειμένων στη λίστα των `σημαίων`{ class = "block3variables"}.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Add code to the custom block to set the `flag number`{:class="block3variables"} variable to a random number between `1` and the number of items in the `flags`{:class="block3variables"} list.
 
-Υπάρχει ένα ειδικό μπλοκ στην καρτέλα "Μεταβλητές" για την εύρεση του αριθμού των στοιχείων σε μια λίστα.
+![Flag sprite](images/flag-sprite.png)
 
-\--- hints \--- \--- hint \--- Όρισε τη μεταβλητή `σημαία`{:class="block3variables"} σε έναν `τυχαίο αριθμό`{:class="block3operators"} μεταξύ `1` και το μήκος `της λίστας "σημαίες"`{:class="block3variables"}. \--- /hint \---
+There is a special block in the Variables tab for finding the number of items in a list.
 
-\--- hint \--- Εδώ είναι τα μπλοκ κώδικα που χρειάζεσαι:
+\--- hints \--- \--- hint \---
+
+Set the `flag number`{:class="block3variables"} variable to a `random number`{:class="block3operators"} between `1` and the `length of the 'flags' list`{:class="block3variables"}.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the code blocks you need:
 
 ```blocks3
 (μήκος λίστας [flags v])
@@ -38,7 +56,9 @@
 
 \--- /hint \---
 
-\--- hint \--- Αυτός είναι ο κώδικας με τον οποίον θα πρέπει να μοιάζει ο δικός σου:
+\--- hint \---
+
+This is what your code should look like:
 
 ```blocks3
 ορισμός choose random flag
@@ -49,13 +69,13 @@
 
 \--- /hints \--- \--- /task \---
 
-Αυτό το μπλοκ επιλέγει ένα στοιχείο από μια λίστα με τον αριθμό:
+This block selects an item from a list by number:
 
 ```blocks3
 (στοιχείο (10 v) λίστας [flags v])
 ```
 
-\--- task \--- Συνδύασε αυτό το μπλοκ με τη μεταβλητή `αριθμός σημαίας`{:class="block3variables"} για να πάρεις το κείμενο του τυχαία επιλεγμένου στοιχείου από τη λίστα `σημαίες`{:class="block3variables"}. Στη συνέχεια, πρόσθεσε το κείμενο του στοιχείου στη λίστα `επιλεγμένων σημαίων`{:class="block3variables"}. Πρόσθεσε αυτόν τον κώδικα στο προσαρμοσμένο σου μπλοκ:
+\--- task \--- Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
 
 ![Αντικείμενο σημαίας](images/flag-sprite.png)
 
@@ -67,9 +87,11 @@
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε το προσαρμοσμένο μπλοκ `επιλογή τυχαίας σημαίας`{:class="block3myblocks"} στον κώδικα που εκτελείται μετά την ενεργοποίηση της πράσινης σημαίας.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Add the custom `choose random flag`{:class="block3myblocks"} block to the code that runs after the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -81,15 +103,17 @@ create flag list :: custom
 
 \--- task \---
 
-Δοκίμασε ότι ο κώδικας σου λειτουργεί κάνοντας κλικ στην πράσινη σημαία αρκετές φορές και ελέγχοντας ότι διαφορετικές χώρες προστίθενται στη λίστα `επιλεγμένων σημαίων`{: class = "block3variables"} κάθε φορά. (Εάν έχεις αποκρύψει τη λίστα, επίλεξε το κουτί δίπλα στο κουτί της λίστας για να καταστήσεις την λίστα ορατή.)
+Test that your code works by clicking the green flag several times and checking that different countries are added to the `chosen flags`{:class="block3variables"} list every time. (If you have hidden the list, tick the box next to the list name to make the list visible.)
 
 \--- /task \---
 
-Μπορείς να δεις ότι, αν κάνεις κλικ στη πράσινη σημαία πολλές φορές, η λίστα σου με τις `επιλεγμένες σημαίες`{:class="block3variables"} γρήγορα γεμίζει με περισσότερα από έξι στοιχεία;
+Can you see that, if you click the green flag lots of times, your `chosen flags`{:class="block3variables"} list quickly fills up with more than six items?
 
-\--- task \--- Πρόσθεσε μπλοκ για να διαγράψεις όλα τα στοιχεία από τη λίστα `επιλεγμένων σημαίων`{: class = «block3variables»} πριν από την επιλογή των έξι σημαίων για το κουίζ.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Add blocks to delete all the items from the `chosen flags`{:class="block3variables"} list before choosing six flags for the quiz.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -102,17 +126,23 @@ end
 
 \--- /task \---
 
-\--- task \--- Δοκίμασε τον κώδικά σου και πάλι πατώντας την πράσινη σημαία αρκετές φορές και έλεγξε ότι η λίστα με τις `επιλεγμένες σημαίες` έχει έξι χώρες κάθε φορά. \--- /task \---
+\--- task \---
 
-Ίσως παρατηρήσεις ότι μερικές φορές η ίδια χώρα προστίθεται στη λίστα περισσότερες από μία φορές.
+Test your code again by clicking the green flag several times and checking that the `chosen flags` list is filled with six countries each time.
 
-![Διπλές χώρες](images/duplicate-countries.png)
+\--- /task \---
 
-\--- task \--- Άλλαξε το μπλοκ `επίλεξε τυχαία σημαία`{:class="block3myblocks"} έτσι ώστε η ίδια χώρα να μην προστεθεί ποτέ δύο φορές στη λίστα `επιλεγμένων σημαίων`{:class="block3variables"}.
+You might notice that sometimes the same country gets added to the list more than once.
 
-Πρόσθεσε ένα μπλοκ στο τέλος του προσαρμοσμένου μπλοκ κώδικα για να διαγράψεις τον `αριθμό σημαίας`{:class="block3variables"} από τη λίστα των `σημαιών`{:class="block3variables"} αφού προστεθεί στη λίστα `επιλεγμένων σημαιών`{:class="block3variables"}.
+![Duplicate countries](images/duplicate-countries.png)
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+\--- task \---
+
+Change your `choose random flag`{:class="block3myblocks"} block so that the same country never gets added twice to the `chosen flags`{:class="block3variables"} list.
+
+Add a block to the end of your custom block code to delete the `flag number`{:class="block3variables"} from the `flags`{:class="block3variables"} list after it has been added to the `chosen flags`{:class="block3variables"} list.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 ορισμός choose random flag
@@ -123,4 +153,4 @@ end
 
 \--- /task \---
 
-Εάν θέλεις να αποκρύψεις τις λίστες και τις μεταβλητές έτσι ώστε να μην καταλαμβάνουν χώρο στο σκηνικό, μπορείς να μεταβείς στην ενότητα Δεδομένα και να αποεπιλέξεις τα κουτιά δίπλα στα ονόματα λίστας ή τα ονόματα μεταβλητών. Εάν θέλεις να εμφανίσεις ξανά τις λίστες και τις μεταβλητές, απλώς επίλεξε τα κουτιά.
+If you want to hide the lists and variables so that they don't take up space on the Stage, go to the Data section and unselect the boxes next to the list names or variable names. If you want to show the lists and variables again, just select the boxes.
