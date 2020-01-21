@@ -10,7 +10,9 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ### 你會做出:
 
-\--- no-print \--- Click on the flag of the country for which you are being asked.
+\--- no-print \---
+
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,7 +20,11 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 \--- /no-print \---
 
-\--- print-only \--- ![Finished game](images/finished-game.png) \--- /print-only \---
+\--- print-only \---
+
+![Finished game](images/finished-game.png)
+
+\--- /print-only \---
 
 ## - - 自動隱藏選單 - -
 
@@ -27,7 +33,7 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -47,16 +53,20 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 + [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
 ## - - 自動隱藏選單 - -
 
 ## title: Additional notes for educators
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print). \--- /no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
+
+\--- /no-print \---
 
 You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
 You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
