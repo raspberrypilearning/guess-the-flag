@@ -2,11 +2,17 @@
 
 अब क्योंकि आपके पास छह चुने हुए झंडों की एक सूची है, तो चुनें कि इस बार उनमें से सही उत्तर कौन सा होगा।
 
-\--- task \--- `correct answer`{:class="block3variables"} नामक एक नया वेरिएबल बनाएँ। \--- /task \---
+\--- task \---
 
-\--- task \--- छह झंडे चुन लेने के बाद, `correct answer`{:class="block3variables"} वेरिएबल को `chosen flags`{:class="block3variables"} सूची में से एक यादृच्छिक आइटम के रूप में सेट करें।
+Create a new variable called `correct answer`{:class="block3variables"}.
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+After the six flags are chosen, set the `correct answer`{:class="block3variables"} variable to be a random item from the `chosen flags`{:class="block3variables"} list.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
