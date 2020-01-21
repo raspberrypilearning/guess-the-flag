@@ -1,31 +1,43 @@
 ## Σχεδίασε τις σημαίες
 
-\--- task \--- Άνοιξε το αρχικό έργο Scratch 'Μάντεψε τη σημαία'.
+\--- task \---
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. Αν διαθέτεις λογαριασμό Scratch, μπορείς να πατήσεις το **Remix** στην πάνω-δεξιά γωνία του επεξεργαστή για να αποθηκεύσεις ένα αντίγραφο του έργου.
+Open the 'Guess the flag' Scratch starter project.
 
-**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/guess-the-flag-go) στον επεξεργαστή εκτός σύνδεσης.
+**Online:** open the starter project at [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner of the online editor to save a copy of the project.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](http://rpf.io/p/en/guess-the-flag-go) in the offline editor.
 
-\--- /task \---
-
-Επίλεξε την καρτέλα Ενδυμασίες. Θα δεις οκτώ σημαίες εκεί.
-
-Πήγαινε στο κάτω μέρος της λίστας ενδυμασιών, όπου υπάρχουν δύο κενές ενδυμασίες. Αυτές οι ενδυμασίες είναι εκεί, ώστε να μπορείς να προσθέσεις τις δικές σου σημαίες.
-
-\--- task \--- Κάνε κλικ στην ενδυμασία 'Your flag 1' και άλλαξε το όνομά της στο όνομα μιας χώρας.
-
-![Μετονόμασε την ενδυμασία](images/rename-costume.png) \--- /task \---
-
-\--- task \--- Σχεδίασε τη σημαία της χώρας. Βεβαιώσου ότι το σχέδιό σου είναι ακριβώς το ίδιο μέγεθος με την ενδυμασία σημαίας.
-
-Εάν δεν σου έρχεται κάποια ιδέα, μπορείς να βρεις μερικές σημαίες σε [αυτή την ιστοσελίδα «Σημαίες του κόσμου»](https://www.countries-ofthe-world.com/flags-of-the-world.html){: target = «_ blank»}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-\--- task \--- Επανάλαβε αυτή τη διαδικασία για τη δεύτερη κενή ενδυμασία, έτσι ώστε να υπάρχουν δέκα ενδυμασίες σημαίας συνολικά. \--- /task \---
+Select the Costumes tab. You should see eight flags there.
 
-Αυτές είναι οι σημαίες που λειτουργούν ως παραδείγματα στο έργο «Μάντεψε τη σημαία», αλλά μπορείς να επιλέξεις όποιες σημαίες θέλεις για το παιχνίδι σου.
+Scroll to the bottom of the list of costumes, where there are two blank costumes. These costumes are there so you can add your own flags.
 
-![Όλες οι ενδυμασίες σημαίας](images/all-costumes.png)
+\--- task \---
+
+Click on the 'Your flag 1' costume, and change its name to the name of a country.
+
+![Rename costume](images/rename-costume.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw that country's flag. Make sure your drawing is exactly the same size as the flag costume.
+
+If you are stuck for ideas, you can find some flags on [this 'Flags of the world' web page](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
+
+\--- /task \---
+
+\--- task \---
+
+Repeat this process for the second blank flag costume so that there are ten flag costumes in total.
+
+\--- /task \---
+
+Here are the flags that act as examples in the 'Guess the flag' project, but you can choose any flags you like for your game.
+
+![All flag costumes](images/all-costumes.png)
