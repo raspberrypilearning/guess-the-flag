@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
+Это версия проекта для **Скретч 3**. Есть также [версия для Скретч 2](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
 
 \--- /без печати \---
 
@@ -10,7 +10,9 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 ### Что тебе нужно будет сделать
 
-\--- no-print \--- Click on the flag of the country for which you are being asked.
+\--- no-print \---
+
+Click on the flag of the country for which you are being asked.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,7 +20,11 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 \--- /no-print \---
 
-\--- print-only \--- ![Finished game](images/finished-game.png) \--- /print-only \---
+\--- print-only \---
+
+![Finished game](images/finished-game.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -43,17 +49,21 @@ In this resource, you will create a flag quiz to test yourself and your friends.
 
 + Scratch 3 (либо [онлайн-редактор](http://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Загрузки
 
-+ [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
++ [Автономный стартовый проект](http://rpf.io/p/en/guess-the-flag-go){: target = "_ blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Дополнительные примечания для педагогов
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print). \--- /no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
+
+\--- /no-print \---
 
 You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
