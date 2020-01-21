@@ -1,8 +1,10 @@
 ## Προσθήκη βαθμολογίας
 
-\--- task \--- Δημιούργησε μια νέα μεταβλητή με το όνομα `σκορ`{:class="block3variables"} και όρισε το σκορ στο `0`{:class="block3variables"} όταν κάνεις κλικ στην πράσινη σημαία.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Create a new variable called `score`{:class="block3variables"} and set the score to `0`{:class="block3variables"} when the green flag is clicked.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -11,9 +13,11 @@
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε `1`{:class="block3variables"} στο σκορ κάθε φορά που ο παίκτης δίνει μία σωστή απάντηση.
+\--- task \---
 
-![Αντικείμενο σημαίας](images/flag-sprite.png)
+Add `1`{:class="block3variables"} to the score every time the player gives a correct answer.
+
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
