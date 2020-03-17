@@ -1,43 +1,43 @@
-## Draw the flags
+## Teken de vlaggen
 
 \--- task \---
 
-Open the 'Guess the flag' Scratch starter project.
+Open het 'Guess the flag' Scratch startproject.
 
-**Online:** open the starter project at [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner of the online editor to save a copy of the project.
+**Online:** open het start project op [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_ blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek van de online editor om een kopie van het project op te slaan.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/guess-the-flag-go) in the offline editor.
+**Offline**: open het [startproject](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"} in de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-Select the Costumes tab. You should see eight flags there.
+Selecteer het tabblad Uiterlijken. Je zou daar acht vlaggen moeten zien.
 
-Scroll to the bottom of the list of costumes, where there are two blank costumes. These costumes are there so you can add your own flags.
-
-\--- task \---
-
-Click on the 'Your flag 1' costume, and change its name to the name of a country.
-
-![Rename costume](images/rename-costume.png)
-
--- /task \---
+Blader naar de onderkant van de lijst met uiterlijken, waar er twee lege uiterlijken zijn. Deze uiterlijken zijn er zodat je je eigen vlaggen kunt toevoegen.
 
 \--- task \---
 
-Draw that country's flag. Make sure your drawing is exactly the same size as the flag costume.
+Klik op het uiterlijk 'Your flag 1' en wijzig de naam in de naam van een land.
 
-If you are stuck for ideas, you can find some flags on [this 'Flags of the world' web page](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
+![Hernoem uiterlijk](images/rename-costume.png)
 
 \--- /task \---
 
 \--- task \---
 
-Repeat this process for the second blank flag costume so that there are ten flag costumes in total.
+Teken de vlag van dat land. Zorg ervoor dat je tekening exact dezelfde grootte heeft als het vlaguiterlijk.
+
+Als je geen ideeën hebt, kunt je een aantal vlaggen vinden op [deze 'Flags of the world' webpagina](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
 
 \--- /task \---
 
-Here are the flags that act as examples in the 'Guess the flag' project, but you can choose any flags you like for your game.
+\--- task \---
 
-![All flag costumes](images/all-costumes.png)
+Herhaal dit proces voor het tweede lege vlaguiterlijk zodat er in totaal tien vlaguiterlijken zijn.
+
+\--- /task \---
+
+Dit zijn de vlaggen die als voorbeeld dienen in het project 'Raad de vlag', maar je kunt elke gewenste vlag kiezen voor je spel.
+
+![Alle vlaguiterlijken](images/all-costumes.png)
