@@ -103,7 +103,7 @@ end
 + clone flags :: custom
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
