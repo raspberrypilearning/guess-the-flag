@@ -1,10 +1,10 @@
 ## Wat kun je verder nog doen?
 
-Try the [Line-up](https://projects.raspberrypi.org/en/projects/lineup?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will make a game of hide-and-seek and learn how to stamp sprites and use coordinates to position them in rows.
+Probeer het [Op een rij](https://projects.raspberrypi.org/en/projects/lineup?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, waar je een verstoppertje spel maakt en leert hoe je sprites stempelt en coördinaten gebruikt om ze in rijen te plaatsen.
 
 \--- no-print \---
 
-Click on the green flag and, once the curtain is up, try and find the sprite before your time runs out.
+Klik op de groene vlag en, zodra het gordijn omhoog is, probeer de sprite te vinden voordat de tijd voorbij is.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259020474/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,8 +14,8 @@ Click on the green flag and, once the curtain is up, try and find the sprite bef
 
 \--- print-only \---
 
-You have to find the right sprite amongst all these characters before your time runs out.
+Je moet tussen al deze karakters de juiste sprite vinden voordat de tijd voorbij is.
 
-![showcase](images/lineup-showcase.png)
+![etalage](images/lineup-showcase.png)
 
 \--- /print-only \---
