@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## 介紹
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### 你會做出:
+### What you will make
 
 \--- no-print \---
 
@@ -26,7 +26,7 @@ Click on the flag of the country for which you are being asked.
 
 \--- /print-only \---
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: What you will learn
 
@@ -41,11 +41,11 @@ Click on the flag of the country for which you are being asked.
 
 * * *
 
-### 硬體
+### Hardware
 
-+ 可運行Scratch 3的電腦
++ A computer capable of running Scratch 3
 
-### 軟體
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
@@ -55,7 +55,7 @@ Click on the flag of the country for which you are being asked.
 
 \--- /collapse \---
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
