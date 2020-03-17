@@ -1,96 +1,96 @@
-## Create a list of flags
+## Maak een lijst met vlaggen
 
 \--- task \---
 
-Click on the Code tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
+Klik op het tabblad Code. Er is een lijst met de naam `vlaggen`{:class="block3variables"}, waarin je de namen opslaat van de landen waarvoor je spel vlaguiterlijken hebt.
 
 \--- /task \---
 
 \--- task \---
 
-Add two more code blocks, one each for the other two flags you created, so there is a total of ten blocks that add all ten countries to the `flags`{:class="block3variables"} list.
+Voeg nog twee codeblokken toe, één voor de andere twee vlaggen die je hebt gemaakt, dus er zijn in totaal tien blokken die alle tien de landen toevoegen aan de lijst `vlaggen`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-add [Country] to [flags v]
+voeg [Land] toe aan [vlaggen v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag and check that the countries appear in the list.
+Klik op de groene vlag en controleer of de landen in de lijst verschijnen.
 
 \--- /task \---
 
-If you press the green flag more than once, the countries get added to the list again, and the result is a list of 20 countries instead of 10.
+Als je meer dan eens op de groene vlag drukt, worden de landen opnieuw aan de lijst toegevoegd en het resultaat is een lijst van 20 landen in plaats van 10.
 
 \--- task \---
 
-At the start of the code, add a block to `delete all`{:class="block3variables"} of the countries in the list before adding them. This will stop the countries from being added to the list more than once.
+Voeg aan het begin van de code een blok toe aan `verwijder alle`{:class="block3variables"} van de landen in de lijst voordat je ze toevoegt. Hierdoor worden de landen niet meer dan eens aan de lijst toegevoegd.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-+ delete (all v) of [flags v]
-add [Japan] to [flags v]
-add [Belgium] to [flags v]
-add [Italy] to [flags v]
-add [Turkey] to [flags v]
-add [Denmark] to [flags v]
-add [Chile] to [flags v]
-add [Botswana] to [flags v]
-add [Bangladesh] to [flags v]
-add [Ghana] to [flags v]
-add [Luxembourg] to [flags v]
+wanneer op de groene vlag wordt geklikt
++ verwijder (alle v) van [vlaggen v]
+voeg [Japan] toe aan [vlaggen v]
+voeg [Belgium] toe aan [vlaggen v]
+voeg [Italy] toe aan [vlaggen v]
+voeg [Turkey] toe aan [vlaggen v]
+voeg [Denmark] toe aan [vlaggen v]
+voeg [Chile] toe aan [vlaggen v]
+voeg [Botswana] toe aan [vlaggen v]
+voeg [Bangladesh] toe aan [vlaggen v]
+voeg [Ghana] toe aan [vlaggen v]
+voeg [Luxembourg] toe aan [vlaggen v]
 ```
 
 \--- /task \---
 
-Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
+Maak vervolgens een aangepast blok. Een aangepast blok is een speciaal blok met een naam. Met het aangepaste blok dat je maakt, kun je een lijst met vlaggen maken met alleen dit ene blok in plaats van veel blokken.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
+Klik op **Mijn blokken** en vervolgens op **Maak een blok**. Noem je aangepaste blok `maak vlaggenlijst`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
-![Add a block](images/add-block.png)
+![Voeg een blok toe](images/add-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag all the code away from below the `when flag clicked`{:class="block3events"} block to below the new `create flag list`{:class="block3myblocks"} block.
+Sleep alle code weg van onder het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok en klik het onder het nieuwe `maak vlaggenlijst`{:class="block3myblocks"} blok.
 
 ```blocks3
-define create flag list
-delete (all v) of [flags v]
-add [Japan] to [flags v]
-add [Belgium] to [flags v]
-add [Italy] to [flags v]
-add [Turkey] to [flags v]
-add [Denmark] to [flags v]
-add [Chile] to [flags v]
-add [Botswana] to [flags v]
-add [Bangladesh] to [flags v]
-add [Ghana] to [flags v]
-add [Luxembourg] to [flags v]
+definieer maak vlaggenlijst
+verwijder (alle v) van [vlaggen v]
+voeg [Japan] toe aan [vlaggen v]
+voeg [Belgium] toe aan [vlaggen v]
+voeg [Italy] toe aan [vlaggen v]
+voeg [Turkey] toe aan [vlaggen v]
+voeg [Denmark] toe aan [vlaggen v]
+voeg [Chile] toe aan [vlaggen v]
+voeg [Botswana] toe aan [vlaggen v]
+voeg [Bangladesh] toe aan [vlaggen v]
+voeg [Ghana] toe aan [vlaggen v]
+voeg [Luxembourg] toe aan [vlaggen v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Below the `when flag clicked`{:class="block3events"} block, add the new `create flag list`{:class="block3myblocks"} block.
+Onder het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok voeg je het nieuwe `maak vlaggenlijst`{:class="block3myblocks"} blok toe.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
+wanneer op de groene vlag wordt geklikt
+maak vlaggenlijst :: custom
 ```
 
 \--- /task \---
