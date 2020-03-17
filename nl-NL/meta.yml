@@ -1,34 +1,34 @@
 ---
-title: Guess the flag
-hero_image: afbeeldingen / banner.png
-description: Create a flag quiz game to yourself and your friends!
+title: Raad de vlag
+hero_image: images/banner.png
+description: Maak een vlaggenquiz voor jezelf en je vrienden!
 listed: true
 copyedit: true
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 2018-10-23
 steps:
   - 
     title: Inleiding
   - 
-    title: Draw the flags
+    title: Teken de vlaggen
   - 
-    title: Create a list of flags
+    title: Maak een lijst met vlaggen
   - 
-    title: Choose random flags
+    title: Kies willekeurige vlaggen
   - 
-    title: Choose a correct answer
+    title: Kies een correct antwoord
   - 
-    title: Show the flags
+    title: Toon de vlaggen
   - 
-    title: Ask the question
+    title: Stel de vraag
   - 
-    title: Check the answer
+    title: Controleer het antwoord
   - 
-    title: 'Uitdaging: meer objecten'
+    title: Een score toevoegen
   - 
-    title: Start a new round
+    title: Begin een nieuwe ronde
   - 
-    title: "Challenge: improve the game"
+    title: "Uitdaging: verbeter het spel"
     challenge: true
   - 
     title: Wat kun je verder nog doen?
