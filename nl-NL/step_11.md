@@ -1,15 +1,15 @@
-## Challenge: improve the game
+## Uitdaging: verbeter het spel
 
-+ Add a fixed number of rounds and then tell the player the percentage of rounds in which they gave the correct answer.
++ Voeg een vast aantal ronden toe en vertel de speler vervolgens het percentage ronden waarin hij het juiste antwoord gaf.
 
-+ Store the high score.
++ Sla de topscore op.
 
 [[[generic-scratch3-high-score]]]
 
-+ Add a timer for each round to force the player to give their answer quickly.
++ Voeg voor elke ronde een timer toe om de speler te dwingen snel antwoord te geven.
 
-+ Add more flags to make the game more challenging.
++ Voeg meer vlaggen toe om het spel uitdagender te maken.
 
-+ If the player clicks on an incorrect flag, have the game remove that flag and give the player another chance to answer correctly before the next round begins.
++ Als de speler op een verkeerde vlag klikt, moet het spel die vlag verwijderen en de speler nog een kans geven om het juiste antwoord te geven voordat de volgende ronde begint.
 
-+ Make the game into a two-player quiz where players take turns to guess, and their scores are recorded separately.
++ Maak van het spel een quiz voor twee spelers waarbij spelers om de beurt raden en hun scores afzonderlijk worden vastgelegd.
