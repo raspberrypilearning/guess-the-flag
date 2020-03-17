@@ -1,72 +1,72 @@
-## Check the answer
+## Controleer het antwoord
 
-Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
+Je sprite vraagt de speler nu om op de juiste vlag te klikken. Vervolgens moet het spel controleren of de vlag waarop is geklikt het juiste antwoord is.
 
 \--- task \---
 
-Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="block3events"}.
+Ga terug naar de code van de vlag sprite en voeg een blok toe om een nieuwe sectie met code te starten die `waneer op deze sprite wordt geklikt`{:class="block3events"} uitvoert.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 \--- /task \---
 
-Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
+Vervolgens moet je quiz controleren of de naam van het uiterlijk van de vlag waarop is geklikt hetzelfde is als het juiste antwoord.
 
 \--- task \---
 
-Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="block3variables"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
+Voeg code toe om 'Goed!' te zeggen als de naam van het uiterlijk van de vlag sprite hetzelfde is als de `goed antwoord`{:class="block3variables"} variabele, of om te zeggen 'Sorry, dat was niet goed' als de naam en de variabele niet hetzelfde zijn.
 
-You can use this useful block here as well.
+Je kunt dit handige blok hier ook gebruiken.
 
 ```blocks3
-(item (10 v) of [flags v])
+(item (10 v) van [vlaggen v])
 ```
 
-This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
+Combineer dit keer een `uiterlijk naam`{:class="block3looks"} blok om de naam van het huidige vlag sprite uiterlijk te krijgen.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
+`Wanneer op deze sprite wordt geklikt`{:class="block3events"}, `als`{:class="block3control"} `uiterlijk naam`{:class="block3looks"} gelijk is aan `goed antwoord`{:class="block3variables"}, `zeg`{:class="block3looks"} 'Goed!', `anders`{:class="block3control"} `zeg`{:class="block3looks"} 'Sorry, dat was niet goed'.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-say [Sorry, that was wrong] for (2) seconds
+zeg [Sorry, dat was niet goed] (2) sec.
 
-say [Correct] for (2) seconds
+zeg [Goed!] (2) sec.
 
-if <> then
-else
-end
+als <> dan
+anders
+einde
 
-(costume [name v])
+(uiterlijk [naam v])
 
 <[] = []>
 
-(correct answer)
+(goed antwoord)
 
-when this sprite clicked
+wanneer op deze sprite wordt geklikt
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-when this sprite clicked
-if <(costume [name v]) = (correct answer :: variables)> then
-    say [Correct] for (2) seconds
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
+wanneer op deze sprite wordt geklikt
+als <(uiterlijk [naam v]) = (goed antwoord :: variables)> dan
+    zeg [Goed!] (2) sec.
+anders
+    zeg [Sorry, dat was niet goed] (2) sec.
+einde
 ```
 
 \--- /hint \---
@@ -75,8 +75,8 @@ end
 
 \--- task \---
 
-Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+Klik op de groene vlag en test je code twee keer: één keer door de juiste vlag te kiezen en één keer door een verkeerde te kiezen. Controleer of het juiste bericht verschijnt, afhankelijk van of je het juiste of foute antwoord geeft.
 
-![Click on the flag](images/click-on-flag.png)
+![Klik op de vlag](images/click-on-flag.png)
 
 \--- /task \---
