@@ -8,7 +8,7 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: 前書き
+    title: Introduction
   - 
     title: Draw the flags
   - 
@@ -24,11 +24,11 @@ steps:
   - 
     title: Check the answer
   - 
-    title: チャレンジ：オブジェクトをふやす
+    title: Add a score
   - 
     title: Start a new round
   - 
     title: "Challenge: improve the game"
     challenge: true
   - 
-    title: 次は何をしますか？
+    title: What next?
