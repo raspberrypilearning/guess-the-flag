@@ -1,4 +1,4 @@
-## 挑戰：改變鼓的造型
+## What next?
 
 Try the [Line-up](https://projects.raspberrypi.org/en/projects/lineup?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will make a game of hide-and-seek and learn how to stamp sprites and use coordinates to position them in rows.
 
