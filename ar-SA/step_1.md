@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## المقدمة
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### ما الذي ستصنعه
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: ما الذي ستتعلمه
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,17 +37,17 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: ما الذي ستحتاجه
+## title: What you will need
 
 * * *
 
-### الأجهزة
+### Hardware
 
-+ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
++ A computer capable of running Scratch 3
 
-### البرامج
+### Software
 
-+ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
