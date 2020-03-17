@@ -1,6 +1,6 @@
-## झंडे दिखाएँ
+## Show the flags
 
-प्रश्नोत्तरी में भाग लेने वाले व्यक्ति को `chosen flags`{:class="block3variables"} सूची में झंडों के चित्रों को देखने की जरूरत होती है।
+The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
 
 \--- task \---
 
