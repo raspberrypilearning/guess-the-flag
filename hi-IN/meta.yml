@@ -1,34 +1,34 @@
 ---
-title: झंडे का अनुमान लगाएँ
+title: Guess the flag
 hero_image: images/banner.png
-description: अपने और अपने दोस्तों के लिए एक झंडा प्रश्नोत्तरी गेम बनाएँ!
+description: Create a flag quiz game to yourself and your friends!
 listed: true
 copyedit: true
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: झंडे बनाएँ
+    title: Draw the flags
   - 
-    title: झंडों की सूची बनाएँ
+    title: Create a list of flags
   - 
-    title: यादृच्छिक झंडे चुनें
+    title: Choose random flags
   - 
-    title: सही उत्तर चुनें
+    title: Choose a correct answer
   - 
-    title: झंडे दिखाएँ
+    title: Show the flags
   - 
-    title: प्रश्न पूछें
+    title: Ask the question
   - 
-    title: उत्तर की जाँच करें
+    title: Check the answer
   - 
-    title: स्कोर जोड़ें
+    title: Add a score
   - 
-    title: एक नया राउंड शुरू करें
+    title: Start a new round
   - 
-    title: "चुनौती: गेम में सुधार करें"
+    title: "Challenge: improve the game"
     challenge: true
   - 
-    title: 'चुनौती: अपने ड्रम की पोशाक बदलें'
+    title: What next?
