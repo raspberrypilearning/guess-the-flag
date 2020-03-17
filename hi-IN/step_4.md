@@ -1,6 +1,6 @@
-## यादृच्छिक झंडे चुनें
+## Choose random flags
 
-प्रश्नोत्तरी के प्रत्येक दौर के लिए, `flags`{:class="block3variables"} सूची से विकल्पों के रूप में छह यादृच्छिक झंडे चुनें।
+For each round of the quiz, choose six random flags from the `flags`{:class="block3variables"} list to be the options.
 
 \--- task \---
 
