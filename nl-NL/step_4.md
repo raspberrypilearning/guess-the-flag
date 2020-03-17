@@ -1,158 +1,158 @@
-## Choose random flags
+## Kies willekeurige vlaggen
 
-For each round of the quiz, choose six random flags from the `flags`{:class="block3variables"} list to be the options.
+Kies voor elke ronde van de quiz zes willekeurige vlaggen uit de lijst `vlaggen`{:class="block3variables"} als opties.
 
 \--- task \---
 
-Create another list called `chosen flags`{:class="block3variables"}. This list will store the six random flags.
+Maak een andere lijst met de naam `gekozen vlaggen`{:class="block3variables"}. In deze lijst worden de zes willekeurige vlaggen opgeslagen.
 
 \--- /task \---
 
 \--- task \---
 
-Create a variable called `flag number`{:class="block3variables"}.
+Maak een variabele met de naam `vlag nummer`{:class="block3variables"}.
 
 \--- /task \---
 
 \--- task \---
 
-Create a custom block and call it `choose random flag`{:class="block3myblocks"}.
+Maak een aangepast blok en noem het `kies willekeurige vlag`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-define choose random flag
+definieer kies willekeurige vlag
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the custom block to set the `flag number`{:class="block3variables"} variable to a random number between `1` and the number of items in the `flags`{:class="block3variables"} list.
+Voeg code toe aan het aangepaste blok om de variabele `vlag nummer`{:class="block3variables"} in te stellen op een willekeurig getal tussen `1` en het aantal items in de lijst met `vlaggen`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
-There is a special block in the Variables tab for finding the number of items in a list.
+Er is een speciaal blok in de sectie Variabelen voor het vinden van het aantal items in een lijst.
 
 \--- hints \--- \--- hint \---
 
-Set the `flag number`{:class="block3variables"} variable to a `random number`{:class="block3operators"} between `1` and the `length of the 'flags' list`{:class="block3variables"}.
+Zet de `vlag nummer`{:class="block3variables"} variabele op een `willekeurig getal`{:class="block3operators"} tussen `1` en de `lengte van de 'vlaggen' lijst`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-(length of [flags v])
+(lengte van [vlaggen v])
 
-(pick random (1) to (10))
+(willekeurig getal tussen (1) en (10))
 
-define choose random flag
+definieer kies willekeurige vlag
 
-set [flag number v] to []
+maak [vlagnummer v] []
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
+definieer kies willekeurige vlag
+maak [vlagnummer v] (willekeurig getal tussen (1) en (lengte van [vlaggen v]))
 ```
 
 \--- /hint \---
 
 \--- /hints \--- \--- /task \---
 
-This block selects an item from a list by number:
+Dit blok selecteert een item uit een lijst op nummer:
 
 ```blocks3
-(item (10 v) of [flags v])
+(item (10 v) van [vlaggen v])
 ```
 
 \--- task \---
 
-Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+Combineer dit blok met de variabele `vlag nummer`{:class="block3variables"} om de tekst van het willekeurig gekozen item uit de lijst met `vlaggen`{:class="block3variables"} te krijgen. Voeg vervolgens de itemtekst toe aan de lijst `gekozen vlaggen`{:class="block3variables"}. Voeg deze code toe aan je aangepaste blok:
 
-![Flag sprite](images/flag-sprite.png)
-
-```blocks3
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
-+ add (item (flag number) of [flags v]) to [chosen flags v]
-```
-
-\--- /task \---
-
-\--- task \---
-
-Add the custom `choose random flag`{:class="block3myblocks"} block to the code that runs after the green flag is clicked.
-
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-+ choose random flag :: custom
+definieer kies willekeurige vlag
+maak [vlagnummer v] (willekeurig getal tussen (1) en (lengte van [vlaggen v]))
++ voeg (item (vlagnummer) van [vlaggen v]) toe aan [gekozen vlaggen v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test that your code works by clicking the green flag several times and checking that different countries are added to the `chosen flags`{:class="block3variables"} list every time. (If you have hidden the list, tick the box next to the list name to make the list visible.)
+Voeg de aangepaste `kies willekeurige vlag`{:class="block3myblocks"} toe aan de code die wordt uitgevoerd nadat op de groene vlag is geklikt.
 
-\--- /task \---
-
-Can you see that, if you click the green flag lots of times, your `chosen flags`{:class="block3variables"} list quickly fills up with more than six items?
-
-\--- task \---
-
-Add blocks to delete all the items from the `chosen flags`{:class="block3variables"} list before choosing six flags for the quiz.
-
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-+ delete (all v) of [chosen flags v]
-+ repeat (6)
-    choose random flag :: custom
-end
+wanneer op de groene vlag wordt geklikt
+maak vlaggenlijst :: custom
++ kies willekeurige vlag :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again by clicking the green flag several times and checking that the `chosen flags` list is filled with six countries each time.
+Test of de code werkt door meerdere keren op de groene vlag te klikken en te controleren of elke keer verschillende landen worden toegevoegd aan de `gekozen vlaggen`{:class="block3variables"} lijst. (Als je de lijst hebt verborgen, vink je het vakje naast de lijstnaam aan om de lijst zichtbaar te maken.)
 
 \--- /task \---
 
-You might notice that sometimes the same country gets added to the list more than once.
-
-![Duplicate countries](images/duplicate-countries.png)
+Zie je dat, als je vaak op de groene vlag klikt, je `gekozen vlaggen`{:class="block3variables"} lijst snel vol raakt met meer dan zes items?
 
 \--- task \---
 
-Change your `choose random flag`{:class="block3myblocks"} block so that the same country never gets added twice to the `chosen flags`{:class="block3variables"} list.
+Voeg blokken toe om alle items uit de lijst `gekozen vlaggen`{:class="block3variables"} te verwijderen voordat je zes vlaggen voor de quiz kiest.
 
-Add a block to the end of your custom block code to delete the `flag number`{:class="block3variables"} from the `flags`{:class="block3variables"} list after it has been added to the `chosen flags`{:class="block3variables"} list.
-
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
-add (item (flag number) of [flags v]) to [chosen flags v]
-+ delete (flag number) of [flags v]
+wanneer op de groene vlag wordt geklikt
+maak vlaggenlijst :: custom
++ verwijder (alle v) van [gekozen vlaggen v]
++ herhaal (6)
+    kies willekeurige vlag :: custom
+einde
 ```
 
 \--- /task \---
 
-If you want to hide the lists and variables so that they don't take up space on the Stage, go to the Data section and unselect the boxes next to the list names or variable names. If you want to show the lists and variables again, just select the boxes.
+\--- task \---
+
+Test je code opnieuw door meerdere keren op de groene vlag te klikken en te controleren of de lijst `gekozen vlaggen` telkens met zes landen wordt gevuld.
+
+\--- /task \---
+
+Je merkt misschien dat hetzelfde land meer dan eens aan de lijst wordt toegevoegd.
+
+![Dubbele landen](images/duplicate-countries.png)
+
+\--- task \---
+
+Wijzig het `kies willekeurige vlag`{:class="block3myblocks"} blok zodat hetzelfde land nooit twee keer wordt toegevoegd aan de `gekozen vlaggen`{:class="block3variables"} lijst.
+
+Voeg een blok toe aan het einde van de aangepaste blokcode om het `vlag nummer`{:class="block3variables"} te verwijderen uit de lijst met `vlaggen`{:class="block3variables"} nadat deze is toegevoegd aan de `gekozen vlaggen`{:class="block3variables"} lijst.
+
+![Vlag sprite](images/flag-sprite.png)
+
+```blocks3
+definieer kies willekeurige vlag
+maak [vlagnummer v] (willekeurig getal tussen (1) en (lengte van [vlaggen v]))
+voeg (item (vlagnummer) van [vlaggen v]) toe aan [gekozen vlaggen v]
++ verwijder (vlagnummer) van [vlaggen v]
+```
+
+\--- /task \---
+
+Als je de lijsten en variabelen wilt verbergen zodat ze geen ruimte in het werkgebied innemen, ga je naar de sectie Variabelen en vink je de vakjes naast de namen van de lijsten of variabelen uit. Als je de lijsten en variabelen opnieuw wilt weergeven, vink je de vakjes weer aan.
