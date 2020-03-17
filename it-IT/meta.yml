@@ -5,10 +5,10 @@ description: Create a flag quiz game to yourself and your friends!
 listed: true
 copyedit: true
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 2018-10-23
 steps:
   - 
-    title: Introduzione
+    title: Introduction
   - 
     title: Draw the flags
   - 
@@ -24,11 +24,11 @@ steps:
   - 
     title: Check the answer
   - 
-    title: 'Sfida: Altri oggetti'
+    title: Add a score
   - 
     title: Start a new round
   - 
     title: "Challenge: improve the game"
     challenge: true
   - 
-    title: 'Sfida: Più matite'
+    title: What next?
