@@ -1,23 +1,23 @@
-## Ask the question
+## Stel de vraag
 
-Let's ask the player to name the flag for a particular country.
+Laten we de speler vragen de vlag voor een bepaald land te noemen.
 
 \--- task \---
 
-In the flag sprite, `broadcast the message`{:class="block3events"} 'announce country' immediately after the block that clones the flags.
+In de vlag sprite `zend signaal`{:class="block3events"} 'kondig land aan' direct na het blok dat de vlaggen kloont.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-set [correct answer v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
-clone flags :: custom
-+ broadcast (announce country v)
+wanneer op de groene vlag wordt geklikt
+maak vlaggenlijst :: custom
+verwijder (alle v) van [gekozen vlaggen v]
+herhaal (6)
+    kies willekeurige vlag :: custom
+einde
+maak [goed antwoord v] (item (willekeurig getal tussen (1) en (lengte van [gekozen vlaggen v])) van [gekozen vlaggen v])
+kloon vlaggen :: custom
++ zend signaal (kondig land aan v)
 
 ```
 
@@ -27,7 +27,7 @@ clone flags :: custom
 
 \--- task \---
 
-Add a new sprite of your choice to be your quiz master. The quiz master in the example is the sprite called Abby.
+Voeg een nieuwe sprite naar keuze toe als je quizmaster. De quizmaster in het voorbeeld is de sprite genaamd Abby.
 
 ![Abby sprite](images/bear-sprite.png)
 
@@ -35,39 +35,39 @@ Add a new sprite of your choice to be your quiz master. The quiz master in the e
 
 \--- task \---
 
-Add some code to the quiz master sprite so that, when the sprite receives the `announce country`{:class="block3events"} broadcast, it tells the player to click on the country name that is stored in the variable `correct answer`{:class="block3variables"}.
+Voeg wat code toe aan de quizmaster sprite zodat, wanneer de sprite het signaal van `kondig land aan`{:class="block3events"} ontvangt, het de speler vertelt op de landnaam te klikken die is opgeslagen in de variabele `goed antwoord`{:class="block3variables"}.
 
-![Character sprite](images/char-sprite.png)
+![Personage-sprite](images/char-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When I receive`{:class="block3events"} the broadcast, `say`{:class="block3looks"} 'click on `correct answer`{:class="block3variables"}'.
+`Wanneer ik signaal`{:class="block3events"} ontvang, zeg ``{:class="block3looks"} 'klik op `goed antwoord`{:class="block3variables"}'.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-(join [click on] [])
+(voeg [klik op] en [] samen)
 
-(correct answer)
+(goed antwoord)
 
-say [] for (2) seconds
+zeg [] (2) sec.
 
-when I receive [announce country v]
+wanneer ik signaal [kondig land aan v] ontvang
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-when I receive [announce country v]
-say (join [click on] (correct answer :: variables)) for (2) seconds
+wanneer ik signaal [kondig land aan v] ontvang
+zeg (voeg [klik op] en (goed antwoord :: variables) samen) (2) sec.
 ```
 
 \--- /hint \---
