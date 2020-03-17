@@ -1,4 +1,4 @@
-## Dodaj točkovanje
+## Add a score
 
 \--- task \---
 
