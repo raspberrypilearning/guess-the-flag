@@ -1,27 +1,27 @@
-## Choose a correct answer
+## Kies een correct antwoord
 
-Now that you have a list containing six chosen flags, choose which of them will be the correct answer this time.
+Nu je een lijst hebt met zes gekozen vlaggen, kies je deze keer het juiste antwoord.
 
 \--- task \---
 
-Create a new variable called `correct answer`{:class="block3variables"}.
+Maak een nieuwe variabele met de naam `goed antwoord`{:class="block3variables"}.
 
 \--- /task \---
 
 \--- task \---
 
-After the six flags are chosen, set the `correct answer`{:class="block3variables"} variable to be a random item from the `chosen flags`{:class="block3variables"} list.
+Nadat de zes vlaggen zijn gekozen, stel je de variabele `goed antwoord`{:class="block3variables"} in op een willekeurig item uit de `gekozen vlaggen`{:class="block3variables"} lijst.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-+ set [correct answer v] to (item (pick random (1) to (length of [chosen flags v]) ) of [chosen flags v])
+wanneer op de groene vlag wordt geklikt
+maak vlaggenlijst :: custom
+verwijder (alle v) van [gekozen vlaggen v]
+herhaal (6)
+    kies willekeurige vlag :: custom
+einde
++ maak [goed antwoord v] (item (willekeurig getal tussen (1) en (lengte van [gekozen vlaggen v]) ) van [gekozen vlaggen v])
 ```
 
 \--- /task \---
