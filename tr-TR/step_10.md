@@ -47,7 +47,7 @@ set [score v] to [0]
 broadcast (start the round v)
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
