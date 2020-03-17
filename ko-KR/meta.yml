@@ -1,6 +1,6 @@
 ---
 title: Guess the flag
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Create a flag quiz game to yourself and your friends!
 listed: true
 copyedit: true
@@ -8,7 +8,7 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: 소개
+    title: Introduction
   - 
     title: Draw the flags
   - 
@@ -24,11 +24,11 @@ steps:
   - 
     title: Check the answer
   - 
-    title: '도전 과제: 더 많은 목표물'
+    title: Add a score
   - 
     title: Start a new round
   - 
     title: "Challenge: improve the game"
     challenge: true
   - 
-    title: '도전과제: 더 많은 연필들'
+    title: What next?
