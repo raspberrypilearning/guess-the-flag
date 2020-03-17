@@ -22,7 +22,7 @@ Click on the 'Your flag 1' costume, and change its name to the name of a country
 
 ![Rename costume](images/rename-costume.png)
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
