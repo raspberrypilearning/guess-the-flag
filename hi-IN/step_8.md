@@ -1,6 +1,6 @@
-## उत्तर की जाँच करें
+## Check the answer
 
-आपका स्प्राइट अब खिलाड़ी को सही झंडे पर क्लिक करने के लिए कहता है। फिर गेम को यह जाँचने की ज़रूरत होती है कि जिस झंडे को क्लिक किया गया वह सही उत्तर है या नहीं।
+Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
 
 \--- task \---
 
