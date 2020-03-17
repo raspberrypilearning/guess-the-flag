@@ -1,14 +1,14 @@
-\--- không in \---
+\--- no-print \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
 
-\--- / không in \---
+\--- /no-print \---
 
-## Giới thiệu
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### Những gì bạn sẽ làm
+### What you will make
 
 \--- no-print \---
 
@@ -26,9 +26,9 @@ Click on the flag of the country for which you are being asked.
 
 \--- /print-only \---
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## tiêu đề: bạn sẽ học được gì
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,17 +37,17 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## tiêu đề: Những gì bạn sẽ cần
+## title: What you will need
 
 * * *
 
-### Phần cứng
+### Hardware
 
-+ Một máy tính có khả năng chạy Scratch 3
++ A computer capable of running Scratch 3
 
-### Phần mềm
+### Software
 
-+ Cào 3 ( [trực tuyến](http://rpf.io/scratchon){: target = "_ blank"} hoặc [ngoại tuyến](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -55,9 +55,9 @@ Click on the flag of the country for which you are being asked.
 
 \--- /collapse \---
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
+## title: Additional notes for educators
 
 \--- no-print \---
 
