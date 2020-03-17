@@ -1,135 +1,135 @@
-## Start a new round
+## Begin een nieuwe ronde
 
-At the moment there is only one round in the quiz, so the quiz doesn't last long. You are going to set up multiple rounds.
+Op dit moment is er maar één ronde in de quiz, dus de quiz duurt niet lang. Je gaat meerdere rondes opzetten.
 
 \--- task \---
 
-Create a new `broadcast`{:class="block3events"} that sends the message 'Start the round'.
+Maak een nieuw `signaal`{:class="block3events"} die het bericht 'Begin het spel' verzendt.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-broadcast (start the round v)
+zend signaal (begin het spel v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add a `when I receive 'Start the round'`{:class="block3events"} block, and then move all of the code from below the `when green flag clicked`{:class="block3events"} block to below this new block.
+Voeg een `wanneer ik signaal 'Begin het spel' ontvang`{:class="block3events"} blok toe en verplaats dan alle code van het `wanneer de op groene vlag wordt geklikt`{:class="block3events"} blok naar de onderkant van dit nieuwe blok.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-+ when I receive [start the round v]
-set [score v] to [0]
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-set [correct answer v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
-clone flags :: custom
-+ broadcast (announce country v)
++ wanneer ik signaal [begin het spel v] ontvang
+maak [score v] [0]
+maak vlaggenlijst :: custom
+verwijder (alle v) van [gekozen vlaggen v]
+herhaal (6)
+    kies willekeurige vlag :: custom
+einde
+maak [goed antwoord v] (item (willekeurig getal tussen (1) en (lengte van [gekozen vlaggen v])) van [gekozen vlaggen v])
+kloon vlaggen :: custom
++ zend signaal (kondig land aan v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Remove the `set score to 0`{:class="block3variables"} block and place it back below the `when green flag clicked`{:class="block3control"} block. Then add the new `broadcast`{:class="block3events"} block below both of them.
+Verwijder het `maak score 0`{:class="block3variables"} blok en plaats het terug onder het `wanneer op de groene vlag wordt geklikt`{:class="block3control"} blok. Voeg vervolgens het nieuwe blok `zend signaal`{:class="block3events"} onder beide toe.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-set [score v] to [0]
-broadcast (start the round v)
+wanneer op de groene vlag wordt geklikt
+maak [score v] [0]
+zend signaal (begin het spel v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round can start once a question is answered.
+Na de code die controleert of het antwoord goed is, voeg je nog een `zend signaal`{:class="block3events"} blok toe zodat een nieuwe ronde kan beginnen zodra een vraag is beantwoord.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(costume [name v]) = (correct answer :: variables)> then
-    change [score v] by [1]
-    say [Correct] for (2) seconds
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
-+ broadcast (start the round v)
+wanneer op deze sprite wordt geklikt
+als <(uiterlijk [naam v]) = (goed antwoord :: variables)> dan
+    verander [score v] met [1]
+    zeg [Goed!] (2) sec.
+anders
+    zeg [Sorry, dat was niet goed] (2) sec.
+einde
++ zend signaal (begin het spel v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag to test your code. Click on one of the flags to play a round. Do you notice that the next round does not get set up properly?
+Klik op de groene vlag om je code te testen. Klik op een van de vlaggen om een ronde te spelen. Merk je dat de volgende ronde niet goed wordt uitgevoerd?
 
-![Next round does not work](images/next-round-does-not-work.png)
+![Volgende ronde werkt niet](images/next-round-does-not-work.png)
 
 \--- /task \---
 
-This is because before the game starts another round, the game needs to first clear up the cloned flags.
+Dit komt omdat voordat het spel een nieuwe ronde begint, het spel eerst de gekloonde vlaggen moet opruimen.
 
 \--- task \---
 
-Create another new `broadcast`{:class="block3events"} called 'clean up'.
+Maak nog een nieuw `zend signaal`{:class="block3events"} met de naam 'wissen'.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-broadcast (clean up v)
+zend signaal (wissen v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Set the Flag sprite to `delete this clone`{:class="block3control"} when it receives the `clean up`{:class="block3events"} broadcast.
+Stel de vlag sprite in op `verwijder deze kloon`{:class="block3control"} wanneer deze het signaal `wissen`{:class="block3events"} ontvangt.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when I receive [clean up v]
-delete this clone
+wanneer ik signaal [wissen v] ontvang
+verwijder deze kloon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
+Plaats het signaalblok `wissen`{:class="block3events"} net boven waar het spel een nieuwe ronde begint nadat een antwoord is gegeven.
 
 ```blocks3
-when this sprite clicked
-create flags list  :: custom
-if <(item (costume [number v]) of [flags v]) = (correct answer :: variables)> then
-    say [Correct] for (2) seconds
-    change [score v] by [1]
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
-+ broadcast (clean up v)
-broadcast (start the round v)
+wanneer op deze sprite wordt geklikt
+maak vlaggenlijst :: custom
+als <(item (uiterlijk [nummer v]) van [vlaggen v]) = (goed antwoord: variabelen)> dan
+    zeg [Goed!] (2) sec.
+    verander [ score v] met [1]
+anders
+    zeg [Sorry, dat was niet goed] (2) sec.
+einde
++ zend signaal (wissen v)
+zend signaal (begin het spel v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again and check that you can play multiple rounds, and that your score increases as you get answers correct.
+Test je code opnieuw en controleer of je meerdere rondes kunt spelen, en dat je score toeneemt naarmate je de juiste antwoorden geeft.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
+Zorg ervoor dat je de variabele `goed antwoord`{:class="block3variables"} verbergt, zodat de speler het niet kan zien!
 
 \--- /task \---
