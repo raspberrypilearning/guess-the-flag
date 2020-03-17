@@ -1,14 +1,14 @@
 ---
 title: Guess the flag
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Create a flag quiz game to yourself and your friends!
 listed: true
 copyedit: true
 version: 4.1.0
-last_tested: 23.10.2018
+last_tested: 2018-10-23
 steps:
   - 
-    title: Introduksjon
+    title: Introduction
   - 
     title: Draw the flags
   - 
