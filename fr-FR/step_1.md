@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### Ce que tu feras
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Ce que tu vas apprendre
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,19 +37,19 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Ce qu'il faut avoir
+## title: What you will need
 
 * * *
 
-### Matériel informatique
+### Hardware
 
-+ Un ordinateur capable d'exécuter Scratch 3
++ A computer capable of running Scratch 3
 
-### Logiciels
+### Software
 
-+ Scratch 3 ( [en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Téléchargements
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
 
@@ -57,7 +57,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## titre: Notes supplémentaires pour les éducateurs
+## title: Additional notes for educators
 
 \--- no-print \---
 
