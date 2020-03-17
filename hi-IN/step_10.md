@@ -1,6 +1,6 @@
-## एक नया राउंड शुरू करें
+## Start a new round
 
-फिलहाल प्रश्नोत्तरी में केवल एक राउंड है, इसलिए प्रश्नोत्तरी लंबे समय तक नहीं चलती है। आप कई राउंड सेट करने जा रहे हैं।
+At the moment there is only one round in the quiz, so the quiz doesn't last long. You are going to set up multiple rounds.
 
 \--- task \---
 
@@ -39,7 +39,7 @@ clone flags :: custom
 
 Remove the `set score to 0`{:class="block3variables"} block and place it back below the `when green flag clicked`{:class="block3control"} block. Then add the new `broadcast`{:class="block3events"} block below both of them.
 
-![झंडा स्प्राइट](images/flag-sprite.png)
+![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
