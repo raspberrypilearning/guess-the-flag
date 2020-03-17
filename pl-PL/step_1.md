@@ -1,14 +1,14 @@
 \--- no-print \---
 
-To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
 
 \--- /no-print \---
 
-## Wprowadzenie
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### Co będziesz robił
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Czego się nauczysz
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,19 +37,19 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Czego będziesz potrzebować
+## title: What you will need
 
 * * *
 
-### Sprzęt
+### Hardware
 
-+ Komputer, na którym można uruchomić Scratch 3
++ A computer capable of running Scratch 3
 
-### Oprogramowanie
+### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Pobrane
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
 
@@ -57,7 +57,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Dodatkowe informacje dla edukatorów
+## title: Additional notes for educators
 
 \--- no-print \---
 
