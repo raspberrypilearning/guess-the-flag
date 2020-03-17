@@ -6,13 +6,13 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
+In dit project maak je een vlaggenquiz om jezelf en je vrienden te testen. In de quiz worden zes vlaggen en de naam van een land weergegeven, en je moet op de vlag klikken die bij dat land hoort.
 
 ### Wat ga je maken
 
 \--- no-print \---
 
-Click on the flag of the country for which you are being asked.
+Klik op de vlag van het land waarom gevraagd wordt.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,7 +22,7 @@ Click on the flag of the country for which you are being asked.
 
 \--- print-only \---
 
-![Finished game](images/finished-game.png)
+![Voltooid spel](images/finished-game.png)
 
 \--- /print-only \---
 
@@ -30,14 +30,14 @@ Click on the flag of the country for which you are being asked.
 
 ## title: Wat ga je leren
 
-+ How to broadcast a message and have other sprites respond
-+ How to select random items from a list
++ Hoe een bericht te verzenden en andere sprites te laten reageren
++ Hoe willekeurige items uit een lijst te selecteren
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Wat je nodig hebt
+## title: Wat heb je nodig
 
 * * *
 
@@ -51,22 +51,22 @@ Click on the flag of the country for which you are being asked.
 
 ### Downloads
 
-+ [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
++ [Offline startproject](http://rpf.io/p/en/guess-the-flag-go){:target="_ blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
 
 \--- /no-print \---
 
-You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
+Je kunt [de bronnen voor dit project hier downloaden](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/guess-the-flag-get)"{:target="_blank"} vinden.
 
 \--- /collapse \---
