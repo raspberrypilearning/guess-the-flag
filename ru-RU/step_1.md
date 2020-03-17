@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Это версия проекта для **Скретч 3**. Есть также [версия для Скретч 2](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
 
-\--- /без печати \---
+\--- /no-print \---
 
-## Введение
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### Что тебе нужно будет сделать
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Чему ты научишься
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,27 +37,27 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Что тебе понадобится
+## title: What you will need
 
 * * *
 
-### Оборудование
+### Hardware
 
-+ Компьютер, способный запускать Scratch 3
++ A computer capable of running Scratch 3
 
-### Программное обеспечение
+### Software
 
-+ Scratch 3 (либо [онлайн-редактор](http://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Загрузки
+### Downloads
 
-+ [Автономный стартовый проект](http://rpf.io/p/en/guess-the-flag-go){: target = "_ blank"}
++ [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Дополнительные примечания для педагогов
+## title: Additional notes for educators
 
 \--- no-print \---
 
