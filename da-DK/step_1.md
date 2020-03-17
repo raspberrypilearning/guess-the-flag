@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduktion
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### Hvad du vil lave
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Du kommer til at lære følgende
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,13 +37,13 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: Du får brug for følgende
+## title: What you will need
 
 * * *
 
 ### Hardware
 
-+ En computer, der er i stand til at køre Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
