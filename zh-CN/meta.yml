@@ -8,7 +8,7 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: 介绍
+    title: Introduction
   - 
     title: Draw the flags
   - 
@@ -24,11 +24,11 @@ steps:
   - 
     title: Check the answer
   - 
-    title: 添加计分
+    title: Add a score
   - 
     title: Start a new round
   - 
     title: "Challenge: improve the game"
     challenge: true
   - 
-    title: 接下来还有什么？
+    title: What next?
