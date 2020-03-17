@@ -47,7 +47,7 @@ add [Ghana] to [flags v]
 add [Luxembourg] to [flags v]
 ```
 
-\--- /görev \---
+\--- /task \---
 
 Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
 
