@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## 简介
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### 学习成果
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: 你将学到什么
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,17 +37,17 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: 你需要准备什么
+## title: What you will need
 
 * * *
 
-### 硬件
+### Hardware
 
-+ 能够运行Scratch 3的电脑
++ A computer capable of running Scratch 3
 
-### 软件
+### Software
 
-+ Scratch 3（[在线版本](http://rpf.io/scratchon){:target="_blank"}或[离线版本](http://rpf.io/scratchoff){:target="_blank"}）
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -57,7 +57,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## title: 教师附加说明
+## title: Additional notes for educators
 
 \--- no-print \---
 
