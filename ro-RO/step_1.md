@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introducere
+## Introduction
 
 In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
 
-### Ce veți face
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## titlu: Ce veți învăța
+## title: What you will learn
 
 + How to broadcast a message and have other sprites respond
 + How to select random items from a list
@@ -37,15 +37,15 @@ Click on the flag of the country for which you are being asked.
 
 ## \--- collapse \---
 
-## titlu: Ce veți avea nevoie
+## title: What you will need
 
 * * *
 
-### Dispozitive
+### Hardware
 
-+ Un computer capabil de a rula Scratch 3
++ A computer capable of running Scratch 3
 
-### Programe
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
