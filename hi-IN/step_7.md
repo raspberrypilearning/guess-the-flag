@@ -1,6 +1,6 @@
-## प्रश्न पूछें
+## Ask the question
 
-आइए हम खिलाड़ी से किसी देश विशेष के झंडे का नाम बताने के लिए कहें।
+Let's ask the player to name the flag for a particular country.
 
 \--- task \---
 
