@@ -1,4 +1,4 @@
-## Herausforderung: mehr Objekte
+## Add a score
 
 \--- task \---
 
