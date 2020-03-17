@@ -1,86 +1,86 @@
-## Show the flags
+## Toon de vlaggen
 
-The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
+De persoon die de quiz maakt, moet de afbeeldingen van de vlaggen in de `gekozen vlaggen`{:class="block3variables"} lijst zien.
 
 \--- task \---
 
-Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
+Maak nog een aangepast blok en noem dit `kloon vlaggen`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-define clone flags
+definieer kloon vlaggen
 ```
 
 \--- /task \---
 
-This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
+Dit aangepaste blok zal de vlag sprite zes keer klonen, eenmaal voor elke vlag die moet worden weergegeven.
 
-The first flag should be displayed in the top left-hand corner of the Stage.
+De eerste vlag moet linksboven in het werkgebied worden weergegeven.
 
 \--- task \---
 
-As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+Als onderdeel van de instructies voor je`kloon vlaggen`{:class="block3myblocks"}, maak je de vlag sprite zichtbaar en voeg je een `ga naar`{:class="block3motion"} blok toe om de sprite te vertellen dat deze moet worden weergegeven op de coördinaten `-170`{:class="block3motion"}, `120`{:class="block3motion"} in de linkerbovenhoek van het speelveld.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
+definieer kloon vlaggen
+verschijn
+ga naar x: (-170) y: (120)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Below that code, add a loop that repeats six times.
+Voeg onder die code een lus toe die zes keer wordt herhaald.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
-Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
+Voeg binnen de lus codeblokken toe om het uiterlijk van de sprite naar de eerste vlag in de `gekozen vlaggen`{:class="block3variables"} lijst te schakelen en de sprite te klonen. Voeg vervolgens codeblokken toe om de eerste vlag uit de lijst te verwijderen en om `110`{:class="block3motion"} op te tellen bij de `x`{:class="block3motion"} -coördinaat om de sprite naar de positie van de tweede vlag te verplaatsen.
 
 \--- hints \--- \--- hint \---
 
-`Repeat`{:class="block3control"} six times: `Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}. `Clone the sprite`{:class="block3control"}. `Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}. `Move right 110`{:class="block3motion"}.
+`herhaal`{:class="block3control"} zes keer: `verander uiterlijk`{:class="block3looks"} naar het eerste `item in gekozen vlaggen`{:class="block3variables"}. `Maak een kloon van mijzelf`{:class="block3control"}. `Verwijder`{:class="block3variables"} het `eerste item in gekozen vlaggen`{:class="block3variables"}. `Neem 110 stappen`{:class="block3motion"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add:
+Hier zijn de codeblokken die je moet toevoegen:
 
 ```blocks3
-(item (1) of [chosen flags v])
+(item (1) van [gekozen vlaggen v])
 
-change x by (110)
+verander x met (110)
 
-create clone of (myself v)
+maak een kloon van (mijzelf v)
 
-switch costume to ( v)
+verander uiterlijk naar ( v)
 
-delete (1) of [chosen flags v]
+verwijder (1) van [gekozen vlaggen v]
 
-repeat (6)
-end
+herhaal (6)
+einde
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
-+ repeat (6)
-    switch costume to (item (1) of [chosen flags v])
-    create clone of (myself v)
-    delete (1) of [chosen flags v]
-    change x by (110)
-end
+definieer kloon vlaggen
+verschijn
+ga naar x: (-170) y: (120)
++ herhaal (6)
+    verander uiterlijk naar (item (1) van [gekozen vlaggen v])
+    maak een kloon van (mijzelf v)
+    verwijder (1) van [gekozen vlaggen v]
+    verander x met (110)
+einde
 ```
 
 \--- /hint \---
@@ -89,71 +89,71 @@ end
 
 \--- task \---
 
-Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+Voeg `kloon vlaggen`{:class="block3myblocks"} toe aan het einde van de code die wordt uitgevoerd wanneer op de groene vlag wordt geklikt.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chose flags v]
-repeat (6)
-  choose random flag :: custom
-end
-+ clone flags :: custom
+wanneer op de groene vlag wordt geklikt
+maak vlaggenlijst :: custom
+verwijder (alle v) van [gekozen vlaggen v]
+herhaal (6)
+  kies willekeurige vlag :: custom
+einde
++ kloon vlaggen :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+Voer je code uit. Merk op dat de verschillende vlaggen verschijnen, maar sommige worden afgesneden aan de rand van het werkgebied.
 
-![Flags go off the screen](images/flags-off-the-screen.png)
+![Vlaggen verdwijnen van het scherm](images/flags-off-the-screen.png)
 
 \--- /task \---
 
-Instead of putting all six flags in one row, make two rows of three flags.
+In plaats van alle zes vlaggen op één rij te plaatsen, maak je twee rijen van drie vlaggen.
 
 \--- task \---
 
-Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
+Voeg code toe binnen de `herhaal`{:class="block3control"} lus van het `kloon vlaggen`{:class="block3myblocks"} blok om de vlag sprite een rij naar beneden te verplaatsen als er drie vlaggen over zijn in de `gekozen vlaggen`{:class="block3variables"} lijst.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
-You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
+Je kunt de sprite een rij naar beneden verplaatsen door nog een `ga naar`{:class="block3motion"} blok te gebruiken met dezelfde `x`{:class="block3motion"} coördinaat als het startpunt, maar verander de `y`{:class="block3motion"} coördinaat om naar beneden te gaan.
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
-repeat (6)
-    switch costume to (item (1) of [chosen flags v])
-    create clone of (myself v)
-    delete (1) of [chosen flags v]
-    change x by (110)
-+   if <(length of [chosen flags v]) = [3]> then
-        go to x: (-170) y: (50)
-    end
-end
+definieer kloon vlaggen
+verschijn
+ga naar x: (-170) y: (120)
+herhaal (6)
+    verander uiterlijk naar (item (1) van [gekozen vlaggen v])
+    maak een kloon van (mijzelf v)
+    verwijder (1) van [gekozen vlaggen v]
+    verander x met (110)
++ als <(lengte van [gekozen vlaggen v]) = [3]> dan
+        ga naar x: (-170) y: (50)
+    einde
+einde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag and check that the flags display in two rows.
+Klik op de groene vlag en controleer of de vlaggen in twee rijen worden weergegeven.
 
 \--- /task \---
 
-It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+Het lijkt erop dat de laatste vlag twee keer wordt weergegeven. Dit komt omdat de originele vlag sprite aan het einde nog steeds zichtbaar is.
 
 \--- task \---
 
-Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+Voeg een `verdwijn`{:class="block3looks"} blok toe aan het einde van de code binnen het `kloon vlaggen`{:class="block3myblocks"} blok om de originele sprite te verbergen.
 
-![Flag sprite](images/flag-sprite.png)
+![Vlag sprite](images/flag-sprite.png)
 
 \--- /task \---
 
-If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
+Als je wilt, kun je proberen de vlag sprites één voor één te laten verschijnen of een geluid (bijvoorbeeld een plop) af te spelen telkens wanneer een vlag verschijnt.
