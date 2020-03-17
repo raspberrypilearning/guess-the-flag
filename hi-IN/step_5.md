@@ -1,6 +1,6 @@
-## सही उत्तर चुनें
+## Choose a correct answer
 
-अब क्योंकि आपके पास छह चुने हुए झंडों की एक सूची है, तो चुनें कि इस बार उनमें से सही उत्तर कौन सा होगा।
+Now that you have a list containing six chosen flags, choose which of them will be the correct answer this time.
 
 \--- task \---
 
