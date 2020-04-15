@@ -1,67 +1,67 @@
-## Show the flags
+## Показать флаги
 
-The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
+Человек, принимающий участие в викторине, должен видеть изображения флагов в списке ` выбранные флаги ` {: class = "block3variables"}.
 
 \--- task \---
 
-Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
+Создай еще один пользовательский блок и назови его ` флаги-клоны ` {:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-define clone flags
+определить флаги-клоны
 ```
 
 \--- /task \---
 
-This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
+Этот пользовательский блок будет клонировать спрайт флага шесть раз, по одному разу для каждого отображаемого флага.
 
-The first flag should be displayed in the top left-hand corner of the Stage.
+Первый флаг должен отображаться в верхнем левом углу сцены.
 
 \--- task \---
 
-As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+Как часть порядка действий для твоего блока `флаги-клоны`{:class="block3myblocks"} сделай спрайт флага видимым и добавь блок `перейти к`{:class="block3motion"}, чтобы спрайт отобразился в координатах `-170`{:class="block3motion"}, `120`{:class="block3motion"} в левом верхнем углу сцены.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
+определить флаги-клоны
+показать
+перейти в x: (-170) y: (120)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Below that code, add a loop that repeats six times.
+Под этим кодом добавь цикл, который повторяется шесть раз.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
-Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
+Внутри цикла добавь блоки кода, чтобы переключить костюм спрайта на первый флаг в ` выбранные флаги` {: class = "block3variables"} и клонировать спрайт. Затем добавь блоки кода, чтобы удалить первый флаг из списка и добавить ` 110 ` {: class = "block3motion"} в координату ` x ` {: class = "block3motion"}, чтобы переместить спрайт в позицию второго флага.
 
 \--- hints \--- \--- hint \---
 
-`Repeat`{:class="block3control"} six times: `Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}. `Clone the sprite`{:class="block3control"}. `Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}. `Move right 110`{:class="block3motion"}.
+` Повторить ` {: class = "block3control"} шесть раз: ` сменить костюм ` {: class = "block3looks"} на первый элемент в ` выбранные флаги ` {:class = "block3variables"}. ` Клонировать спрайт ` {:class= "block3control"}. ` Удалить ` {: class = "block3variables"} ` первый элмент в выбранные флаги ` {:class= "block3variables"}. ` Перейти вправо 110 ` {: Класс = "block3motion"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add:
+Вот блоки кода, которые тебе нужно добавить:
 
 ```blocks3
-(item (1) of [chosen flags v])
+(элемент (1) в [выбранные флаги v])
 
-change x by (110)
+изменить x на (110)
 
-create clone of (myself v)
+создать клон (себя v)
 
-switch costume to ( v)
+изменить костюм на ( v)
 
-delete (1) of [chosen flags v]
+удалить (1) из [выбранные флаги v]
 
-repeat (6)
+повторить (6) раз
 end
 ```
 
@@ -69,18 +69,18 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
-+ repeat (6)
-    switch costume to (item (1) of [chosen flags v])
-    create clone of (myself v)
-    delete (1) of [chosen flags v]
-    change x by (110)
-end
+определить флаги-клоны
+показать
+перейти в x: (-170) y: (120)
++ повторить (6) раз 
+  изменить костюм на (элемент (1) в [выбранные флаги v])
+  создать клон (себя v)
+  удалить (1) из [выбранные флаги v]
+  изменить x на (110)
+конец
 ```
 
 \--- /hint \---
@@ -89,71 +89,71 @@ end
 
 \--- task \---
 
-Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+Добавь блок` клоны-флаги` {:class="block3myblocks"} в конец кода, который запускается после нажатия зеленого флажка.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chose flags v]
-repeat (6)
-  choose random flag :: custom
-end
-+ clone flags :: custom
+когда зеленый флаг нажат
+создать список флагов : пользовательский
+удалить (все v) из [выбранные флаги v]
+повторить (6) раз 
+выбрать случайный флаг :: пользовательский
+конец
++ флаги-клоны :: пользовательский
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+Запусти свой код. Обрати внимание, что появляются разные флаги, но некоторые обрезаются краем сцены.
 
-![Flags go off the screen](images/flags-off-the-screen.png)
+![Флаги исчезают с экрана](images/flags-off-the-screen.png)
 
 \--- /task \---
 
-Instead of putting all six flags in one row, make two rows of three flags.
+Вместо того, чтобы поставить все шесть флагов в один ряд, сделай два ряда из трех флагов.
 
 \--- task \---
 
-Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
+Добавь код в цикл `повторить` {: class = "block3control"} блока ` флаги-клоны` {: class = "block3myblocks"}, чтобы переместить спрайт Флаг вниз, если в списке `выбранные флаги` {: class = "block3variables"} осталось три флага.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
-You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
+Вы можете переместить спрайт в низ ряда, с помощью другого блока ` перейти в` {: class = "block3motion"} и оставив координату ` x ` {: class = "block3motion"} такой же, как и в начальной точке, но уменьшить координату ` y ` {: class = "block3motion"}, чтобы сдвинуть спрайт вниз.
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
-repeat (6)
-    switch costume to (item (1) of [chosen flags v])
-    create clone of (myself v)
-    delete (1) of [chosen flags v]
-    change x by (110)
-+   if <(length of [chosen flags v]) = [3]> then
-        go to x: (-170) y: (50)
-    end
-end
+определить флаги-клоны
+показать
+перейти в x: (-170) y: (120)
+повторить (6) раз 
+  изменить костюм на (элемент (1) в [выбранные флаги v])
+  создать клон (себя v)
+  удалить (1) из [выбранные флаги v]
+  изменить x на (110)
+  + если <(длина списка [выбранные флаги v]) = [3]> то 
+ перейти в x: (-170) y: (50)
+ конец
+конец
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag and check that the flags display in two rows.
+Нажми на зеленый флаг и убедись, что флаги появились в два ряда.
 
 \--- /task \---
 
-It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+Похоже, последний флаг отображается дважды. Это потому, что оригинальный спрайт Флаг все еще отображается в конце.
 
 \--- task \---
 
-Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+Добавить блок ` скрыть ` {: class = "block3looks"} в конец кода в блок `флаги-клоны` {: class = "block3myblocks"}, чтобы скрыть оригинальный спрайт.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 \--- /task \---
 
-If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
+Если хочешь, можно попытаться сделать так, чтобы спрайты флагов появлялись один за другим, или чтобы воспроизводился звук (например, хлопок) при каждом появлении флага.
