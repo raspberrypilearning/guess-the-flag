@@ -1,15 +1,15 @@
-## Challenge: improve the game
+## Задание: улучши свою игру
 
-+ Add a fixed number of rounds and then tell the player the percentage of rounds in which they gave the correct answer.
++ Добавь определенное количество раундов, а затем сообщите игроку процент раундов, в которых он дал правильный ответ.
 
-+ Store the high score.
++ Сохрани рекорд.
 
 [[[generic-scratch3-high-score]]]
 
-+ Add a timer for each round to force the player to give their answer quickly.
++ Добавь таймер для каждого раунда, чтобы заставить игрока давать ответы быстро.
 
-+ Add more flags to make the game more challenging.
++ Добавь больше флагов, чтобы сделать игру сложнее.
 
-+ If the player clicks on an incorrect flag, have the game remove that flag and give the player another chance to answer correctly before the next round begins.
++ Сделай так, чтобы игра удаляла флаг, если игрок нажимает на неправильный, и дай игроку еще один шанс ответить правильно до начала следующего раунда.
 
-+ Make the game into a two-player quiz where players take turns to guess, and their scores are recorded separately.
++ Превратите игру в викторину для двух игроков, в которой игроки по очереди угадывают, а их результаты записываются отдельно.
