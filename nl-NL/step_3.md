@@ -33,7 +33,7 @@ Voeg aan het begin van de code een blok toe aan `verwijder alle`{:class="block3v
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-wwhen flag clicked
+when flag clicked
 + verwijder (alle v) van [vlaggen v]
 voeg [Japan] toe aan [vlaggen v]
 voeg [Belgium] toe aan [vlaggen v]
