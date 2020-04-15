@@ -18,32 +18,32 @@ Bangladesh
 
 Luxembourg
 
-flags
+vlaggen
 
-Country
+Land
 
-create flag list
+maak vlaggenlijst
 
-chosen flags
+gekozen vlaggen
 
-flag number
+vlagnummer
 
-choose random flag
+kies willekeurige vlag
 
-correct answer
+correct antwoord
 
-clone flags
+kloon vlaggen
 
-announce country
+kondig land aan
 
-click on
+Klik op
 
-Sorry, that was wrong
+Sorry, dat was niet goed
 
-Correct
+Goed
 
 score
 
-start the round
+begin het spel
 
-clean up
+wissen
