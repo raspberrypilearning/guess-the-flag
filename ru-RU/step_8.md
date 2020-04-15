@@ -1,72 +1,73 @@
-## Check the answer
+## Проверь ответ
 
-Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
+Твой спрайт теперь просит игрока нажать на правильный флаг. Затем игра должна проверить, является ли этот флаг правильным ответом.
 
 \--- task \---
 
-Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="block3events"}.
+Вернись к коду спрайта флага и добавь блок, чтобы начать новый раздел кода, который будет запускаться `когда этот спрайт нажат` {:class= "block3events"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 \--- /task \---
 
-Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
+Затем твоя викторина должна проверить, совпадает ли имя костюма спрайта флага, который был выбран, с правильным ответом.
 
 \--- task \---
 
-Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="block3variables"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
+Добавь код, который говорит «Правильно», если имя костюма спрайта флага совпадает с ` правильный ответ ` {: class = "block3variables"} или говорит "К сожалению, неправильно", если имя и переменная не совпадают.
 
-You can use this useful block here as well.
+Также здесь можно использовать этот полезный блок.
 
 ```blocks3
-(item (10 v) of [flags v])
+(элемент (10 v) в [флаги v])
 ```
 
-This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
+На этот раз объедини его с блоком ` имя костюма` {: class = "block3looks"}, чтобы получить имя текущего костюма спрайта флага.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
+`Когда этот спрайт нажат`{:class="block3events"}, `если`{:class="block3control"} `имя костюма`{:class="block3looks"} совпадает с `правильный ответ`{:class="block3variables"}, `сказать`{:class="block3looks"} 'Правильно', или `иначе`{:class="block3control"} `сказать`{:class="block3looks"} 'К сожалению, неправильно'.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
 ```blocks3
-say [Sorry, that was wrong] for (2) seconds
+сказать [К сожалению, неправильно] (2) секунд
 
-say [Correct] for (2) seconds
+сказать [Правильно] (2) секунд
 
-if <> then
-else
-end
+если <>, то 
+ 
+иначе
+конец
 
-(costume [name v])
+(костюм [имя v])
 
 <[] = []>
 
-(correct answer)
+(правильный ответ)
 
-when this sprite clicked
+когда спрайт нажат
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
-when this sprite clicked
-if <(costume [name v]) = (correct answer :: variables)> then
-    say [Correct] for (2) seconds
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
+когда спрайт нажат
+если <(костюм [имя v]) = (правильный ответ :: переменные)> , то 
+  сказать [Правильно] (2) секунд
+иначе 
+  сказать [К сожалению, неправильно] (2) секунд
+конец
 ```
 
 \--- /hint \---
@@ -75,8 +76,8 @@ end
 
 \--- task \---
 
-Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+Нажми на зеленый флаг и проверь код дважды: один раз, выбрав правильный флаг, и один раз, выбрав неправильный. Убедись, что появляется правильное сообщение в зависимости от того, даешь ли ты правильный или неправильный ответ.
 
-![Click on the flag](images/click-on-flag.png)
+![Нажми на флаг](images/click-on-flag.png)
 
 \--- /task \---
