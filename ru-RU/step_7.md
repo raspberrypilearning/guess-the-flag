@@ -1,23 +1,23 @@
-## Ask the question
+## Задай вопрос
 
-Let's ask the player to name the flag for a particular country.
+Давай попросим игрока назвать флаг определенной страны.
 
 \--- task \---
 
-In the flag sprite, `broadcast the message`{:class="block3events"} 'announce country' immediately after the block that clones the flags.
+В спрайте флага ` передайте сообщение ` {:class="block3events"} 'назвать страну' сразу после блока, который клонирует флаги.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-set [correct answer v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
-clone flags :: custom
-+ broadcast (announce country v)
+когда зеленый флаг нажат
+создать список флагов :: пользовательский
+удалить (все v) из [выбранные флаги v]
+повторить (6) раз 
+  выбрать случайный флаг :: пользовательский
+конец
+задать [правильный ответ v] значение (элемент (выдать случайное от (1) до (длина списка [выбранные флаги v])) в [выбранные флаги v])
+флаги-клоны :: пользовательский
++ передать (назвать страну v)
 
 ```
 
@@ -27,47 +27,47 @@ clone flags :: custom
 
 \--- task \---
 
-Add a new sprite of your choice to be your quiz master. The quiz master in the example is the sprite called Abby.
+Добавь новый спрайт по твоему выбору, который будет вести викторину. Ведущий викторины в примере - это спрайт по имени Эбби.
 
-![Abby sprite](images/bear-sprite.png)
+![Спрайт Эбби](images/bear-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the quiz master sprite so that, when the sprite receives the `announce country`{:class="block3events"} broadcast, it tells the player to click on the country name that is stored in the variable `correct answer`{:class="block3variables"}.
+Добавь код в спрайт ведущей викторины, чтобы, когда спрайту передавалось `назвать страну ` {: class = "block3events"}, она говорила игроку нажать на название страны, которое хранится в переменной ` правильный ответ ` {: Класс = "block3variables"}.
 
-![Character sprite](images/char-sprite.png)
+![Спрайт персонажа](images/char-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When I receive`{:class="block3events"} the broadcast, `say`{:class="block3looks"} 'click on `correct answer`{:class="block3variables"}'.
+`Когда я получу`{:class="block3events"} передачу, `сказать`{:class="block3looks"} 'нажать на `правильный ответ`{:class="block3variables"}'.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
 ```blocks3
-(join [click on] [])
+(объединить [нажми на] [])
 
-(correct answer)
+(правильный ответ)
 
-say [] for (2) seconds
+говорить [] (2) секунд
 
-when I receive [announce country v]
+когда я получу [назвать страну v]
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
 ```blocks3
-when I receive [announce country v]
-say (join [click on] (correct answer :: variables)) for (2) seconds
+когда я получу [назвать страну v]
+говорить (объединить [нажать на] (правильный ответ :: переменная)) (2) секунд
 ```
 
 \--- /hint \---
