@@ -1,32 +1,32 @@
-## Add a score
+## Добавить счет
 
 \--- task \---
 
-Create a new variable called `score`{:class="block3variables"} and set the score to `0`{:class="block3variables"} when the green flag is clicked.
+Создай новую переменную с именем ` счет ` {: class = "block3variables"} и установи счет ` 0 ` {: class = "block3variables"} при нажатии зеленого флажка.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-+ set [score v] to [0]
+когда зеленый флаг нажат
+задать [счет v] значение [0]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add `1`{:class="block3variables"} to the score every time the player gives a correct answer.
+Добавляй ` 1 ` {: class = "block3variables"} к счету каждый раз, когда игрок дает правильный ответ.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(costume [name v]) = (correct answer :: variables)> then
-+ change [score v] by [1]
-    say [Correct] for (2) seconds
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
+когда спрайт нажат
+если <(костюм [имя v]) = (правильный ответ :: переменные)> , то 
++ изменить [счет v] на [1]
+  сказать [Правильно] (2) секунд
+иначе 
+  сказать [К сожалению, неправильно] (2) секунд
+конец
 ```
 
 \--- /task \---
