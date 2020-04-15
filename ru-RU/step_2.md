@@ -1,43 +1,43 @@
-## Draw the flags
+## Нарисуй флаги
 
 \--- task \---
 
-Open the 'Guess the flag' Scratch starter project.
+Открой стартовый проект "Угадай флаг".
 
-**Online:** open the starter project at [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner of the online editor to save a copy of the project.
+**Онлайн:** открой стартовый проект по адресу [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. Если у тебя есть аккаунт в Скретче, ты можешь нажать на **Ремикс** в правом верхнем углу онлайн-редактора для сохранения копии проекта.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/guess-the-flag-go) in the offline editor.
+**Оффлайн**: открой [стартовый проект](http://rpf.io/p/en/guess-the-flag-go) в оффлайн-редакторе.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-Select the Costumes tab. You should see eight flags there.
+Выбери вкладку Костюмы. Ты увидишь там восемь флагов.
 
-Scroll to the bottom of the list of costumes, where there are two blank costumes. These costumes are there so you can add your own flags.
-
-\--- task \---
-
-Click on the 'Your flag 1' costume, and change its name to the name of a country.
-
-![Rename costume](images/rename-costume.png)
-
-\--- /task \---
+Прокрути список костюмов вниз, пока не увидишь два пустых костюма. Эти костюмы нужны для того, чтобы ты добавил свои собственные флаги.
 
 \--- task \---
 
-Draw that country's flag. Make sure your drawing is exactly the same size as the flag costume.
+Нажмите на костюм 'Твой флаг 1' и измените его имя на название страны.
 
-If you are stuck for ideas, you can find some flags on [this 'Flags of the world' web page](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
+![Переименовать костюм](images/rename-costume.png)
 
 \--- /task \---
 
 \--- task \---
 
-Repeat this process for the second blank flag costume so that there are ten flag costumes in total.
+Нарисуй флаг этой страны. Убедись, что твой рисунок точно такого же размера, как костюм флага.
+
+Если ты запутался, то можешь найти некоторые флаги на [этом сайте 'Флаги мира'](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
 
 \--- /task \---
 
-Here are the flags that act as examples in the 'Guess the flag' project, but you can choose any flags you like for your game.
+\--- task \---
 
-![All flag costumes](images/all-costumes.png)
+Повтори этот процесс для второго пустого костюма флага, чтобы всего было десять костюмов флагов.
+
+\--- /task \---
+
+Вот флаги, которые служат примерами в проекте «Угадай флаг», но ты можешь выбрать любые флаги для своей игры.
+
+![Все костюмы флагов](images/all-costumes.png)
