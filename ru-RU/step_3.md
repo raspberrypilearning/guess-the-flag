@@ -1,96 +1,96 @@
-## Create a list of flags
+## Создать список флагов
 
 \--- task \---
 
-Click on the Code tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
+Нажми на вкладку Код. Там есть список под названием ` флаги ` {: class = "block3variables"}, где хранятся названия стран, для которых есть костюмы.
 
 \--- /task \---
 
 \--- task \---
 
-Add two more code blocks, one each for the other two flags you created, so there is a total of ten blocks that add all ten countries to the `flags`{:class="block3variables"} list.
+Добавь еще два блока кода, по одному для двух других созданных тобой флагов, так что в общей сложности в списке ` флаги` должно быть десять блоков {: class = "block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-add [Country] to [flags v]
+добавить [Страна] к [флаги v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag and check that the countries appear in the list.
+Нажми на зеленый флаг и убедись, что страны появились в списке.
 
 \--- /task \---
 
-If you press the green flag more than once, the countries get added to the list again, and the result is a list of 20 countries instead of 10.
+Если нажать на зеленый флаг больше одного раза, страны снова добавляются в список, и в результате получается список из 20 стран вместо 10.
 
 \--- task \---
 
-At the start of the code, add a block to `delete all`{:class="block3variables"} of the countries in the list before adding them. This will stop the countries from being added to the list more than once.
+В начале кода добавьте блок ` удалить все ` {: class = "block3variables"} страны в списке прежде чем добавить их. Благодаря этому страны не будут добавляться в список больше одного раза.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-+ delete (all v) of [flags v]
-add [Japan] to [flags v]
-add [Belgium] to [flags v]
-add [Italy] to [flags v]
-add [Turkey] to [flags v]
-add [Denmark] to [flags v]
-add [Chile] to [flags v]
-add [Botswana] to [flags v]
-add [Bangladesh] to [flags v]
-add [Ghana] to [flags v]
-add [Luxembourg] to [flags v]
+когда зеленый флаг нажат
+удалить (все v) из [флаги v]
+добавить [Япония] к [флаги v]
+добавить [Бельгия] к [флаги v]
+добавить [Италия] к [флаги v]
+добавить [Турция] к [флаги v]
+добавить [Дания] к [флаги v]
+добавить [Чили] к [флаги v]
+добавить [Ботсвана] к [флаги v]
+добавить [Бангладеш] к [флаги v]
+добавить [Гана] к [флаги v]
+добавить [Люксембург] к [флаги v]
 ```
 
 \--- /task \---
 
-Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
+Затем создай пользовательский блок. Пользовательский блок - это специальный блок с именем. С помощью этого пользовательского блока ты сможешь создавать список флагов, используя только этот один блок вместо множества блоков.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
+Нажми на **Мои блоки**, а затем нажми **Создать блок**. Назови твой пользовательский блок ` создать список флагов ` {:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
-![Add a block](images/add-block.png)
+![Добавить блок](images/add-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag all the code away from below the `when flag clicked`{:class="block3events"} block to below the new `create flag list`{:class="block3myblocks"} block.
+Перетащи весь код из-под блока ` когда флаг нажат ` {: class = "block3events"} под новый блок ` создать список флагов` {: class = "block3myblocks"}.
 
 ```blocks3
-define create flag list
-delete (all v) of [flags v]
-add [Japan] to [flags v]
-add [Belgium] to [flags v]
-add [Italy] to [flags v]
-add [Turkey] to [flags v]
-add [Denmark] to [flags v]
-add [Chile] to [flags v]
-add [Botswana] to [flags v]
-add [Bangladesh] to [flags v]
-add [Ghana] to [flags v]
-add [Luxembourg] to [flags v]
+определить создать список флагов
+удалить (все v) из [флаги v]
+добавить [Япония] к [флаги v]
+добавить [Бельгия] к [флаги v]
+добавить [Италия] к [флаги v]
+добавить [Турция] к [флаги v]
+добавить [Дания] к [флаги v]
+добавить [Чили] к [флаги v]
+добавить [Ботсвана] к [флаги v]
+добавить [Бангладеш] к [флаги v]
+добавить [Гана] к [флаги v]
+добавить [Люксембург] к [флаги v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Below the `when flag clicked`{:class="block3events"} block, add the new `create flag list`{:class="block3myblocks"} block.
+Под блоком `когда флаг нажат`{:class="block3events", добавь новый блок `создать список флагов`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
+когда зеленый флаг нажат
+создать список флагов :: пользовательский
 ```
 
 \--- /task \---
