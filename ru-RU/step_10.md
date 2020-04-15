@@ -1,135 +1,135 @@
-## Start a new round
+## Начни новый раунд
 
-At the moment there is only one round in the quiz, so the quiz doesn't last long. You are going to set up multiple rounds.
+На данный момент в викторине есть только один раунд, поэтому довольно короткий. Давай добавим несколько раундов.
 
 \--- task \---
 
-Create a new `broadcast`{:class="block3events"} that sends the message 'Start the round'.
+Создай новую `передачу` {: class = "block3events"}, которая отправляет сообщение «Начать раунд».
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-broadcast (start the round v)
+передать (начать раунд v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add a `when I receive 'Start the round'`{:class="block3events"} block, and then move all of the code from below the `when green flag clicked`{:class="block3events"} block to below this new block.
+Добавь блок `когда я получу 'Начать раунд'`{:class="block3events"}, а затем перемести весь код из блока `когда зеленый флаг нажат `{:class="block3events"} в этот новый блок.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-+ when I receive [start the round v]
-set [score v] to [0]
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-set [correct answer v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
-clone flags :: custom
-+ broadcast (announce country v)
++когда я получу [начать раунд v]
+задать [счет v] значение [0]
+создать список флагов :: пользовательский
+удалить (все v) из [выбранные флаги v]
+повторить (6) раз 
+  выбрать случайный флаг :: пользовательский
+конец
+задать [правильный ответ v] значение (элемент (выдать случайное от (1) до (длина списка [выбранные флаги v])) в [выбранные флаги v])
+флаги-клоны :: пользовательский
+передать (назвать страну v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Remove the `set score to 0`{:class="block3variables"} block and place it back below the `when green flag clicked`{:class="block3control"} block. Then add the new `broadcast`{:class="block3events"} block below both of them.
+Удали блок ` установить значение 0 ` {: class = "block3variables"} и помести его обратно под блок`, когда зеленый флаг нажат` {: class = "block3control"}. Затем добавь новый блок `передать` {: class = "block3events"} под ними обоими.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-set [score v] to [0]
-broadcast (start the round v)
+когда зелёный флаг нажат
+задать [счет v] значение [0]
+передать (начать раунд v)
+```
+
+\--- /задача \---
+
+\--- task \---
+
+После кода, который проверяет, верен ли ответ, добавь еще один блок ` передать` {: class = "block3events"}, чтобы начался новый раунд после ответа на вопрос.
+
+![Спрайт флага](images/flag-sprite.png)
+
+```blocks3
+когда спрайт нажат
+если <(костюм [имя v]) = (правильный ответ :: переменные)> , то 
+изменить [счет v] на [1]
+  говорить [Правильно] (2) секунд
+иначе 
+  говорить [К сожалению, неправильно] (2) секунд
+конец)
++ передать (начать раунд v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round can start once a question is answered.
+Нажми на зеленый флаг, чтобы проверить код. Нажми на один из флагов, чтобы сыграть раунд. Заметил, что следующий раунд не настроен должным образом?
 
-![Flag sprite](images/flag-sprite.png)
+![Следующий раунд не работает](images/next-round-does-not-work.png)
+
+\--- /task \---
+
+Это связано с тем, что перед началом следующего раунда игра должна сначала очистить клонированные флаги.
+
+\--- task \---
+
+Создайте еще одну новую ` передачу` {: class = "block3events"} с именем "очистить".
+
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(costume [name v]) = (correct answer :: variables)> then
-    change [score v] by [1]
-    say [Correct] for (2) seconds
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
-+ broadcast (start the round v)
+передать (очистить v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag to test your code. Click on one of the flags to play a round. Do you notice that the next round does not get set up properly?
+Установи спрайт флага на ` удалить эту копию` {: class = "block3control"}, когда он получает команду ` очистить` {: class = "block3events"}.
 
-![Next round does not work](images/next-round-does-not-work.png)
-
-\--- /task \---
-
-This is because before the game starts another round, the game needs to first clear up the cloned flags.
-
-\--- task \---
-
-Create another new `broadcast`{:class="block3events"} called 'clean up'.
-
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-broadcast (clean up v)
+когда я получу [очистить]
+удалить этот клон
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Set the Flag sprite to `delete this clone`{:class="block3control"} when it receives the `clean up`{:class="block3events"} broadcast.
-
-![Flag sprite](images/flag-sprite.png)
+Помести блок передать ` очистить` {: class = "block3events"} чуть выше, туда, где игра начинает новый раунд после получения ответа.
 
 ```blocks3
-when I receive [clean up v]
-delete this clone
+когда спрайт нажат
+создать список флаги :: пользовательский
+если <(элемент (костюм [номер v] в [флаги]) = (правильный ответ :: переменные)> , то 
+  говорить [Правильно] (2) секунд
+  изменить [счет v] на [1]
+иначе 
+  говорить [К сожалению, неправильно] (2) секунд
+конец
++ передать (очистить v)
+передать (начать раунд v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
-
-```blocks3
-when this sprite clicked
-create flags list  :: custom
-if <(item (costume [number v]) of [flags v]) = (correct answer :: variables)> then
-    say [Correct] for (2) seconds
-    change [score v] by [1]
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
-+ broadcast (clean up v)
-broadcast (start the round v)
-```
+Протестируй свой код еще раз и убедись, что можно играть в несколько раундов и что счет увеличивается, когда даешь правильные ответы.
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again and check that you can play multiple rounds, and that your score increases as you get answers correct.
-
-\--- /task \---
-
-\--- task \---
-
-Make sure you hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
+Убедись, что ты скрыл переменную ` правильный ответ ` {: class = "block3variables"}, и что игрок не может ее увидеть!
 
 \--- /task \---
