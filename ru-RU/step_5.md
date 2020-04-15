@@ -1,27 +1,27 @@
-## Choose a correct answer
+## Выбери правильный ответ
 
-Now that you have a list containing six chosen flags, choose which of them will be the correct answer this time.
+Теперь, когда у тебя есть список из шести выбранных флагов, выбери, какой из них будет правильным ответом на этот раз.
 
 \--- task \---
 
-Create a new variable called `correct answer`{:class="block3variables"}.
+Создай новую переменную с именем `правильный ответ`{:class="block3variables"}.
 
 \--- /task \---
 
 \--- task \---
 
-After the six flags are chosen, set the `correct answer`{:class="block3variables"} variable to be a random item from the `chosen flags`{:class="block3variables"} list.
+После того, как шесть флагов выбраны, установи переменную `правильный ответ` {: class = "block3variables"} на случайный элемент из списка ` выбранные флаги` {: class = "block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Спрайт флага](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-+ set [correct answer v] to (item (pick random (1) to (length of [chosen flags v]) ) of [chosen flags v])
+когда зелёный флаг нажат
+создать список флагов :: пользовательский
+удалить (все v) из [выбранные флаги v]
+повторить (6) раз
+    выбрать случайный флаг :: пользовательский
+конец
++ задать [правильный ответ v] значение (элемент (выдать случайное от (1) до (длина списка [выбранные флаги v])) в [выбранные флаги v])
 ```
 
 \--- /task \---
