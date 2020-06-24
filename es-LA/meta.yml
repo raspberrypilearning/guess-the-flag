@@ -1,0 +1,34 @@
+---
+title: Adivina la bandera
+hero_image: images/banner.png
+description: '¡Crea un juego de preguntas sobre banderas para ti y tus amigos!'
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - 
+    title: Introducción
+  - 
+    title: Dibuja las banderas
+  - 
+    title: Crea una lista de banderas
+  - 
+    title: Elige una bandera al azar
+  - 
+    title: Elige una respuesta correcta
+  - 
+    title: Muestra las banderas
+  - 
+    title: Haz preguntas
+  - 
+    title: Comprueba la respuesta
+  - 
+    title: Añade una puntuación
+  - 
+    title: Comienza una nueva ronda
+  - 
+    title: "Desafío: mejora el juego"
+    challenge: true
+  - 
+    title: '¿Qué sigue?'
