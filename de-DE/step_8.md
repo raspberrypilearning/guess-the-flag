@@ -1,40 +1,40 @@
-## Check the answer
+## Überprüfe die Antwort
 
-Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
+Deine Figur bittet nun den Spieler, auf die richtige Flagge zu klicken. Dann muss das Spiel prüfen, ob die angeklickte Flagge die richtige Antwort ist.
 
 \--- task \---
 
-Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="block3events"}.
+Gehe zurück zum Figur-Code und füge dann einen Block hinzu, um einen neuen Abschnitt des Codes zu starten, der ausgeführt wird `wenn diese Figur angeklickt wird`{:class="block3events"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 \--- /task \---
 
-Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
+Dann muss dein Quiz überprüfen, ob der Kostümname der angeklickten Flaggenfigur mit der richtigen Antwort übereinstimmt.
 
 \--- task \---
 
-Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="block3variables"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
+Füge Code hinzu, um 'Korrekt' zu sagen, wenn der Kostümname der Flagge die gleiche ist wie die `korrekte Antwort`{:class="block3variables"} Variable, oder "Sorry, das war falsch" zu sagen, wenn der Name und die Variable nicht identisch sind.
 
-You can use this useful block here as well.
+Du kannst diesen nützlichen Block auch hier verwenden.
 
 ```blocks3
 (item (10 v) of [flags v])
 ```
 
-This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
+Kombiniere es diesmal mit einem `Kostümnamen`{:class="block3looks"} Block, um den Namen des aktuellen Flaggenfigur-Kostüms abzurufen.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
+`Wenn auf diese Figur geklickt wird`{:class="block3events"}, `falls`{:class="block3control"} dieser `Kostümname`{:class="block3looks"} gleich de `korrekte Antwort`{:class="block3variables"} ist, `sage`{:class="block3looks"} 'Richtig' oder `ansonsten`{:class="block3control"} `sage`{:class="block3looks"} 'Entschuldigung, das war falsch'.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Hier sind die Codeblöcke die du brauchst:
 
 ```blocks3
 say [Sorry, that was wrong] for (2) seconds
@@ -58,7 +58,7 @@ when this sprite clicked
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
 ```blocks3
 when this sprite clicked
@@ -75,8 +75,8 @@ end
 
 \--- task \---
 
-Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+Klicke auf grüne Flagge und teste deinen Code zweimal: einmal durch Auswahl der richtigen Flagge und einmal durch Auswahl einer Falschen. Überprüfe, ob die richtige Nachricht angezeigt wird, je nachdem, ob du die richtige oder die falsche Antwort angibst.
 
-![Click on the flag](images/click-on-flag.png)
+![Klicke auf die Flagge](images/click-on-flag.png)
 
 \--- /task \---
