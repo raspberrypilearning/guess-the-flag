@@ -1,12 +1,12 @@
-## Start a new round
+## एक नया राउंड शुरू करें
 
-At the moment there is only one round in the quiz, so the quiz doesn't last long. You are going to set up multiple rounds.
+फिलहाल प्रश्नोत्तरी में केवल एक राउंड है, इसलिए प्रश्नोत्तरी लंबे समय तक नहीं चलती है। आप कई राउंड सेट करने जा रहे हैं।
 
 \--- task \---
 
-Create a new `broadcast`{:class="block3events"} that sends the message 'Start the round'.
+एक नया ` प्रसारण बनाएं ` {"class =" block3events "} जो संदेश भेजता है 'राउंड शुरू करें'।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 broadcast (start the round v)
@@ -16,9 +16,9 @@ broadcast (start the round v)
 
 \--- task \---
 
-Add a `when I receive 'Start the round'`{:class="block3events"} block, and then move all of the code from below the `when green flag clicked`{:class="block3events"} block to below this new block.
+जब मुझे 'राउंड प्रारंभ' प्राप्त होता है, तो ` जोड़ें ` {:class = "block3events"} ब्लॉक करें, और फिर हरे रंग के झंडे पर क्लिक करने पर ` के नीचे से सभी कोड को स्थानांतरित करें ` इस नए ब्लॉक के नीचे {:class = "block3events"} ब्लॉक करें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 + when I receive [start the round v]
@@ -37,9 +37,9 @@ clone flags :: custom
 
 \--- task \---
 
-Remove the `set score to 0`{:class="block3variables"} block and place it back below the `when green flag clicked`{:class="block3control"} block. Then add the new `broadcast`{:class="block3events"} block below both of them.
+`सेट स्कोर को 0`{:class="block3variables"} ब्लॉक को निकालें और इसे वापस `हरे रंग के झंडे पर क्लिक करने`{:class="block3control"} ब्लॉक के नीचे रखें। और फिर नए `broadcast`{:class="block3events"} ब्लॉक को उन दोनों के नीचे रखें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -51,9 +51,9 @@ broadcast (start the round v)
 
 \--- task \---
 
-After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round can start once a question is answered.
+उत्तर सही है या नहीं की जाँच करने वाले कोड के बाद, एक और `broadcast`{:class="block3events"} ब्लॉक जोड़ें ताकि एक बार प्रश्न का उत्तर दे दिए जाने के बाद एक नया राउंड शुरू हो सके।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -70,19 +70,19 @@ end
 
 \--- task \---
 
-Click the green flag to test your code. Click on one of the flags to play a round. Do you notice that the next round does not get set up properly?
+अपने खेल का परीक्षण करने के लिए हरे झंडे पर क्लिक करें। कोई राउंड खेलने के लिए किसी एक झंडे पर क्लिक करें। क्या आप यह देखते हैं कि अगला राउंड ठीक से सेट अप नहीं होता है?
 
-![Next round does not work](images/next-round-does-not-work.png)
+![अगला राउंड काम नहीं करता](images/next-round-does-not-work.png)
 
 \--- /task \---
 
-This is because before the game starts another round, the game needs to first clear up the cloned flags.
+ऐसा इसलिए है क्योंकि गेम का दूसरा राउंड शुरू करने से पहले, गेम को पहले क्लोन किए गए झंडों को साफ करने की ज़रूरत होती है।
 
 \--- task \---
 
-Create another new `broadcast`{:class="block3events"} called 'clean up'.
+'साफ करें' नामक एक और नया `broadcast`{:class="block3events"} बनाएँ।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 broadcast (clean up v)
@@ -92,9 +92,9 @@ broadcast (clean up v)
 
 \--- task \---
 
-Set the Flag sprite to `delete this clone`{:class="block3control"} when it receives the `clean up`{:class="block3events"} broadcast.
+फ्लैग स्प्राइट को सेट करें ` इस क्लोन को हटा दें ` {:class = "block3control"} जब यह ` साफ हो जाता है ` {"class =" block3events "} प्रसारण प्राप्त हो।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when I receive [clean up v]
@@ -105,7 +105,7 @@ delete this clone
 
 \--- task \---
 
-Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
+` सफाई रखें ` {:class = "block3events"} प्रसारण ब्लॉक को ठीक ऊपर जहां खेल एक उत्तर देने के बाद एक नया दौर शुरू करता है वहां रखना है।
 
 ```blocks3
 when this sprite clicked
@@ -124,12 +124,12 @@ broadcast (start the round v)
 
 \--- task \---
 
-Test your code again and check that you can play multiple rounds, and that your score increases as you get answers correct.
+अपने कोड का फिर से परीक्षण करें और जाँच करें कि आप कई राउंड खेल सकते हैं, और उत्तर सही होने पर आपका स्कोर बढ़ जाता है।
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
+सुनिश्चित करें कि आप `correct answer`{:class="block3variables"} वेरिएबल को छिपा देते हैं ताकि खिलाड़ी उसे न देख सके!
 
 \--- /task \---
