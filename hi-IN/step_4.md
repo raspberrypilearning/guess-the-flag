@@ -1,24 +1,24 @@
-## Choose random flags
+## यादृच्छिक (random) झंडे चुनें
 
-For each round of the quiz, choose six random flags from the `flags`{:class="block3variables"} list to be the options.
+प्रश्नोत्तरी के प्रत्येक दौर के लिए, `flags`{:class="block3variables"} सूची से विकल्पों के रूप में छह यादृच्छिक झंडे चुनें।
 
 \--- task \---
 
-Create another list called `chosen flags`{:class="block3variables"}. This list will store the six random flags.
+`chosen flags`{:class="block3variables"} (चुने गए झंडे) नामक एक और सूची बनाएँ। इस सूची में छह यादृच्छिक झंडे संगृहीत होंगे।
 
 \--- /task \---
 
 \--- task \---
 
-Create a variable called `flag number`{:class="block3variables"}.
+`flag number`{:class="block3variables"} नामक एक वेरिएबल बनाएँ।
 
 \--- /task \---
 
 \--- task \---
 
-Create a custom block and call it `choose random flag`{:class="block3myblocks"}.
+एक कस्टम ब्लॉक बनाएँ और इसका नाम `choose random flag`{:class="block3myblocks"} (यादृच्छिक झंडे चुनें) रखें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 define choose random flag
@@ -28,21 +28,21 @@ define choose random flag
 
 \--- task \---
 
-Add code to the custom block to set the `flag number`{:class="block3variables"} variable to a random number between `1` and the number of items in the `flags`{:class="block3variables"} list.
+`flag number`{:class="block3variables"} वेरिएबल को `1` और `flags`{:class="block3variables"} सूची में आइटमों की संख्या के बीच किसी यादृच्छिक संख्या पर सेट करने के लिए कस्टम ब्लॉक में कोड जोड़ें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
-There is a special block in the Variables tab for finding the number of items in a list.
+किसी सूची में आइटमों की संख्या खोजने के लिए वेरिएबल टैब में एक विशेष ब्लॉक होता है।
 
 \--- hints \--- \--- hint \---
 
-Set the `flag number`{:class="block3variables"} variable to a `random number`{:class="block3operators"} between `1` and the `length of the 'flags' list`{:class="block3variables"}.
+` ध्वज संख्या सेट करें ` {:class = "block3variables"} वैरिएबल को एक ` यादृच्छिक संख्या ` {:class= "block3operators"} ` 1 के बीच ` और ` 'झंडे' की सूची की लंबाई ` {:class= "block3variables"}।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+आपको इस कोड ब्लॉक की ज़रुरत पड़ेगी:
 
 ```blocks3
 (length of [flags v])
@@ -58,7 +58,7 @@ set [flag number v] to []
 
 \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ```blocks3
 define choose random flag
@@ -69,7 +69,7 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 
 \--- /hints \--- \--- /task \---
 
-This block selects an item from a list by number:
+यह ब्लॉक सूची में से किसी आइटम को संख्या के अनुसार चुनता है:
 
 ```blocks3
 (item (10 v) of [flags v])
@@ -77,9 +77,9 @@ This block selects an item from a list by number:
 
 \--- task \---
 
-Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+`flags`{:class="block3variables"} सूची में से यादृच्छिक रूप से चुनी गई आइ़टम का पाठ पाने के लिए इस ब्लॉक को `flag number`{:class="block3variables"} के साथ मिलाएँ। फिर उस आइटम के पाठ को `chosen flags`{:class="block3variables"} सूची में जोड़ें। इस कोड को अपने कस्टम ब्लॉक में जोड़ें:
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 define choose random flag
@@ -91,9 +91,9 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 
 \--- task \---
 
-Add the custom `choose random flag`{:class="block3myblocks"} block to the code that runs after the green flag is clicked.
+कस्टम `choose random flag`{:class="block3myblocks"} ब्लॉक को उस कोड में जोड़ें जो हरे झंडे को क्लिक करने के बाद चलता है।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -105,17 +105,17 @@ create flag list :: custom
 
 \--- task \---
 
-Test that your code works by clicking the green flag several times and checking that different countries are added to the `chosen flags`{:class="block3variables"} list every time. (If you have hidden the list, tick the box next to the list name to make the list visible.)
+परीक्षण करें कि हरे झंडे को कई बार क्लिक करने पर आपका कोड काम करता है और जाँच करें कि `chosen flags`{:class="block3variables"} सूची में हर बार विभिन्न देश जोड़े जाते हैं। (यदि आपने सूची छिपा दी है, तो सूची को प्रकट करने के लिए सूची के नाम के आगे बने बॉक्स पर टिक करें।)
 
 \--- /task \---
 
-Can you see that, if you click the green flag lots of times, your `chosen flags`{:class="block3variables"} list quickly fills up with more than six items?
+क्या आप यह देख सकते हैं कि यदि आप हरे झंडे को बहुत अधिक बार क्लिक करते हैं, तो आपकी `chosen flags`{:class="block3variables"} सूची शीघ्र ही छह से अधिक आइटमों से भर जाती है?
 
 \--- task \---
 
-Add blocks to delete all the items from the `chosen flags`{:class="block3variables"} list before choosing six flags for the quiz.
+` चुने गए झंडे से सभी आइटम हटाने के लिए ब्लॉक जोड़ें ` {:class = "block3variables"} सूची प्रश्नोत्तरी के लिए छह झंडे चुनने से पहले।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -130,21 +130,21 @@ end
 
 \--- task \---
 
-Test your code again by clicking the green flag several times and checking that the `chosen flags` list is filled with six countries each time.
+हरे झंडे को कई बार क्लिक करके अपने कोड का फिर से परीक्षण करें और जाँच करें कि `chosen flags` सूची में हर बार छह देश भरे होते हैं।
 
 \--- /task \---
 
-You might notice that sometimes the same country gets added to the list more than once.
+आप देख सकते हैं कि कभी-कभी एक ही देश सूची में एक से अधिक बार जुड़ जाता है।
 
-![Duplicate countries](images/duplicate-countries.png)
+![डुप्लीकेट देश](images/duplicate-countries.png)
 
 \--- task \---
 
-Change your `choose random flag`{:class="block3myblocks"} block so that the same country never gets added twice to the `chosen flags`{:class="block3variables"} list.
+अपने `choose random flag`{:class="block3myblocks"} ब्लॉक को बदलें ताकि `chosen flags`{:class="block3variables"} सूची में एक ही देश कभी भी दो बार नहीं जुड़े।
 
-Add a block to the end of your custom block code to delete the `flag number`{:class="block3variables"} from the `flags`{:class="block3variables"} list after it has been added to the `chosen flags`{:class="block3variables"} list.
+`chosen flags`{:class="block3variables"} सूची में `flags`{:class="block3variables"} सूची जोड़े जाने के बाद उसे उसमें से `flag number`{:class="block3variables"} हटाने के लिए अपने कस्टम ब्लॉक कोड के अंत में एक ब्लॉक जोड़ें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 define choose random flag
@@ -155,4 +155,4 @@ add (item (flag number) of [flags v]) to [chosen flags v]
 
 \--- /task \---
 
-If you want to hide the lists and variables so that they don't take up space on the Stage, go to the Data section and unselect the boxes next to the list names or variable names. If you want to show the lists and variables again, just select the boxes.
+यदि आप सूचियों और वेरिएबल को छिपाना चाहते हैं ताकि वे स्टेज पर जगह न लें, तो डेटा खंड में जाएँ और सूची के नामों या वेरिएबल नामों के आगे बने बॉक्सों में चयन को निकाल दें। यदि आप सूचियों और वेरिएबल को फिर से दिखाना चाहते हैं, तो बस बॉक्सों का चयन कर लें।
