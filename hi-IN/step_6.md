@@ -41,7 +41,7 @@ go to x: (-170) y: (120)
 लूप के अंदर, स्प्राइट के परिधान को `chosen flags`{:class="block3variables"} सूची में पहले झंडे में बदलने के लिए, और स्प्राइट को क्लोन करने के लिए कोड ब्लॉक जोड़ें। फिर, सूची में से पहले झंडे को हटाने के लिए, और स्प्राइट को दूसरे झंडे की स्थिति में ले जाने के लिए `x`{:class="block3motion"} निर्देशांक में `110`{:class="block3motion"} जोड़ने के लिए कोड ब्लॉक जोड़ें।
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 `Repeat`{:class="block3control"} का छह बार उपयोग करें: `Switch costume`{:class="block3looks"} का `first item in chosen flags`{:class="block3variables"} में। `Clone the sprite`{:class="block3control"}। `first item in chosen flags`{:class="block3variables"} के लिए `Delete`{:class="block3variables"} का उपयोग करें। `Move right 110`{:class="block3motion"}.
 
@@ -86,7 +86,8 @@ end
 
 --- /hint ---
 
---- /hints --- --- /task ---
+--- /hints --- 
+--- /task ---
 
 --- task ---
 
@@ -118,7 +119,7 @@ end
 
 --- task ---
 
---- task ---यदि `chosen flags`{:class="block3variables"} सूची में तीन झंडे बच जाते है तो झंडा स्प्राइट (sprite) को एक पंक्ति नीचे ले जाने के लिए `clone flags`{:class="block3myblocks"} ब्लॉक के `repeat`{:class="block3control"} लूप के भीतर कोई कोड जोड़ें।
+यदि `chosen flags`{:class="block3variables"} सूची में तीन झंडे बच जाते है तो झंडा स्प्राइट (sprite) को एक पंक्ति नीचे ले जाने के लिए `clone flags`{:class="block3myblocks"} ब्लॉक के `repeat`{:class="block3control"} लूप के भीतर कोई कोड जोड़ें।
 
 ![झंडा स्प्राइट](images/flag-sprite.png)
 
