@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Version des Projekts](https://projects.raspberrypi.org/en/projects/guess-the-flag-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Einleitung
 
-In this resource, you will create a flag quiz to test yourself and your friends. In the quiz, six flags and the name of a country are displayed, and you have to click on the correct flag to match the country.
+In diesem Teil erstellst du ein Flaggen-Quiz, um dich und deine Freunde zu testen. Im Quiz werden sechs Flaggen und der Name eines Landes angezeigt, und du musst auf die richtige Flagge des Landes klicken.
 
-### What you will make
+### Was du machen wirst
 
 \--- no-print \---
 
-Click on the flag of the country for which you are being asked.
+Klicke auf die Flagge des Landes, nach dem du gefragt wirst.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,51 +22,51 @@ Click on the flag of the country for which you are being asked.
 
 \--- print-only \---
 
-![Finished game](images/finished-game.png)
+![Beendetes Spiel](images/finished-game.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Was du lernen wirst
 
-+ How to broadcast a message and have other sprites respond
-+ How to select random items from a list
++ Wie man eine Nachricht sendet und andere Figuren antworten lässt
++ So wählst du zufällige Elemente aus einer Liste aus
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Was du brauchen wirst
 
 * * *
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Ein Computer, auf dem Scratch 3 ausgeführt werden kann
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline starter project](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
++ [Offline Starter Projekt](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Zusätzliche Hinweise für Pädagogen
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
+Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/guess-the-flag/print).
 
 \--- /no-print \---
 
-You can [download the resources for this project here](http://rpf.io/p/en/guess-the-flag-go){:target="_blank"}.
+Sie können [die Ressourcen für dieses Projekt hier herunterladen](http://rpf.io/p/en/guess-the-flag-go){: target = "_ blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/guess-the-flag-get){:target="_blank"}.
 
 \--- /collapse \---
