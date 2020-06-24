@@ -1,16 +1,16 @@
-## Create a list of flags
+## Erstelle eine Liste der Flaggen
 
 \--- task \---
 
-Click on the Code tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
+Klicke auf den Code-Tab. Es gibt eine Liste namens `Flaggen`{: class = "block3variables"}, in dem du die Namen der Länder speicherst, für die dein Spiel Flaggenkostüme hat.
 
 \--- /task \---
 
 \--- task \---
 
-Add two more code blocks, one each for the other two flags you created, so there is a total of ten blocks that add all ten countries to the `flags`{:class="block3variables"} list.
+Füge zwei weitere Codeblöcke hinzu, jeweils einen für die beiden von dir erstellten Flaggen. Es gibt also insgesamt zehn Blöcke, die alle zehn Länder zu der `Flaggen`{: class = "block3variables"} Liste hinzufügen.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 add [Country] to [flags v]
@@ -20,17 +20,17 @@ add [Country] to [flags v]
 
 \--- task \---
 
-Click the green flag and check that the countries appear in the list.
+Klicke auf die grüne Flagge und überprüfe, ob die Länder in der Liste angezeigt werden.
 
 \--- /task \---
 
-If you press the green flag more than once, the countries get added to the list again, and the result is a list of 20 countries instead of 10.
+Wenn du die grüne Flagge mehrmals drückst, werden die Länder erneut zur Liste hinzugefügt, und das Ergebnis ist eine Liste mit 20 statt 10 Ländern.
 
 \--- task \---
 
-At the start of the code, add a block to `delete all`{:class="block3variables"} of the countries in the list before adding them. This will stop the countries from being added to the list more than once.
+Füge zu Beginn des Codes einen Block hinzu, um in der Liste der Länder`alles zu löschen`{:class="block3variables"}, bevor sie hinzugefügt werden. Dadurch wird verhindert, dass die Länder mehr als einmal zur Liste hinzugefügt werden.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -49,21 +49,21 @@ add [Luxembourg] to [flags v]
 
 \--- /task \---
 
-Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
+Erstelle als nächstes einen eigenen Block. Ein eigener Block ist ein spezieller Block mit einem Namen. Der benutzerdefinierte Block, den du erstellst, lässt dich eine Liste von Flaggen erstellen, die nur diesen einen Block anstelle von vielen Blöcken verwenden.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
+Klicke auf **Meine Blöcke** und dann auf **Block erstellen**. Benenne deinen eigenen Block `Erstelle Flaggenliste`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
-![Add a block](images/add-block.png)
+![Block hinzufügen](images/add-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag all the code away from below the `when flag clicked`{:class="block3events"} block to below the new `create flag list`{:class="block3myblocks"} block.
+Verschiebe den gesamten Code von unter dem `wenn Flagge geklickt` {:class="block3events"} Block nach unterhalb der neuen `Erstelle Flaggen-Liste`{:class="block3myblocks"} Block.
 
 ```blocks3
 define create flag list
@@ -84,9 +84,9 @@ add [Luxembourg] to [flags v]
 
 \--- task \---
 
-Below the `when flag clicked`{:class="block3events"} block, add the new `create flag list`{:class="block3myblocks"} block.
+Füge unterhalb des `wenn Flagge geklickt`{:class="block3events"} Blocks den neuen `Flaggenliste erstellen`{:class="block3myblocks"} Block hinzu.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
