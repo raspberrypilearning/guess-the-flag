@@ -1,18 +1,18 @@
-## Choose a correct answer
+## Wähle eine richtige Antwort aus
 
-Now that you have a list containing six chosen flags, choose which of them will be the correct answer this time.
+Nachdem du nun eine Liste mit sechs ausgewählten Flags hast, wähle aus, welche davon diesmal die richtige Antwort sein soll.
 
 \--- task \---
 
-Create a new variable called `correct answer`{:class="block3variables"}.
+Erstelle eine neue Variable mit dem Namen `richtige Antwort`{:class="block3variables"}.
 
 \--- /task \---
 
 \--- task \---
 
-After the six flags are chosen, set the `correct answer`{:class="block3variables"} variable to be a random item from the `chosen flags`{:class="block3variables"} list.
+Nachdem die sechs Flaggen ausgewählt wurden, setze die `richtige Antwort`{:class="block3variables"} Variable auf ein zufälliges Element aus der `ausgewählte Flaggen`{:class="block3variables"} Liste.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
