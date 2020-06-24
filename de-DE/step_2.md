@@ -1,43 +1,43 @@
-## Draw the flags
+## Zeichne die Flaggen
 
 \--- task \---
 
-Open the 'Guess the flag' Scratch starter project.
+Öffne das Scratch-Starterprojekt 'Errate die Flagge'.
 
-**Online:** open the starter project at [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner of the online editor to save a copy of the project.
+**Online:** Öffne das Starter-Projekt hier [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. Wenn du ein Scratch-Konto hast, kannst du auf **Remix** in der oberen rechten Ecke des Online-Editors klicken, um eine Kopie des Projekts zu speichern.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/guess-the-flag-go) in the offline editor.
+**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/en/guess-the-flag-go) im Offline-Editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-Select the Costumes tab. You should see eight flags there.
+Wähle den Kostüme-Tab. Du solltest dort acht Flaggen sehen.
 
-Scroll to the bottom of the list of costumes, where there are two blank costumes. These costumes are there so you can add your own flags.
-
-\--- task \---
-
-Click on the 'Your flag 1' costume, and change its name to the name of a country.
-
-![Rename costume](images/rename-costume.png)
-
-\--- /task \---
+Scrolle zum Ende der Liste der Kostüme, in der sich zwei leere Kostüme befinden. Diese Kostüme sind da, damit du deine eigenen Flaggen hinzufügen kannst.
 
 \--- task \---
 
-Draw that country's flag. Make sure your drawing is exactly the same size as the flag costume.
+Klicke auf das Kostüm "Deine Flagge 1" und ändere dessen Namen zu dem Namen eines Landes.
 
-If you are stuck for ideas, you can find some flags on [this 'Flags of the world' web page](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
+![Kostüm umbenennen](images/rename-costume.png)
 
 \--- /task \---
 
 \--- task \---
 
-Repeat this process for the second blank flag costume so that there are ten flag costumes in total.
+Zeichne die Flagge dieses Landes. Stelle sicher, dass deine Zeichnung genau die gleiche Größe wie das Flaggenkostüm hat.
+
+Wenn du Ideen brauchst, findest du einige Flaggen auf [der Webseite "Flaggen der Welt"](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_ blank"}.
 
 \--- /task \---
 
-Here are the flags that act as examples in the 'Guess the flag' project, but you can choose any flags you like for your game.
+\--- task \---
 
-![All flag costumes](images/all-costumes.png)
+Wiederhole diesen Vorgang für das zweite leere Flaggenkostüm, sodass insgesamt zehn Flaggenkostüme vorhanden sind.
+
+\--- /task \---
+
+Hier sind die Flaggen, die als Beispiele im Projekt "Errate die Flagge" dienen. Du kannst jedoch beliebige Flaggen für dein Spiel auswählen.
+
+![Alle Flaggenkostüme](images/all-costumes.png)
