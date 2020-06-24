@@ -1,0 +1,22 @@
+---
+title: झंडे का अनुमान लगाएँ
+hero_image: images/banner.png
+description: अपने और अपने दोस्तों के लिए एक झंडा प्रश्नोत्तरी गेम बनाएँ!
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: भूमिका
+  - title: झंडे बनाएँ
+  - title: झंडों की सूची बनाएँ
+  - title: यादृच्छिक झंडे चुनें
+  - title: सही उत्तर चुनें
+  - title: झंडे दिखाएँ
+  - title: प्रश्न पूछें
+  - title: उत्तर की जाँच करें
+  - title: स्कोर जोड़ें
+  - title: एक नया राउंड शुरू करें
+  - title: "चुनौती: गेम में सुधार करें"
+    challenge: true
+  - title: 'चुनौती: अपने ड्रम की पोशाक बदलें'
