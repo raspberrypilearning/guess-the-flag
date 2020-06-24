@@ -1,15 +1,15 @@
-## Challenge: improve the game
+## चुनौती: गेम में सुधार करें
 
-+ Add a fixed number of rounds and then tell the player the percentage of rounds in which they gave the correct answer.
++ निश्चित संख्या में राउंड जोड़ें और फिर खिलाड़ी को उन राउंड का प्रतिशत बताएँ जिनमें उन्होंने सही उत्तर दिया था।
 
-+ Store the high score.
++ उच्च स्कोर को संगृहीत करें।
 
 [[[generic-scratch3-high-score]]]
 
-+ Add a timer for each round to force the player to give their answer quickly.
++ प्रत्येक राउंड के लिए एक टाइमर जोड़ें, जिससे खिलाड़ी को अपना उत्तर जल्दी देने के लिए मजबूर किया जा सके।
 
-+ Add more flags to make the game more challenging.
++ गेम को और अधिक चुनौतीपूर्ण बनाने के लिए अधिक झंडे जोड़ें।
 
-+ If the player clicks on an incorrect flag, have the game remove that flag and give the player another chance to answer correctly before the next round begins.
++ यदि खिलाड़ी गलत झंडे पर क्लिक करता है, तो गेम में से उस झंडे को हटा दें और अगला राउंड शुरू होने से पहले खिलाड़ी को सही उत्तर देने का एक और मौका दें।
 
-+ Make the game into a two-player quiz where players take turns to guess, and their scores are recorded separately.
++ गेम को दो-खिलाड़ी वाली प्रश्नोत्तरी बनाएँ जिसमें खिलाड़ी बारी-बारी से अनुमान लगाते हैं, और उनके स्कोर अलग-अलग दर्ज किए जाते हैं।
