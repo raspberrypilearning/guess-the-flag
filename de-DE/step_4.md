@@ -1,24 +1,24 @@
-## Choose random flags
+## Wähle zufällige Flaggen aus
 
-For each round of the quiz, choose six random flags from the `flags`{:class="block3variables"} list to be the options.
+Wähle für jede Runde des Quiz sechs zufälligen Flaggen aus der `Flaggenliste`{:class="block3variables"} als Optionen aus.
 
 \--- task \---
 
-Create another list called `chosen flags`{:class="block3variables"}. This list will store the six random flags.
+Erstelle eine neue Liste mit dem Namen `ausgewählte Flaggen`{:class="block3variables"}. Diese Liste wird die sechs zufälligen Flaggen enthalten.
 
 \--- /task \---
 
 \--- task \---
 
-Create a variable called `flag number`{:class="block3variables"}.
+Erstelle eine neue Variable namens `Flaggennummer`{:class='block3variable'}.
 
 \--- /task \---
 
 \--- task \---
 
-Create a custom block and call it `choose random flag`{:class="block3myblocks"}.
+Erstelle einen neuen Block und nenne ihn `Zufällige Flagge auswählen` {:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 define choose random flag
@@ -28,21 +28,21 @@ define choose random flag
 
 \--- task \---
 
-Add code to the custom block to set the `flag number`{:class="block3variables"} variable to a random number between `1` and the number of items in the `flags`{:class="block3variables"} list.
+Füge Code zum neuen Block hinzu, um die `Flaggennummer`{:class="block3variables"} Variable auf eine zufällige Zahl zwischen `1` und der Anzahl der Elemente in der `Flaggen`{:class="block3variables"} Liste zu setzen.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
-There is a special block in the Variables tab for finding the number of items in a list.
+Im Variablen-Tab gibt es einen speziellen Block zum Ermitteln der Anzahl der Elemente in einer Liste.
 
 \--- hints \--- \--- hint \---
 
-Set the `flag number`{:class="block3variables"} variable to a `random number`{:class="block3operators"} between `1` and the `length of the 'flags' list`{:class="block3variables"}.
+Setze die `Flagennummer`{:class="block3variables"} Variable auf eine `zufällige Nummer`{:class="block3operators"} zwischen `1` und der `Länge der 'Flaggen' Liste`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Hier sind die Codeblöcke die du brauchst:
 
 ```blocks3
 (length of [flags v])
@@ -58,7 +58,7 @@ set [flag number v] to []
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
 ```blocks3
 define choose random flag
@@ -69,7 +69,7 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 
 \--- /hints \--- \--- /task \---
 
-This block selects an item from a list by number:
+Dieser Block wählt ein Element aus einer Liste nach Nummer aus:
 
 ```blocks3
 (item (10 v) of [flags v])
@@ -77,9 +77,9 @@ This block selects an item from a list by number:
 
 \--- task \---
 
-Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+Kombiniere diesen Block mit der `Flaggennummer` {:class="block3variables"} Variable, um den Text des zufällig ausgewählten Elements der `Flaggen` {:class="block3variables"} Liste zu bekommen. Füge dann den Text in die `ausgewählte Flagge`{:class="block3variables"} Liste ein. Füge diesen Code deinem Block hinzu:
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 define choose random flag
@@ -91,9 +91,9 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 
 \--- task \---
 
-Add the custom `choose random flag`{:class="block3myblocks"} block to the code that runs after the green flag is clicked.
+Füge den benutzerdefinierten `zufällige Flagge auswählen`{:class="block3myblocks"} Block dem Code hinzu, der ausgeführt wird, nachdem die grüne Flagge angeklickt wurde.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -105,17 +105,17 @@ create flag list :: custom
 
 \--- task \---
 
-Test that your code works by clicking the green flag several times and checking that different countries are added to the `chosen flags`{:class="block3variables"} list every time. (If you have hidden the list, tick the box next to the list name to make the list visible.)
+Teste, ob dein Code funktioniert, indem du mehrmals auf die grüne Flagge klickst und überprüfst, ob jedes Mal die verschiedenen Länder zu der `ausgewählte Flaggen` {:class="block3variables"} Liste hinzugefügt wurden. (Wenn du die Liste versteckt hast, aktiviere das Kontrollkästchen neben dem Listennamen, um die Liste sichtbar zu machen.)
 
 \--- /task \---
 
-Can you see that, if you click the green flag lots of times, your `chosen flags`{:class="block3variables"} list quickly fills up with more than six items?
+Kannst du sehen, dass, wenn du oft auf die grüne Flagge klickst, sich deine `gewählte Flaggen`{:class="block3variables"} Liste schnell mit mehr als sechs Elementen füllt?
 
 \--- task \---
 
-Add blocks to delete all the items from the `chosen flags`{:class="block3variables"} list before choosing six flags for the quiz.
+Füge Blöcke hinzu, um alle Elemente aus der `ausgewählte Flaggen` {:class="block3variables"} Liste zu löschen, bevor du sechs Flaggen für das Quiz auswählst.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -130,21 +130,21 @@ end
 
 \--- task \---
 
-Test your code again by clicking the green flag several times and checking that the `chosen flags` list is filled with six countries each time.
+Teste deinen Code noch einmal, indem du mehrmals auf die grüne Flagge klickst und überprüfst, ob die `ausgewählte Flaggen` Liste mit jeweils sechs Ländern gefüllt ist.
 
 \--- /task \---
 
-You might notice that sometimes the same country gets added to the list more than once.
+Es kann sein, dass du feststellst, dass manchmal das gleiche Land mehrmals zur Liste hinzugefügt wird.
 
-![Duplicate countries](images/duplicate-countries.png)
+![Doppelte Länder](images/duplicate-countries.png)
 
 \--- task \---
 
-Change your `choose random flag`{:class="block3myblocks"} block so that the same country never gets added twice to the `chosen flags`{:class="block3variables"} list.
+Ändere deinen `Zufällige Flagge auswählen`{:class="block3myblocks"} Block, damit das gleiche Land nie zweimal zur `ausgewählte Flaggen`{:class="block3variables"} Liste hinzugefügt wird.
 
-Add a block to the end of your custom block code to delete the `flag number`{:class="block3variables"} from the `flags`{:class="block3variables"} list after it has been added to the `chosen flags`{:class="block3variables"} list.
+Füge einen Block am Ende deines benutzerdefinierten Blockcodes hinzu, um die `Flaggennummer`{:class="block3variables"} aus der `Flaggen`{:class="block3variables"} Liste zu löschen, nachdem sie zur `ausgewählte Flaggen`{:class="block3variables"} Liste hinzugefügt wurde.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 define choose random flag
@@ -155,4 +155,4 @@ add (item (flag number) of [flags v]) to [chosen flags v]
 
 \--- /task \---
 
-If you want to hide the lists and variables so that they don't take up space on the Stage, go to the Data section and unselect the boxes next to the list names or variable names. If you want to show the lists and variables again, just select the boxes.
+Wenn du die Listen und Variablen ausblenden möchten, damit sie keinen Platz beanspruchen, gehe zum Abschnitt Daten und deaktiviere die Kontrollkästchen neben den Listennamen oder Variablennamen. Wenn du die Listen und Variablen erneut sehen möchtest, aktiviere einfach die Kontrollkästchen.
