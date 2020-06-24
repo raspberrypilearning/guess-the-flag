@@ -1,49 +1,49 @@
-Ghana
+घाना
 
-Italy
+इटली
 
-Japan
+जापान
 
-Belgium
+बेल्जियम
 
-Turkey
+तुर्की
 
-Denmark
+डेनमार्क
 
-Chile
+चिली
 
-Botswana
+बोत्सवाना
 
-Bangladesh
+बांग्लादेश
 
-Luxembourg
+लक्समबर्ग
 
-flags
+झंडे
 
-Country
+देश
 
-create flag list
+झंडे की सूची बनाएं
 
-chosen flags
+चुने हुए झंडे
 
-flag number
+झंडा नंबर
 
-choose random flag
+कोइ भी झंडे चुनें
 
-correct answer
+सही जवाब
 
-clone flags
+झंडे की नकल करो
 
-announce country
+देश की घोषणा करें
 
-click on
+पर क्लिक करें
 
-Sorry, that was wrong
+क्षमा करें, यह गलत था
 
-Correct
+सही
 
-score
+अंक
 
-start the round
+दौर(round) शुरू करो
 
-clean up
+साफ़ करें
