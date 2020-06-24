@@ -29,7 +29,7 @@
 --- hints ---
  --- hint ---
 
-`When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} यह `costume name`{:class="block3looks"} `correct answer`{:class = "block3variables"}, `say`{:class="block3looks"} 'Correct', या `else`{:class="block3control"} `say` {:class =" block3looks "} 'क्षमा करें, वह गलत था (Sorry, that was wrong)'।
+`When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} यह `costume name`{:class="block3looks"} `correct answer`{:class = "block3variables"}, `say`{:class="block3looks"} 'Correct', या `else`{:class="block3control"} `say`{:class =" block3looks "} 'क्षमा करें, वह गलत था (Sorry, that was wrong)'।
 
 --- /hint ---
 

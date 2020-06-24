@@ -37,7 +37,7 @@ define choose random flag
 --- hints ---
  --- hint ---
 
-`flag number`{:class="block3variables"} वैरिएबल को एक `flag number`{:class="block3operators"} `1 के बीच` और `length of the 'flags' list` {:class= "block3variables"}।
+`flag number`{:class="block3variables"} वैरिएबल को एक `flag number`{:class="block3operators"} `1 के बीच` और `length of the 'flags' list` {:class="block3variables"}।
 
 --- /hint ---
 
