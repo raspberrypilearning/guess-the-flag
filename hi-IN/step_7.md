@@ -1,12 +1,12 @@
-## Ask the question
+## प्रश्न पूछें
 
-Let's ask the player to name the flag for a particular country.
+आइए हम खिलाड़ी से किसी देश विशेष के झंडे का नाम बताने के लिए कहें।
 
 \--- task \---
 
-In the flag sprite, `broadcast the message`{:class="block3events"} 'announce country' immediately after the block that clones the flags.
+झंडा स्प्राइट (sprite) में, `broadcast the message`{:class="block3events"} झंडे को क्लोन करने वाले ब्लॉक के तुरंत बाद 'देश की घोषणा करें'।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -27,27 +27,27 @@ clone flags :: custom
 
 \--- task \---
 
-Add a new sprite of your choice to be your quiz master. The quiz master in the example is the sprite called Abby.
+अपनी क्विज़ मास्टर होने के लिए अपनी पसंद का एक नया स्प्राइट (sprite) जोड़ें। इस उदाहरण में प्रश्नोत्तरी मास्टर एब्बी नामक स्प्राइट है।
 
-![Abby sprite](images/bear-sprite.png)
+![एब्बी स्प्राइट](images/bear-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the quiz master sprite so that, when the sprite receives the `announce country`{:class="block3events"} broadcast, it tells the player to click on the country name that is stored in the variable `correct answer`{:class="block3variables"}.
+क्विज़ मास्टर स्प्राइट में कुछ कोड जोड़ें ताकि जब स्प्राइट ` देश की घोषणा करे ` {:class = "block3events"} प्रसारण, यह खिलाड़ी को उस देश के नाम पर क्लिक करने के लिए कहता है जिसे चर <0 में संग्रहीत किया गया है: सही उत्तर </code> {: class= "block3variables"}।
 
-![Character sprite](images/char-sprite.png)
+![पात्र स्प्राइट](images/char-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When I receive`{:class="block3events"} the broadcast, `say`{:class="block3looks"} 'click on `correct answer`{:class="block3variables"}'.
+` जब मैं ` {:class =" block3events "} प्रसारण प्राप्त करता हूं, ` तो ` {:class = "block3looks"} ` सही उत्तर ` पर क्लिक करें {:class= "block3variables"} '।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+आपको इस कोड ब्लॉक की ज़रुरत पड़ेगी:
 
 ```blocks3
 (join [click on] [])
@@ -63,7 +63,7 @@ when I receive [announce country v]
 
 \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ```blocks3
 when I receive [announce country v]
