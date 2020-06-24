@@ -1,16 +1,16 @@
-## Create a list of flags
+## झंडों की सूची बनाएँ
 
 \--- task \---
 
-Click on the Code tab. There is a list called `flags`{:class="block3variables"}, where you store the names of the countries that your game has flag costumes for.
+कोड टैब पर क्लिक करें। `flags`{:class="block3variables"} नामक एक सूची है, जिसमें आप उन देशों के नाम संगृहीत करते हैं जिनके आपके गेम के लिए झंडे के परिधान हैं।
 
 \--- /task \---
 
 \--- task \---
 
-Add two more code blocks, one each for the other two flags you created, so there is a total of ten blocks that add all ten countries to the `flags`{:class="block3variables"} list.
+दो और कोड ब्लॉक जोड़ें, आपने जो दो अन्य झंडे तैयार किए हैं उन दोनों में से प्रत्येक के लिए एक, इस तरह कुल मिलाकर दस ब्लॉक हैं जो दस-के-दस देशों को `flags`{:class="block3variables"} की सूची में जोड़ते हैं।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 add [Country] to [flags v]
@@ -20,17 +20,17 @@ add [Country] to [flags v]
 
 \--- task \---
 
-Click the green flag and check that the countries appear in the list.
+\--- task \---हरे झंडे पर क्लिक करें और जाँच करें कि सूची में देश दिखाई देते हैं।
 
 \--- /task \---
 
-If you press the green flag more than once, the countries get added to the list again, and the result is a list of 20 countries instead of 10.
+यदि आप हरे झंडे को एक से अधिक बार दबाते हैं, तो सूची में देश फिर से जुड़ जाते हैं, और परिणामस्वरूप 10 देशों की सूची के बजाय 20 देशों की सूची बन जाती है।
 
 \--- task \---
 
-At the start of the code, add a block to `delete all`{:class="block3variables"} of the countries in the list before adding them. This will stop the countries from being added to the list more than once.
+\--- task \---देशों के नाम जोड़ने से पहले, सभी देशों के नाम हटाने के लिए कोड के आरंभ में `delete all`{:class="block3variables"} ब्लॉक जोड़ें। यह देशों को सूची में एक से अधिक बार जोड़े जाने से रोक देगा।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -49,21 +49,21 @@ add [Luxembourg] to [flags v]
 
 \--- /task \---
 
-Next, make a custom block. A custom block is a special block with a name. The custom block you'll make will let you create a list of flags using only this one block instead of lots of blocks.
+इसके बाद, एक कस्टम ब्लॉक बनाएँ। कस्टम ब्लॉक नाम वाला एक विशेष ब्लॉक होता है। आप जो कस्टम ब्लॉक बनाएँगे उससे आप बहुत सारे ब्लॉकों के बजाय केवल इसी एक ब्लॉक का उपयोग करके झंडों की एक सूची बना सकेंगे।
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block**. Call your custom block `create flag list`{:class="block3myblocks"}.
+**मेरे ब्लॉक** पर क्लिक करें और फिर **एक ब्लॉक बनाएँ** पर। अपने कस्टम ब्लॉक को `create flag list`{:class="block3myblocks"} नाम दें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
-![Add a block](images/add-block.png)
+![एक ब्लॉक जोड़ें](images/add-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag all the code away from below the `when flag clicked`{:class="block3events"} block to below the new `create flag list`{:class="block3myblocks"} block.
+`when flag clicked`{:class="block3events"} ब्लॉक के नीचे से सभी कोड ड्रैग करके नए `create flag list`{:class="block3myblocks"} ब्लॉक के नीचे ले जाएँ।
 
 ```blocks3
 define create flag list
@@ -84,9 +84,9 @@ add [Luxembourg] to [flags v]
 
 \--- task \---
 
-Below the `when flag clicked`{:class="block3events"} block, add the new `create flag list`{:class="block3myblocks"} block.
+`when flag clicked`{:class="block3events"} ब्लॉक के नीचे, एक नया ब्लॉक `create flag list`{:class="block3myblocks"} जोड़ें।
 
-![Flag sprite](images/flag-sprite.png)
+![झंडा स्प्राइट](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
