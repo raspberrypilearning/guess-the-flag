@@ -1,10 +1,10 @@
-## What next?
+## Was kommt als nächstes?
 
-Try the [Line-up](https://projects.raspberrypi.org/en/projects/lineup?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will make a game of hide-and-seek and learn how to stamp sprites and use coordinates to position them in rows.
+Probiere das [Line-up](https://projects.raspberrypi.org/en/projects/lineup?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)-Projekt aus, in dem du ein Versteckspiel machst und lernst, wie du Figuren stempelst und mithilfe von Koordinaten in Reihen positionierst.
 
 \--- no-print \---
 
-Click on the green flag and, once the curtain is up, try and find the sprite before your time runs out.
+Klicke auf die grüne Flagge und wenn der Vorhang auf ist, versuche die Figur zu finden, bevor deine Zeit abläuft.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259020474/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,8 +14,8 @@ Click on the green flag and, once the curtain is up, try and find the sprite bef
 
 \--- print-only \---
 
-You have to find the right sprite amongst all these characters before your time runs out.
+Unter all diesen Figuren musst du die richtige Figur finden, bevor die Zeit abläuft.
 
-![showcase](images/lineup-showcase.png)
+![Vorschau](images/lineup-showcase.png)
 
 \--- /print-only \---
