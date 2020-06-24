@@ -1,12 +1,12 @@
-## Show the flags
+## Zeige die Flaggen
 
-The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
+Die Person, die am Quiz teilnimmt, muss die Bilder der Flaggen in der `ausgewählte Flaggen`{:class= block3variables"} Liste sehen.
 
 \--- task \---
 
-Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
+Erstelle einen weiteren neuen Block und nenne diesen `klone flagge`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 define clone flags
@@ -14,15 +14,15 @@ define clone flags
 
 \--- /task \---
 
-This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
+Dieser neue Block klont die Flaggenform sechs Mal, einmal für jede Flagge, die angezeigt werden soll.
 
-The first flag should be displayed in the top left-hand corner of the Stage.
+Die erste Flagge sollte in der oberen linken Ecke des Bereiches angezeigt werden.
 
 \--- task \---
 
-As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+Als Teil der Anweisungen für deinen `Klone flagge` {:class="block3myblocks"} Block, mache die Flaggenfigur sichtbar und füge einen `gehe zu`{:class="block3motion"} Block hinzu, um der Figur anzuweisen, an den Koordinaten `-170`{:class="block3motion"}, `120`{:class="block3motion"} in der oberen linken Ecke des Bereiches angezeigt zu werden.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 define clone flags
@@ -34,21 +34,21 @@ go to x: (-170) y: (120)
 
 \--- task \---
 
-Below that code, add a loop that repeats six times.
+Füge unter diesem Code eine Schleife hinzu, die sich sechsmal wiederholt.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
-Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
+Füge innerhalb der Schleife Codeblöcke hinzu, um das Figurenkostüm auf die erste Flagge in der `ausgewählte Flaggen`{:class="block3variables"} Liste zu setzen und klone dann die Figur. Füge dann Code-Blöcke hinzu, um die erste Flagge aus der Liste zu löschen und füge `110`{:class="block3motion"} zur `x`{:class="block3motion"} Koordinate hinzu, um die Figur zur Position der zweiten Flagge zu bewegen.
 
 \--- hints \--- \--- hint \---
 
-`Repeat`{:class="block3control"} six times: `Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}. `Clone the sprite`{:class="block3control"}. `Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}. `Move right 110`{:class="block3motion"}.
+`Wiederhole `{:class="block3control"} sechs Mal: `Kostüm wechseln`{:class="block3looks"} zum `ersten Element in ausgewählte Flagge`{:class="block3variables"}. `Klone die Figur`{:class="block3control"}. `Lösche`{:class="block3variables"} das `erste Element in ausgewählte Flaggen`{:class="block3variables"}. `Nach rechts bewegen 110`{:class="block3motion"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add:
+Hier sind die Codeblöcke, die du brauchst:
 
 ```blocks3
 (item (1) of [chosen flags v])
@@ -69,7 +69,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
 ```blocks3
 define clone flags
@@ -89,9 +89,9 @@ end
 
 \--- task \---
 
-Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+Füge deinen `klone Flaggen`{:class="block3myblocks""} Block an das Ende des Codes, der ausgeführt wird, wenn die grüne Fahne angeklickt wird.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -107,21 +107,21 @@ end
 
 \--- task \---
 
-Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+Führen deinen Code aus. Du siehst, dass die verschiedenen Flags angezeigt werden, einige jedoch am Rand des Bereiches abgeschnitten sind.
 
-![Flags go off the screen](images/flags-off-the-screen.png)
+![Flaggen verschwinden vom Bildschirm](images/flags-off-the-screen.png)
 
 \--- /task \---
 
-Instead of putting all six flags in one row, make two rows of three flags.
+Anstatt alle sechs Flaggen in eine Reihe zu setzen, mache zwei Reihen mit drei Flaggen.
 
 \--- task \---
 
-Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
+Füge ein bisschen Code in die `wiederhole`{:class="block3control"} Schleife des `klone Flagge`{:class="block3myblocks"} Blocks, um die Flagge um eine Reihe nach unten zu verschieben, wenn in der `ausgewählte Flaggen`{:class="block3variables"} Liste noch drei Flaggen vorhanden sind.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
-You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
+Du kannst die Figur mit einem anderen `gehe zu`{:class="block3motion"} Baustein nach unten bewegen indem du die `x`{:class="block3motion"} Koordinate gleich lässt, aber die `y`{:class="block3motion"} Koordinate verringerst.
 
 ```blocks3
 define clone flags
@@ -142,18 +142,18 @@ end
 
 \--- task \---
 
-Click the green flag and check that the flags display in two rows.
+Klicke auf die grüne Flagge und überprüfe, ob die Flaggen in zwei Reihen angezeigt werden.
 
 \--- /task \---
 
-It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+Es sieht so aus, als sei die letzte Flagge zweimal angezeigt. Das liegt daran, dass die ursprüngliche Flaggenfigur am Ende noch sichtbar ist.
 
 \--- task \---
 
-Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+Fügen einen `verbergen`{:class="block3looks"} Block am Ende des Codes innerhalb des `klone Flagge`{:class="block3myblocks"} Blocks hinzu, um die ursprüngliche Figur auszublenden.
 
-![Flag sprite](images/flag-sprite.png)
+![Flaggenfigur](images/flag-sprite.png)
 
 \--- /task \---
 
-If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
+Wenn du möchtest, kannst du versuchen, die Flaggenfiguren einzeln erscheinen zu lassen oder einen Ton abzuspielen (z.B . ein Pop) jedes Mal, wenn eine Flagge erscheint.
