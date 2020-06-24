@@ -1,49 +1,49 @@
 Ghana
 
-Italy
+Italien
 
 Japan
 
-Belgium
+Belgien
 
-Turkey
+Türkei
 
-Denmark
+Dänemark
 
 Chile
 
 Botswana
 
-Bangladesh
+Bangladesch
 
-Luxembourg
+Luxemburg
 
-flags
+Flaggen
 
-Country
+Land
 
-create flag list
+erstelle Flaggen-Liste
 
-chosen flags
+ausgewählte Flaggen
 
-flag number
+Flaggennummer
 
-choose random flag
+wähle zufällige Flagge
 
-correct answer
+richtige Antwort
 
-clone flags
+Flaggen klonen
 
-announce country
+Land ankündigen
 
-click on
+klicke auf
 
-Sorry, that was wrong
+Sorry, das war falsch
 
-Correct
+Korrekt
 
-score
+Punktestand
 
-start the round
+Starte die Runde
 
-clean up
+aufräumen
