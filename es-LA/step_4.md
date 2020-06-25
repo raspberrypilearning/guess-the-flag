@@ -58,11 +58,11 @@ establecer [número de bandera v] en []
 
 \--- hint \---
 
-This is what your code should look like:
+Así quedaría tu código:
 
 ```blocks3
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
+definir elegir bandera al azar
+establecer [número de v] a (elegir número al azar (1) a (longitud de [banderas v]))
 ```
 
 \--- /hint \---
