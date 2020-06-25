@@ -28,7 +28,7 @@ definir elegir bandera al azar
 
 \--- task \---
 
-Añade código al bloque personalizado para establecer a la variable `número de bandera`{:class="block3variables"} números aleatorios entre el `1` y la cantidad de elementos de la lista `banderas`{:class="block3variables"}.
+Añade código al bloque personalizado para establecer a la variable `número de bandera`{:class="block3variables"} números al azar entre el `1` y la cantidad de elementos de la lista `banderas`{:class="block3variables"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -36,7 +36,7 @@ Hay un bloque especial en la pestaña Variables para encontrar el número de ele
 
 \--- hints \--- \--- hint \---
 
-Establece la variable `número de bandera`{:class="block3variables"} a un `número aleatorio`{:class="block3operators"} entre `1` y el `total de banderas en la lista`{:class="block3variables"}.
+Establece la variable `número de bandera`{:class="block3variables"} a un `número al azar`{:class="block3operators"} entre `1` y la `longitud de la lista de «banderas»`{:class="block3variables"}.
 
 \--- /hint \---
 
@@ -45,13 +45,13 @@ Establece la variable `número de bandera`{:class="block3variables"} a un `núme
 Aquí están los bloques de código que necesitas:
 
 ```blocks3
-(length of [flags v])
+(longitud de [banderas v])
 
-(pick random (1) to (10))
+(elegir número al azar entre (1) y (10))
 
-define choose random flag
+definir elegir bandera al azar
 
-set [flag number v] to []
+establecer [número de bandera v] en []
 ```
 
 \--- /hint \---
