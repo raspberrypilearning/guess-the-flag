@@ -28,21 +28,21 @@ definir elegir bandera al azar
 
 \--- task \---
 
-Add code to the custom block to set the `flag number`{:class="block3variables"} variable to a random number between `1` and the number of items in the `flags`{:class="block3variables"} list.
+Añade código al bloque personalizado para establecer a la variable `número de bandera`{:class="block3variables"} números aleatorios entre el `1` y la cantidad de elementos de la lista `banderas`{:class="block3variables"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
-There is a special block in the Variables tab for finding the number of items in a list.
+Hay un bloque especial en la pestaña Variables para encontrar el número de elementos en una lista.
 
 \--- hints \--- \--- hint \---
 
-Set the `flag number`{:class="block3variables"} variable to a `random number`{:class="block3operators"} between `1` and the `length of the 'flags' list`{:class="block3variables"}.
+Establece la variable `número de bandera`{:class="block3variables"} a un `número aleatorio`{:class="block3operators"} entre `1` y el `total de banderas en la lista`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
 ```blocks3
 (length of [flags v])
