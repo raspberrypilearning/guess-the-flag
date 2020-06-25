@@ -69,10 +69,10 @@ establecer [número de v] a (elegir número al azar (1) a (longitud de [banderas
 
 \--- /hints \--- \--- /task \---
 
-This block selects an item from a list by number:
+Ese bloque elige a un elemento de la lista a través de un número:
 
 ```blocks3
-(item (10 v) of [flags v])
+(elemento (10 v) de [banderas v])
 ```
 
 \--- task \---
