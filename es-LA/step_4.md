@@ -82,16 +82,16 @@ Combina este bloque con la variable `número de bandera`{:class="block3variables
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
-+ add (item (flag number) of [flags v]) to [chosen flags v]
+definir elegir bandera al azar
+establecer [número de v] a (elegir número al azar (1) a (longitud de [banderas v]))
++ añadir (elemento (número bandera) de [banderas v]) a [banderas elegidas v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add the custom `choose random flag`{:class="block3myblocks"} block to the code that runs after the green flag is clicked.
+Añade el bloque personalizado `eligir bandera al azar`{:class="block3myblocks"} al código que se ejecuta después de hacer clic en la bandera verde.
 
 ![Flag sprite](images/flag-sprite.png)
 
