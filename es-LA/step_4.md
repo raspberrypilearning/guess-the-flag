@@ -118,12 +118,12 @@ Antes de elegir seis banderas para el cuestionario, añade bloques para eliminar
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-+ delete (all v) of [chosen flags v]
-+ repeat (6)
-    choose random flag :: custom
-end
+al presionar bandera verde
+crear lista de banderas :: custom
++ eliminar (todos v) de [banderas elegidas v]
++ repetir (6)
+    elegir banderas al azar :: custom
+fin
 ```
 
 \--- /task \---
@@ -134,7 +134,7 @@ Test your code again by clicking the green flag several times and checking that 
 
 \--- /task \---
 
-You might notice that sometimes the same country gets added to the list more than once.
+Notarás que a veces se añade más de una vez el mismo país a la lista.
 
 ![Duplicate countries](images/duplicate-countries.png)
 
