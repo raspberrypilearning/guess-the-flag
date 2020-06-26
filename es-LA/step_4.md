@@ -96,16 +96,16 @@ Añade el bloque personalizado `eligir bandera al azar`{:class="block3myblocks"}
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-+ choose random flag :: custom
+al presionar bandera verde
+crear lista de banderas :: custom
++ elegir banderas al azar :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test that your code works by clicking the green flag several times and checking that different countries are added to the `chosen flags`{:class="block3variables"} list every time. (If you have hidden the list, tick the box next to the list name to make the list visible.)
+Prueba si funciona tu código al presionar varias veces en la bandera verde y comprueba que cada vez aparecen distintos países en la lista de `banderas`{:class="block3variables"}. (If you have hidden the list, tick the box next to the list name to make the list visible.)
 
 \--- /task \---
 
