@@ -113,7 +113,7 @@ Prueba si funciona tu código al presionar varias veces en la bandera verde y co
 
 \--- task \---
 
-Add blocks to delete all the items from the `chosen flags`{:class="block3variables"} list before choosing six flags for the quiz.
+Antes de elegir seis banderas para el cuestionario, añade bloques para eliminar todos los elementos de la lista `banderas elegidas`{:class="block3variables"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
