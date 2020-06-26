@@ -105,11 +105,11 @@ crear lista de banderas :: custom
 
 \--- task \---
 
-Prueba si funciona tu código al presionar varias veces en la bandera verde y comprueba que cada vez aparecen distintos países en la lista de `banderas`{:class="block3variables"}. (If you have hidden the list, tick the box next to the list name to make the list visible.)
+Prueba si funciona tu código al presionar varias veces en la bandera verde y comprueba que cada vez aparecen distintos países en la lista de `banderas`{:class="block3variables"}. (Si ocultas la lista, marca la casilla que está junto al nombre de la lista para que la lista se vea).
 
 \--- /task \---
 
-Can you see that, if you click the green flag lots of times, your `chosen flags`{:class="block3variables"} list quickly fills up with more than six items?
+¿Notas que al presionar muchas veces en la bandera verde, tu lista de `banderas elegidas`{:class="block3variables"} se llena más rápido con más de seis objetos?
 
 \--- task \---
 
