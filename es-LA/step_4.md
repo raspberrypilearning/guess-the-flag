@@ -142,15 +142,15 @@ Notarás que a veces se añade más de una vez el mismo país a la lista.
 
 Cambia tu bloque `eligir una bandera al azar`{:class="block3myblocks"} para que nunca se agregue el mismo país más de dos veces a la lista `banderas elegidas`{:class="block3variables"}.
 
-Add a block to the end of your custom block code to delete the `flag number`{:class="block3variables"} from the `flags`{:class="block3variables"} list after it has been added to the `chosen flags`{:class="block3variables"} list.
+Añade un bloque al final del bloque personalizado, para eliminar el `número de bandera`{:class="block3variables"} de la lista de `banderas`{:class="block3variables"}, una vez que se haya añadido a la lista de `banderas elegidas`{:class="block3variables"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-define choose random flag
-set [flag number v] to (pick random (1) to (length of [flags v]))
-add (item (flag number) of [flags v]) to [chosen flags v]
-+ delete (flag number) of [flags v]
+definir elegir bandera al azar
+establecer [número de v] a (elegir número al azar (1) a (longitud de [banderas v]))
+añadir (elemento (número bandera) de [banderas v]) a [banderas elegidas v]
++ eliminar (número de bandera) de [banderas v]
 ```
 
 \--- /task \---
