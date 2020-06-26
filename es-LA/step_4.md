@@ -77,7 +77,7 @@ Ese bloque elige a un elemento de la lista a través de un número:
 
 \--- task \---
 
-Combine this block with the `flag number`{:class="block3variables"} variable to get the text of the randomly chosen item from the `flags`{:class="block3variables"} list. Then add the item text into the `chosen flags`{:class="block3variables"} list. Add this code to your custom block:
+Combina este bloque con la variable `número de bandera`{:class="block3variables"} para conseguir el texto del elemento de la lista de `banderas`{:class="block3variables"} que se eligió al azar. Luego añade el elemento de texto a la lista `banderas`{:class="block3variables"}. Añade este código a tu bloque personalizado:
 
 ![Flag sprite](images/flag-sprite.png)
 
