@@ -140,7 +140,7 @@ Notarás que a veces se añade más de una vez el mismo país a la lista.
 
 \--- task \---
 
-Change your `choose random flag`{:class="block3myblocks"} block so that the same country never gets added twice to the `chosen flags`{:class="block3variables"} list.
+Cambia tu bloque `eligir una bandera al azar`{:class="block3myblocks"} para que nunca se agregue el mismo país más de dos veces a la lista `banderas elegidas`{:class="block3variables"}.
 
 Add a block to the end of your custom block code to delete the `flag number`{:class="block3variables"} from the `flags`{:class="block3variables"} list after it has been added to the `chosen flags`{:class="block3variables"} list.
 
