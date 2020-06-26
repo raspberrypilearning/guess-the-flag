@@ -18,7 +18,7 @@ Crea una variable llamada `número de bandera`{:class="block3variables"}.
 
 Crea un bloque personalizado y llámalo `elige una bandera al azar`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 definir elegir bandera al azar
@@ -30,7 +30,7 @@ definir elegir bandera al azar
 
 Añade código al bloque personalizado para establecer a la variable `número de bandera`{:class="block3variables"} números al azar entre el `1` y la cantidad de elementos de la lista `banderas`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 Hay un bloque especial en la pestaña Variables para encontrar el número de elementos en una lista.
 
@@ -79,7 +79,7 @@ Ese bloque elige a un elemento de la lista a través de un número:
 
 Combina este bloque con la variable `número de bandera`{:class="block3variables"} para conseguir el texto del elemento de la lista de `banderas`{:class="block3variables"} que se eligió al azar. Luego añade el elemento de texto a la lista `banderas`{:class="block3variables"}. Añade este código a tu bloque personalizado:
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 definir elegir bandera al azar
@@ -93,7 +93,7 @@ establecer [número de v] a (elegir número al azar (1) a (longitud de [banderas
 
 Añade el bloque personalizado `eligir bandera al azar`{:class="block3myblocks"} al código que se ejecuta después de hacer clic en la bandera verde.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 al presionar bandera verde
@@ -115,7 +115,7 @@ Prueba si funciona tu código al presionar varias veces en la bandera verde y co
 
 Antes de elegir seis banderas para el cuestionario, añade bloques para eliminar todos los elementos de la lista `banderas elegidas`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 al presionar bandera verde
@@ -136,7 +136,7 @@ Test your code again by clicking the green flag several times and checking that 
 
 Notarás que a veces se añade más de una vez el mismo país a la lista.
 
-![Duplicate countries](images/duplicate-countries.png)
+![Países duplicados](images/duplicate-countries.png)
 
 \--- task \---
 
@@ -144,7 +144,7 @@ Cambia tu bloque `eligir una bandera al azar`{:class="block3myblocks"} para que 
 
 Añade un bloque al final del bloque personalizado, para eliminar el `número de bandera`{:class="block3variables"} de la lista de `banderas`{:class="block3variables"}, una vez que se haya añadido a la lista de `banderas elegidas`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 definir elegir bandera al azar
@@ -155,4 +155,4 @@ añadir (elemento (número bandera) de [banderas v]) a [banderas elegidas v]
 
 \--- /task \---
 
-If you want to hide the lists and variables so that they don't take up space on the Stage, go to the Data section and unselect the boxes next to the list names or variable names. If you want to show the lists and variables again, just select the boxes.
+Si quieres ocultar las listas y variables para que no ocupen espacio en el escenario, ve a la sección Datos y desactiva las casillas junto a la lista de nombres o nombres de variables. Si deseas mostrar otra vez las listas y variables, solo selecciona las casillas.
