@@ -94,26 +94,26 @@ Añade el bloque `clonar banderas`{:class="block3myblocks"} al final del código
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chose flags v]
-repeat (6)
-  choose random flag :: custom
-end
-+ clone flags :: custom
+al presionar bandera verde
+crear lista de banderas :: custom
+eliminar (todas v) de [banderas elegidas v]
+repetir (6)
+  elegir bandera al azar :: custom
+fin
++ banderas clonadas :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+Prueba tu código. Observa que aparecen distintas banderas, pero algunas están cortadas por el borde del escenario.
 
 ![Flags go off the screen](images/flags-off-the-screen.png)
 
 \--- /task \---
 
-Instead of putting all six flags in one row, make two rows of three flags.
+Crea dos filas de tres banderas en lugar de poner las seis banderas en una fila.
 
 \--- task \---
 
