@@ -6,7 +6,7 @@ La persona que toma el cuestionario necesita ver las fotos de las banderas en la
 
 Crea otro bloque personalizado, y dale el nombre de `clonar banderas`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 define clone flags
@@ -22,7 +22,7 @@ La primera bandera se debe mostrar en la esquina superior izquierda del escenari
 
 Como parte de las instrucciones para el bloque `clonar banderas`{:class="block3myblocks"}, haz visible la bandera, y añade el bloque `ir a`{:class="block3motion"} para decirle al objeto que aparezca en las coordenadas `-170`{:class="block3motion"}, `120`{:class="block3motion"} en la esquina superior izquierda del escenario.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 definir clonar banderas
@@ -36,7 +36,7 @@ ir a x: (-170) y: (120)
 
 Debajo de ese código, añade un bucle que se repita seis veces.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 Dentro del bucle, añade bloques de código para cambiar el disfraz del objeto a la primera bandera de la lista `banderas elegidas`{:class="block3variables"} y clona el objeto. Luego, añade bloques de código para eliminar la primera bandera de la lista, y para mover el objeto a la posición de la segunda bandera, escribe `110`{:class="block3motion"} en la coordenada `x`{:class="block3motion"}.
 
@@ -91,7 +91,7 @@ fin
 
 Añade el bloque `clonar banderas`{:class="block3myblocks"} al final del código que se ejecuta al hacer clic en la bandera verde.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 al presionar bandera verde
@@ -109,7 +109,7 @@ fin
 
 Prueba tu código. Observa que aparecen distintas banderas, pero algunas están cortadas por el borde del escenario.
 
-![Flags go off the screen](images/flags-off-the-screen.png)
+![Las banderas salen de la pantalla](images/flags-off-the-screen.png)
 
 \--- /task \---
 
@@ -119,7 +119,7 @@ Crea dos filas de tres banderas en lugar de poner las seis banderas en una fila.
 
 Añade algo de código dentro del bucle `repetir`{:class="block3control"} de `clonar banderas`{:class="block3myblocks"} para mover el objeto Bandera hacia abajo si quedan tres banderas en la lista `banderas elegidas`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 Es posible mover el objeto una fila hacia abajo al usar otro bloque `ir a`{:class="block3motion"} y mantener la coordenada `x`{:class="block3motion"} igual que el punto de partida, pero debes disminuir la coordenada `y`{:class="block3motion"} para que se mueva hacia abajo.
 
@@ -146,14 +146,14 @@ Haz clic en la bandera verde y comprueba que las banderas se ven en las dos fila
 
 \--- /task \---
 
-It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+Al parecer la última bandera se muestra dos veces. Esto se debe a que la bandera original todavía está visible en el final.
 
 \--- task \---
 
-Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+Añade un bloque `ocultar`{:class="block3looks"} al final del código dentro del bloque `clonar banderas`{:class="block3myblocks"} para ocultar el objeto original.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 \--- /task \---
 
-If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
+Si gustas, puedes intentar que los objetos de la bandera aparezcan uno por uno o que se reproduzca un sonido (un pop, por ejemplo) cada vez que aparece una bandera.
