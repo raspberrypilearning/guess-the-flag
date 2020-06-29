@@ -1,4 +1,4 @@
-## Show the flags
+## Muestra las banderas
 
 The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
 
