@@ -1,10 +1,10 @@
 ## Elige la respuesta correcta
 
-Now that you have a list containing six chosen flags, choose which of them will be the correct answer this time.
+Ahora que tienes la lista con seis banderas seleccionadas, elije la que ahora será la respuesta correcta.
 
 \--- task \---
 
-Create a new variable called `correct answer`{:class="block3variables"}.
+Crea una nueva variable que se llame `respuesta correcta`{:class="block3variables"}.
 
 \--- /task \---
 
