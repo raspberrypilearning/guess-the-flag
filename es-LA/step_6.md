@@ -34,21 +34,21 @@ ir a x: (-170) y: (120)
 
 \--- task \---
 
-Below that code, add a loop that repeats six times.
+Debajo de ese código, añade un bucle que se repita seis veces.
 
 ![Flag sprite](images/flag-sprite.png)
 
-Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
+Dentro del bucle, añade bloques de código para cambiar el disfraz del objeto a la primera bandera de la lista `banderas elegidas`{:class="block3variables"} y clona el objeto. Luego, añade bloques de código para eliminar la primera bandera de la lista, y para mover el objeto a la posición de la segunda bandera, escribe `110`{:class="block3motion"} en la coordenada `x`{:class="block3motion"}.
 
 \--- hints \--- \--- hint \---
 
-`Repeat`{:class="block3control"} six times: `Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}. `Clone the sprite`{:class="block3control"}. `Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}. `Move right 110`{:class="block3motion"}.
+`Repetir`{:class="block3control"} seis veces: `Cambiar disfraz`{:class="block3looks"} al `primer objeto de las banderas elegidas`{:class="block3variables"}. `Clona el objeto`{:class="block3control"}. `Eliminar`{:class="block3variables"} el `primer elemento de las banderas elegidas`{:class="block3variables"}. `Mover a la derecha en 110`{:class="block3motion"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add:
+Aquí están los bloques de código que necesitas añadir:
 
 ```blocks3
 (item (1) of [chosen flags v])
