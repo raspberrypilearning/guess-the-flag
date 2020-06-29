@@ -142,7 +142,7 @@ fin
 
 \--- task \---
 
-Click the green flag and check that the flags display in two rows.
+Haz clic en la bandera verde y comprueba que las banderas se ven en las dos filas.
 
 \--- /task \---
 
