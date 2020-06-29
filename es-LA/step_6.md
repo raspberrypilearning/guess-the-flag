@@ -1,10 +1,10 @@
 ## Muestra las banderas
 
-The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
+La persona que toma el cuestionario necesita ver las fotos de las banderas en la lista `banderas elegidas`{:class="block3variables"}.
 
 \--- task \---
 
-Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
+Crea otro bloque personalizado, y dale el nombre de `clonar banderas`{:class="block3myblocks"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
@@ -14,20 +14,20 @@ define clone flags
 
 \--- /task \---
 
-This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
+Este bloque personalizado clonará seis veces el objeto Bandera, una vez por cada bandera que se debe mostrar.
 
-The first flag should be displayed in the top left-hand corner of the Stage.
+La primera bandera se debe mostrar en la esquina superior izquierda del escenario.
 
 \--- task \---
 
-As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+Como parte de las instrucciones para el bloque `clonar banderas`{:class="block3myblocks"}, haz visible la bandera, y añade el bloque `ir a`{:class="block3motion"} para decirle al objeto que aparezca en las coordenadas `-170`{:class="block3motion"}, `120`{:class="block3motion"} en la esquina superior izquierda del escenario.
 
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
+definir banderas clonadas
+mostrar
+ir a x: (-170) y: (120)
 ```
 
 \--- /task \---
