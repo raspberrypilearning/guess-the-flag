@@ -1,4 +1,4 @@
-## Choose a correct answer
+## Elige la respuesta correcta
 
 Now that you have a list containing six chosen flags, choose which of them will be the correct answer this time.
 
