@@ -12,16 +12,16 @@ Crea una nueva variable que se llame `respuesta correcta`{:class="block3variable
 
 Después de elegir las seis banderas, fija la variable `respuesta correcta`{:class="block3variables"} para ser un elemento aleatorio de la lista `banderas elegidas`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-+ set [correct answer v] to (item (pick random (1) to (length of [chosen flags v]) ) of [chosen flags v])
+al presionar bandera verde
+crear lista de banderas :: custom
+eliminar (todos v) de [banderas elegidas v]
+repetir (6)
+    elegir banderas al azar :: custom
+fin
++ establecer [respuesta correcta v] en (elemento (número al azar entre (1) y (longitud de [banderas elegidas v]) ) de [banderas elegidas v])
 ```
 
 \--- /task \---
