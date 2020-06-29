@@ -1,4 +1,4 @@
-## Ask the question
+## Haz preguntas
 
 Let's ask the player to name the flag for a particular country.
 
