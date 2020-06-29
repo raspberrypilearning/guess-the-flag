@@ -12,11 +12,11 @@ steps:
   - 
     title: Dibuja las banderas
   - 
-    title: Crea una lista de banderas
+    title: Crea la lista de banderas
   - 
-    title: Elige una bandera al azar
+    title: Elige banderas al azar
   - 
-    title: Elige una respuesta correcta
+    title: Elige la respuesta correcta
   - 
     title: Muestra las banderas
   - 
