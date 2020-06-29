@@ -130,7 +130,7 @@ fin
 
 \--- task \---
 
-Test your code again by clicking the green flag several times and checking that the `chosen flags` list is filled with six countries each time.
+Prueba otra vez tu código, presiona varias veces en la bandera verde y comprueba que en la lista de `banderas` siempre se completen seis países.
 
 \--- /task \---
 
