@@ -10,7 +10,7 @@ Crea una nueva variable que se llame `respuesta correcta`{:class="block3variable
 
 \--- task \---
 
-After the six flags are chosen, set the `correct answer`{:class="block3variables"} variable to be a random item from the `chosen flags`{:class="block3variables"} list.
+Después de elegir las seis banderas, fija la variable `respuesta correcta`{:class="block3variables"} para ser un elemento aleatorio de la lista `banderas elegidas`{:class="block3variables"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
