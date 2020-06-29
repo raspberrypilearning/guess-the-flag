@@ -51,36 +51,36 @@ Dentro del bucle, añade bloques de código para cambiar el disfraz del objeto a
 Aquí están los bloques de código que necesitas añadir:
 
 ```blocks3
-(item (1) of [chosen flags v])
+(elemento (1) de [banderas elegidas v])
 
-change x by (110)
+cambiar x en (110)
 
-create clone of (myself v)
+crear clon de (mí mismo/a v)
 
-switch costume to ( v)
+cambiar disfraz a ( v)
 
-delete (1) of [chosen flags v]
+eliminar (1) de [banderas elegidas v]
 
-repeat (6)
-end
+repetir (6)
+fin
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como se debería ver tu código:
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
-+ repeat (6)
-    switch costume to (item (1) of [chosen flags v])
-    create clone of (myself v)
-    delete (1) of [chosen flags v]
-    change x by (110)
-end
+definir banderas clonadas
+mostrar
+ir a x: (-170) y: (120)
++ repetir (6)
+    cambiar disfraz a (elemento (1) de [banderas elegidas v])
+    crear clon de (mí mismo v)
+    eliminar (1) de [banderas elegidas v]
+    cambiar x en (110)
+fin
 ```
 
 \--- /hint \---
@@ -89,7 +89,7 @@ end
 
 \--- task \---
 
-Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+Añade el bloque `clonar banderas`{:class="block3myblocks"} al final del código que se ejecuta al hacer clic en la bandera verde.
 
 ![Flag sprite](images/flag-sprite.png)
 
