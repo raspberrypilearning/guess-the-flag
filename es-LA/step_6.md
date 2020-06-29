@@ -121,21 +121,21 @@ Añade algo de código dentro del bucle `repetir`{:class="block3control"} de `cl
 
 ![Flag sprite](images/flag-sprite.png)
 
-You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
+Es posible mover el objeto una fila hacia abajo al usar otro bloque `ir a`{:class="block3motion"} y mantener la coordenada `x`{:class="block3motion"} igual que el punto de partida, pero debes disminuir la coordenada `y`{:class="block3motion"} para que se mueva hacia abajo.
 
 ```blocks3
-define clone flags
-show
-go to x: (-170) y: (120)
-repeat (6)
-    switch costume to (item (1) of [chosen flags v])
-    create clone of (myself v)
-    delete (1) of [chosen flags v]
-    change x by (110)
-+   if <(length of [chosen flags v]) = [3]> then
-        go to x: (-170) y: (50)
-    end
-end
+definir clonar banderas
+mostrar
+ir a x: (-170) y: (120)
+repetir (6)
+    cambiar disfraz a (elemento (1) de [banderas elegidas v])
+    crear clon de (mí mismo v)
+    eliminar (1) de [banderas elegidas v]
+    cambiar x en (110)
++   si <(longitud de [banderas elegidas v]) = [3]> entonces
+        ir a x: (-170) y: (50)
+    fin
+fin
 ```
 
 \--- /task \---
