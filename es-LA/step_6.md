@@ -25,7 +25,7 @@ Como parte de las instrucciones para el bloque `clonar banderas`{:class="block3m
 ![Flag sprite](images/flag-sprite.png)
 
 ```blocks3
-definir banderas clonadas
+definir clonar banderas
 mostrar
 ir a x: (-170) y: (120)
 ```
@@ -72,7 +72,7 @@ fin
 Así es como se debería ver tu código:
 
 ```blocks3
-definir banderas clonadas
+definir clonar banderas
 mostrar
 ir a x: (-170) y: (120)
 + repetir (6)
@@ -100,7 +100,7 @@ eliminar (todas v) de [banderas elegidas v]
 repetir (6)
   elegir bandera al azar :: custom
 fin
-+ banderas clonadas :: custom
++ clonar banderas :: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Crea dos filas de tres banderas en lugar de poner las seis banderas en una fila.
 
 \--- task \---
 
-Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
+Añade algo de código dentro del bucle `repetir`{:class="block3control"} de `clonar banderas`{:class="block3myblocks"} para mover el objeto Bandera hacia abajo si quedan tres banderas en la lista `banderas elegidas`{:class="block3variables"}.
 
 ![Flag sprite](images/flag-sprite.png)
 
