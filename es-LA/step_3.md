@@ -1,4 +1,4 @@
-## Crea una lista de banderas
+## Crea la lista de banderas
 
 \--- task \---
 
