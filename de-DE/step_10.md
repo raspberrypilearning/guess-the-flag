@@ -30,7 +30,7 @@ repeat (6)
 end
 set [richtige Antwort v] to (item (pick random (1) to (length of [ausgewählte Flaggen v])) of [ausgewählte Flaggen v])
 Flaggen klonen :: custom
-+ broadcast (Land ankündigen v)
++ broadcast (kündige Land an v)
 ```
 
 --- /task ---

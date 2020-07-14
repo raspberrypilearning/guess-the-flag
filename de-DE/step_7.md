@@ -4,7 +4,7 @@ Frage den Spieler nun, die Flagge für ein bestimmtes Land zu benennen.
 
 --- task ---
 
-In der Fahnenfigur, `sende die Nachricht`{:class="block3events"} 'Land ankündigen' direkt nach dem Block, der die Flaggen klont.
+In der Fahnenfigur, `sende die Nachricht`{:class="block3events"} 'kündige Land an' direkt nach dem Block, der die Flaggen klont.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -17,7 +17,7 @@ repeat (6)
 end
 set [richtige Antwort v] to (item (pick random (1) to (length of [ausgewählte Flaggen v])) of [ausgewählte Flaggen v])
 clone flags :: custom
-+ broadcast (Land ankündigen v)
++ broadcast (kündige Land an v)
 
 ```
 
@@ -35,7 +35,7 @@ Füge eine neue Figur deiner Wahl hinzu, damit sie dein Quizmaster wird. Der Qui
 
 --- task ---
 
-Füge der Quiz-Master-Figur etwas Code hinzu. Sobald die Figur damit die Figur die `Land ankündigen`{:class="block3events"} Nachricht erhält, soll sie dem Spieler sagen, dass er auf den Ländernamen klicken soll der in der Variablen `richtige Antwort`{:class="block3variables"} gespeichert ist.
+Füge der Quiz-Master-Figur etwas Code hinzu. Sobald die Figur damit die Figur die `kündige Land an`{:class="block3events"} Nachricht erhält, soll sie dem Spieler sagen, dass er auf den Ländernamen klicken soll der in der Variablen `richtige Antwort`{:class="block3variables"} gespeichert ist.
 
 ![Charakter Figur](images/char-sprite.png)
 
@@ -57,7 +57,7 @@ Hier sind die Codeblöcke die du brauchst:
 
 say [] for (2) seconds
 
-when I receive [Land ankündigen v]
+when I receive [kündige Land an v]
 ```
 
 --- /hint ---
@@ -67,7 +67,7 @@ when I receive [Land ankündigen v]
 So sollte dein Code aussehen:
 
 ```blocks3
-when I receive [Land ankündigen v]
+when I receive [kündige Land an v]
 say (join [klicke auf] (richtige Antwort :: variables)) for (2) seconds
 ```
 
