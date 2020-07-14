@@ -22,7 +22,7 @@ Flaggen
 
 Land
 
-erstelle Flaggen-Liste
+erstelle eine Flaggenliste
 
 ausgewählte Flaggen
 
@@ -42,7 +42,7 @@ Sorry, das war falsch
 
 Korrekt
 
-Punktestand
+Punkte
 
 Starte die Runde
 
