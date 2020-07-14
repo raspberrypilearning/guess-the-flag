@@ -1,59 +1,59 @@
-## Start a new round
+## Comienza una nueva ronda
 
-At the moment there is only one round in the quiz, so the quiz doesn't last long. You are going to set up multiple rounds.
+Por el momento solo hay una ronda en el cuestionario, por lo que el cuestionario no dura mucho. Vas a configurar múltiples rondas.
 
 \--- task \---
 
-Create a new `broadcast`{:class="block3events"} that sends the message 'Start the round'.
+Crea un `mensaje`{:class="block3control"} que diga «comenzar la ronda».
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
-broadcast (start the round v)
+enviar (comenzar la ronda v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add a `when I receive 'Start the round'`{:class="block3events"} block, and then move all of the code from below the `when green flag clicked`{:class="block3events"} block to below this new block.
+Añade el bloque `al recibir «comenzar la ronda»`{:class="block3events"} y luego mueve todo el código debajo del bloque `al presionar la bandera verde`{:class="block3events"} y agregalo abajo de este nuevo bloque.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
-+ when I receive [start the round v]
-set [score v] to [0]
-create flag list :: custom
-delete (all v) of [chosen flags v]
-repeat (6)
-    choose random flag :: custom
-end
-set [correct answer v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
-clone flags :: custom
-+ broadcast (announce country v)
++ al presionar bandera verde
+establecer [puntuación v] en [0]
+crear lista de banderas :: custom
+eliminar (todas v) de [banderas elegidas v]
+repetir (6)
+  elegir bandera al azar :: custom
+fin
+establecer [respuesta correcta v] en (elemento (número al azar entre (1) y (longitud de [banderas elegidas v]) ) de [banderas elegidas v])
+clonar banderas :: custom
++ enviar (anunciar país v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Remove the `set score to 0`{:class="block3variables"} block and place it back below the `when green flag clicked`{:class="block3control"} block. Then add the new `broadcast`{:class="block3events"} block below both of them.
+Quita el bloque `fijar la puntuación a 0`{:class="block3variables"} y colócalo de nuevo abajo del bloque `al hacer clic en la bandera verde`{:class="block3control"}. Ahora añade el nuevo bloque `enviar`{:class="block3events"} debajo de ambos.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
-when green flag clicked
-set [score v] to [0]
-broadcast (start the round v)
+al hacer clic en la bandera verde
+establecer [puntuación v] en [0]
+enviar (comenzar la ronda v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round can start once a question is answered.
+Después del código que comprueba si la respuesta está correcta, añade otro bloque `enviar`{:class="block3events"} para que comience una nueva ronda después de que se responda la pregunta.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -70,66 +70,66 @@ end
 
 \--- task \---
 
-Click the green flag to test your code. Click on one of the flags to play a round. Do you notice that the next round does not get set up properly?
+Haz clic en la bandera verde para probar tu código. Haz clic en una de las banderas para jugar la ronda. ¿Te das cuenta que la siguiente ronda no se configura de manera correcta?
 
-![Next round does not work](images/next-round-does-not-work.png)
+![La siguiente ronda no funciona](images/next-round-does-not-work.png)
 
 \--- /task \---
 
-This is because before the game starts another round, the game needs to first clear up the cloned flags.
+Esto se debe a que antes que el juego comience otra ronda, el juego primero tiene que limpiar las banderas clonadas.
 
 \--- task \---
 
-Create another new `broadcast`{:class="block3events"} called 'clean up'.
+Crea otro `enviar`{:class="block3events"} que se llame «limpiar».
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
-broadcast (clean up v)
+enviar (limpiar v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Set the Flag sprite to `delete this clone`{:class="block3control"} when it receives the `clean up`{:class="block3events"} broadcast.
+Establece la bandera en `eliminar este clon`{:class="block3control"} cuando reciba el mensaje `limpiar`{:class="block3events"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
-when I receive [clean up v]
-delete this clone
+al recibir [limpiar v]
+eliminar este clon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
+Coloca el bloque enviar `limpiar`{:class="block3events"} justo sobre el bloque comenzar una nueva ronda, después de obtener respuesta.
 
 ```blocks3
-when this sprite clicked
-create flags list  :: custom
-if <(item (costume [number v]) of [flags v]) = (correct answer :: variables)> then
-    say [Correct] for (2) seconds
-    change [score v] by [1]
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
-+ broadcast (clean up v)
-broadcast (start the round v)
+al presionar este objeto
+crear lista de banderas :: custom
+si <(elemento (disfraz [nombre v]) de [banderas v]) = (respuesta correcta :: variables)> then
+    decir [Correct] por (2) segundos
+    cambiar [puntuación v] en [1]
+sino
+    decir [Lo siento, respuesta equivocada] por (2) segundos
+fin
++ enviar (limpiar v)
+enviar (comenzar la ronda v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again and check that you can play multiple rounds, and that your score increases as you get answers correct.
+Prueba tu código de nuevo y comprueba si funciona el juego en varias rondas, y que la puntuación aumenta a medida que obtienes respuestas correctas.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
+¡Asegúrate de ocultar la variable `respuesta correcta`{:class="block3variables"} para que el jugador no pueda verla!
 
 \--- /task \---
