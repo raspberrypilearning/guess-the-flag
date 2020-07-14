@@ -1,0 +1,22 @@
+---
+title: Errate die Flagge
+hero_image: images/banner.png
+description: Erstelle ein Flaggen-Quiz für dich und deine Freunde!
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: Einleitung
+  - title: Zeichne die Fahnen
+  - title: Erstelle eine Liste der Fahnen
+  - title: Wähle zufällige Fahnen aus
+  - title: Wähle eine richtige Antwort
+  - title: Zeige die Fahnen
+  - title: Stelle die Frage
+  - title: Überprüfe die Antwort
+  - title: Füge Punkte hinzu
+  - title: Starte eine neue Runde
+  - title: "Herausforderung: Verbessere das Spiel"
+    challenge: true
+  - title: Wie geht es weiter?
