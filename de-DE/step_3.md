@@ -53,7 +53,7 @@ Erstelle als nächstes einen eigenen Block. Ein eigener Block ist ein spezieller
 
 --- task ---
 
-Klicke auf **Meine Blöcke** und dann auf **Block erstellen**. Benenne deinen eigenen Block `Erstelle Flaggenliste`{:class="block3myblocks"}.
+Klicke auf **Meine Blöcke** und dann auf **Block erstellen**. Benenne deinen eigenen Block `erstelle eine Flaggenliste`{:class="block3myblocks"}.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -63,10 +63,10 @@ Klicke auf **Meine Blöcke** und dann auf **Block erstellen**. Benenne deinen ei
 
 --- task ---
 
-Verschiebe den gesamten Code von unter dem `wenn Flagge geklickt`{:class="block3events"} Block nach unterhalb der neuen `Erstelle Flaggen-Liste`{:class="block3myblocks"} Block.
+Verschiebe den gesamten Code von unter dem `wenn Flagge geklickt`{:class="block3events"} Block nach unterhalb der neuen `erstelle eine Flaggenliste`{:class="block3myblocks"} Block.
 
 ```blocks3
-define erstelle Flaggen-Liste
+define erstelle eine Flaggenliste
 delete (all v) of [Flaggen v]
 add [Japan] to [Flaggen v]
 add [Belgien] to [Flaggen v]
@@ -84,13 +84,13 @@ add [Luxemburg] to [Flaggen v]
 
 --- task ---
 
-Füge unterhalb des `wenn Flagge geklickt`{:class="block3events"} Blocks den neuen `Flaggenliste erstellen`{:class="block3myblocks"} Block hinzu.
+Füge unterhalb des `wenn Flagge geklickt`{:class="block3events"} Blocks den neuen `erstelle eine Flaggenliste`{:class="block3myblocks"} Block hinzu.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
-erstelle Flaggen-Liste :: custom
+erstelle eine Flaggenliste :: custom
 ```
 
 --- /task ---

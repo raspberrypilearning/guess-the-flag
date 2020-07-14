@@ -4,7 +4,7 @@ Frage den Spieler nun, die Flagge für ein bestimmtes Land zu benennen.
 
 --- task ---
 
-In der Fahnenfigur, `sende die Nachricht`{:class="block3events"} 'Land verkünden' direkt nach dem Block, der die Flaggen klont.
+In der Fahnenfigur, `sende die Nachricht`{:class="block3events"} 'Land ankündigen' direkt nach dem Block, der die Flaggen klont.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -35,14 +35,14 @@ Füge eine neue Figur deiner Wahl hinzu, damit sie dein Quizmaster wird. Der Qui
 
 --- task ---
 
-Füge der Quiz-Master-Figur etwas Code hinzu. Sobald die Figur damit die Figur die `Land verkünden`{:class="block3events"} Nachricht erhält, soll sie dem Spieler sagen, dass er auf den Ländernamen klicken soll der in der Variablen `richtige Antwort`{:class="block3variables"} gespeichert ist.
+Füge der Quiz-Master-Figur etwas Code hinzu. Sobald die Figur damit die Figur die `Land ankündigen`{:class="block3events"} Nachricht erhält, soll sie dem Spieler sagen, dass er auf den Ländernamen klicken soll der in der Variablen `richtige Antwort`{:class="block3variables"} gespeichert ist.
 
 ![Charakter Figur](images/char-sprite.png)
 
 --- hints ---
  --- hint ---
 
-`Wenn ich die Nachricht erhalte`{:class="block3events"}, `sage`{:class="block3looks"} 'klicke auf `korrekte Antwort`{:class="block3variables"}'.
+`Wenn ich die Nachricht erhalte`{:class="block3events"}, `sage`{:class="block3looks"} 'klicke auf `richtige Antwort`{:class="block3variables"}'.
 
 --- /hint ---
 

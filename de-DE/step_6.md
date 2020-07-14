@@ -1,10 +1,10 @@
 ## Zeige die Flaggen
 
-Die Person, die am Quiz teilnimmt, muss die Bilder der Flaggen in der `ausgewählte Flaggen`{:class= block3variables"} Liste sehen.
+Die Person, die am Quiz teilnimmt, muss die Bilder der Flaggen in der `ausgewählte Flaggen`{:class="block3variables"} Liste sehen.
 
 --- task ---
 
-Erstelle einen weiteren neuen Block und nenne diesen `klone flagge`{:class="block3myblocks"}.
+Erstelle einen weiteren neuen Block und nenne diesen `Flaggen klonen`{:class="block3myblocks"}.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -20,7 +20,7 @@ Die erste Flagge sollte in der oberen linken Ecke des Bereiches angezeigt werden
 
 --- task ---
 
-Als Teil der Anweisungen für deinen `Klone flagge`{:class="block3myblocks"} Block, mache die Flaggenfigur sichtbar und füge einen `gehe zu`{:class="block3motion"} Block hinzu, um der Figur anzuweisen, an den Koordinaten `-170`{:class="block3motion"}, `120`{:class="block3motion"} in der oberen linken Ecke des Bereiches angezeigt zu werden.
+Als Teil der Anweisungen für deinen `Flaggen klonen`{:class="block3myblocks"} Block, mache die Flaggenfigur sichtbar und füge einen `gehe zu`{:class="block3motion"} Block hinzu, um der Figur anzuweisen, an den Koordinaten `-170`{:class="block3motion"}, `120`{:class="block3motion"} in der oberen linken Ecke des Bereiches angezeigt zu werden.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -90,7 +90,7 @@ end
 
 --- task ---
 
-Füge deinen `klone Flaggen`{:class="block3myblocks"} Block an das Ende des Codes, der ausgeführt wird, wenn die grüne Fahne angeklickt wird.
+Füge deinen `Flaggen klonen`{:class="block3myblocks"} Block an das Ende des Codes, der ausgeführt wird, wenn die grüne Fahne angeklickt wird.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -118,7 +118,7 @@ Anstatt alle sechs Flaggen in eine Reihe zu setzen, mache zwei Reihen mit drei F
 
 --- task ---
 
-Füge ein bisschen Code in die `wiederhole`{:class="block3control"} Schleife des `klone Flagge`{:class="block3myblocks"} Blocks, um die Flagge um eine Reihe nach unten zu verschieben, wenn in der `ausgewählte Flaggen`{:class="block3variables"} Liste noch drei Flaggen vorhanden sind.
+Füge ein bisschen Code in die `wiederhole`{:class="block3control"} Schleife des `Flaggen klonen`{:class="block3myblocks"} Blocks, um die Flagge um eine Reihe nach unten zu verschieben, wenn in der `ausgewählte Flaggen`{:class="block3variables"} Liste noch drei Flaggen vorhanden sind.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -151,7 +151,7 @@ Es sieht so aus, als sei die letzte Flagge zweimal angezeigt. Das liegt daran, d
 
 --- task ---
 
-Fügen einen `verbergen`{:class="block3looks"} Block am Ende des Codes innerhalb des `klone Flagge`{:class="block3myblocks"} Blocks hinzu, um die ursprüngliche Figur auszublenden.
+Fügen einen `verbergen`{:class="block3looks"} Block am Ende des Codes innerhalb des `Flaggen klonen`{:class="block3myblocks"} Blocks hinzu, um die ursprüngliche Figur auszublenden.
 
 ![Flaggenfigur](images/flag-sprite.png)
 

@@ -16,14 +16,14 @@ broadcast (Starte die Runde v)
 
 --- task ---
 
-Füge einen `wenn ich 'Runde starten' erhalte`{:class="block3events"} Block hinzu, und verschiebe dann den gesamten Code von unter dem `wenn grüne Flagge angeklickt wird`{:class="block3events"} Block unter diesen neuen Block.
+Füge einen `wenn ich 'Starte die Runde' erhalte`{:class="block3events"} Block hinzu, und verschiebe dann den gesamten Code von unter dem `wenn grüne Flagge angeklickt wird`{:class="block3events"} Block unter diesen neuen Block.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 + when I receive [Starte die Runde v]
-set [Punktestand v] to [0]
-erstelle Flaggen-Liste :: custom
+set [Punkte v] to [0]
+erstelle eine Flaggenliste :: custom
 delete (all v) of [ausgewählte Flaggen v]
 repeat (6)
     wähle zufällige Flagge :: custom
@@ -37,13 +37,13 @@ Flaggen klonen :: custom
 
 --- task ---
 
-Entferne den `Setze Punktzahl auf 0`{:class="block3variables"} Block und platziere ihn zurück unter den `wenn grüne Flagge geklickt`{:class="block3control"} Baustein. Füge dann den neuen `Nachricht`{:class="block3events"} Block unter beiden ein.
+Entferne den `Setze Punkte auf 0`{:class="block3variables"} Block und platziere ihn zurück unter den `wenn grüne Flagge geklickt`{:class="block3control"} Baustein. Füge dann den neuen `Nachricht`{:class="block3events"} Block unter beiden ein.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
-set [Punktestand v] to [0]
+set [Punkte v] to [0]
 broadcast (Starte die Runde v)
 ```
 
@@ -58,10 +58,10 @@ Nach dem Code, der überprüft, ob die Antwort korrekt ist, füge einen weiteren
 ```blocks3
 when this sprite clicked
 if <(costume [name v]) = (richtige Antwort :: variables)> then
-    change [Punktestand v] by [1]
+    change [Punkte v] by [1]
     say [Korrekt] for (2) seconds
 else
-    say [Sorry, das war falsch] for (2) seconds
+    say [Entschuldigung, aber das ist falsch] for (2) seconds
 end
 + broadcast (Starte die Runde v)
 ```
@@ -109,12 +109,12 @@ Platziere den `aufräumen`{:class="block3events"} Nachrichten-Block gleich oberh
 
 ```blocks3
 when this sprite clicked
-erstelle Flaggen-Liste  :: custom
+erstelle eine Flaggenliste  :: custom
 if <(item (costume [number v]) of [Flaggen v]) = (richtige Antwort :: variables)> then
     say [Korrekt] for (2) seconds
-    change [Punktestand v] by [1]
+    change [Punkte v] by [1]
 else
-    say [Sorry, das war falsch] for (2) seconds
+    say [Entschuldigung, aber das ist falsch] for (2) seconds
 end
 + broadcast (aufräumen v)
 broadcast (Starte die Runde v)

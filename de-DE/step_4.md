@@ -1,6 +1,6 @@
 ## Wähle zufällige Flaggen aus
 
-Wähle für jede Runde des Quiz sechs zufälligen Flaggen aus der `Flaggenliste`{:class="block3variables"} als Optionen aus.
+Wähle für jede Runde des Quiz sechs zufälligen Flaggen aus der `Flaggen`{:class="block3variables"} Liste als Optionen aus.
 
 --- task ---
 
@@ -10,13 +10,13 @@ Erstelle eine neue Liste mit dem Namen `ausgewählte Flaggen`{:class="block3vari
 
 --- task ---
 
-Erstelle eine neue Variable namens `Flaggennummer`{:class='block3variable'}.
+Erstelle eine neue Variable namens `Flaggennummer`{:class="block3variables"}.
 
 --- /task ---
 
 --- task ---
 
-Erstelle einen neuen Block und nenne ihn `Zufällige Flagge auswählen`{:class="block3myblocks"}.
+Erstelle einen neuen Block und nenne ihn `wähle zufällige Flagge`{:class="block3myblocks"}.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -78,7 +78,7 @@ Dieser Block wählt ein Element aus einer Liste nach Nummer aus:
 
 --- task ---
 
-Kombiniere diesen Block mit der `Flaggennummer`{:class="block3variables"} Variable, um den Text des zufällig ausgewählten Elements der `Flaggen`{:class="block3variables"} Liste zu bekommen. Füge dann den Text in die `ausgewählte Flagge`{:class="block3variables"} Liste ein. Füge diesen Code deinem Block hinzu:
+Kombiniere diesen Block mit der `Flaggennummer`{:class="block3variables"} Variable, um den Text des zufällig ausgewählten Elements der `Flaggen`{:class="block3variables"} Liste zu bekommen. Füge dann den Text in die `ausgewählte Flaggen`{:class="block3variables"} Liste ein. Füge diesen Code deinem Block hinzu:
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -92,7 +92,7 @@ set [Flaggennummer v] to (pick random (1) to (length of [Flaggen v]))
 
 --- task ---
 
-Füge den benutzerdefinierten `zufällige Flagge auswählen`{:class="block3myblocks"} Block dem Code hinzu, der ausgeführt wird, nachdem die grüne Flagge angeklickt wurde.
+Füge den benutzerdefinierten `wähle zufällige Flagge`{:class="block3myblocks"} Block dem Code hinzu, der ausgeführt wird, nachdem die grüne Flagge angeklickt wurde.
 
 ![Flaggenfigur](images/flag-sprite.png)
 
@@ -110,7 +110,7 @@ Teste, ob dein Code funktioniert, indem du mehrmals auf die grüne Flagge klicks
 
 --- /task ---
 
-Kannst du sehen, dass, wenn du oft auf die grüne Flagge klickst, sich deine `gewählte Flaggen`{:class="block3variables"} Liste schnell mit mehr als sechs Elementen füllt?
+Kannst du sehen, dass, wenn du oft auf die grüne Flagge klickst, sich deine `ausgewählte Flaggen`{:class="block3variables"} Liste schnell mit mehr als sechs Elementen füllt?
 
 --- task ---
 
@@ -141,7 +141,7 @@ Es kann sein, dass du feststellst, dass manchmal das gleiche Land mehrmals zur L
 
 --- task ---
 
-Ändere deinen `Zufällige Flagge auswählen`{:class="block3myblocks"} Block, damit das gleiche Land nie zweimal zur `ausgewählte Flaggen`{:class="block3variables"} Liste hinzugefügt wird.
+Ändere deinen `wähle zufällige Flagge`{:class="block3myblocks"} Block, damit das gleiche Land nie zweimal zur `ausgewählte Flaggen`{:class="block3variables"} Liste hinzugefügt wird.
 
 Füge einen Block am Ende deines benutzerdefinierten Blockcodes hinzu, um die `Flaggennummer`{:class="block3variables"} aus der `Flaggen`{:class="block3variables"} Liste zu löschen, nachdem sie zur `ausgewählte Flaggen`{:class="block3variables"} Liste hinzugefügt wurde.
 

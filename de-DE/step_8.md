@@ -14,7 +14,7 @@ Dann muss dein Quiz überprüfen, ob der Kostümname der angeklickten Flaggenfig
 
 --- task ---
 
-Füge Code hinzu, um 'Korrekt' zu sagen, wenn der Kostümname der Flagge die gleiche ist wie die `korrekte Antwort`{:class="block3variables"} Variable, oder "Sorry, das war falsch" zu sagen, wenn der Name und die Variable nicht identisch sind.
+Füge Code hinzu, um 'Korrekt' zu sagen, wenn der Kostümname der Flagge die gleiche ist wie die `richtige Antwort`{:class="block3variables"} Variable, oder "Sorry, das war falsch" zu sagen, wenn der Name und die Variable nicht identisch sind.
 
 Du kannst diesen nützlichen Block auch hier verwenden.
 
@@ -29,7 +29,7 @@ Kombiniere es diesmal mit einem `Kostümnamen`{:class="block3looks"} Block, um d
 --- hints ---
  --- hint ---
 
-`Wenn auf diese Figur geklickt wird`{:class="block3events"}, `falls`{:class="block3control"} dieser `Kostümname`{:class="block3looks"} gleich de `korrekte Antwort`{:class="block3variables"} ist, `sage`{:class="block3looks"} 'Richtig' oder `ansonsten`{:class="block3control"} `sage`{:class="block3looks"} 'Entschuldigung, das war falsch'.
+`Wenn auf diese Figur geklickt wird`{:class="block3events"}, `falls`{:class="block3control"} dieser `Kostümname`{:class="block3looks"} gleich de `richtige Antwort`{:class="block3variables"} ist, `sage`{:class="block3looks"} 'Korrekt' oder `ansonsten`{:class="block3control"} `sage`{:class="block3looks"} 'Entschuldigung, aber das ist falsch'.
 
 --- /hint ---
 
@@ -38,7 +38,7 @@ Kombiniere es diesmal mit einem `Kostümnamen`{:class="block3looks"} Block, um d
 Hier sind die Codeblöcke die du brauchst:
 
 ```blocks3
-say [Sorry, das war falsch] for (2) seconds
+say [Entschuldigung, aber das ist falsch] for (2) seconds
 
 say [Korrekt] for (2) seconds
 
@@ -66,7 +66,7 @@ when this sprite clicked
 if <(costume [name v]) = (richtige Antwort :: variables)> then
     say [Korrekt] for (2) seconds
 else
-    say [Sorry, das war falsch] for (2) seconds
+    say [Entschuldigung, aber das ist falsch] for (2) seconds
 end
 ```
 
