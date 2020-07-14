@@ -1,72 +1,72 @@
-## Check the answer
+## Comprueba la respuesta
 
-Your sprite now asks the player to click on the correct flag. Then the game needs to check whether the flag that was clicked is the right answer.
+Ahora tu objeto le pide al jugador que haga clic en la bandera correcta. Ahora, el juego debe verificar si la bandera que se presionó es la respuesta correcta.
 
 \--- task \---
 
-Go back to the Flag sprite code, and add a block to start a new section of code that will run `when this sprite is clicked`{:class="block3events"}.
+Vuelve al código del objeto bandera y agrega el bloque para comenzar la nueva sección de código que se ejecutará `al presionar este objeto `{:class="block3events"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 \--- /task \---
 
-Then your quiz needs to check whether the costume name of the Flag sprite that was clicked is the same as the correct answer.
+Ahora, tu cuestionario de banderas debe verificar si el nombre del disfraz del objeto bandera que se presionó es el mismo que la respuesta correcta.
 
 \--- task \---
 
-Add code to say 'Correct' if the costume name of the Flag sprite is the same as the `correct answer`{:class="block3variables"} variable, or to say 'Sorry, that was wrong' if the name and the variable are not the same.
+Añade código para que diga «Correcto» si es que el nombre del disfraz del objeto Bandera es el mismo que la variable `respuesta correcta`{:class="block3variables"}, o que diga «Lo siento, la respuesta es incorrecta» si el nombre y la variable no son iguales.
 
-You can use this useful block here as well.
+Acá también usarás este bloque útil.
 
 ```blocks3
-(item (10 v) of [flags v])
+(elemento (10 v) de [banderas v])
 ```
 
-This time, combine it with a `costume name`{:class="block3looks"} block to get the name of the current Flag sprite costume.
+Pero ahora combínalo con el bloque `nombre del disfraz`{:class="block3looks"} para obtener el nombre del actual disfraz del objeto Bandera.
 
-![Flag sprite](images/flag-sprite.png)
+![Objeto bandera](images/flag-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When this sprite is clicked`{:class="block3events"}, `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
+`Al presionar este objeto`{:class="block3events"}, `si`{:class="block3control"} este `nombre del disfraz`{:class="block3looks"} equivale a la `respuesta correcta`{:class="block3variables"}, `decir`{:class="block3looks"} «Correcto»,`sino`{:class="block3control"} `decir`{:class="block3looks"} «Lo siento».
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
 ```blocks3
-say [Sorry, that was wrong] for (2) seconds
+decir [Lo siento, respuesta equivocada] por (2) segundos
 
-say [Correct] for (2) seconds
+decir [Correct] por (2) segundos
 
-if <> then
-else
-end
+si <> 
+sino
+fin
 
-(costume [name v])
+(disfraz [nombre v])
 
 <[] = []>
 
-(correct answer)
+(respuesta correcta)
 
-when this sprite clicked
+al presiona este objeto
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como se debería ver tu código:
 
 ```blocks3
-when this sprite clicked
-if <(costume [name v]) = (correct answer :: variables)> then
-    say [Correct] for (2) seconds
-else
-    say [Sorry, that was wrong] for (2) seconds
-end
+al presionar este objeto
+si <(disfraz [nombre v]) = (respuesta correcta :: variables)> then
+    decir [Correct] por (2) segundos
+sino
+    decir [Lo siento, respuesta equivocada] por (2) segundos
+fin
 ```
 
 \--- /hint \---
@@ -75,8 +75,8 @@ end
 
 \--- task \---
 
-Press the green flag and test your code twice: once by picking the correct flag, and once by picking an incorrect one. Check that the right message appears depending on whether you give the right or wrong answer.
+Presiona la bandera verde y prueba tu código dos veces: al elegir la bandera correcta y la incorrecta. Comprueba que aparece el mensaje correcto en el caso de que escojas la respuesta correcta o incorrecta.
 
-![Click on the flag](images/click-on-flag.png)
+![Presiona la bandera](images/click-on-flag.png)
 
 \--- /task \---
