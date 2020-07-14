@@ -30,7 +30,7 @@ Haz clic en la bandera del país que se te pregunta.
 
 ## title: Lo que vas a aprender
 
-+ How to broadcast a message and have other sprites respond
++ Cómo transmitir un mensaje y hacer que otros objetos respondan
 + Cómo seleccionar elementos aleatorios de una lista
 
 \--- /collapse \---
