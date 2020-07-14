@@ -10,7 +10,7 @@ In der Fahnenfigur, `sende die Nachricht`{:class="block3events"} 'Land ankündig
 
 ```blocks3
 when green flag clicked
-erstelle Flaggen-Liste :: custom
+erstelle eine Flaggenliste :: custom
 delete (all v) of [ausgewählte Flaggen v]
 repeat (6)
     wähle zufällige Flagge :: custom

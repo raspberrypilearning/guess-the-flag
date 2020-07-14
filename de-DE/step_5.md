@@ -16,7 +16,7 @@ Nachdem die sechs Flaggen ausgewählt wurden, setze die `richtige Antwort`{:clas
 
 ```blocks3
 when green flag clicked
-erstelle Flaggen-Liste :: custom
+erstelle eine Flaggenliste :: custom
 delete (all v) of [ausgewählte Flaggen v]
 repeat (6)
     wähle zufällige Flagge :: custom

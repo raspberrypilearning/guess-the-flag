@@ -14,7 +14,7 @@ Dann muss dein Quiz überprüfen, ob der Kostümname der angeklickten Flaggenfig
 
 --- task ---
 
-Füge Code hinzu, um 'Korrekt' zu sagen, wenn der Kostümname der Flagge die gleiche ist wie die `richtige Antwort`{:class="block3variables"} Variable, oder "Sorry, das war falsch" zu sagen, wenn der Name und die Variable nicht identisch sind.
+Füge Code hinzu, um 'Korrekt' zu sagen, wenn der Kostümname der Flagge die gleiche ist wie die `richtige Antwort`{:class="block3variables"} Variable, oder "Entschuldigung, aber das ist falsch" zu sagen, wenn der Name und die Variable nicht identisch sind.
 
 Du kannst diesen nützlichen Block auch hier verwenden.
 

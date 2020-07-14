@@ -96,7 +96,7 @@ Füge deinen `Flaggen klonen`{:class="block3myblocks"} Block an das Ende des Cod
 
 ```blocks3
 when green flag clicked
-erstelle Flaggen-Liste :: custom
+erstelle eine Flaggenliste :: custom
 delete (all v) of [ausgewählte Flaggen v]
 repeat (6)
   wähle zufällige Flagge :: custom
