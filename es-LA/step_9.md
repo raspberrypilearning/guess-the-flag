@@ -25,7 +25,7 @@ if <(costume [name v]) = (respuesta correcta :: variables)> then
 + change [puntuación v] by [1]
     say [Correcto] for (2) seconds
 else
-    say [Lo sentimos, no es la respuesta correcta] for (2) seconds
+    say [Lo siento, la respuesta es incorrecta] for (2) seconds
 end
 ```
 

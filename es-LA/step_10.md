@@ -61,7 +61,7 @@ if <(costume [name v]) = (respuesta correcta :: variables)> then
     change [puntuación v] by [1]
     say [Correcto] for (2) seconds
 else
-    say [Lo sentimos, no es la respuesta correcta] for (2) seconds
+    say [Lo siento, la respuesta es incorrecta] for (2) seconds
 end
 + broadcast (comenzar la ronda v)
 ```
@@ -97,7 +97,7 @@ Establece la bandera en `eliminar este clon`{:class="block3control"} cuando reci
 ![Objeto bandera](images/flag-sprite.png)
 
 ```blocks3
-whenI receive [limpiar v]
+when I receive [limpiar v]
 delete this clone
 ```
 
@@ -114,7 +114,7 @@ if <(item (costume [number v]) of [banderas v]) = (respuesta correcta :: variabl
     say [Correcto] for (2) seconds
     change [puntuación v] by [1]
 else
-    say [Lo sentimos, no es la respuesta correcta] for (2) seconds
+    say [Lo siento, la respuesta es incorrecta] for (2) seconds
 end
 + broadcast (limpiar v)
 broadcast (comenzar la ronda v)

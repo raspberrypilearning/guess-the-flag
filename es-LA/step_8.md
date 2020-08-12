@@ -29,7 +29,7 @@ Pero ahora combínalo con el bloque `nombre del disfraz`{:class="block3looks"} p
 --- hints ---
  --- hint ---
 
-`Al presionar este objeto`{:class="block3events"}, `si`{:class="block3control"} este `nombre del disfraz`{:class="block3looks"} equivale a la `respuesta correcta`{:class="block3variables"}, `decir`{:class="block3looks"} «Correcto»,`sino`{:class="block3control"} `decir`{:class="block3looks"} «Lo sentimos, no es la respuesta correcta».
+`Al presionar este objeto`{:class="block3events"}, `si`{:class="block3control"} este `nombre del disfraz`{:class="block3looks"} equivale a la `respuesta correcta`{:class="block3variables"}, `decir`{:class="block3looks"} «Correcto»,`sino`{:class="block3control"} `decir`{:class="block3looks"} «Lo siento, la respuesta es incorrecta».
 
 --- /hint ---
 
@@ -38,7 +38,7 @@ Pero ahora combínalo con el bloque `nombre del disfraz`{:class="block3looks"} p
 Aquí están los bloques de código que necesitas:
 
 ```blocks3
-say [Lo sentimos, no es la respuesta correcta] for (2) seconds
+say [Lo siento, la respuesta es incorrecta] for (2) seconds
 
 say [Correcto] for (2) seconds
 
@@ -66,7 +66,7 @@ when this sprite clicked
 if <(costume [name v]) = (respuesta correcta :: variables)> then
     say [Correcto] for (2) seconds
 else
-    say [Lo sentimos, no es la respuesta correcta] for (2) seconds
+    say [Lo siento, la respuesta es incorrecta] for (2) seconds
 end
 ```
 
