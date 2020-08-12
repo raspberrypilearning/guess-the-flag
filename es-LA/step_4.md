@@ -50,7 +50,7 @@ Aquí están los bloques de código que necesitas:
 
 (pick random (1) to (10))
 
-define choose random flag
+define elegir bandera al azar
 
 set [número de bandera v] to []
 ```
@@ -131,7 +131,7 @@ end
 
 --- task ---
 
-Prueba otra vez tu código, presiona varias veces en la bandera verde y comprueba que en la lista de `banderas` siempre se completen seis países.
+Prueba otra vez tu código, presiona varias veces en la bandera verde y comprueba que en la lista de `banderas elegidas` siempre se completen seis países.
 
 --- /task ---
 
