@@ -1,0 +1,49 @@
+Ghana
+
+Italia
+
+Japón
+
+Bélgica
+
+Turquía
+
+Dinamarca
+
+Chile
+
+Botsuana
+
+Bangladesh
+
+Luxemburgo
+
+banderas
+
+País
+
+crear lista de banderas
+
+banderas elegidas
+
+número de bandera
+
+elegir bandera al azar
+
+respuesta correcta
+
+clonar banderas
+
+anunciar país
+
+haz clic en
+
+Lo sentimos, no es la respuesta correcta
+
+Correcto
+
+puntaje
+
+comenzar la ronda
+
+limpiar
