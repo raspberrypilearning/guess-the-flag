@@ -22,7 +22,7 @@ add [País] to [banderas v]
 
 Haz clic en la bandera verde y comprueba que los países aparezcan en la lista.
 
---- /tarea ---
+--- /task ---
 
 Si presionas la bandera verde más de una vez, los países se vuelven a añadir a la lista y el resultado será una lista de 20 países en lugar de 10.
 
@@ -93,4 +93,4 @@ when green flag clicked
 crear lista de banderas :: custom
 ```
 
---- / tarea ---
+--- /task ---
