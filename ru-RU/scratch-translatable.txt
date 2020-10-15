@@ -1,49 +1,49 @@
-Ghana
+Гана
 
-Italy
+Италия
 
-Japan
+Япония
 
-Belgium
+Бельгия
 
-Turkey
+Турция
 
-Denmark
+Дания
 
-Chile
+Чили
 
-Botswana
+Ботсвана
 
-Bangladesh
+Бангладеш
 
-Luxembourg
+Люксембург
 
-flags
+флаги
 
-Country
+Страна
 
-create flag list
+создать список флагов
 
-chosen flags
+выбранные флаги
 
-flag number
+номер флага
 
-choose random flag
+выбрать случайный флаг
 
-correct answer
+правильный ответ
 
-clone flags
+флаги-клоны
 
-announce country
+назвать страну
 
-click on
+нажать на
 
-Sorry, that was wrong
+К сожалению, неправильно
 
-Correct
+Правильно
 
-score
+счет
 
-start the round
+начать раунд
 
-clean up
+очистить
