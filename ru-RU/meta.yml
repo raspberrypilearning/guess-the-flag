@@ -1,0 +1,22 @@
+---
+title: Угадай флаг
+hero_image: images/banner.png
+description: Создай игру-викторину по флагам для себя и своих друзей!
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: Введение
+  - title: Нарисуй флаги
+  - title: Создать список флагов
+  - title: Выбери случайные флаги
+  - title: Выбери правильный ответ
+  - title: Показать флаги
+  - title: Задай вопрос
+  - title: Проверь ответ
+  - title: Добавить счет
+  - title: Начни новый раунд
+  - title: "Задание: улучши свою игру"
+    challenge: true
+  - title: Что дальше?
