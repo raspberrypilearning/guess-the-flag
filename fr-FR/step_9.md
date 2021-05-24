@@ -1,10 +1,10 @@
-## Add a score
+## Ajouter un score
 
 \--- task \---
 
-Create a new variable called `score`{:class="block3variables"} and set the score to `0`{:class="block3variables"} when the green flag is clicked.
+Crée une nouvelle variable appelée `score`{:class="block3variables"} et mets le score à `0`{:class="block3variables"} quand le drapeau vert est cliqué.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -15,9 +15,9 @@ when green flag clicked
 
 \--- task \---
 
-Add `1`{:class="block3variables"} to the score every time the player gives a correct answer.
+Ajoute `1`{:class="block3variables"} au score chaque fois que le joueur donne une réponse correcte.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 when this sprite clicked
