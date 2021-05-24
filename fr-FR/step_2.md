@@ -1,43 +1,43 @@
-## Draw the flags
+## Dessiner les drapeaux
 
 \--- task \---
 
-Open the 'Guess the flag' Scratch starter project.
+Ouvre le projet de démarrage Scratch « Devine le drapeau ».
 
-**Online:** open the starter project at [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner of the online editor to save a copy of the project.
+**En ligne :** ouvre le projet de démarrage sur [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_ blank"}. Si tu as un compte Scratch, tu peux cliquer sur **Remix** dans le coin supérieur droit de l'éditeur en ligne pour enregistrer une copie du projet.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/guess-the-flag-go) in the offline editor.
+**Hors ligne :** ouvre le [projet de démarrage](http://rpf.io/p/en/guess-the-flag-go) dans l'éditeur hors ligne.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver sur [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-Select the Costumes tab. You should see eight flags there.
+Sélectionne l'onglet Costumes. Tu devrais y voir huit drapeaux.
 
-Scroll to the bottom of the list of costumes, where there are two blank costumes. These costumes are there so you can add your own flags.
-
-\--- task \---
-
-Click on the 'Your flag 1' costume, and change its name to the name of a country.
-
-![Rename costume](images/rename-costume.png)
-
-\--- /task \---
+Fais défiler vers le bas de la liste des costumes, où il y a deux costumes vides. Ces costumes sont là pour que tu puisses ajouter tes propres drapeaux.
 
 \--- task \---
 
-Draw that country's flag. Make sure your drawing is exactly the same size as the flag costume.
+Clique sur le costume « Ton drapeau 1 » et change son nom pour le nom d'un pays.
 
-If you are stuck for ideas, you can find some flags on [this 'Flags of the world' web page](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
+![Renommer le costume](images/rename-costume.png)
 
 \--- /task \---
 
 \--- task \---
 
-Repeat this process for the second blank flag costume so that there are ten flag costumes in total.
+Dessine le drapeau de ce pays. Assure-toi que ton dessin est exactement de la même taille que le costume du drapeau.
+
+Si tu as du mal à trouver des idées, tu peux trouver quelques drapeaux sur [cette page web « Drapeaux du monde »](https://www.countries-ofthe-world.com/flags-of-the-world.html){:target="_blank"}.
 
 \--- /task \---
 
-Here are the flags that act as examples in the 'Guess the flag' project, but you can choose any flags you like for your game.
+\--- task \---
 
-![All flag costumes](images/all-costumes.png)
+Répète ce processus pour le deuxième costume de drapeau vide pour qu'il y ait dix costumes de drapeau au total.
+
+\--- /task \---
+
+Voici les drapeaux qui servent d'exemples dans le projet « Devine le drapeau », mais tu peux choisir tous les drapeaux que tu aimes pour ton jeu.
+
+![Tous les costumes du drapeau](images/all-costumes.png)
