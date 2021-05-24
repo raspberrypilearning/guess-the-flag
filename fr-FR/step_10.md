@@ -1,12 +1,12 @@
-## Start a new round
+## Commencer une nouvelle partie
 
-At the moment there is only one round in the quiz, so the quiz doesn't last long. You are going to set up multiple rounds.
+Pour le moment, il n'y a qu'une seule partie dans le quiz, donc le quiz ne dure pas longtemps. Tu vas mettre en place plusieurs parties.
 
 \--- task \---
 
-Create a new `broadcast`{:class="block3events"} that sends the message 'Start the round'.
+Crée un nouveau `envoyer à tous`{:class="block3events"} qui envoie le message « Commencer la partie ».
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 broadcast (start the round v)
@@ -16,9 +16,9 @@ broadcast (start the round v)
 
 \--- task \---
 
-Add a `when I receive 'Start the round'`{:class="block3events"} block, and then move all of the code from below the `when green flag clicked`{:class="block3events"} block to below this new block.
+Ajoute un bloc `quand je reçois le bloc « Commencer la partie »'`{:class="block3events"}, puis déplace tout le code qui se trouve sous le bloc `quand le drapeau vert est cliqué`{:class="block3events"} en dessous de ce nouveau bloc.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 + when I receive [start the round v]
@@ -37,9 +37,9 @@ clone flags :: custom
 
 \--- task \---
 
-Remove the `set score to 0`{:class="block3variables"} block and place it back below the `when green flag clicked`{:class="block3control"} block. Then add the new `broadcast`{:class="block3events"} block below both of them.
+Supprime le bloc `mettre le score à 0`{:class="block3variables"} et place-le en dessous du bloc `quand le drapeau vert est cliqué`{:class="block3control"}. Ajoute ensuite le nouveau bloc `envoyer à tous`{:class="block3events"} sous chacun d'eux.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -51,9 +51,9 @@ broadcast (start the round v)
 
 \--- task \---
 
-After the code that checks whether the answer is correct, add another `broadcast`{:class="block3events"} block so that a new round can start once a question is answered.
+Après le code vérifiant si la réponse est correcte, ajoute un autre bloc `envoyer à tous`{:class="block3events"} pour qu'une nouvelle partie puisse commencer après qu'une question soit répondue.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -70,19 +70,19 @@ end
 
 \--- task \---
 
-Click the green flag to test your code. Click on one of the flags to play a round. Do you notice that the next round does not get set up properly?
+Clique sur le drapeau vert pour tester ton code. Clique sur l'un des drapeaux pour jouer une partie. As-tu remarqué que la partie suivante ne se met pas en place correctement ?
 
-![Next round does not work](images/next-round-does-not-work.png)
+![La partie suivante ne fonctionne pas](images/next-round-does-not-work.png)
 
 \--- /task \---
 
-This is because before the game starts another round, the game needs to first clear up the cloned flags.
+C'est parce qu'avant de commencer une nouvelle partie, le jeu doit d'abord effacer les drapeaux clonés.
 
 \--- task \---
 
-Create another new `broadcast`{:class="block3events"} called 'clean up'.
+Crée un nouveau `envoyer à tous`{:class="block3events"} appelé « effacer ».
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 broadcast (clean up v)
@@ -92,9 +92,9 @@ broadcast (clean up v)
 
 \--- task \---
 
-Set the Flag sprite to `delete this clone`{:class="block3control"} when it receives the `clean up`{:class="block3events"} broadcast.
+Définit le sprite Drapeau sur `supprimer ce clone`{:class="block3control"} quand il reçoit le message `effacer`{:class="block3events"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 when I receive [clean up v]
@@ -105,7 +105,7 @@ delete this clone
 
 \--- task \---
 
-Place the `clean up`{:class="block3events"} broadcast block just above where the game starts a new round after an answer has been given.
+Place le bloc de diffusion `effacer`{:class="block3events"} juste au-dessus de l'endroit où le jeu commence une nouvelle partie après qu'une réponse ait été donnée.
 
 ```blocks3
 when this sprite clicked
@@ -124,12 +124,12 @@ broadcast (start the round v)
 
 \--- task \---
 
-Test your code again and check that you can play multiple rounds, and that your score increases as you get answers correct.
+Teste à nouveau ton code et vérifie que tu peux jouer plusieurs parties, et que ton score augmente lorsque la réponse est correcte.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you hide the `correct answer`{:class="block3variables"} variable so the player can't see it!
+Assure-toi de cacher la variable `réponse correcte`{:class="block3variables"} pour que le joueur ne puisse pas la voir !
 
 \--- /task \---
