@@ -1,12 +1,12 @@
-## Ask the question
+## Poser la question
 
-Let's ask the player to name the flag for a particular country.
+Demandons au joueur de nommer le drapeau pour un pays particulier.
 
 \--- task \---
 
-In the flag sprite, `broadcast the message`{:class="block3events"} 'announce country' immediately after the block that clones the flags.
+Dans le sprite de drapeau, `envoyer à tous`{:class="block3events"} « dire le pays » immédiatement après le bloc qui clone les drapeaux.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -27,27 +27,27 @@ clone flags :: custom
 
 \--- task \---
 
-Add a new sprite of your choice to be your quiz master. The quiz master in the example is the sprite called Abby.
+Ajoute un nouveau sprite de ton choix pour être ton maître de quiz. Le maître de quiz dans l'exemple est le sprite appelé Abby.
 
-![Abby sprite](images/bear-sprite.png)
+![Sprite Abby](images/bear-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the quiz master sprite so that, when the sprite receives the `announce country`{:class="block3events"} broadcast, it tells the player to click on the country name that is stored in the variable `correct answer`{:class="block3variables"}.
+Ajoute du code au sprite principal du quiz pour que, quand le sprite reçoit le message `dire le pays`{:class="block3events"}, elle dit au joueur de cliquer sur le nom du pays qui est stocké dans la variable `réponse correcte`{:class="block3variables"}.
 
-![Character sprite](images/char-sprite.png)
+![Sprite personnage](images/char-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When I receive`{:class="block3events"} the broadcast, `say`{:class="block3looks"} 'click on `correct answer`{:class="block3variables"}'.
+`Quand je reçois`{:class="block3events"} le message, `dire`{:class="block3looks"} « clique sur `réponse correcte` »{:class="block3variables"}'.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs dont tu as besoin :
 
 ```blocks3
 (join [click on] [])
@@ -63,7 +63,7 @@ when I receive [announce country v]
 
 \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ```blocks3
 when I receive [announce country v]
