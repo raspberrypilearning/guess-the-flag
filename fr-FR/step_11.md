@@ -1,15 +1,15 @@
-## Challenge: improve the game
+## Défi : améliorer le jeu
 
-+ Add a fixed number of rounds and then tell the player the percentage of rounds in which they gave the correct answer.
++ Ajoute un nombre fixe de parties puis indique au joueur le pourcentage de parties dans lesquelles il a donné la bonne réponse.
 
-+ Store the high score.
++ Sauvegarde le meilleur score.
 
 [[[generic-scratch3-high-score]]]
 
-+ Add a timer for each round to force the player to give their answer quickly.
++ Ajoute un chronomètre à chaque partie pour forcer le joueur à donner sa réponse rapidement.
 
-+ Add more flags to make the game more challenging.
++ Ajoute plus de drapeaux pour rendre le jeu plus difficile.
 
-+ If the player clicks on an incorrect flag, have the game remove that flag and give the player another chance to answer correctly before the next round begins.
++ Si le joueur clique sur un drapeau incorrect, fait disparaître ce drapeau et donne au joueur une autre chance de répondre correctement avant le début de la partie suivante.
 
-+ Make the game into a two-player quiz where players take turns to guess, and their scores are recorded separately.
++ Transforme le jeu en un quiz à deux joueurs où les joueurs devinent à tour de rôle, et où leurs scores sont enregistrés séparément.
