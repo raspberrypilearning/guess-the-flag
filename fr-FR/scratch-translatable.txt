@@ -1,16 +1,16 @@
 Ghana
 
-Italy
+Italie
 
-Japan
+Japon
 
-Belgium
+Belgique
 
-Turkey
+Turquie
 
-Denmark
+Danemark
 
-Chile
+Chili
 
 Botswana
 
@@ -18,32 +18,32 @@ Bangladesh
 
 Luxembourg
 
-flags
+drapeaux
 
-Country
+Pays
 
-create flag list
+créer une liste de drapeaux
 
-chosen flags
+drapeaux choisis
 
-flag number
+numéro du drapeau
 
-choose random flag
+choisir un drapeau aléatoire
 
-correct answer
+réponse correcte
 
-clone flags
+cloner les drapeaux
 
-announce country
+dire le pays
 
-click on
+clique sur
 
-Sorry, that was wrong
+Désolé, ce n'est pas correct
 
 Correct
 
 score
 
-start the round
+commencer la partie
 
-clean up
+effacer
