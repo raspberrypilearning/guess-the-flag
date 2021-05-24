@@ -1,12 +1,12 @@
-## Show the flags
+## Afficher les drapeaux
 
-The person taking the quiz needs to see the pictures of the flags in the `chosen flags`{:class="block3variables"} list.
+La personne qui répond au quiz a besoin de voir les photos des drapeaux dans la liste des `drapeaux choisis`{:class="block3variables"}.
 
 \--- task \---
 
-Create another custom block, and call this one `clone flags`{:class="block3myblocks"}.
+Crée un autre bloc personnalisé, et appelle-le `cloner les drapeaux`{:class="block3myblocks"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 define clone flags
@@ -14,15 +14,15 @@ define clone flags
 
 \--- /task \---
 
-This custom block will clone the Flag sprite six times, once for each flag that should be displayed.
+Ce bloc personnalisé clonera le sprite Drapeau six fois, une fois pour chaque drapeau qui doit être affiché.
 
-The first flag should be displayed in the top left-hand corner of the Stage.
+Le premier drapeau doit être affiché dans le coin supérieur gauche de la scène.
 
 \--- task \---
 
-As part of the instructions for your `clone flags`{:class="block3myblocks"} block, make the Flag sprite visible, and add a `go to`{:class="block3motion"} block to tell the sprite to show at the coordinates `-170`{:class="block3motion"}, `120`{:class="block3motion"} in the top left-hand corner of the Stage.
+Dans ton bloc `cloner les drapeaux`{:class="block3myblocks"}, ajoute l'instruction pour rendre le sprite drapeau visible, puis ajoute un bloc `aller à`{:class="block3motion"} pour dire au sprite d'aller aux coordonnées `-170`{:class="block3motion"}, `120`{:class="block3motion"} dans le coin supérieur gauche de la scène.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 define clone flags
@@ -34,21 +34,21 @@ go to x: (-170) y: (120)
 
 \--- task \---
 
-Below that code, add a loop that repeats six times.
+Au-dessous de ce code, ajoute une boucle qui se répète six fois.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
-Inside the loop, add code blocks to switch the sprite's costume to the first flag in the `chosen flags`{:class="block3variables"} list, and to clone the sprite. Then, add code blocks to delete the first flag from the list, and to add `110`{:class="block3motion"} to the `x`{:class="block3motion"} coordinate to move the sprite to the position of the second flag.
+À l'intérieur de la boucle, ajoute des blocs de code pour basculer le costume du sprite vers le premier drapeau dans la liste des `drapeaux choisis`{:class="block3variables"} et pour cloner le sprite. Ensuite, ajoute des blocs de code pour supprimer le premier drapeau de la liste, et pour ajouter la coordonnée `110`{:class="block3motion"} à la position `x`{:class="block3motion"} pour déplacer le sprite à la position du second drapeau.
 
 \--- hints \--- \--- hint \---
 
-`Repeat`{:class="block3control"} six times: `Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}. `Clone the sprite`{:class="block3control"}. `Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}. `Move right 110`{:class="block3motion"}.
+`Répéter`{:class="block3control"} six fois : `Basculer sur le costume`{:class="block3looks"} pour le `premier élément dans les drapeaux choisis`{:class="block3variables"}. `Cloner le sprite`{:class="block3control"}. `Supprimer`{:class="block3variables"} le `premier élément dans les drapeaux choisis`{:class="block3variables"}. `Déplacer vers la droite de 110`{:class="block3motion"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add:
+Voici les blocs de code que tu dois ajouter :
 
 ```blocks3
 (item (1) of [chosen flags v])
@@ -69,7 +69,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ```blocks3
 define clone flags
@@ -89,9 +89,9 @@ end
 
 \--- task \---
 
-Add your `clone flags`{:class="block3myblocks"} block to the end of the code that runs when the green flag is clicked.
+Ajoute ton bloc `cloner les drapeaux`{:class="block3myblocks"} à la fin du code qui s'exécute quand le drapeau vert est cliqué.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -107,21 +107,21 @@ end
 
 \--- task \---
 
-Run your code. Notice that the different flags appear, but some are cut off by the edge of the Stage.
+Exécute ton code. Note que les différents drapeaux apparaissent, mais certains sont coupés par le bord de la scène.
 
-![Flags go off the screen](images/flags-off-the-screen.png)
+![Les drapeaux disparaissent de l'écran](images/flags-off-the-screen.png)
 
 \--- /task \---
 
-Instead of putting all six flags in one row, make two rows of three flags.
+Au lieu de mettre les six drapeaux en une ligne, crée deux rangées de trois drapeaux.
 
 \--- task \---
 
-Add some code inside the `repeat`{:class="block3control"} loop of the `clone flags`{:class="block3myblocks"} block to move the Flag sprite down a row if there are three flags left in the `chosen flags`{:class="block3variables"} list.
+Ajoute du code dans la boucle `répéter`{:class="block3control"} du bloc `cloner les drapeaux`{:class="block3myblocks"} pour déplacer le sprite Drapeau vers le bas d'une ligne s'il reste trois drapeaux dans la liste `drapeaux choisis`{:class="block3variables"}.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
-You can the sprite move down a row by using another `go to`{:class="block3motion"} block and keeping the `x`{:class="block3motion"} coordinate the same as the starting point, but decreasing the `y`{:class="block3motion"} coordinate to move downwards.
+Tu peux faire descendre le sprite d'une ligne en utilisant un autre bloc `aller à`{:class="block3motion"} et en gardant la coordonnée `x`{:class="block3motion"} identique au point de départ, mais en diminuant la coordonnée `y`{:class="block3motion"} pour descendre.
 
 ```blocks3
 define clone flags
@@ -142,18 +142,18 @@ end
 
 \--- task \---
 
-Click the green flag and check that the flags display in two rows.
+Clique sur le drapeau vert et vérifie que les drapeaux s'affichent sur deux lignes.
 
 \--- /task \---
 
-It looks like the last flag is displayed twice. This is because the original Flag sprite is still visible at the end.
+On dirait que le dernier drapeau est affiché deux fois. Ceci est dû au fait que le sprite Drapeau original est toujours visible à la fin.
 
 \--- task \---
 
-Add a `hide`{:class="block3looks"} block at the end of the code inside the `clone flags`{:class="block3myblocks"} block to hide the original sprite.
+Ajoute un bloc `cacher`{:class="block3looks"} à la fin du code à l'intérieur du bloc `cloner les drapeaux`{:class="block3myblocks"} pour masquer le sprite original.
 
-![Flag sprite](images/flag-sprite.png)
+![Sprite drapeau](images/flag-sprite.png)
 
 \--- /task \---
 
-If you want to, you can try making the flag sprites appear one by one or playing a sound (a pop, for example) each time a flag appears.
+Si tu le souhaites, tu peux essayer de faire apparaître les sprites des drapeaux un par un ou de jouer un son (un pop, par exemple) chaque fois qu'un drapeau apparaît.
