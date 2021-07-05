@@ -42,7 +42,7 @@ Ajoute du code au sprite principal du quiz pour que, quand le sprite reçoit le 
 --- hints ---
  --- hint ---
 
-`Quand je reçois`{:class="block3events"} le message, `dire`{:class="block3looks"} « clique sur `réponse correcte` »{:class="block3variables"}'.
+`Quand je reçois`{:class="block3events"} le message, `dire`{:class="block3looks"} « clique sur `réponse correcte`{:class="block3variables"} ».
 
 --- /hint ---
 

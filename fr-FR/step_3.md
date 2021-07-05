@@ -63,7 +63,7 @@ Clique sur **Mes Blocs** puis sur **Créer un Bloc**. Nomme ton bloc personnalis
 
 --- task ---
 
-Déplace tout le code qui se trouve sous le bloc `quand le drapeau vert est cliqué` vers le bloc `créer une liste de drapeaux`{:class="block3myblocks"}.
+Déplace tout le code qui se trouve sous le bloc `quand le drapeau vert est cliqué`{:class="block3events"} vers le bloc `créer une liste de drapeaux`{:class="block3myblocks"}.
 
 ```blocks3
 define create flag list
