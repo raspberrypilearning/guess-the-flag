@@ -1,0 +1,49 @@
+Ghana
+
+Italie
+
+Japon
+
+Belgique
+
+Turquie
+
+Danemark
+
+Chili
+
+Botswana
+
+Bangladesh
+
+Luxembourg
+
+drapeaux
+
+Pays
+
+créer une liste de drapeaux
+
+drapeaux choisis
+
+numéro du drapeau
+
+choisir un drapeau aléatoire
+
+réponse correcte
+
+cloner les drapeaux
+
+dire le pays
+
+clique sur
+
+Désolé, ce n'est pas correct
+
+Correct
+
+score
+
+commencer la partie
+
+effacer
