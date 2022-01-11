@@ -7,16 +7,18 @@ copyedit: true
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
-  - title: Inleiding
-  - title: Teken de vlaggen
-  - title: Maak een lijst met vlaggen
-  - title: Kies willekeurige vlaggen
-  - title: Kies een correct antwoord
-  - title: Toon de vlaggen
-  - title: Stel de vraag
-  - title: Controleer het antwoord
-  - title: Een score toevoegen
-  - title: Begin een nieuwe ronde
-  - title: "Uitdaging: verbeter het spel"
-    challenge: true
-  - title: Wat kun je verder nog doen?
+- title: Inleiding
+  completion: engaged
+- title: Teken de vlaggen
+- title: Maak een lijst met vlaggen
+- title: Kies willekeurige vlaggen
+- title: Kies een correct antwoord
+- title: Toon de vlaggen
+- title: Stel de vraag
+- title: Controleer het antwoord
+- title: Een score toevoegen
+  completion: internal
+- title: Begin een nieuwe ronde
+- title: 'Uitdaging: verbeter het spel'
+  challenge: true
+- title: Wat kun je verder nog doen?
