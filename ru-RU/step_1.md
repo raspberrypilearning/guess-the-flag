@@ -47,11 +47,11 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-+ Скретч 3 (либо [онлайн-редактор](http://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (либо [онлайн-редактор](https://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Загрузки
 
-+ [Автономный стартовый проект](http://rpf.io/p/ru-RU/guess-the-flag-go){:target="_blank"}
++ [Автономный стартовый проект](https://rpf.io/p/ru-RU/guess-the-flag-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -66,8 +66,8 @@ title: Дополнительные заметки для преподавате
 
 --- /no-print ---
 
-Ты можешь [скачать ресурсы для этого проекта здесь](http://rpf.io/p/ru-RU/guess-the-flag-go){:target="_blank"}.
+Ты можешь [скачать ресурсы для этого проекта здесь](https://rpf.io/p/ru-RU/guess-the-flag-go){:target="_blank"}.
 
-Здесь ты можешь найти [завершённый проект](http://rpf.io/p/ru-RU/guess-the-flag-get){:target="_blank"}.
+Здесь ты можешь найти [завершённый проект](https://rpf.io/p/ru-RU/guess-the-flag-get){:target="_blank"}.
 
 --- /collapse ---

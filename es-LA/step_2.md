@@ -6,9 +6,9 @@ Abre el proyecto inicial de Scratch: «Adivina la bandera».
 
 **Con Internet**: abra un nuevo proyecto Scratch en línea en [scratch.mit.edu/projects/417357211](https://scratch.mit.edu/projects/417357211). Si tienes una cuenta de Scratch, puedes hacer clic en **Remix** en la esquina superior derecha del editor en línea para guardar una copia del proyecto.
 
-**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/es-LA/guess-the-flag-go) en el editor sin conexión.
+**Sin conexión**: abre el [proyecto de inicio](https://rpf.io/p/es-LA/guess-the-flag-go) en el editor sin conexión.
 
-Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
