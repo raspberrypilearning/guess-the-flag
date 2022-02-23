@@ -47,11 +47,11 @@ title: Lo que vas a necesitar
 
 ### Software
 
-+ Scratch 3 (ya sea [con Internet](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [con Internet](https://rpf.io/scratchon){:target="_blank"} o [sin conexión](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
-+ [Iniciar proyecto sin conexión](http://rpf.io/p/es-LA/guess-the-flag-go){:target="_blank"}
++ [Iniciar proyecto sin conexión](https://rpf.io/p/es-LA/guess-the-flag-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -66,8 +66,8 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 --- /no-print ---
 
-Puedes [descargar aquí los recursos para este proyecto](http://rpf.io/p/es-LA/guess-the-flag-go){:target="_blank"}.
+Puedes [descargar aquí los recursos para este proyecto](https://rpf.io/p/es-LA/guess-the-flag-go){:target="_blank"}.
 
-Puedes encontrar [aquí el proyecto completo](http://rpf.io/p/es-LA/guess-the-flag-get){:target="_blank"}.
+Puedes encontrar [aquí el proyecto completo](https://rpf.io/p/es-LA/guess-the-flag-get){:target="_blank"}.
 
 --- /collapse ---

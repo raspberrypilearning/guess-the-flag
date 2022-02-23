@@ -43,11 +43,11 @@ title: Τι θα χρειαστείς
 
 ### Λογισμικό
 
-+ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (είτε [online](https://rpf.io/scratchon){:target="_blank"} είτε [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Λήψεις
 
-+ [Αρχικό έργο εκτός σύνδεσης](http://rpf.io/p/el-GR/guess-the-flag-go){:target="_blank"}
++ [Αρχικό έργο εκτός σύνδεσης](https://rpf.io/p/el-GR/guess-the-flag-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -58,8 +58,8 @@ title: Πρόσθετες σημειώσεις για εκπαιδευτικού
 
 --- no-print --- Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/el-GR/projects/guess-the-flag/print). --- /no-print ---
 
-Μπορείτε να κατεβάσετε [πόρους για αυτό το έργο εδώ](http://rpf.io/p/el-GR/guess-the-flag-go){:target="_blank"}.
+Μπορείτε να κατεβάσετε [πόρους για αυτό το έργο εδώ](https://rpf.io/p/el-GR/guess-the-flag-go){:target="_blank"}.
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/guess-the-flag-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](https://rpf.io/p/el-GR/guess-the-flag-get){:target="_blank"}.
 
 --- /collapse ---

@@ -6,9 +6,9 @@
 
 **Online:** Öffne das Starter-Projekt hier [scratch.mit.edu/projects/411530731](https://scratch.mit.edu/projects/411530731){:target="_blank"}. Wenn du ein Scratch-Konto hast, kannst du auf **Remix** in der oberen rechten Ecke des Online-Editors klicken, um eine Kopie des Projekts zu speichern.
 
-**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/de-DE/guess-the-flag-go) im Offline-Editor.
+**Offline**: Öffne das [Starter-Projekt](https://rpf.io/p/de-DE/guess-the-flag-go) im Offline-Editor.
 
-Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

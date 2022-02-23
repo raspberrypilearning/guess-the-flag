@@ -2,11 +2,11 @@
 
 --- task --- Άνοιξε το αρχικό έργο Scratch 'Μάντεψε τη σημαία'.
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. Αν διαθέτεις λογαριασμό Scratch, μπορείς να πατήσεις το **Remix** στην πάνω-δεξιά γωνία του επεξεργαστή για να αποθηκεύσεις ένα αντίγραφο του έργου.
+**Online:** άνοιξε το αρχικό έργο στο [rpf.io/guess-the-flag-on](https://rpf.io/guess-the-flag-on){:target="_blank"}. Αν διαθέτεις λογαριασμό Scratch, μπορείς να πατήσεις το **Remix** στην πάνω-δεξιά γωνία του επεξεργαστή για να αποθηκεύσεις ένα αντίγραφο του έργου.
 
-**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/el-GR/guess-the-flag-go) στον επεξεργαστή εκτός σύνδεσης.
+**Offline**: άνοιξε το [αρχικό έργο](https://rpf.io/p/el-GR/guess-the-flag-go) στον επεξεργαστή εκτός σύνδεσης.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

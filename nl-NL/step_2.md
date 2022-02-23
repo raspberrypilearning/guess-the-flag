@@ -4,11 +4,11 @@
 
 Open het 'Raad de vlag' Scratch startproject.
 
-**Online:** open het start project op [rpf.io/guess-the-flag-on](http://rpf.io/guess-the-flag-on){:target="_blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek van de online editor om een kopie van het project op te slaan.
+**Online:** open het start project op [rpf.io/guess-the-flag-on](https://rpf.io/guess-the-flag-on){:target="_blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek van de online editor om een kopie van het project op te slaan.
 
-**Offline**: open het [startproject](http://rpf.io/p/nl-NL/guess-the-flag-go){:target="_blank"} in de offline editor.
+**Offline**: open het [startproject](https://rpf.io/p/nl-NL/guess-the-flag-go){:target="_blank"} in de offline editor.
 
-Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
