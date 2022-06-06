@@ -8,17 +8,19 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Introduction
-  completion: engaged
 - title: Draw the flags
 - title: Create a list of flags
+  completion:
+  - engaged
 - title: Choose random flags
 - title: Choose a correct answer
 - title: Show the flags
 - title: Ask the question
 - title: Check the answer
 - title: Add a score
-  completion: internal
 - title: Start a new round
+  completion:
+  - internal
 - title: 'Challenge: improve the game'
   challenge: true
 - title: What next?

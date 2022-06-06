@@ -8,17 +8,19 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Введение
-  completion: engaged
 - title: Нарисуй флаги
 - title: Создать список флагов
+  completion:
+  - engaged
 - title: Выбери случайные флаги
 - title: Выбери правильный ответ
 - title: Показать флаги
 - title: Задай вопрос
 - title: Проверь ответ
 - title: Добавить счет
-  completion: internal
 - title: Начни новый раунд
+  completion:
+  - internal
 - title: 'Задание: улучши свою игру'
   challenge: true
 - title: Что дальше?

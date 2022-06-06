@@ -8,17 +8,19 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: भूमिका
-  completion: engaged
 - title: झंडे बनाएँ
 - title: झंडों की सूची बनाएँ
+  completion:
+  - engaged
 - title: यादृच्छिक झंडे चुनें
 - title: सही उत्तर चुनें
 - title: झंडे दिखाएँ
 - title: प्रश्न पूछें
 - title: उत्तर की जाँच करें
 - title: स्कोर जोड़ें
-  completion: internal
 - title: एक नया राउंड शुरू करें
+  completion:
+  - internal
 - title: 'चुनौती: गेम में सुधार करें'
   challenge: true
 - title: 'चुनौती: अपने ड्रम की पोशाक बदलें'

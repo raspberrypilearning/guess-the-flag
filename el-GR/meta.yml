@@ -9,17 +9,19 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Σχεδίασε τις σημαίες
 - title: Δημιούργησε μια λίστα με σημαίες
+  completion:
+  - engaged
 - title: Επίλεξε τυχαίες σημαίες
 - title: Επίλεξε μια σωστή απάντηση
 - title: Δείξε τις σημαίες
 - title: Κάνε την ερώτηση
 - title: Έλεγξε την απάντηση
 - title: Προσθήκη βαθμολογίας
-  completion: internal
 - title: Ξεκίνησε έναν νέο γύρο
+  completion:
+  - internal
 - title: 'Πρόκληση: βελτίωσε το παιχνίδι'
   challenge: true
 - title: Και τώρα;
