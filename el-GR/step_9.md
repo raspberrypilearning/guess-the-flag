@@ -22,7 +22,7 @@ when green flag clicked
 ```blocks3
 when this sprite clicked
 if <(costume [name v]) = (σωστή απάντηση :: variables)> then 
-  + change [σκορ v] by [1]
++ change [σκορ v] by [1]
   say [Σωστά] for (2) seconds
 else 
   say [Λυπάμαι, αυτό ήταν λάθος] for (2) seconds

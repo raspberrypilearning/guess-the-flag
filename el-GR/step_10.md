@@ -28,7 +28,7 @@ delete (all v) of [επιλεγμένες σημαίες v]
 repeat (6) 
   choose random flag :: custom
 end
-set [σωστή απάντηση v] to (item (pick random (1) εtoώς (length of [chosen flags v])) of [chosen flags v])
+set [σωστή απάντηση v] to (item (pick random (1) to (length of [chosen flags v])) of [chosen flags v])
 clone flags :: custom
 + broadcast (αναγγελία χώρας v)
 ```

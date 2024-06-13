@@ -85,7 +85,7 @@ Combineer dit blok met de variabele `vlag nummer`{:class="block3variables"} om d
 
 ```blocks3
 define kies willekeurige vlag
-set [vlagnummer v] to (pick random to (1) en (length of [vlaggen v]))
+set [vlagnummer v] to (pick random to (1) to (length of [vlaggen v]))
 + add (item (vlagnummer) of [vlaggen v]) to [gekozen vlaggen v]
 ```
 
