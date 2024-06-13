@@ -7,8 +7,8 @@ Maak een nieuwe variabele met de naam `score`{:class="block3variables"} en stel 
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when flag clicked
-+ maak [score v] [0]
+when green flag clicked
++ set [score v] to [0]
 ```
 
 --- /task ---
@@ -20,13 +20,13 @@ Tel telkens `1`{:class="block3variables"} op bij de score wanneer de speler een 
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-als <(uiterlijk [naam v]) = (goed antwoord :: variables)> dan
-+ verander [score v] met [1]
-    zeg [Goed!] (2) sec.
-anders
-    zeg [Sorry, dat was niet goed] (2) sec.
-einde
+when this sprite clicked
+if <(costume [naam v]) = (goed antwoord :: variables)> then
++ change [score v] by [1]
+    say [Goed!] for (2) seconds
+else
+    say [Sorry, dat was niet goed] for (2) seconds
+end
 ```
 
 --- /task ---

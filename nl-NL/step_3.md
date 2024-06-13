@@ -13,7 +13,7 @@ Voeg nog twee codeblokken toe, één voor de andere twee vlaggen die je hebt gem
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-voeg [Land] toe aan [vlaggen v]
+add [Land] to [vlaggen v]
 ```
 
 --- /task ---
@@ -34,17 +34,17 @@ Voeg aan het begin van de code een blok toe aan `verwijder alle`{:class="block3v
 
 ```blocks3
 when flag clicked
-+ verwijder (alle v) van [vlaggen v]
-voeg [Japan] toe aan [vlaggen v]
-voeg [Belgium] toe aan [vlaggen v]
-voeg [Italy] toe aan [vlaggen v]
-voeg [Turkey] toe aan [vlaggen v]
-voeg [Denmark] toe aan [vlaggen v]
-voeg [Chile] toe aan [vlaggen v]
-voeg [Botswana] toe aan [vlaggen v]
-voeg [Bangladesh] toe aan [vlaggen v]
-voeg [Ghana] toe aan [vlaggen v]
-voeg [Luxembourg] toe aan [vlaggen v]
++ delete (alle v) of [vlaggen v]
+add [Japan] to [vlaggen v]
+add [Belgium] to [vlaggen v]
+add [Italy] to [vlaggen v]
+add [Turkey] to [vlaggen v]
+add [Denmark] to [vlaggen v]
+add [Chile] to [vlaggen v]
+add [Botswana] to [vlaggen v]
+add [Bangladesh] to [vlaggen v]
+add [Ghana] to [vlaggen v]
+add [Luxembourg] to [vlaggen v]
 ```
 
 --- /task ---
@@ -67,17 +67,17 @@ Sleep alle code weg van onder het `wanneer op de groene vlag wordt geklikt`{:cla
 
 ```blocks3
 define maak vlaggenlijst
-verwijder (alle v) van [vlaggen v]
-voeg [Japan] toe aan [vlaggen v]
-voeg [Belgium] toe aan [vlaggen v]
-voeg [Italy] toe aan [vlaggen v]
-voeg [Turkey] toe aan [vlaggen v]
-voeg [Denmark] toe aan [vlaggen v]
-voeg [Chile] toe aan [vlaggen v]
-voeg [Botswana] toe aan [vlaggen v]
-voeg [Bangladesh] toe aan [vlaggen v]
-voeg [Ghana] toe aan [vlaggen v]
-voeg [Luxembourg] toe aan [vlaggen v]
+delete (alle v) of [vlaggen v]
+add [Japan] to [vlaggen v]
+add [Belgium] to [vlaggen v]
+add [Italy] to [vlaggen v]
+add [Turkey] to [vlaggen v]
+add [Denmark] to [vlaggen v]
+add [Chile] to [vlaggen v]
+add [Botswana] to [vlaggen v]
+add [Bangladesh] to [vlaggen v]
+add [Ghana] to [vlaggen v]
+add [Luxembourg] to [vlaggen v]
 ```
 
 --- /task ---

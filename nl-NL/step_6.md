@@ -26,8 +26,8 @@ Als onderdeel van de instructies voor je `kloon vlaggen`{:class="block3myblocks"
 
 ```blocks3
 define kloon vlaggen
-verschijn
-ga naar x: (-170) y: (120)
+show
+go to x: (-170) y: (120)
 ```
 
 --- /task ---
@@ -52,18 +52,18 @@ Voeg binnen de lus codeblokken toe om het uiterlijk van de sprite naar de eerste
 Hier zijn de codeblokken die je moet toevoegen:
 
 ```blocks3
-(item (1) van [gekozen vlaggen v])
+(item (1) of [gekozen vlaggen v])
 
-verander x met (110)
+change x by (110)
 
-maak een kloon van (mijzelf v)
+create clone of (mijzelf v)
 
-verander uiterlijk naar ( v)
+switch costume to ( v)
 
-verwijder (1) van [gekozen vlaggen v]
+delete (1) of [gekozen vlaggen v]
 
-herhaal (6)
-einde
+repeat (6)
+end
 ```
 
 --- /hint ---
@@ -74,19 +74,20 @@ Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
 define kloon vlaggen
-verschijn
-ga naar x: (-170) y: (120)
-+ herhaal (6)
-    verander uiterlijk naar (item (1) van [gekozen vlaggen v])
-    maak een kloon van (mijzelf v)
-    verwijder (1) van [gekozen vlaggen v]
-    verander x met (110)
-einde
+show
+go to x: (-170) y: (120)
++ repeat (6)
+    switch costume to (item (1) of [gekozen vlaggen v])
+    create clone of (mijzelf v)
+    delete (1) of [gekozen vlaggen v]
+    change x by (110)
+end
 ```
 
 --- /hint ---
 
---- /hints --- --- /task ---
+--- /hints ---
+--- /task ---
 
 --- task ---
 
@@ -97,10 +98,10 @@ Voeg `kloon vlaggen`{:class="block3myblocks"} toe aan het einde van de code die 
 ```blocks3
 when flag clicked
 maak vlaggenlijst :: custom
-verwijder (alle v) van [gekozen vlaggen v]
-herhaal (6)
+delete (alle v) of [gekozen vlaggen v]
+repeat (6)
   kies willekeurige vlag :: custom
-einde
+end
 + kloon vlaggen :: custom
 ```
 
@@ -126,17 +127,17 @@ Je kunt de sprite een rij naar beneden verplaatsen door nog een `ga naar`{:class
 
 ```blocks3
 define kloon vlaggen
-verschijn
-ga naar x: (-170) y: (120)
-herhaal (6)
-    verander uiterlijk naar (item (1) van [gekozen vlaggen v])
-    maak een kloon van (mijzelf v)
-    verwijder (1) van [gekozen vlaggen v]
-    verander x met (110)
-+ als <(lengte van [gekozen vlaggen v]) = [3]> dan
-        ga naar x: (-170) y: (50)
-    einde
-einde
+show
+go to x: (-170) y: (120)
+repeat (6)
+    switch costume to (item (1) of [gekozen vlaggen v])
+    create clone of (mijzelf v)
+    delete (1) of [gekozen vlaggen v]
+    change x by (110)
++   if <(length of [gekozen vlaggen v]) = [3]> then
+        go to x: (-170) y: (50)
+    end
+end
 ```
 
 --- /task ---
