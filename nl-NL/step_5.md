@@ -17,11 +17,11 @@ Nadat de zes vlaggen zijn gekozen, stel je de variabele `goed antwoord`{:class="
 ```blocks3
 when flag clicked
 maak vlaggenlijst :: custom
-verwijder (alle v) van [gekozen vlaggen v]
-herhaal (6)
+delete (alle v) of [gekozen vlaggen v]
+repeat (6)
     kies willekeurige vlag :: custom
-einde
-+ maak [goed antwoord v] (item (willekeurig getal tussen (1) en (lengte van [gekozen vlaggen v]) ) van [gekozen vlaggen v])
+end
++ set [goed antwoord v] to (item (pick random (1) to (length of [gekozen vlaggen v]) ) of [gekozen vlaggen v])
 ```
 
 --- /task ---

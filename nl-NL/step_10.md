@@ -9,7 +9,7 @@ Maak een nieuw `signaal`{:class="block3events"} die het bericht 'Begin het spel'
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-zend signaal (begin het spel v)
+broadcast (begin het spel v)
 ```
 
 --- /task ---
@@ -21,16 +21,16 @@ Voeg een `wanneer ik signaal 'Begin het spel' ontvang`{:class="block3events"} bl
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-+ wanneer ik signaal [begin het spel v] ontvang
-maak [score v] [0]
++ when I receive [begin het spel v]
+set [score v] to [0]
 maak vlaggenlijst :: custom
-verwijder (alle v) van [gekozen vlaggen v]
-herhaal (6)
+delete (alle v) of [gekozen vlaggen v]
+repeat (6)
     kies willekeurige vlag :: custom
-einde
-maak [goed antwoord v] (item (willekeurig getal tussen (1) en (lengte van [gekozen vlaggen v])) van [gekozen vlaggen v])
+end
+set [goed antwoord v] to (item (pick random (1) to (length of [gekozen vlaggen v])) of [gekozen vlaggen v])
 kloon vlaggen :: custom
-+ zend signaal (kondig land aan v)
++ broadcast (kondig land aan v)
 ```
 
 --- /task ---
@@ -42,9 +42,9 @@ Verwijder het `maak score 0`{:class="block3variables"} blok en plaats het terug 
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-when flag clicked
-maak [score v] [0]
-zend signaal (begin het spel v)
+when green flag clicked
+set [score v] to [0]
+broadcast (begin het spel v)
 ```
 
 --- /task ---
@@ -56,14 +56,14 @@ Na de code die controleert of het antwoord goed is, voeg je nog een `zend signaa
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-als <(uiterlijk [naam v]) = (goed antwoord :: variables)> dan
-    verander [score v] met [1]
-    zeg [Goed!] (2) sec.
-anders
-    zeg [Sorry, dat was niet goed] (2) sec.
-einde
-+ zend signaal (begin het spel v)
+when this sprite clicked
+if <(costume [naam v]) = (goed antwoord :: variables)> then
+    change [score v] by [1]
+    say [Goed!] for (2) seconds
+else
+    say [Sorry, dat was niet goed] for (2) seconds
+end
++ broadcast (begin het spel v)
 ```
 
 --- /task ---
@@ -85,7 +85,7 @@ Maak nog een nieuw `zend signaal`{:class="block3events"} met de naam 'wissen'.
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-zend signaal (wissen v)
+broadcast (wissen v)
 ```
 
 --- /task ---
@@ -97,8 +97,8 @@ Stel de vlag sprite in op `verwijder deze kloon`{:class="block3control"} wanneer
 ![Vlag sprite](images/flag-sprite.png)
 
 ```blocks3
-wanneer ik signaal [wissen v] ontvang
-verwijder deze kloon
+when I receive [wissen v]
+delete this clone
 ```
 
 --- /task ---
@@ -108,16 +108,16 @@ verwijder deze kloon
 Plaats het signaalblok `wissen`{:class="block3events"} net boven waar het spel een nieuwe ronde begint nadat een antwoord is gegeven.
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
+when this sprite clicked
 maak vlaggenlijst :: custom
-als <(item (uiterlijk [nummer v]) van [vlaggen v]) = (goed antwoord: variabelen)> dan
-    zeg [Goed!] (2) sec.
-    verander [ score v] met [1]
-anders
-    zeg [Sorry, dat was niet goed] (2) sec.
-einde
-+ zend signaal (wissen v)
-zend signaal (begin het spel v)
+if <(item (costume [nummer v]) of [vlaggen v]) = (goed antwoord: variables)> then
+    say [Goed!] for (2) seconds
+    change [ score v] by [1]
+else
+    say [Sorry, dat was niet goed] for (2) seconds
+end
++ broadcast (wissen v)
+broadcast (begin het spel v)
 ```
 
 --- /task ---

@@ -102,7 +102,7 @@ Add your `clone flags`{:class="block3myblocks"} block to the end of the code tha
 ```blocks3
 when green flag clicked
 create flag list :: custom
-delete (all v) of [chose flags v]
+delete (all v) of [chosen flags v]
 repeat (6)
   choose random flag :: custom
 end

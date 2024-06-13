@@ -11,13 +11,13 @@ In de vlag sprite `zend signaal`{:class="block3events"} 'kondig land aan' direct
 ```blocks3
 when flag clicked
 maak vlaggenlijst :: custom
-verwijder (alle v) van [gekozen vlaggen v]
-herhaal (6)
+delete (alle v) of [gekozen vlaggen v]
+repeat (6)
     kies willekeurige vlag :: custom
-einde
-maak [goed antwoord v] (item (willekeurig getal tussen (1) en (lengte van [gekozen vlaggen v])) van [gekozen vlaggen v])
+end
+set [goed antwoord v] to (item (pick random (1) to (length of [gekozen vlaggen v])) of [gekozen vlaggen v])
 kloon vlaggen :: custom
-+ zend signaal (kondig land aan v)
++ broadcast (kondig land aan v)
 
 ```
 
@@ -51,13 +51,13 @@ Voeg wat code toe aan de quizmaster sprite zodat, wanneer de sprite het signaal 
 Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-(voeg [klik op] en [] samen)
+(join [klik op] [])
 
 (goed antwoord)
 
-zeg [] (2) sec.
+say [] for (2) seconds
 
-wanneer ik signaal [kondig land aan v] ontvang
+when I receive [kondig land aan v]
 ```
 
 --- /hint ---
@@ -67,10 +67,11 @@ wanneer ik signaal [kondig land aan v] ontvang
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-wanneer ik signaal [kondig land aan v] ontvang
-zeg (voeg [klik op] en (goed antwoord :: variables) samen) (2) sec.
+when I receive [kondig land aan v]
+say (join [klik op] (goed antwoord :: variables)) for (2) seconds
 ```
 
 --- /hint ---
 
---- /hints --- --- /task ---
+--- /hints ---
+--- /task ---

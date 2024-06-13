@@ -46,13 +46,13 @@ Zet de `vlag nummer`{:class="block3variables"} variabele op een `willekeurig get
 Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-(lengte van [vlaggen v])
+(length of [vlaggen v])
 
-(willekeurig getal tussen (1) en (10))
+(pick random (1) to (10))
 
 define kies willekeurige vlag
 
-maak [vlagnummer v] []
+set [vlagnummer v] to []
 ```
 
 --- /hint ---
@@ -63,17 +63,18 @@ Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
 define kies willekeurige vlag
-maak [vlagnummer v] (willekeurig getal tussen (1) en (lengte van [vlaggen v]))
+set [vlagnummer v] to (pick random (1) to (length of [vlaggen v]))
 ```
 
 --- /hint ---
 
---- /hints --- --- /task ---
+--- /hints ---
+--- /task ---
 
 Dit blok selecteert een item uit een lijst op nummer:
 
 ```blocks3
-(item (10 v) van [vlaggen v])
+(item (10 v) of [vlaggen v])
 ```
 
 --- task ---
@@ -84,8 +85,8 @@ Combineer dit blok met de variabele `vlag nummer`{:class="block3variables"} om d
 
 ```blocks3
 define kies willekeurige vlag
-maak [vlagnummer v] (willekeurig getal tussen (1) en (lengte van [vlaggen v]))
-+ voeg (item (vlagnummer) van [vlaggen v]) toe aan [gekozen vlaggen v]
+set [vlagnummer v] to (pick random to (1) to (length of [vlaggen v]))
++ add (item (vlagnummer) of [vlaggen v]) to [gekozen vlaggen v]
 ```
 
 --- /task ---
@@ -121,10 +122,10 @@ Voeg blokken toe om alle items uit de lijst `gekozen vlaggen`{:class="block3vari
 ```blocks3
 when flag clicked
 maak vlaggenlijst :: custom
-+ verwijder (alle v) van [gekozen vlaggen v]
-+ herhaal (6)
++ delete (alle v) of [gekozen vlaggen v]
++ repeat (6)
     kies willekeurige vlag :: custom
-einde
+end
 ```
 
 --- /task ---
@@ -149,9 +150,9 @@ Voeg een blok toe aan het einde van de aangepaste blokcode om het `vlag nummer`{
 
 ```blocks3
 define kies willekeurige vlag
-maak [vlagnummer v] (willekeurig getal tussen (1) en (lengte van [vlaggen v]))
-voeg (item (vlagnummer) van [vlaggen v]) toe aan [gekozen vlaggen v]
-+ verwijder (vlagnummer) van [vlaggen v]
+set [vlagnummer v] to (pick random (1) to (length of [vlaggen v]))
+add (item (vlagnummer) of [vlaggen v]) to [gekozen vlaggen v]
++ delete (vlagnummer) of [vlaggen v]
 ```
 
 --- /task ---

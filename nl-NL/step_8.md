@@ -19,7 +19,7 @@ Voeg code toe om 'Goed!' te zeggen als de naam van het uiterlijk van de vlag spr
 Je kunt dit handige blok hier ook gebruiken.
 
 ```blocks3
-(item (10 v) van [vlaggen v])
+(item (10 v) of [vlaggen v])
 ```
 
 Combineer dit keer een `uiterlijk naam`{:class="block3looks"} blok om de naam van het huidige vlag sprite uiterlijk te krijgen.
@@ -38,21 +38,21 @@ Combineer dit keer een `uiterlijk naam`{:class="block3looks"} blok om de naam va
 Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-zeg [Sorry, dat was niet goed] (2) sec.
+say [Sorry, dat was niet goed] for (2) seconds
 
-zeg [Goed!] (2) sec.
+say [Goed!] for (2) seconds
 
-als <> dan
-anders
-einde
+if <> then
+else
+end
 
-(uiterlijk [naam v])
+(costume [naam v])
 
 <[] = []>
 
 (goed antwoord)
 
-wanneer op deze sprite wordt geklikt
+when this sprite clicked
 ```
 
 --- /hint ---
@@ -62,17 +62,18 @@ wanneer op deze sprite wordt geklikt
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-als <(uiterlijk [naam v]) = (goed antwoord :: variables)> dan
-    zeg [Goed!] (2) sec.
-anders
-    zeg [Sorry, dat was niet goed] (2) sec.
-einde
+when this sprite clicked
+if <(costume [naam v]) = (goed antwoord :: variables)> then
+    say [Goed!] for (2) seconds
+else
+    say [Sorry, dat was niet goed] for (2) seconds
+end
 ```
 
 --- /hint ---
 
---- /hints --- --- /task ---
+--- /hints ---
+--- /task ---
 
 --- task ---
 
