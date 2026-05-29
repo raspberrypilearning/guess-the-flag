@@ -37,28 +37,6 @@ There is a special block in the Variables tab for finding the number of items in
 --- hints ---
 --- hint ---
 
-Set the `flag number`{:class="block3variables"} variable to a `random number`{:class="block3operators"} between `1` and the `length of the 'flags' list`{:class="block3variables"}.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need:
-
-```blocks3
-(length of [flags v])
-
-(pick random (1) to (10))
-
-define choose random flag
-
-set [flag number v] to []
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -67,8 +45,8 @@ set [flag number v] to (pick random (1) to (length of [flags v]))
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 --- /task ---
 
 This block selects an item from a list by number:

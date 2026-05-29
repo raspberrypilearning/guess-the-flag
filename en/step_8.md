@@ -29,36 +29,6 @@ This time, combine it with a `costume name`{:class="block3looks"} block to get t
 --- hints ---
 --- hint ---
 
-`When this sprite is clicked`{:class="block3events"},  `if`{:class="block3control"} this `costume name`{:class="block3looks"} equals the `correct answer`{:class="block3variables"}, `say`{:class="block3looks"} 'Correct', or `else`{:class="block3control"} `say`{:class="block3looks"} 'Sorry, that was wrong'.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need:
-
-```blocks3
-say [Sorry, that was wrong] for (2) seconds
-
-say [Correct] for (2) seconds
-
-if <> then
-else
-end
-
-(costume [name v])
-
-<[] = []>
-
-(correct answer)
-
-when this sprite clicked
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -71,8 +41,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 --- /task ---
 
 --- task ---
