@@ -43,37 +43,6 @@ Inside the loop, add code blocks to switch the sprite's costume to the first fla
 --- hints ---
 --- hint ---
 
-`Repeat`{:class="block3control"} six times:
-`Switch costume`{:class="block3looks"} to the `first item in chosen flags`{:class="block3variables"}.
-`Clone the sprite`{:class="block3control"}.
-`Delete`{:class="block3variables"} the `first item in chosen flags`{:class="block3variables"}.
-`Move right 110`{:class="block3motion"}.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need to add:
-
-```blocks3
-(item (1) of [chosen flags v])
-
-change x by (110)
-
-create clone of (myself v)
-
-switch costume to ( v)
-
-delete (1) of [chosen flags v]
-
-repeat (6)
-end
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -89,8 +58,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 --- /task ---
 
 --- task ---

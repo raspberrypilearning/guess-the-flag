@@ -42,28 +42,6 @@ Add some code to the quiz master sprite so that, when the sprite receives the `a
 --- hints ---
 --- hint ---
 
-`When I receive`{:class="block3events"} the broadcast, `say`{:class="block3looks"} 'click on `correct answer`{:class="block3variables"}'.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need:
-
-```blocks3
-(join [click on] [])
-
-(correct answer)
-
-say [] for (2) seconds
-
-when I receive [announce country v]
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -72,6 +50,6 @@ say (join [click on] (correct answer :: variables)) for (2) seconds
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 --- /task ---
