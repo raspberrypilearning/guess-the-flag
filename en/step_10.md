@@ -110,10 +110,9 @@ Place the `clean up`{:class="block3events"} broadcast block just above where the
 
 ```blocks3
 when this sprite clicked
-create flags list  :: custom
-if <(item (costume [number v]) of [flags v]) = (correct answer :: variables)> then
-    say [Correct] for (2) seconds
+if <(costume [name v]) = (correct answer :: variables)> then
     change [score v] by [1]
+    say [Correct] for (2) seconds
 else
     say [Sorry, that was wrong] for (2) seconds
 end
